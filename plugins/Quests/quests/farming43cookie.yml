@@ -1,0 +1,41 @@
+tasks:
+  bake:
+    type: "inventory"
+    item: COOKIE
+    amount: 600
+    remove-items-when-complete: true
+    update-progress: true
+display:
+  name: "&dFarming Quest &8▪ &7Cookies #3"
+  lore-normal:
+    - "&8You need to bake a certain"
+    - "&8resource before receiving the reward."
+    - ""
+    - "&dOptions:"
+    - "&8■ &7Objective: &dBake 600 cookies."
+    - "&8■ &7Progress: &d{bake:progress}/600 cookies."
+    - ""
+    - "&dRewards:"
+    - "&8■ &7You will receive &a&l$&a750&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "COOKIE"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a750"
+rewards:
+  - "eco give {player} 750"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a750 &7was added to your in-game balance."
+options:
+  category: "farming"
+  requires:
+    - "farming42cookie"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 43

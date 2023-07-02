@@ -1,0 +1,38 @@
+tasks:
+  build:
+    type: "blockplacecertain"
+    amount: 256
+    block: YELLOW_TERRACOTTA
+display:
+  name: "&2Building Quest &8▪ &7Yellow Terracotta" 
+  lore-normal:
+    - "&8You need to place a certain amount"
+    - "&8of blocks before receiving the reward."
+    - ""
+    - "&2Options:"
+    - "&8■ &7Objective: &2Place 256 Yellow Terracotta."
+    - "&8■ &7Progress: &2{build:progress}/256 yellow terracotta"
+    - ""
+    - "&2Rewards:"
+    - "&8■ &7You will receive &a&l$&a350&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "YELLOW_TERRACOTTA"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a350"
+rewards:
+  - "eco give {player} 350"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a350 &7was added to your in-game balance."
+options:
+  category: "building"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 76

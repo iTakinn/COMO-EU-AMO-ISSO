@@ -1,0 +1,579 @@
+# | =================================================== |
+# | Thank you for downloading and trying out my plugin: |
+# |                       Quests                        |
+# |      https://www.spigotmc.org/resources/23696/      |
+# |         https://github.com/LMBishop/Quests/         |
+# |                                                     |
+# |                         =x=                         |
+# |                                                     |
+# |              File comments should help              |
+# |               you with the new config               |
+# |              and guide you with making              |
+# |                        quests                       |
+#65981
+#Izellah
+#16110
+#55884
+#1601999128
+# |                                                     |
+# |                         =x=                         |
+# |                                                     |
+# |              Have Discord & need help?              |
+# |           https://www.discord.gg/8amrJnX            |
+# | =================================================== |
+
+# Categories are a way of grouping up quests.
+# When a player uses /quests, a menu of categories will be presented to them.
+# When a player clicks ona category, a list of quests under that category will show.
+# If categories are disabled, all quests will be shown under one big GUI.
+# Players can access specific categories by command using /quests c [category].
+# If a quest does not have a category, it will not be shown.
+categories:
+  1:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE"
+  2:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE" 
+  3:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE"
+  4:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE"
+  5:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE"
+  6:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE"
+  7:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE"
+  8:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE" 
+  9:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE"   
+  10:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE"                                                   
+  farming:
+    display:
+      name: '&a&lFarming Quests'
+      lore:
+        - "&7Click to view this category"
+        - "&r"
+        - "&aDescription:"
+        - "&8▸ &7In this category you can find"
+        - "&8▸ &7quests related to &afarming&7 in which you"
+        - '&8▸ &7have to &7&nharvest, break, collect&7 certain items/blocks.'
+        - ''
+        - '&aDifficult: &2★★&7★★★'
+      type: "WHEAT"
+  mining:
+    display:
+      name: '&a&lMining Quests'
+      lore:
+        - "&7Click to view this category"
+        - "&r"
+        - "&aDescription:"
+        - "&8▸ &7In this category you can find"
+        - "&8▸ &7quests related to &amining&7 in which you"
+        - '&8▸ &7have to &7&nbreak&7 certain blocks.'
+        - ''
+        - '&aDifficult: &2★★★&7★★'
+      type: "GOLDEN_PICKAXE"
+  collecting:
+    display:
+      name: '&a&lCollecting Quests'
+      lore:
+        - "&7Click to view this category"
+        - "&r"
+        - "&aDescription:"
+        - "&8▸ &7In this category you can find"
+        - "&8▸ &7quests related to &acollecting&7 in which you"
+        - '&8▸ &7have to &7&ncollect&7 certain items/blocks.'
+        - ''
+        - '&aDifficult: &2★&7★★★★'
+      type: "HOPPER"            
+  hunter:
+    display:
+      name: '&a&lHunter Quests'
+      lore:
+        - "&7Click to view this category"
+        - "&r"
+        - "&aDescription:"
+        - "&8▸ &7In this category you can find"
+        - "&8▸ &7quests related to &ahunting&7 in which you"
+        - '&8▸ &7have to &7&nkill&7 certain entities.'
+        - ''
+        - '&aDifficult: &2★★★★★'
+      type: "GOLDEN_SWORD"
+  enchanting:
+    display:
+      name: '&a&lEnchanting Quests'
+      lore:
+        - "&7Click to view this category"
+        - "&r"
+        - "&aDescription:"
+        - "&8▸ &7In this category you can find"
+        - "&8▸ &7quests related to &aenchanting&7 in which you"
+        - '&8▸ &7have to &7&nenchant&7 certain items.'
+        - ''
+        - '&aDifficult: &2★★&7★★★'
+      type: "ENCHANTING_TABLE"
+  11:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE"      
+  12:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE"          
+  16:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE"
+  17:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE"                
+  brewing:
+    display:
+      name: '&a&lBrewing Quests'
+      lore:
+        - "&7Click to view this category"
+        - "&r"
+        - "&aDescription:"
+        - "&8▸ &7In this category you can find"
+        - "&8▸ &7quests related to &abrewing&7 in which you"
+        - '&8▸ &7have to &7&nbrew&7 certain potions.'
+        - ''
+        - '&aDifficult: &2★&7★★★★'
+      type: "BREWING_STAND"
+  woodcutting:
+    display:
+      name: '&a&lWoodCutting Quests'
+      lore:
+        - "&7Click to view this category"
+        - "&r"
+        - "&aDescription:"
+        - "&8▸ &7In this category you can find"
+        - "&8▸ &7quests related to &awoodcutting&7 in which you"
+        - '&8▸ &7have to &7&ncut&7 certain wood.'
+        - ''
+        - '&aDifficult: &2★★&7★★★'
+      type: "GOLDEN_AXE"                    
+  building:
+    display:
+      name: '&a&lBuilding Quests'
+      lore:
+        - "&7Click to view this category"
+        - "&r"
+        - "&aDescription:"
+        - "&8▸ &7In this category you can find"
+        - "&8▸ &7quests related to &abuild&7 in which you"
+        - '&8▸ &7have to &7&nplace&7 certain blocks.'
+        - ''
+        - '&aDifficult: &2★★&7★★★'
+      type: "QUARTZ_BLOCK"        
+  crafting:
+    display:
+      name: '&a&lCrafting Quests'
+      lore:
+        - "&7Click to view this category"
+        - "&r"
+        - "&aDescription:"
+        - "&8▸ &7In this category you can find"
+        - "&8▸ &7quests related to &acrafting&7 in which you"
+        - '&8▸ &7have to &7&ncraft&7 certain items.'
+        - ''
+        - '&aDifficult: &2★★&7★★★'
+      type: "CRAFTING_TABLE"
+  digging:
+    display:
+      name: '&a&lDigging Quests'
+      lore:
+        - "&7Click to view this category"
+        - "&r"
+        - "&aDescription:"
+        - "&8▸ &7In this category you can find"
+        - "&8▸ &7quests related to &adigging&7 in which you"
+        - '&8▸ &7have to &7&ndig&7 certain blocks.'
+        - ''
+        - '&aDifficult: &2★★&7★★★'
+      type: "GOLDEN_SHOVEL"
+  18:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE"
+  book:
+    display:
+      name: '&aQuests Information'
+      lore:
+        - ""
+        - "&7You will be asked to do quests"
+        - "&7here to get a reward. Choose"   
+        - "&7the category you want."
+        - ""
+      type: "BOOK"        
+  19:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE"    
+  20:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE"          
+  activities:
+    display:
+      name: '&a&lActivities Quests'
+      lore:
+        - "&7Click to view this category"
+        - "&r"
+        - "&aDescription:"
+        - "&8▸ &7In this category you can find"
+        - "&8▸ &7quests related to &aanimals&7 in which you"
+        - '&8▸ &7have to &7&ntame, breed, shear&7 certain animals.'
+        - ''
+        - '&aDifficult: &2★★&7★★★'
+      type: "LEAD"
+  misc:
+    display:
+      name: '&a&lMisc Quests'
+      lore:
+        - "&7Click to view this category"
+        - "&r"
+        - "&aDescription:"
+        - "&8▸ &7In this category you can find"
+        - "&8▸ &amiscellaneous &7quests in which you"
+        - '&8▸ &7have to &7&ndo&7 certain things.'
+        - ''
+        - '&aDifficult: &2★★&7★★★'
+      type: "SADDLE"
+  fishing:
+    display:
+      name: '&a&lFishing Quests'
+      lore:
+        - "&7Click to view this category"
+        - "&r"
+        - "&aDescription:"
+        - "&8▸ &7In this category you can find"
+        - "&8▸ &7quests related to &afishing&7 in which you"
+        - '&8▸ &7have to &7&nfish&7 certain items.'
+        - ''
+        - '&aDifficult: &2★&7★★★★'
+      type: "FISHING_ROD"
+  impossible:
+    display:
+      name: '&a&lImpossible Quests'
+      lore:
+        - "&7Click to view this category"
+        - "&r"
+        - "&aDescription:"
+        - "&8▸ &7In this category you can find"
+        - "&8▸ &7the most &aimpossible&7 quests in which you"
+        - '&8▸ &7have to &7&ndo&7 certain things.'
+        - ''
+        - '&aDifficult: &2★★★★&7★'
+      type: "ENDER_EYE"      
+  weaponsmith:
+    display:
+      name: '&a&lWeaponsmith Quests'
+      lore:
+        - "&7Click to view this category"
+        - "&r"
+        - "&aDescription:"
+        - "&8▸ &7In this category you can find"
+        - "&8▸ &7quests related to &aweaponsmithing&7 in which you"
+        - '&8▸ &7have to &7&ncraft/obtain&7 certain armor/tools.'
+        - ''
+        - '&aDifficult: &2★&7★★★★'
+      type: "ANVIL"
+  24:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE" 
+  25:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE"  
+  26:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE"  
+  27:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE"  
+  28:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE"      
+  283:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE"                                  
+  29:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE" 
+  30:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE"  
+  31:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE"  
+  32:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE"  
+  22:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE"    
+  23:
+    display:
+      name: '&a'
+      lore:
+        - ""
+      type: "BLACK_STAINED_GLASS_PANE"            
+                   
+# The items listed below are placeholder items for quests which the player cannot start.
+# You should change these for 1.8
+gui:
+  back-button:
+    name: "&c&lReturn"
+    lore:
+    - "&7Click here to return"
+    - "&7to the main menu"
+    type: "BARRIER"
+  page-prev:
+    name: "&e&l<- Previous Page"
+    lore:
+    - "&7Click to go to" 
+    - "&7the previous page &e{prevpage}."
+    type: "ARROW"
+  page-next:
+    name: "&e&lNext page ->"
+    lore:
+    - "&7Click to go to"
+    - "&7the next page &e{nextpage}."
+    type: "ARROW"
+  page-desc:
+    name: "&8(Page: &7#{page}&8)"
+    lore:
+    - "&7You are currently viewing page &7{page}."
+    type: "BOOK"
+  quest-locked-display:
+    name: "&c&lQuest Locked"
+    lore:
+    - "&7You have not completed the requirements"
+    - "&7for this quest [&a{quest}&7]."
+    - "&r"
+    - "&cRequires: &c&n{requirements}&c to be completed to unlock."
+    type: "RED_STAINED_GLASS_PANE"
+  quest-permission-display:
+    name: "&8▸No Permission"
+    lore:
+    - "&7You do not have permission."
+    - "&r"
+    type: "RED_TERRACOTTA"
+  quest-cooldown-display:
+    name: "&e&lCooldown"
+    lore:
+    - "&7You have recently completed this quest"
+    - "&r"
+    - "&cYou must wait another &c&n{time}&c to unlock again."
+    type: "ORANGE_STAINED_GLASS_PANE"
+  quest-completed-display:
+    name: "&a&lQuest Completed"
+    lore:
+    - "&7You have completed this quest."
+    - "&r"
+    - "&cIt cannot be repeated."
+    type: "LIME_STAINED_GLASS_PANE"
+  quest-cancel-yes:
+    name: "&a&lConfirm"
+    lore:
+    - "&7Confirm you wish to cancel this quest."
+    - "&cWarning: You will lose all progress."
+    - "&r"
+    - "&cLeft click to confirm."
+    type: "LIME_STAINED_GLASS_PANE"
+  quest-cancel-no:
+    name: "&c&lCancel"
+    lore:
+    - "&7Return to menu."
+    - "&r"
+    - "&cLeft click to cancel."
+    type: "RED_STAINED_GLASS_PANE"
+  quest-cancel-background:
+    type: "GRAY_STAINED_GLASS_PANE"
+
+options:
+  # If categories are disabled, quests will be put into one big gui.
+  categories-enabled: true
+  # If true, the gui size will automatically change based on the amount of quests inside it.
+  trim-gui-size: true
+  # Enable/disable titles
+  titles-enabled: true
+  # Players cannot start any more quests than this at a single time
+  quest-started-limit: 4
+  # Hide locked quests, quests on cooldown and completed (but not repeatable) quests
+  gui-hide-locked: false
+  # Allow players to cancel a quest
+  allow-quest-cancel: true
+  # Titles for the GUIs
+  guinames:
+    quests-category: "&8&l» &8Quests Menu"
+    quests-menu: "&8Quests (Select a quest)"
+    daily-quests: "&8Daily Quests"
+    quest-cancel: "&8Cancellation"
+  # Show when quests register in console - will only show if verbose-logging-level=2. Disable if you want less console spam at startup.
+  show-quest-registrations: false
+  # Hide quests which a player cannot start due to permissions.
+  gui-hide-quests-nopermission: false
+  # Hide categories which a player cannot open due to permissions.
+  gui-hide-categories-nopermission: false
+  # Make it so players do not have to start quest themselves
+  quest-autostart: false
+  # How much quests should log, 0 = errors only, 1 = warnings, 2 = info, 3 = debug
+  verbose-logging-level: 2
+  performance-tweaking: # The following are measured in server ticks, multiply SECONDS by 20 to get the number of ticks.
+    quest-completer-poll-interval: 100    # how frequently Quests should check if quests have been completed (def=100 - 5 seconds) - increase this value if you are struggling with performance
+    quest-autosave-interval: 12000        # how frequently online players data will be autosaved (def=12000 - 10 minutes)
+
+# This switches up the entire quest system.
+# By enabling daily-quests, players will no longer be presented with the standard Quest GUI.
+# Instead, they will be presented with 5 random quests.
+# The 'requirements' section in each quest does not apply here.
+# The 'cooldown' section in each quest does not apply here - if it's done, it's done (and will be repeatable next time they get the quest).
+# The 'repeatable' section in each quest does not apply here. It will NOT be repeatable until the next day.
+# Enabling this MAY cause previous quest progress to be modified, wiped or changed irreversibly! If you're testing this on a live server, it is wise to backup
+# the Quests/playerdata/ folder! You've been warned!
+#
+# Quests BETA: this feature is a work in progress, it does not work yet!
+daily-quests:
+  enabled: false
+
+# Configure titles
+titles:
+  quest-start:
+    title: "&a&lQuest Started"
+    subtitle: "&a❖ &f{quest} &a❖"
+  quest-complete:
+    title: "&2&lQuest Completed"
+    subtitle: "&2❖ &f{quest} &2❖"
+
+# Configure messages
+messages:
+  time-format: "{hours}h {minutes}m"
+  quest-start: "&aQuests&8 ➡&7 Quest &a({quest}) &7has been started."
+  quest-complete: "&aQuests&8 ➡&7 You have completed the quest: &a({quest})&7."
+  quest-cancel: "&cQuests&8 ➡&7 You have cancelled the quest: &c({quest})&7."
+  quest-start-limit: "&cQuests&8 ➡&7 You are limited to &e({limit}) &7started quests at a time."
+  quest-start-disabled: "&cQuests&8 ➡&7 You cannot repeat this quest."
+  quest-start-locked: "&cQuests&8 ➡&7 You have not unlocked this quest yet."
+  quest-start-cooldown: "&cQuests&8 ➡&7 You have recently completed this quest. You have to wait &e({time}) &7until you are able to start it."
+  quest-start-started: "&eQuests&8 ➡&7 You have already started this quest."
+  quest-start-permission: "&cQuests&8 ➡&7 You do not have permission to start this quest."
+  quest-category-permission: "&cQuests&8 ➡&7 You do not have permission to view this category."
+  quest-category-quest-permission: "&cQuests&8 ➡&7 You do not have permission to start this quest since it is in a category you do not have permission to view."
+  quest-cancel-notstarted: "&cQuests&8 ➡&7 You have not started this quest."
+  quest-updater: "&eQuests&8 ➡&7 A new version &e({newver}) &7was found on Spigot. Update the plugin here: &e{link}"
+  command-sub-doesntexist: "&cQuests&8 ➡ &7The specified subcommand &c({sub}) &7does not exist."
+  command-quest-start-doesntexist: "&cQuests&8 ➡&7 The quest &c({quest})&7 does not exist."
+  command-category-open-disabled: "&cQuests&8 ➡&7 Categories are currently disabled."
+  command-category-open-doesntexist: "&cQuests&8 ➡&7 The specified category: &c({category})&7, does not exist."
+  command-quest-admin-playernotfound: "&cQuests&8 ➡&7 &c({player})&7 could not be found."
+  command-quest-openquests-admin-success: "&eQuests&8 ➡&7 The quest inventory has been opened for &e({player})&7."
+  command-quest-opencategory-admin-success: "&eQuests&8 ➡&7 The &a({category}) &7has been opened for &e({player})&7."
+  command-taskview-admin-fail: "&cQuests&8 ➡&7 The task type &c({task})&7 does not exist."
+  beta-reminder: "&eQuests&8 ➡&7 You are using a beta version of the quest plugin. Please report any bugs you find."
+  command-quest-admin-loaddata: "&eQuests&8 ➡&7 Quest data for &e({player})&7 is being loaded."
+  command-quest-admin-nodata: "&cQuests&8 ➡&7 No data could be found for &c({player})&7."
+  command-quest-admin-fullreset: "&aQuests&8 ➡&7 Data for &a({player})&7 has been reset."
+  command-quest-admin-start-faillocked: "&cQuests&8 ➡&7 Quest &c({quest})&7 could not be started for &c({player})&7. They have not yet unlocked it."
+  command-quest-admin-start-failcooldown: "&cQuests&8 ➡&7 Quest &c({quest})&7 could not be started for &c({player})&7. It is still on cooldown for them."
+  command-quest-admin-start-failcomplete: "&cQuests&8 ➡&7 Quest &c({quest})&7 could not be started for &c({player})&7. They have already completed it."
+  command-quest-admin-start-faillimit: "&cQuests&8 ➡&7 Quest &c({quest})&7 could not be started for &c({player})&7. They have reached their quest start limit."
+  command-quest-admin-start-failstarted: "&cQuests&8 ➡&7 Quest &c({quest})&7 could not be started for &c({player})&7. It is already started."
+  command-quest-admin-start-failpermission: "&cQuests&8 ➡&7 Quest &c({quest})&7 could not be started for &c({player})&7. They do not have permission."
+  command-quest-admin-start-failcategorypermission: "&cQuests&8 ➡&7 Quest &c({quest})&7 could not be started for &c({player})&7. They do not have permission for the category which the quest is in."
+  command-quest-admin-start-failother: "&cQuests&8 ➡&7 Quest &c({quest})&7 could not be started for &c({player})&7."
+  command-quest-admin-start-success: "&aQuests&8 ➡&7 Quest &a({quest}) &7has been started for &a({player})&7."
+  command-quest-admin-category-permission: "&cQuests&8 ➡&7 Category &c({category}) &7could not be opened for &c({player})&7. They do not have permission to view it."
+  command-quest-admin-complete-success: "&aQuests&8 ➡&7 Quest &2({quest}) &fcompleted for &a({player})&7."
+  command-quest-admin-reset-success: "&aQuests&8 ➡&7 Successfully reset quest &a({quest})&7 for &a({player})&7."
+

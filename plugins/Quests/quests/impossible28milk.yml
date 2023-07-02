@@ -1,0 +1,37 @@
+tasks:
+  activity:
+    type: "milking"
+    amount: 250
+display:
+  name: "&4Impossible Quest &8▪ &7Milking"
+  lore-normal:
+    - "&8You need to do a certain activity"
+    - "&8before receiving the reward."
+    - ""
+    - "&4Options:"
+    - "&8■ &7Objective: &4Milk a cow 250 times."
+    - "&8■ &7Progress: &4{activity:progress}/250 times."
+    - ""
+    - "&4Rewards:"
+    - "&8■ &7You will receive &a&l$&a3500&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "MILK_BUCKET"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a3500"
+rewards:
+  - "eco give {player} 3500"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a3500 &7was added to your in-game balance."
+options:
+  category: "impossible"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 28

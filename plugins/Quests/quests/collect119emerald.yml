@@ -1,0 +1,41 @@
+tasks:
+  collect:
+    type: "inventory"
+    item: EMERALD
+    amount: 96
+    remove-items-when-complete: true
+    update-progress: true
+display:
+  name: "&aCollecting Quest &8▪ &7Emerald #3"  
+  lore-normal:
+    - "&8You need to collect a certain"
+    - "&8resource before receiving the reward."
+    - ""
+    - "&aOptions:"
+    - "&8■ &7Objective: &aCollect 96 Emerald."
+    - "&8■ &7Progress: &a{collect:progress}/96 emerald."
+    - ""
+    - "&aRewards:"
+    - "&8■ &7You will receive &a&l$&a1750&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "EMERALD"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a1750"
+rewards:
+  - "eco give {player} 1750"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a1750 &7was added to your in-game balance."
+options:
+  category: "collecting"
+  requires:
+    - "collect118emerald"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 119

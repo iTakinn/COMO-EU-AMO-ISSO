@@ -1,0 +1,304 @@
+Crate:
+  # Type of crate -> CSGO/QuadCrate/QuickCrate/Roulette/CrateOnTheGo/FireCracker/Wonder/Wheel/War
+
+    # Make sure to check out the wiki for anything not explained here.
+  # https://github.com/Crazy-Crew/Crazy-Crates/wiki
+
+    # See CosmicCrateExample.yml to see how the Cosmic CrateType works.
+  CrateType: CSGO
+  # Name of the Inventory if a GUI crate.
+  CrateName: '&aCaixa Premium'
+  # The name of the inventory that will be in the preview GUI.
+  Preview-Name: '&aCaixa Premium'
+  # Starting amount of keys when the player 1st joins.
+  StartingKeys: 0
+  # If the crate shows in the /cc GUI.
+  # If the type is QuickCrate/CrateOnTheGo/FireCracker, They will not work as they require a Physical Crate.
+  InGUI: true
+  # Slot the item is in the GUI.
+  Slot: 25
+  # Enables/Disables the Broadcasts message when they open a crate.
+  OpeningBroadCast: false
+  # Message that is broadcast when opening the crate.
+  BroadCast: '%Prefix%&6&l%Player%&r &7is opening a &7&lBasic Chest&7.'
+  # Item the crate is in the GUI
+  Item: LIME_SHULKER_BOX
+  # If the crate in the main /cc GUI is glowing or not.
+  Glowing: false
+  # Name of the item in the GUI.
+  Name: '&aCaixa Premium'
+  # The lore of the item in the GUI.
+  Lore:
+  - '&7Voce tem &6%Keys% chaves desta caixa.'
+  - '&7Click direito para ver as recompensas'
+  Preview:
+    # Turn on and off the preview for this crate.
+    Toggle: true
+    # How many lines the Crate Preview should have. Including Header and Bottom (Between 3 and 6)
+    ChestLines: 6
+    Glass:
+      # Turn the glass boarder in the preview on and off.
+      Toggle: true
+      # The item that shows in the boarder. Can be glass or any other item.
+      Item: GRAY_STAINED_GLASS_PANE
+  PhysicalKey:
+    # Name of the Key.
+    Name: '&aChave Premium'
+    # Lore of the Key.
+    Lore:
+    - '&bAbra a caixa em'
+    - '&6warp caixas'
+    # The item the key is.
+    Item: TRIPWIRE_HOOK
+    # Makes the key look enchanted.
+    Glowing: true
+  # Settings for the holograms.
+  Hologram:
+    # Toggle on and off the holograms for the crates.
+    Toggle: true
+    # The height of the hologram above the crate.
+    Height: 1.5
+    # The message that will be displayed.
+    Message:
+    - '&aCaixa Premium'
+  # All the prizes that can be gotten in the Crate.
+  Prizes:
+    '1':
+      DisplayEnchantments:
+      - mending:1
+      - protection:6
+      - unbreaking:5
+      DisplayItem: NETHERITE_HELMET
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 15
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHERITE_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            MENDING: 1
+            PROTECTION_ENVIRONMENTAL: 6
+            DURABILITY: 5
+
+    '2':
+      DisplayEnchantments:
+      - mending:1
+      - protection:6
+      - unbreaking:5
+      DisplayItem: NETHERITE_CHESTPLATE
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 15
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHERITE_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            MENDING: 1
+            PROTECTION_ENVIRONMENTAL: 6
+            DURABILITY: 5
+    '3':
+      DisplayEnchantments:
+      - mending:1
+      - protection:6
+      - unbreaking:5
+      DisplayItem: NETHERITE_LEGGINGS
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 15
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHERITE_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            MENDING: 1
+            PROTECTION_ENVIRONMENTAL: 6
+            DURABILITY: 5
+    '4':
+      DisplayEnchantments:
+      - mending:1
+      - protection:6
+      - unbreaking:5
+      DisplayItem: NETHERITE_BOOTS
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 15
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHERITE_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            MENDING: 1
+            PROTECTION_ENVIRONMENTAL: 6
+            DURABILITY: 5
+    '5':
+      DisplayEnchantments:
+      - mending:2
+      - protection:3
+      - unbreaking:7
+      DisplayItem: ELYTRA
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 10
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: ELYTRA
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            MENDING: 2
+            PROTECTION_ENVIRONMENTAL: 3
+            DURABILITY: 7
+    '6':
+      DisplayEnchantments:
+      - mending:1
+      - sharpness:7
+      - unbreaking:5
+      DisplayItem: NETHERITE_SWORD
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 15
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHERITE_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            MENDING: 1
+            DAMAGE_ALL: 7
+            DURABILITY: 5
+    '7':
+      DisplayEnchantments:
+      - efficiency:7
+      - fortune:4
+      - mending:1
+      - unbreaking:5
+      DisplayItem: NETHERITE_PICKAXE
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 15
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHERITE_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 7
+            LOOT_BONUS_BLOCKS: 4
+            MENDING: 1
+            DURABILITY: 5
+    '8':
+      DisplayEnchantments:
+      - efficiency:7
+      - mending:1
+      - unbreaking:5
+      DisplayItem: NETHERITE_SHOVEL
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 15
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHERITE_SHOVEL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 7
+            MENDING: 1
+            DURABILITY: 5
+    '9':
+      DisplayEnchantments:
+      - efficiency:7
+      - mending:1
+      - unbreaking:5
+      DisplayItem: NETHERITE_AXE
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 15
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHERITE_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 7
+            MENDING: 1
+            DURABILITY: 5
+    '10':
+      DisplayEnchantments:
+      - mending:1
+      - unbreaking:5
+      DisplayItem: NETHERITE_HOE
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 15
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHERITE_HOE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            MENDING: 1
+            DURABILITY: 5
+    '11':
+      DisplayItem: NETHERITE_INGOT
+      DisplayAmount: 16
+      MaxRange: 100
+      Chance: 10
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHERITE_INGOT
+        amount: 16
+    '12':
+      DisplayItem: DIAMOND
+      DisplayAmount: 64
+      MaxRange: 100
+      Chance: 10
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND
+        amount: 64
+    '13':
+      DisplayItem: ENCHANTED_GOLDEN_APPLE
+      DisplayAmount: 12
+      MaxRange: 100
+      Chance: 10
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: ENCHANTED_GOLDEN_APPLE
+        amount: 12
+    '14':
+      DisplayName: §62K §bde claim block
+      DisplayItem: GRASS_BLOCK
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 10
+      Commands:
+        - 'adjustbonusclaimblocks %Player% 2000'

@@ -1,0 +1,39 @@
+tasks:
+  break:
+    type: "blockbreakcertain"
+    amount: 150
+    block: "ACACIA_LEAVES"
+display:
+  name: "&dFarming Quest &8▪ &7Acacia Leaves #3"
+  lore-normal:
+    - "&8You need to break a certain"
+    - "&8resource before receiving the reward."
+    - ""
+    - "&dOptions:"
+    - "&8■ &7Objective: &dBreak 150 Acacia Leaves."
+    - "&8■ &7Progress: &d{break:progress}/150 Acacia leaves."
+    - ""
+    - "&dRewards:"
+    - "&8■ &7You will receive &a&l$&a600&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "ACACIA_LEAVES"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a600"
+rewards:
+  - "eco give {player} 600"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a600 &7was added to your in-game balance."
+options:
+  category: "farming"
+  requires:
+    - "farming190jungleleaves"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 191

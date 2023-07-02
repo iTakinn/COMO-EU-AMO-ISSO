@@ -1,0 +1,39 @@
+tasks:
+  break:
+    type: "blockbreakcertain"
+    amount: 576
+    block: "GRASS"
+display:
+  name: "&dFarming Quest &8▪ &7Grass #3"
+  lore-normal:
+    - "&8You need to break a certain"
+    - "&8resource before receiving the reward."
+    - ""
+    - "&dOptions:"
+    - "&8■ &7Objective: &dBreak 576 Grass."
+    - "&8■ &7Progress: &d{break:progress}/576 grass."
+    - ""
+    - "&dRewards:"
+    - "&8■ &7You will receive &a&l$&a450&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "GRASS"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a450"
+rewards:
+  - "eco give {player} 450"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a450 &7was added to your in-game balance."
+options:
+  category: "farming"
+  requires:
+    - "farming198grass"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 199

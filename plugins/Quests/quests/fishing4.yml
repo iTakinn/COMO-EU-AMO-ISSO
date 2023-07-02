@@ -1,0 +1,38 @@
+tasks:
+  fishing:
+    type: "fishing"
+    amount: 100
+display:
+  name: "&3Fishing Quest &8▪ &7Fishing #4" 
+  lore-normal:
+    - "&8You need to catch a certain amount"
+    - "&8of fish before receiving the reward."
+    - ""
+    - "&3Options:"
+    - "&8■ &7Objective: &3Catch 100 fish."
+    - "&8■ &7Progress: &3{fishing:progress}/100 fish."
+    - ""
+    - "&3Rewards:"
+    - "&8■ &7You will receive &a&l$&a1250&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "FISHING_ROD"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a1250"
+rewards:
+  - "eco give {player} 1250"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a1250 &7was added to your in-game balance."
+options:
+  category: "fishing"
+  requires:
+    - "fishing3"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 4

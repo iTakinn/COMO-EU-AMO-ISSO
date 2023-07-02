@@ -1,0 +1,38 @@
+tasks:
+  place:
+    type: "blockplacecertain"
+    amount: 6
+    block: ANVIL
+display:
+  name: "&8Weaponsmith Quest &8▪ &7Anvil" 
+  lore-normal:
+    - "&8You need to place a certain amount"
+    - "&8of items before receiving the reward."
+    - ""
+    - "&8Options:"
+    - "&8■ &7Objective: &8Place 6 Anvils"
+    - "&8■ &7Progress: &8{place:progress}/6 anvils"
+    - ""
+    - "&8Rewards:"
+    - "&8■ &7You will receive &a&l$&a150&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "ANVIL"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a150"
+rewards:
+  - "eco give {player} 150"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a150 &7was added to your in-game balance."
+options:
+  category: "weaponsmith"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 56

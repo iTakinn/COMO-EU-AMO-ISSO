@@ -1,0 +1,41 @@
+tasks:
+  cook:
+    type: "inventory"
+    item: MUSHROOM_STEW
+    amount: 48
+    remove-items-when-complete: true
+    update-progress: true
+display:
+  name: "&dFarming Quest &8▪ &7Mushroom Stew #3"
+  lore-normal:
+    - "&8You need to cook a certain"
+    - "&8resource before receiving the reward."
+    - ""
+    - "&dOptions:"
+    - "&8■ &7Objective: &dCook 48 Mushroom Stews."
+    - "&8■ &7Progress: &d{cook:progress}/48 Mushroom Stews."
+    - ""
+    - "&dRewards:"
+    - "&8■ &7You will receive &a&l$&a450&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "MUSHROOM_STEW"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a450"
+rewards:
+  - "eco give {player} 450"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a450 &7was added to your in-game balance."
+options:
+  category: "farming"
+  requires:
+    - "farming50mushroomstew"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 51

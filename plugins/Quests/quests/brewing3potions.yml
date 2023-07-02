@@ -1,0 +1,38 @@
+tasks:
+  brew:
+    type: "brewing"
+    amount: 50
+display:
+  name: "&eBrewing Quest &8▪ &7Potions #3" 
+  lore-normal:
+    - "&8You need to brew a certain amount"
+    - "&8of potions before receiving the reward."
+    - ""
+    - "&eOptions:"
+    - "&8■ &7Objective: &eBrew 50 potions."
+    - "&8■ &7Progress: &e{enchant:progress}/50 potions."
+    - ""
+    - "&eRewards:"
+    - "&8■ &7You will receive &a&l$&a650&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "POTION"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a650"
+rewards:
+  - "eco give {player} 650"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a650 &7was added to your in-game balance."
+options:
+  category: "brewing"
+  requires:
+    - "brewing2potions"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 3

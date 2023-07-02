@@ -1,0 +1,13 @@
+{"sets": {"griefprevention.markerset": {"hide": false,"circles": {}
+,"areas": {}
+,"label": "GriefPrevention","markers": {}
+,"lines": {}
+,"layerprio": 0}
+,"markers": {"hide": false,"circles": {}
+,"areas": {}
+,"label": "Markers","markers": {"_spawn_spawn": {"markup": false,"x": -85.00,"icon": "world","y": 143.00,"dim": "16x16","z": 14.00,"label": "Spawn"}
+}
+,"lines": {}
+,"layerprio": 0}
+}
+,"timestamp": 1688257215949}

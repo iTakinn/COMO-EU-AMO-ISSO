@@ -1,0 +1,10 @@
+quest-progress:
+  enchant1exp:
+    started: true
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      enchant:
+        completed: false
+        progress: 50

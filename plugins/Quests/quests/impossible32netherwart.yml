@@ -1,0 +1,38 @@
+tasks:
+  harvest:
+    type: "blockbreakcertain"
+    amount: 1152
+    block: "NETHER_WART"
+display:
+  name: "&4Impossible Quest &8▪ &7Nether Wart"
+  lore-normal:
+    - "&8You need to harvest a certain"
+    - "&8resource before receiving the reward."
+    - ""
+    - "&4Options:"
+    - "&8■ &7Objective: &4Harvest 1152 Nether wart crops."
+    - "&8■ &7Progress: &4{harvest:progress}/1152 nether wart."
+    - ""
+    - "&4Rewards:"
+    - "&8■ &7You will receive &a&l$&a3000&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "NETHER_WART"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a3000"
+rewards:
+  - "eco give {player} 3000"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a3000 &7was added to your in-game balance."
+options:
+  category: "impossible"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 32

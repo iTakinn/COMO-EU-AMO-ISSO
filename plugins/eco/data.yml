@@ -1,0 +1,23 @@
+# For internal storage use only, do not modify.
+
+previous-handler: YAML
+player:
+  18f7bf45-5c65-3741-9541-bde30f073d69:
+    ecopets:sea_serpent_level: 0
+    ecopets:skeleton_level: 0
+    ecopets:blaze_level: 0
+    ecopets:ravager_level: 0
+    ecojobs:active_job: ''
+    eco:player_name: §b§lITAKINN§b§l
+    ecopets:mancubus_level: 0
+    ecopets:vampire_xp: 0.0
+    ecopets:tiger_level: 0
+    ecopets:active_pet: vampire
+    ecopets:vampire_level: 1
+    ecojobs:active_jobs: []
+  5fa0be9f-e2b1-379a-9ce9-56681e6f90e1:
+    ecojobs:active_job: ''
+    eco:player_name: Lancelot1_
+    ecopets:active_pet: ''
+    ecojobs:active_jobs: []
+

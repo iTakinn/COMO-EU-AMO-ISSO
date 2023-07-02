@@ -1,0 +1,40 @@
+tasks:
+  forge:
+    type: "inventory"
+    item: DIAMOND_SHOVEL
+    amount: 32
+    remove-items-when-complete: true
+    update-progress: true
+display:
+  name: "&4Impossible Quest &8▪ &7Diamond Shovel"
+  lore-normal:
+    - "&8You need to craft a certain amount"
+    - "&8of items before receiving the reward."
+    - ""
+    - "&4Options:"
+    - "&8■ &7Objective: &4Forge 32 Diamond Shovel"
+    - "&8■ &7Progress: &4{forge:progress}/32 diamond shovel"
+    - ""
+    - "&4Rewards:"
+    - "&8■ &7You will receive &a&l$&a2500&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "DIAMOND_SHOVEL"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a2500"
+rewards:
+  - "eco give {player} 2500"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a2500 &7was added to your in-game balance."
+options:
+  category: "impossible"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 40

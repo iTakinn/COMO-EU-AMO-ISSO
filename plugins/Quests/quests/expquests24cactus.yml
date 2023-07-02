@@ -1,0 +1,38 @@
+tasks:
+  harvest:
+    type: "blockbreakcertain"
+    amount: 384
+    block: "CACTUS"
+display:
+  name: "&aEXP Quest &8▪ &7Cactus"
+  lore-normal:
+    - "&8You need to harvest a certain"
+    - "&8resource before receiving the reward."
+    - ""
+    - "&aOptions:"
+    - "&8■ &7Objective: &aHarvest 384 cactus."
+    - "&8■ &7Progress: &a{harvest:progress}/384 cactus."
+    - ""
+    - "&aRewards:"
+    - "&8■ &7You will receive &d315 exp&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "CACTUS"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &d315 exp"
+rewards:
+  - "xp give {player} 315"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &d315 exp &7was added to your in-game balance."
+options:
+  category: "expquests"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 24

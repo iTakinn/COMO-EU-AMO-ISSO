@@ -1,0 +1,42 @@
+tasks:
+  misc:
+    type: "position"
+    x: 9200
+    y: 70
+    z: 9200
+    world: world
+    distance-padding: 10
+display:
+  name: "&6Misc Quest &8▪ &7Travel #4" 
+  lore-normal:
+    - "&8You need to do something"
+    - "&8before receiving the reward."
+    - ""
+    - "&6Options:"
+    - "&8■ &7Objective: &6Travel to x9200 y70 z9200."
+    - "&8■ &7Progress: &6N/A"
+    - ""
+    - "&6Rewards:"
+    - "&8■ &7You will receive &a&l$&a3000&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "COMPASS"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a3000"
+rewards:
+  - "eco give {player} 3000"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a3000 &7was added to your in-game balance."
+options:
+  category: "misc"
+  requires:
+    - "misc11travel"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 12

@@ -1,0 +1,39 @@
+tasks:
+  plant:
+    type: "blockplacecertain"
+    amount: 128
+    block: "OAK_SAPLING"
+display:
+  name: "&dFarming Quest &8▪ &7Oak Sapling #4"
+  lore-normal:
+    - "&8You need to plant a certain"
+    - "&8resource before receiving the reward."
+    - ""
+    - "&dOptions:"
+    - "&8■ &7Objective: &dPlant 128 Oak Saplings."
+    - "&8■ &7Progress: &d{plant:progress}/128 Oak saplings."
+    - ""
+    - "&dRewards:"
+    - "&8■ &7You will receive &a&l$&a600&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "OAK_SAPLING"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a600"
+rewards:
+  - "eco give {player} 600"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a600 &7was added to your in-game balance."
+options:
+  category: "farming"
+  requires:
+    - "farming207oaksapling"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 208

@@ -1,0 +1,515 @@
+####################################################################################################
+# +----------------------------------------------------------------------------------------------+ #
+# |                                          __             _                                    | #
+# |                                 _ __   / /  ___   __ _(_)_ __                                | #
+# |                                | '_ \ / /  / _ \ / _` | | '_ \                               | #
+# |                                | | | / /__| (_) | (_| | | | | |                              | #
+# |                                |_| |_\____/\___/ \__, |_|_| |_|                              | #
+# |                                                    |___/                                     | #
+# |                                                                                              | #
+# |                      A practical, secure and friendly authentication plugin                  | #
+# |                                                                                              | #
+# |                                © 2022 - Powered by nickuc.com                                | #
+# |                                                                                              | #
+# |                                                                                              | #
+# |  Para um melhor entendimento deste arquivo acesse nossa documentação:                        | #
+# |   ==> https://docs.nickuc.com/nlogin                                                         | #
+# |                                                                                              | #
+# |  Novas opções não são adicionadas automaticamente neste arquivo. Valores padrões são usados  | #
+# |  caso uma opção não seja encontrada.                                                         | #
+# +----------------------------------------------------------------------------------------------+ #
+####################################################################################################
+
+# Define a versão do arquivo.
+file-version: 1
+
+# Define o modo de depuração.
+# - Esta opção é usada para encontrar problemas no plugin.
+debug: false
+
+# Define o idioma do plugin.
+#
+# - Traduções disponíveis:
+#
+#  |=> Português (brasileiro): messages_br.yml
+#  |=> Chinês: messages_cn.yml
+#  |=> Tcheco: messages_cz.yml
+#  |=> Alemão: messages_de.yml
+#  |=> Inglês: messages_en.yml
+#  |=> Espanhol: messages_es.yml
+#  |=> Francês: messages_fr.yml
+#  |=> Húngaro: messages_hu.yml
+#  |=> Indonésio: messages_id.yml
+#  |=> Lituano: messages_lt.yml
+#  |=> Polonês: messages_pl.yml
+#  |=> Romeno: messages_ro.yml
+#  |=> Russo: messages_ru.yml
+#  |=> Turco: messages_tr.yml
+#  |=> Ucraniano: messages_ua.yml
+#  |=> Outros idiomas: https://github.com/nickuc/OpeNLogin/blob/master/docs/lang.md
+#
+# - Ao alterar o idioma, o arquivo atual poderá ser redefinido.
+languageFile: "messages_br.yml"
+
+#      ___      _        _
+#     /   \__ _| |_ __ _| |__   __ _ ___  ___
+#    / /\ / _` | __/ _` | '_ \ / _` / __|/ _ \
+#   / /_// (_| | || (_| | |_) | (_| \__ \  __/
+#  /___,' \__,_|\__\__,_|_.__/ \__,_|___/\___|
+
+# Configurações do banco de dados.
+database:
+  # Define o tipo de banco de dados usado.
+  #
+  # - Opções disponíveis:
+  #  |=> MySQL
+  #  |=> SQLite
+  type: SQLite
+
+  remote:
+    # Define as informações do MySQL.
+    # - Tutorial para instalação: https://docs.nickuc.com/nlogin-mysql
+    address: "localhost:3306"
+    database: "nlogin"
+    user: "root"
+    password: ""
+
+    # Define as propriedades da conexão.
+    # - Não altere esta informação se você não sabe o que está fazendo!
+    properties:
+      #useSSL: false
+      #verifyServerCertificate: false
+      useUnicode: true
+      characterEncoding: "utf8"
+
+  # Define as configurações da pool de conexões.
+  # - Não altere esta informação se você não sabe o que está fazendo!
+  pool-settings:
+    maximum-pool-size: 10
+    minimum-idle: 10
+    maximum-lifetime: 1800000 # 30 minutos
+    connection-timeout: 5000 # 5 segundos
+
+  table:
+    account:
+      # Define o nome da tabela de contas do nLogin.
+      # - Não altere esta informação se você não sabe o que está fazendo!
+      table-name: "nlogin"
+
+      # Define o nome das colunas do nLogin.
+      # - Não altere esta informação se você não sabe o que está fazendo!
+      columns:
+        id: "id"
+        name: "name"
+        real_name: "realname"
+        unique_id: "uniqueId"
+        premium_id: "premiumId"
+        password: "password"
+        premium: "premium"
+        address: "address"
+        reg_date: "regdate"
+        last_login: "lastlogin"
+        email: "email"
+        twitter: "twitter"
+        discord: "discord"
+        settings: "settings"
+
+    data:
+      # Define o nome da tabela de dados do nLogin.
+      # - Não altere esta informação se você não sabe o que está fazendo!
+      table-name: "nlogin_data"
+
+      # Define o nome das colunas do nLogin.
+      # - Não altere esta informação se você não sabe o que está fazendo!
+      columns:
+        id: "id"
+        key: "key"
+        value: "value"
+
+#                           _____       _             __
+#   /\ /\  ___  ___ _ __    \_   \_ __ | |_ ___ _ __ / _| __ _  ___ ___
+#  / / \ \/ __|/ _ \ '__|    / /\/ '_ \| __/ _ \ '__| |_ / _` |/ __/ _ \
+#  \ \_/ /\__ \  __/ |    /\/ /_ | | | | ||  __/ |  |  _| (_| | (_|  __/
+#   \___/ |___/\___|_|    \____/ |_| |_|\__\___|_|  |_|  \__,_|\___\___|
+
+# Configurações da interface do usuário (UI).
+ui:
+  # Define se mensagens na tela serão enviadas.
+  use-title-bar: true
+
+  # Define se mensagens em actionbars serão enviadas.
+  use-action-bar: true
+
+  # Define se a mensagem de tempo restante será enviada.
+  actionbar-counter: true
+
+  # Define se efeitos sonoros serão enviados.
+  use-sounds: true
+
+  # Define se mensagens interativas serão enviadas.
+  use-chat-component: true
+
+#     __        _
+#     \ \  ___ (_)_ __
+#      \ \/ _ \| | '_ \
+#   /\_/ / (_) | | | | |
+#   \___/ \___/|_|_| |_|
+
+# Configuração da entrada.
+join:
+  # Define se o chat deverá ser limpo ao entrar no servidor.
+  clean-chat-on-join: true
+
+  # Define se a mensagem de entrada será removida.
+  remove-join-message: true
+
+#   _____     _                       _
+#  /__   \___| | ___ _ __   ___  _ __| |_
+#    / /\/ _ \ |/ _ \ '_ \ / _ \| '__| __|
+#   / / |  __/ |  __/ |_) | (_) | |  | |_
+#   \/   \___|_|\___| .__/ \___/|_|   \__|
+#                   |_|
+
+# Configurações do teleport.
+teleport:
+  # Define se o jogador será teleportado a uma posição segura ao entrar.
+  # - É recomendado ativar a opção se nenhum spawn foi definido.
+  safe-location: false
+
+  # Define se o jogador será teleportado para a última localização ao sair.
+  last-location: true
+
+  # Define se o jogador será teleportado para o spawn ao morrer.
+  teleport-on-death: true
+
+#     __ _           _
+#    / /(_)_ __ ___ | |__   ___
+#   / / | | '_ ` _ \| '_ \ / _ \
+#  / /__| | | | | | | |_) | (_) |
+#  \____/_|_| |_| |_|_.__/ \___/
+
+# Configurações do limbo.
+# - O limbo é o sistema de proteção de informações dos jogadores.
+# - Em caso de desligamentos abruptos (ex.: queda de energia), os
+#   arquivos do limbo entrarão em ação.
+limbo:
+  # Define se o limbo deverá ocultar as informações dos players.
+  #
+  # => Lista de informações do player:
+  #  - velocidade e modo de voo;
+  #  - velocidade ao caminhar;
+  #  - vida;
+  #  - saciedade;
+  #  - [...]
+  #
+  # - Recomenda-se desativar esta opção em caso de conflitos com outros
+  #   plugins que manipulam essas opções (ex.: plugins de lobby).
+  hide-player-stats: true
+
+  # Define o tempo para aguardar que as informações do player sejam escondidas.
+  #
+  # => O valor fornecido deve estar em ticks. Para calcular os ticks necessários,
+  #    multiplique o valor (em segundos) por 20.
+  #
+  #   - Exemplo:
+  #      2 segundos X 20 ticks =  40 ticks
+  #
+  hide-player-stats-delay: 0
+
+  inventory:
+    # Define se os itens deverão ser escondidos antes de autenticar-se.
+    hide-inventory: true
+
+    # Define se a aceleração deverá ser usada.
+    # - Esta opção esconde os itens de forma mais otimizada, mas exige
+    #   a instalação do ProtocolLib e pode causar problemas com plugins
+    #   que exigem que o inventário esteja vazio antes do login (ex.: nAntiBot)
+    fast-hide-inventory: true
+
+  # Define se outros jogadores deverão ficar ocultos antes de se autenticarem.
+  # - Esta opção pode evitar o spam de bots na lista de jogadores do servidor.
+  hide-players-before-login: true
+
+  # Define se o movimento deverá ser bloqueado antes de autenticar-se.
+  block-player-walk: true
+
+#     ___                    _
+#    / _ \_ __ ___ _ __ ___ (_)_   _ _ __ ___   __/\__
+#   / /_)/ '__/ _ \ '_ ` _ \| | | | | '_ ` _ \  \    /
+#  / ___/| | |  __/ | | | | | | |_| | | | | | | /_  _\
+#  \/    |_|  \___|_| |_| |_|_|\__,_|_| |_| |_|   \/
+
+# Recursos pagos do plugin (versão premium).
+premium:
+  # Define o tipo de unique id para os usuários.
+  #
+  # - Opções disponíveis:
+  #  |=> REAL [recomendado]
+  #  |=> RANDOM
+  #  |=> OFFLINE
+  #
+  # - Você pode alterar esta opção livremente: usuários já registrados
+  #   NÃO serão afetados por esta mudança. Consequentemente, seus usuários
+  #   continuarão com os itens e conquistas após a alteração.
+  #
+  # - Para mais informações, acesse a documentação:
+  #    * https://docs.nickuc.com/nlogin-uuid
+  unique-id-type: REAL
+
+  autologin:
+    bedrock:
+      # Define se jogadores Bedrock deverão autenticar automaticamente.
+      # - Você pode alterar esta opção livremente: usuários já registrados
+      #   NÃO estarão vulneráveis por esta mudança
+      enable: true
+
+      # Define se jogadores Bedrock deverão pular o registro.
+      # - É recomendado desativar esta opção se você utiliza as
+      #   senhas dos jogadores em uma integração web (ex.: site do servidor).
+      skip-register: true
+
+    premium:
+      # Define se jogadores originais deverão autenticar automaticamente.
+      # - Você pode alterar esta opção livremente: usuários já registrados
+      #   NÃO estarão vulneráveis por esta mudança
+      enable: true
+
+      # Define se jogadores originais deverão pular o registro.
+      # - É recomendado desativar esta opção se você utiliza as
+      #   senhas dos jogadores em uma integração web (ex.: site do servidor).
+      skip-register: true
+
+      # Define se nicknames originais receberão uma notificação para marcar ou não suas contas como originais.
+      # - A alteração desta opção só será realizada se você utilizar o UUID "RANDOM" ou "OFFLINE".
+      #   Caso contrário, jogadores originais serão marcados automaticamente como premium
+      #   a fim de manter o UUID real da Mojang.
+      ask-via-notification: true
+
+      # Define se jogadores piratas poderão usar nicks de jogadores originais.
+      # - A alteração desta opção só será realizada se você utilizar o UUID "REAL".
+      #   Caso contrário, jogadores piratas serão permitidos por padrão.
+      allow-cracked-users: true
+
+    session:
+      # Define se sessões de login serão utilizadas.
+      # - A autenticação será ignorada se o jogador entrar no servidor no tempo limite
+      #   e continuar usando o mesmo endereço de ip.
+      enable: true
+
+      # Define a duração das sessões de login.
+      # => Tempos de sessões muito longas podem abrir vulnerabilidades se o IP do jogador
+      #   for público (proxies, VPNs públicas, redes compartilhadas)
+      #   ou se alternar muito rapidamente (em ISPs com ip dinâmico).
+      # - Para tornar uma sessão permanente utilize o valor 0. Todavia isso é desaconselhável.
+      duration: 5
+
+#     _       _                               _
+#    /_\   __| |_   ____ _ _ __   ___ ___  __| |
+#   //_\\ / _` \ \ / / _` | '_ \ / __/ _ \/ _` |
+#  /  _  \ (_| |\ V / (_| | | | | (_|  __/ (_| |
+#  \_/ \_/\__,_| \_/ \__,_|_| |_|\___\___|\__,_|
+
+# Recursos avançados do plugin.
+advanced:
+  unrestricted:
+    # Define os nicknames que pularão o processo de autenticação.
+    #
+    # - Essa opção pode ser útil para MODS ou plugins que falsificam
+    #   o comportamento de um jogador.
+    #
+    #   - Exemplos:
+    #    - '[ThaumcraftTablet]'
+    #    - '[BuildCraft]'
+    #    - 'ComputerCraft'
+    #
+    # => Use esse recurso por sua conta e risco.
+    unrestricted-names: []
+
+    # Define o nome dos inventários que não serão bloqueados antes do login.
+    # - Se você é um desenvolvedor, é melhor usar uma prioridade maior para
+    #   o evento do seu inventário (ex.: HIGH ou HIGHEST), e em seguida remover
+    #   o bloqueio do nLogin - "Event#setCancelled(false)"
+    unrestricted-inventories: []
+
+  # Recursos relacionados ao cliente (player).
+  client:
+    # Define se o idioma do nLogin deverá se adaptar a linguagem do Minecraft.
+    language-by-client: false
+
+    # Define se propagandas deverão ser enviadas in-game.
+    # - As propagandas são enviadas apenas para administradores.
+    # - As propagandas são enviadas raramente e incluem
+    #   novos plugins ou recursos dos projetos NickUC
+    advertising: true
+
+    # Define a lista de comandos a serem executados após registrar.
+    #
+    # - Opções disponíveis:
+    #  |=> @console: executa o comando no console.
+    #  |=> @delay <tempo em ticks>: adiciona um delay ao comando.
+    #  |=> @proxy: executa o comando no servidor proxy (apenas se estiver usando um).
+    #  |=> @server <servidores dividos por ",">: executa o comando apenas se o jogador estiver conectado a uma
+    #      lista de servidores específicos (apenas se usar um servidor proxy).
+    #
+    #      Exemplo: @server lobby1,lobby2
+    #
+    commands-after-register:
+      #- "@console tell @player Seja bem-vindo ao servidor!" # executa no console
+      #- "@delay 40 /kit starter" # espera por 40 ticks (2s)
+
+    # Define a lista de comandos a serem executados após autenticar.
+    #
+    # - Opções disponíveis:
+    #  |=> @console: executa o comando no console.
+    #  |=> @delay <tempo em ticks>: adiciona um delay ao comando.
+    #  |=> @proxy: executa o comando no servidor proxy (apenas se estiver usando um).
+    #  |=> @server <servidores dividos por ",">: executa o comando apenas se o jogador estiver conectado a uma
+    #      lista de servidores específicos (apenas se usar um servidor proxy).
+    #
+    #      Exemplo: @server lobby1,lobby2
+    #
+    commands-after-login:
+      #- "@console @proxy send @player lobby" # executa no console do proxy (bungee, velocity, etc.)
+
+    # Define a lista de comandos permitidos antes de autenticar-se.
+    allowed-commands:
+      - "/loginstaff"
+
+#     ___                                    _
+#    / _ \__ _ ___ _____      _____  _ __ __| |___
+#   / /_)/ _` / __/ __\ \ /\ / / _ \| '__/ _` / __|
+#  / ___/ (_| \__ \__ \\ V  V / (_) | | | (_| \__ \
+#  \/    \__,_|___/___/ \_/\_/ \___/|_|  \__,_|___/
+
+# Configurações de senhas.
+passwords:
+  # Define o tamanho mínimo das senhas.
+  small: 5
+
+  # Define o tamanho máximo das senhas.
+  large: 15
+
+  bruteforce:
+    # Define o número máximo de tentativas incorretas que um jogador pode realizar.
+    # - Ao usar o valor "1" o jogador será desconectado imediatamente ao errar.
+    max-login-tries: 1
+
+    # Define se ataques de força bruta serão punidos automaticamente.
+    # - Após muitas tentativas incorretas, o endereço de IP suspeito será bloqueado.
+    auto-punish: true
+
+    # Define o tempo da punição por suspeita de ataque de força bruta (em minutos).
+    punishment-duration: 15
+
+  insecure-passwords:
+    # Define se o jogador será avisado ao usar uma senha insegura.
+    warn: true
+
+    # Define o nível de detecção de senhas fracas:
+    #
+    # - Níveis disponíveis:
+    #  |=> 1: verifica se contém letras [abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ]
+    #  |=> 2: verifica se contém números [0123456789]
+    #  |=> 3: verifica se contém simbolos [!@#$%&*()-_]
+    #
+    # - Ao usar o valor "123", as três verificações serão realizadas.
+    level: "123"
+
+  hashing:
+    # Define o algoritimo de hashing utilizado.
+    #
+    # - Opções disponíveis:
+    #
+    #  | O custo computacional dos hashings deve aumentar (mas não necessariamente) de baixo para cima.
+    #  |=> MD5
+    #  |=> SHA256
+    #  |=> SHA512
+    #  |=> BCRYPT2Y
+    #  |=> BCRYPT2A
+    #  |=> PBKDF2
+    #  |=> ARGON2ID
+    #  |=> ARGON2I
+    #  |=> ARGON2D
+    #
+    algorithm: "SHA512"
+
+    bcrypt:
+      rounds: 10
+
+    argon2:
+      iterations: 10
+      memory: 64
+      parallelism: 1
+
+#   __                      _ _
+#  / _\ ___  ___ _   _ _ __(_) |_ _   _
+#  \ \ / _ \/ __| | | | '__| | __| | | |
+#  _\ \  __/ (__| |_| | |  | | |_| |_| |
+#  \__/\___|\___|\__,_|_|  |_|\__|\__, |
+#                                 |___/
+
+# Configurações gerais de segurança.
+security:
+  address-limiter:
+    # Define se o limitador de contas por IP deverá ser usado.
+    # - Esta opção pode evitar contas falsas.
+    enable: true
+
+    # Define o número máximo de registros por endereço de ip.
+    limit: 3
+
+    # Define a lista de IPs que ignoram a limitação.
+    bypass:
+      - '127.0.0.1'
+      - 'localhost'
+
+  # Define o tempo para um jogador se autenticar (em segundos).
+  time-to-login: 45
+
+  # Define se comandos de alto risco do nLogin serão desativados in-game.
+  # - Esta opção pode previnir ataques de hacking que removem o registro de administradores.
+  disable-high-risk-commands: true
+
+  # Define o regex para a validação de nicknames.
+  nickname-regex: '([a-zA-Z0-9_]{3,16})'
+
+  # Define se o plugin deve ignorar a verificação "Este jogador já está online" se o IP for mesmo que o registrado.
+  # - Este recurso é útil caso o player perca a conexão com o servidor e tente entrar novamente.
+  bypass-online-check-with-same-address: true
+
+#     ___                                          _
+#    / __\___  _ __ ___  _ __ ___   __ _ _ __   __| |___
+#   / /  / _ \| '_ ` _ \| '_ ` _ \ / _` | '_ \ / _` / __|
+#  / /__| (_) | | | | | | | | | | | (_| | | | | (_| \__ \
+#  \____/\___/|_| |_| |_|_| |_| |_|\__,_|_| |_|\__,_|___/
+
+# Lista de comandos.
+commands:
+  2fa:
+    enabled: true
+    commands: [2fa]
+    description: Comando para configurar o 2fa.
+  changepassword:
+    enabled: true
+    commands: [changepassword, changepass, mudarsenha, trocarsenha]
+    description: Comando para trocar a senha.
+  cracked:
+    enabled: true
+    commands: [cracked, pirata]
+    description: Comando para marcar sua conta como pirata.
+  login:
+    enabled: true
+    commands: [login, logar, log]
+    description: Comando para logar no servidor.
+  premium:
+    enabled: true
+    commands: [premium, original]
+    description: Comando para marcar sua conta como original.
+  register:
+    enabled: true
+    commands: [register, registrar, reg]
+    description: Comando para se registrar.
+  unregister:
+    enabled: false
+    commands: [unregister, desregistrar]
+    description: Comando para desregistrar.

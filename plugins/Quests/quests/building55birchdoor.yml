@@ -1,0 +1,38 @@
+tasks:
+  build:
+    type: "blockplacecertain"
+    amount: 16
+    block: BIRCH_DOOR
+display:
+  name: "&2Building Quest &8▪ &7Birch Door" 
+  lore-normal:
+    - "&8You need to place a certain amount"
+    - "&8of blocks before receiving the reward."
+    - ""
+    - "&2Options:"
+    - "&8■ &7Objective: &2Place 16 Birch Doors."
+    - "&8■ &7Progress: &2{build:progress}/16 birch doors"
+    - ""
+    - "&2Rewards:"
+    - "&8■ &7You will receive &a&l$&a50&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "BIRCH_DOOR"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a50"
+rewards:
+  - "eco give {player} 50"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a50 &7was added to your in-game balance."
+options:
+  category: "building"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 55

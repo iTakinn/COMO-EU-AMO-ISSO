@@ -1,0 +1,39 @@
+tasks:
+  break:
+    type: "blockbreakcertain"
+    amount: 96
+    block: "PINK_TULIP"
+display:
+  name: "&dFarming Quest &8▪ &7Pink Tulip #3"
+  lore-normal:
+    - "&8You need to break a certain"
+    - "&8resource before receiving the reward."
+    - ""
+    - "&dOptions:"
+    - "&8■ &7Objective: &dBreak 96 Pink Tulip."
+    - "&8■ &7Progress: &d{break:progress}/96 Pink tulip."
+    - ""
+    - "&dRewards:"
+    - "&8■ &7You will receive &a&l$&a750&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "PINK_TULIP"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a750"
+rewards:
+  - "eco give {player} 750"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a750 &7was added to your in-game balance."
+options:
+  category: "farming"
+  requires:
+    - "farming142pinktulip"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 143

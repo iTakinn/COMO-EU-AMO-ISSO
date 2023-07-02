@@ -1,0 +1,38 @@
+tasks:
+  mine:
+    type: "blockbreakcertain"
+    amount: 704
+    block: END_STONE
+display:
+  name: "&aEXP Quest &8▪ &7End Stone"
+  lore-normal:
+    - "&8You need to mine a certain"
+    - "&8resource before receiving the reward."
+    - ""
+    - "&aOptions:"
+    - "&8■ &7Objective: &aMine 704 End Stone."
+    - "&8■ &7Progress: &a{mine:progress}/704 endstone."
+    - ""
+    - "&aRewards:"
+    - "&8■ &7You will receive &d315 exp&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "END_STONE"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &d315 exp"
+rewards:
+  - "xp give {player} 315"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &d315 exp &7was added to your in-game balance."
+options:
+  category: "expquests"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 19

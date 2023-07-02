@@ -1,0 +1,40 @@
+tasks:
+  obtain:
+    type: "inventory"
+    item: IRON_HORSE_ARMOR
+    amount: 1
+    remove-items-when-complete: true
+    update-progress: true
+display:
+  name: "&8Weaponsmith Quest &8▪ &7Iron Horse Armor" 
+  lore-normal:
+    - "&8You need to craft a certain amount"
+    - "&8of items before receiving the reward."
+    - ""
+    - "&8Options:"
+    - "&8■ &7Objective: &8Obtain 1 Iron Horse Armor"
+    - "&8■ &7Progress: &8{obtain:progress}/1 iron horse armor"
+    - ""
+    - "&8Rewards:"
+    - "&8■ &7You will receive &a&l$&a100&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "IRON_HORSE_ARMOR"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a100"
+rewards:
+  - "eco give {player} 100"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a100 &7was added to your in-game balance."
+options:
+  category: "weaponsmith"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 52

@@ -1,0 +1,283 @@
+Crate:
+  # Type of crate -> CSGO/QuadCrate/QuickCrate/Roulette/CrateOnTheGo/FireCracker/Wonder/Wheel/War
+
+    # Make sure to check out the wiki for anything not explained here.
+  # https://github.com/Crazy-Crew/Crazy-Crates/wiki
+
+    # See CosmicCrateExample.yml to see how the Cosmic CrateType works.
+  CrateType: CSGO
+  # Name of the Inventory if a GUI crate.
+  CrateName: '&3Baixa Basica'
+  # The name of the inventory that will be in the preview GUI.
+  Preview-Name: '&3Caixa Basica'
+  # Starting amount of keys when the player 1st joins.
+  StartingKeys: 0
+  # If the crate shows in the /cc GUI.
+  # If the type is QuickCrate/CrateOnTheGo/FireCracker, They will not work as they require a Physical Crate.
+  InGUI: true
+  # Slot the item is in the GUI.
+  Slot: 21
+  # Enables/Disables the Broadcasts message when they open a crate.
+  OpeningBroadCast: false
+  # Message that is broadcast when opening the crate.
+  BroadCast: '%Prefix%&6&l%Player%&r &7is opening a &7&lBasic Chest&7.'
+  # Item the crate is in the GUI
+  Item: CYAN_SHULKER_BOX
+  # If the crate in the main /cc GUI is glowing or not.
+  Glowing: false
+  # Name of the item in the GUI.
+  Name: '&3Caixa Basica'
+  # The lore of the item in the GUI.
+  Lore:
+  - '&7Voce tem &6%Keys% chaves desta caixa.'
+  - '&7Click direito para ver as recompensas'
+  Preview:
+    # Turn on and off the preview for this crate.
+    Toggle: true
+    # How many lines the Crate Preview should have. Including Header and Bottom (Between 3 and 6)
+    ChestLines: 6
+    Glass:
+      # Turn the glass boarder in the preview on and off.
+      Toggle: true
+      # The item that shows in the boarder. Can be glass or any other item.
+      Item: GRAY_STAINED_GLASS_PANE
+  PhysicalKey:
+    # Name of the Key.
+    Name: '&3Chave Basica'
+    # Lore of the Key.
+    Lore:
+    - '&bAbra a caixa em'
+    - '&6/warp caixas'
+    # The item the key is.
+    Item: TRIPWIRE_HOOK
+    # Makes the key look enchanted.
+    Glowing: true
+  # Settings for the holograms.
+  Hologram:
+    # Toggle on and off the holograms for the crates.
+    Toggle: true
+    # The height of the hologram above the crate.
+    Height: 1.5
+    # The message that will be displayed.
+    Message:
+    - '&3Caixa Basica'
+  # All the prizes that can be gotten in the Crate.
+  Prizes:
+    '1':
+      DisplayEnchantments:
+      - protection:3
+      - unbreaking:3
+      DisplayItem: DIAMOND_HELMET
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 15
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+            DURABILITY: 3
+    '2':
+      DisplayEnchantments:
+      - protection:3
+      - unbreaking:3
+      DisplayItem: DIAMOND_CHESTPLATE
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 15
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+            DURABILITY: 3
+    '3':
+      DisplayEnchantments:
+      - protection:3
+      - unbreaking:3
+      DisplayItem: DIAMOND_LEGGINGS
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 15
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+            DURABILITY: 3
+    '4':
+      DisplayEnchantments:
+      - protection:3
+      - unbreaking:3
+      DisplayItem: DIAMOND_BOOTS
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 15
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+            DURABILITY: 3
+    '5':
+      DisplayEnchantments:
+      - sharpness:3
+      - unbreaking:3
+      DisplayItem: DIAMOND_SWORD
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 15
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 3
+            DURABILITY: 3
+    '6':
+      DisplayEnchantments:
+      - efficiency:4
+      - unbreaking:3
+      DisplayItem: DIAMOND_PICKAXE
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 15
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: DIAMOND_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 4
+            DURABILITY: 3
+    '7':
+      DisplayEnchantments:
+      - efficiency:4
+      - unbreaking:3
+      DisplayItem: DIAMOND_SHOVEL
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 15
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: DIAMOND_SHOVEL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 4
+            DURABILITY: 3
+    '8':
+      DisplayEnchantments:
+      - efficiency:4
+      - unbreaking:3
+      DisplayItem: DIAMOND_AXE
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 15
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 4
+            DURABILITY: 3
+    '9':
+      DisplayEnchantments:
+      - efficiency:2
+      - silk_touch:1
+      - unbreaking:3
+      DisplayItem: DIAMOND_PICKAXE
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 5
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: DIAMOND_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 2
+            SILK_TOUCH: 1
+            DURABILITY: 3
+    '10':
+      DisplayName: §cSem Sorte
+      DisplayItem: STRING
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 10
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: STRING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Sem
+            Sorte"}],"text":""}'
+    '11':
+      DisplayItem: ELYTRA
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 1
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: ELYTRA
+    '12':
+      DisplayName: §bChave Avancada
+      Lore:
+      - §bAbra a caixa em
+      - §6/warp caixas
+      DisplayEnchantments:
+      - luck_of_the_sea:1
+      DisplayItem: TRIPWIRE_HOOK
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 50
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: TRIPWIRE_HOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Chave
+            Avancada"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Abra
+            a caixa em"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"/warp
+            caixas"}],"text":""}'
+          enchants:
+            LUCK: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          internal: H4sIAAAAAAAA/+NiYOBgEHQuSqyqBBIlqcW6YIqBw7EsMS85MSWRAQDZ6T8SIgAAAA==

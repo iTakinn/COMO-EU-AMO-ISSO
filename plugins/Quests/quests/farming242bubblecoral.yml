@@ -1,0 +1,39 @@
+tasks:
+  break:
+    type: "blockbreakcertain"
+    amount: 64
+    block: "BUBBLE_CORAL"
+display:
+  name: "&dFarming Quest &8▪ &7Bubble Coral #2"
+  lore-normal:
+    - "&8You need to break a certain"
+    - "&8resource before receiving the reward."
+    - ""
+    - "&dOptions:"
+    - "&8■ &7Objective: &dBreak 64 Bubble Coral."
+    - "&8■ &7Progress: &d{break:progress}/64 bubble coral."
+    - ""
+    - "&dRewards:"
+    - "&8■ &7You will receive &a&l$&a300&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "BUBBLE_CORAL"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a300"
+rewards:
+  - "eco give {player} 300"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a300 &7was added to your in-game balance."
+options:
+  category: "farming"
+  requires:
+    - "farming241bubblecoral"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 242

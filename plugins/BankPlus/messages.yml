@@ -1,0 +1,112 @@
+# Messages File of BankPlus
+# Made by Pulsi_, Version v5.7
+
+# Local Placeholders
+# These placeholders will work only in some of these messages, do
+# not use it for gui or any other things because they won't work!
+#
+# %amount% -> Number Formatted with commas
+# %amount_long% -> Raw Number
+# %amount_formatted% -> Number Formatted
+# %amount_formatted_long% -> Number formatted without "."
+# %player% -> Player name
+
+# The main plugin prefix.
+Prefix: '&2&lBanco &6&lDo &1&lBrasil'
+
+# You can use a message as single or multiple:
+# MessageIdentifier: "A single message"
+# MessageIdentifier:
+#   - "Multiple messages"
+#   - "in just one! :)"
+
+# System
+Reload: '%prefix% &aPlugin recarregado!'
+Interest-Restarted: '%prefix% &aJuros reiniciados!'
+Interest-Disabled: '%prefix% &cOs juros estão desativados!'
+BankTop-Disabled: '%prefix% &cO banktop está desativado!'
+
+# Plugin
+Personal-Bank: '%prefix% &aVocê tem &f%amount_formatted% &adinheiro em seu banco.'
+Multiple-Personal-Bank: '%prefix% &aVocê possui um total de &f%amount_formatted% &adinheiro
+  em seus bancos.'
+Success-Withdraw: '%prefix% &aRetirou com sucesso &f%amount_formatted% &adinheiro!
+  (&f%taxes_formatted% &aperdidos em impostos)'
+Success-Deposit: '%prefix% &aDepositou com sucesso &f%amount_formatted% &adinheiro!
+  (&f%taxes_formatted% &aperdidos em impostos)'
+Bank-Others: '%prefix% &f%player% &apossui &f%amount_formatted% de Dinheiro &aem seu
+  banco!'
+Multiple-Bank-Others: '%prefix% &f%player% &apossui um total de &f%amount_formatted%
+  Dinheiro &aem seus bancos!'
+Set-Message: '%prefix% &aVocê definiu o saldo bancário de &f%player% &acomo &f%amount_formatted%&a!'
+Add-Message: '%prefix% &aVocê adicionou &f%amount_formatted% de Dinheiro &aao saldo
+  bancário de &f%player%!'
+Remove-Message: '%prefix% &aVocê removeu &f%amount_formatted% &adinheiro do saldo
+  bancário de &f%player%!'
+Set-Level-Message: '%prefix% &aVocê definiu o nível bancário de &f%player% &acomo
+  &f%level%&a!'
+Pay-Message: '%prefix% &aVocê adicionou &f%amount_formatted% de Dinheiro &ano saldo
+  bancário de &f%player%!'
+Chat-Deposit: '%prefix% &aDigite um valor no chat para depositar, digite ''sair''
+  para sair'
+Chat-Withdraw: '%prefix% &aDigite um valor no chat para sacar, digite ''sair'' para
+  sair'
+Payment-Sent: '%prefix% &aVocê enviou com sucesso &f%amount_formatted% &ade Dinheiro
+  para &f%player%!'
+Payment-Received: '%prefix% &aVocê recebeu &f%amount_formatted% &ade Dinheiro de &f%player%!'
+Interest-Time: '%prefix% &aAguarde mais &f%time% &apara receber os juros.'
+Balances-Saved: '%prefix% &aSalvou com sucesso todos os saldos dos jogadores no arquivo!'
+BankTop-Updated: '%prefix% &aAtualizou com sucesso o banktop!'
+Bank-Upgraded: '%prefix% &aBanco atualizado com sucesso!'
+Force-Open: '%prefix% &aAbriu o banco de &f%player% &acom sucesso!'
+
+# Titles
+Title-Custom-Transaction:
+  Enabled: true
+  Title-Deposit: '%prefix% &fDigite no &achat &fo valor a ser &adepositado'
+  Title-Withdraw: '%prefix% &fDigite no &achat &fo valor a ser &asacado'
+
+# Interest Messages
+Interest-Broadcast:
+  Enabled: true
+  Message: '%prefix% &aVocê recebeu &f%amount_formatted% de Dinheiro &anos juros!'
+  Multi-Message: '%prefix% &aVocê recebeu um total de &f%amount_formatted% de Dinheiro
+    &anos juros!'
+  No-Money: '%prefix% &aInfelizmente, você não recebeu dinheiro dos juros.'
+  Bank-Full: '%prefix% &cVocê não pode receber mais dinheiro dos juros porque seu
+    banco está cheio!'
+
+# Help Message
+Help-Message:
+- '%prefix% &aPágina de Ajuda'
+- '&a/banco depositar <valor> &7Depositar uma quantia de Dinheiro.'
+- '&a/banco sacar <valor> &7Sacar uma quantia de Dinheiro.'
+- '&a/banco ver <jogador> &7Ver o saldo de um jogador.'
+- '&7Plugin criado por Pulsi_'
+- '&aDê uma classificação de 5 estrelas!'
+
+# Errors
+Specify-Number: '%prefix% &cPor favor, especifique um número!'
+Specify-Player: '%prefix% &cPor favor, especifique um jogador!'
+Specify-Bank: '%prefix% &cPor favor, especifique um banco!'
+Invalid-Number: '%prefix% &cPor favor, escolha um número válido!'
+Invalid-Player: '%prefix% &cPor favor, escolha um jogador válido!'
+Invalid-Bank: '%prefix% &cPor favor, escolha um banco válido!'
+Invalid-Bank-Level: '%prefix% &cPor favor, escolha um nível de banco válido!'
+Cannot-Deposit-Anymore: '%prefix% &cVocê não pode depositar mais dinheiro!'
+Cannot-Use-Bank-Here: '%prefix% &cDesculpe, o banco está desativado neste mundo!'
+Cannot-Use-Negative-Number: '%prefix% &cVocê não pode usar um número negativo!'
+Bank-Full: '%prefix% &cO banco de %player% está cheio!'
+Bank-Empty: '%prefix% &cO banco de %player% está vazio!'
+Cannot-Access-Bank: '%prefix% &cVocê não pode acessar este banco!'
+Cannot-Access-Bank-Others: '%prefix% &c%player% não pode acessar este banco!'
+Bank-Max-Level: '%prefix% &cO banco já está no nível máximo!'
+Minimum-Number: '%prefix% &cPor favor, use um número maior para esta ação! (Mínimo:
+  10)'
+Not-Player: '%prefix% &cVocê não é um jogador!'
+Insufficient-Money: '%prefix% &cVocê não possui dinheiro suficiente!'
+Gui-Module-Disabled: '%prefix% &cO módulo de GUI está desativado!'
+Internal-Error: '%prefix% &cOcorreu um erro interno, tente novamente mais tarde!'
+Unknown-Command: '%prefix% &cComando desconhecido!'
+No-Permission: '%prefix% &cVocê não possui permissão! (%permission%)'
+

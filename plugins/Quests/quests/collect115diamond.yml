@@ -1,0 +1,41 @@
+tasks:
+  collect:
+    type: "inventory"
+    item: DIAMOND
+    amount: 300
+    remove-items-when-complete: true
+    update-progress: true
+display:
+  name: "&aCollecting Quest &8▪ &7Diamond #3"  
+  lore-normal:
+    - "&8You need to collect a certain"
+    - "&8resource before receiving the reward."
+    - ""
+    - "&aOptions:"
+    - "&8■ &7Objective: &aCollect 300 Diamond."
+    - "&8■ &7Progress: &a{collect:progress}/300 diamond."
+    - ""
+    - "&aRewards:"
+    - "&8■ &7You will receive &a&l$&a1750&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "DIAMOND"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a1750"
+rewards:
+  - "eco give {player} 1750"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a1750 &7was added to your in-game balance."
+options:
+  category: "collecting"
+  requires:
+    - "collect114diamond"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 115

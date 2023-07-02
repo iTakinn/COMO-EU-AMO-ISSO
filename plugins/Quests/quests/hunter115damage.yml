@@ -1,0 +1,38 @@
+tasks:
+  damage:
+    type: "dealdamage"
+    amount: 200
+display:
+  name: "&cHunter Quest &8▪ &7Deal Damage #3"  
+  lore-normal:
+    - "&8You need to kill a certain"
+    - "&8entity before receiving the reward."
+    - ""
+    - "&cOptions:"
+    - "&8■ &7Objective: &cDeal 100 hearts of damage."
+    - "&8■ &7Progress: &c{damage:progress}/200 health points."
+    - ""
+    - "&cRewards:"
+    - "&8■ &7You will receive &a&l$&a1500&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "IRON_SWORD"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a1500"
+rewards:
+  - "eco give {player} 1500"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a1500 &7was added to your in-game balance."
+options:
+  category: "hunter"
+  requires:
+    - "hunter114damage"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 115

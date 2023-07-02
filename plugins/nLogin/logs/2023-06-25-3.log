@@ -1,0 +1,23 @@
+[06/25/2023 14:51:15]:           __             _       
+[06/25/2023 14:51:15]:   _ __   / /  ___   __ _(_)_ __  
+[06/25/2023 14:51:15]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[06/25/2023 14:51:15]:  | | | / /__| (_) | (_| | | | | |
+[06/25/2023 14:51:15]:  |_| |_\____/\___/ \__, |_|_| |_|
+[06/25/2023 14:51:15]:                   |___/            
+[06/25/2023 14:51:15]:  By: www.nickuc.com - V 10.1.16
+[06/25/2023 14:51:15]: 
+[06/25/2023 14:51:15]: §3[nLogin] [DEBUG] Detecting hardware and software configurations...
+[06/25/2023 14:51:23]: §3[nLogin] [DEBUG] All settings were loaded in 7625 ms.
+[06/25/2023 14:51:23]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[06/25/2023 14:51:23]: §3[nLogin] [DEBUG] All plugin messages were loaded in 56 ms (languageByClient=false).
+[06/25/2023 14:51:23]: §3[nLogin] [DEBUG] All proxy settings were loaded in 2 ms.
+[06/25/2023 14:51:23]: §3[nLogin] [DEBUG] Starting logger filter...
+[06/25/2023 14:51:23]: §3[nLogin] [DEBUG] Loading database...
+[06/25/2023 14:51:23]: [nLogin] nLogin was loaded in 8904ms.
+[06/25/2023 14:56:02]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `realname` = 'iTakinn', `uniqueId` = 18f7bf455c6537419541bde30f073d69,  `premiumId` = null,  `premium` = -1,  `password` = '$SHA512$d990d65ae7dda03d1bc88ebb1ed4884ca46640667ce3cfda0ea18a19fba2951f4bf2941f6e5afec63a71a9b3783d19a39922a97dd86555bd6b68c913e74bd0de$MYPXQNtYpiSdqQlWpYstrkri', `address` = '127.0.0.1', `regdate` = 2023-05-15 21:56:31.971, `lastlogin` = 2023-06-25 14:56:02.209, `email` = null, `twitter` = null, `discord` = null, `settings` = '{"settings":[{"value":"TNaTBf0L6NXzhuR8BLwQYCiq8lB8ZmTEDiO2cL/BK0JE5VYA+Q9Yl9SzrHhTCMcov0RkJ9r2b5dfbpJgfepi/Npey7gaaICuG27Pc2EFqYUX0GioA99JYkUlchJSbV1/ADKF9OYqPuo7rUJRE4IQBWiUHfarXEFzBn34XclOOVjJRlMR4CK7VB3v6F7UWXzwG8yXxi0FVmiIgfaEgDq9/cqZo2amFFuyoFTXKg3rMJYpnXRupBYtQrWHA/RXVNaX06Vl9mwyQE1GluzQTQSxvprz3w++TujTzpDRrSQSyWpNBHvLG+0dDyhaDp2i7F9z62T3w55cGuRCARdcZ5Uyl3VoJbFdoBRVjh3oCPzr2psMI3PmMmeIQZLU1bFMLYS8PiDJ3yaqHr4LlFj/tm98lMKvsKnwJaT9bgLBENhd1Ica9lwlNAZwldZifasXWX/goZ1WCve0PUT5Fu8DCu0VQf9Jeeap5XPVEbV02AmsmD+wZJ2ScvBKbp2cbb8DhzfF6mczKOp9zjhAxq0Bh/lmsuTkXrhnd+pIMK/KgTYHS9ulwy+6M/2mARGv1Qif/JqZ353Zq93XnOoFf3Im2NrlNBitu8/s4bWOtIYxMnP4E2tVjF+qUUIbnE4EWKxz9ycTnBEDGzp0MuslSICAzU2KHSRvaW4Lh5/mkZaX8i6PAoM=:Q36Xwi7gjXgYDOv7TimQVjldviOmKwJI/rVONFDFRpXArFgm3tMjCrYEaDzWcg9KoT8b","key":"encrypted"}],"version":0}' WHERE `id` = 1"
+[06/25/2023 14:56:02]: [nLogin] The user iTakinn has successfully logged in.
+[06/25/2023 14:56:27]: [nLogin] Successful plugin core shutdown (took 0.00s)
+[06/25/2023 14:56:27]: [nLogin] 
+[06/25/2023 14:56:27]: [nLogin] Shutting down nLogin V 10.1.16...
+[06/25/2023 14:56:27]: [nLogin] 
+[06/25/2023 14:56:27]: [nLogin] nLogin was unloaded in 6ms.

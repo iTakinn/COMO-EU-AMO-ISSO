@@ -1,0 +1,40 @@
+tasks:
+  forge:
+    type: "inventory"
+    item: GOLDEN_LEGGINGS
+    amount: 1
+    remove-items-when-complete: true
+    update-progress: true
+display:
+  name: "&8Weaponsmith Quest &8▪ &7Golden Leggings" 
+  lore-normal:
+    - "&8You need to craft a certain amount"
+    - "&8of items before receiving the reward."
+    - ""
+    - "&8Options:"
+    - "&8■ &7Objective: &8Forge 1 Golden Leggings"
+    - "&8■ &7Progress: &8{forge:progress}/1 golden leggings"
+    - ""
+    - "&8Rewards:"
+    - "&8■ &7You will receive &a&l$&a150&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "GOLDEN_LEGGINGS"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a150"
+rewards:
+  - "eco give {player} 150"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a150 &7was added to your in-game balance."
+options:
+  category: "weaponsmith"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 30

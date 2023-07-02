@@ -1,0 +1,355 @@
+Crate:
+  # Type of crate -> CSGO/QuadCrate/QuickCrate/Roulette/CrateOnTheGo/FireCracker/Wonder/Wheel/War
+
+    # Make sure to check out the wiki for anything not explained here.
+  # https://github.com/Crazy-Crew/Crazy-Crates/wiki
+
+    # See CosmicCrateExample.yml to see how the Cosmic CrateType works.
+  CrateType: CSGO
+  # Name of the Inventory if a GUI crate.
+  CrateName: '&aCaixa SlimeFun'
+  # The name of the inventory that will be in the preview GUI.
+  Preview-Name: '&aCaixa SlimeFun'
+  # Starting amount of keys when the player 1st joins.
+  StartingKeys: 0
+  # If the crate shows in the /cc GUI.
+  # If the type is QuickCrate/CrateOnTheGo/FireCracker, They will not work as they require a Physical Crate.
+  InGUI: true
+  # Slot the item is in the GUI.
+  Slot: 23
+  # Enables/Disables the Broadcasts message when they open a crate.
+  OpeningBroadCast: false
+  # Message that is broadcast when opening the crate.
+  BroadCast: '%Prefix%&6&l%Player%&r &7is opening a &7&lBasic Chest&7.'
+  # Item the crate is in the GUI
+  Item: RED_SHULKER_BOX
+  # If the crate in the main /cc GUI is glowing or not.
+  Glowing: false
+  # Name of the item in the GUI.
+  Name: '&aCaixa SlimeFun'
+  # The lore of the item in the GUI.
+  Lore:
+  - '&7você tem &6%Keys% chaves desta caixa.'
+  - '&7Click direito para ver as recompensas'
+  Preview:
+    # Turn on and off the preview for this crate.
+    Toggle: true
+    # How many lines the Crate Preview should have. Including Header and Bottom (Between 3 and 6)
+    ChestLines: 6
+    Glass:
+      # Turn the glass boarder in the preview on and off.
+      Toggle: true
+      # The item that shows in the boarder. Can be glass or any other item.
+      Item: GRAY_STAINED_GLASS_PANE
+  PhysicalKey:
+    # Name of the Key.
+    Name: '&aChave SlimeFun'
+    # Lore of the Key.
+    Lore:
+    - '&bAbra a caixa em'
+    - '&6/warp caixas'
+    # The item the key is.
+    Item: TRIPWIRE_HOOK
+    # Makes the key look enchanted.
+    Glowing: true
+  # Settings for the holograms.
+  Hologram:
+    # Toggle on and off the holograms for the crates.
+    Toggle: true
+    # The height of the hologram above the crate.
+    Height: 1.5
+    # The message that will be displayed.
+    Message:
+    - '&aCaixa SlimeFun'
+  # All the prizes that can be gotten in the Crate.
+  Prizes:
+    '1':
+      DisplayName: §eCarbon
+      DisplayItem: PLAYER_HEAD
+      Player: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGIzYTA5NWI2YjgxZTZiOTg1M2ExOTMyNGVlZGYwYmI5MzQ5NDE3MjU4ZGQxNzNiOGVmZjg3YTA4N2FhIn19fQ==
+      DisplayAmount: 64
+      MaxRange: 100
+      Chance: 35
+      Commands:
+        - 'sf give %player% CARBON 64'
+    '2':
+      DisplayName: §bBronze Ingot
+      DisplayItem: BRICK
+      DisplayAmount: 64
+      MaxRange: 100
+      Chance: 33
+      Commands:
+        - 'sf give %Player% BRONZE_INGOT 64'
+    '3':
+      DisplayName: §bSteel Ingot
+      DisplayItem: IRON_INGOT
+      DisplayAmount: 48
+      MaxRange: 100
+      Chance: 31
+      Commands:
+        - sf give %Player% STEEL_INGOT 48
+    '4':
+      DisplayName: §bSynthetic Diamond
+      Lore:
+      - ''
+      - §fThis item can be used in a
+      - §fworkbench and acts like a normal Diamond
+      DisplayItem: DIAMOND
+      DisplayAmount: 8
+      MaxRange: 100
+      Chance: 29
+      Commands:
+        - sf give %Player% SYNTHETIC_DIAMOND 8
+    '5':
+      DisplayName: §eRadiant Backpack
+      Lore:
+      - ''
+      - '§7Size: §e54 (Double chest)'
+      - '§7ID: <ID>'
+      - ''
+      - §eRight Click§7 to open
+      DisplayItem: PLAYER_HEAD
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 27
+      Commands:
+        - sf give %Player% RADIANT_BACKPACK
+    '6':
+      DisplayName: §cRedstone Alloy Ingot
+      DisplayItem: BRICK
+      DisplayAmount: 64
+      MaxRange: 100
+      Chance: 25
+      Commands:
+        - sf give %Player% REDSTONE_ALLOY 64
+    '7':
+      DisplayName: §eEnergized Solar Generator
+      Lore:
+      - ''
+      - §9Works at Night
+      - ''
+      - §4End-Game Generator
+      - §8⇨ §e⚡ §70 J Buffer
+      - §8⇨ §e⚡ §7256 J/s (Day)
+      - §8⇨ §e⚡ §7128 J/s (Night)
+      DisplayItem: DAYLIGHT_DETECTOR
+      DisplayAmount: 2
+      MaxRange: 100
+      Chance: 23
+      Commands:
+        - sf give %Player% SOLAR_GENERATOR_4 2
+    '8':
+      DisplayName: §b§lHardened Metal
+      DisplayItem: IRON_INGOT
+      DisplayAmount: 32
+      MaxRange: 100
+      Chance: 21
+      Commands:
+        - sf give %Player% HARDENED_METAL_INGOT 32
+    '9':
+      DisplayName: §b§lReinforced Alloy Ingot
+      DisplayItem: IRON_INGOT
+      DisplayAmount: 24
+      MaxRange: 100
+      Chance: 19
+      Commands:
+        - sf give %Player% REINFORCED_ALLOY_INGOT 24
+    '10':
+      DisplayName: §cElectromagnet
+      DisplayItem: PLAYER_HEAD
+      DisplayAmount: 48
+      MaxRange: 100
+      Chance: 17
+      Commands:
+        - sf give %Player% ELECTRO_MAGNET 48
+    '11':
+      DisplayName: §cElectric Motor
+      DisplayItem: PLAYER_HEAD
+      DisplayAmount: 48
+      MaxRange: 100
+      Chance: 15
+      Commands:
+        - sf give %Player% ELECTRIC_MOTOR 48
+    '12':
+      DisplayName: §9Basic §8Cobble Generator
+      Lore:
+      - ''
+      - '§8⇨ §e⚡ §7Speed: §b1x'
+      - §8⇨ §e⚡ §748 J/s
+      DisplayItem: SMOOTH_STONE
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 13
+      Commands:
+        - sf give %Player% BASIC_COBBLE_GEN
+    '13':
+      DisplayName: §cSuper Heated Furnace
+      Lore:
+      - ''
+      - §7Multiblock component of the Foundry
+      - §cMust be used in the Foundry
+      DisplayItem: BLAST_FURNACE
+      DisplayAmount: 2
+      MaxRange: 100
+      Chance: 11
+      Commands:
+        - sf give %Player% SUPERHEATED_FURNACE 2
+    '14':
+      DisplayName: §7Cargo Node §c(Connector)
+      Lore:
+      - ''
+      - §fCargo Connector Pipe
+      DisplayItem: PLAYER_HEAD
+      Player: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZkMWMxYTY5YTNkZTlmZWM5NjJhNzdiZjNiMmUzNzZkZDI1Yzg3M2EzZDhmMTRmMWRkMzQ1ZGFlNGM0In19fQ==
+      DisplayAmount: 32
+      MaxRange: 100
+      Chance: 9
+      Commands:
+        - sf give %Player% CARGO_NODE 32
+    '15':
+      DisplayName: §7Cargo Node §c(Input)
+      Lore:
+      - ''
+      - §fCargo Input Pipe
+      DisplayItem: PLAYER_HEAD
+      Player: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTViMjFmZDQ4MGMxYzQzYmYzYjlmODQyYzg2OWJkYzNiYzVhY2MyNTk5YmYyZWI2YjhhMWM5NWRjZTk3OGYifX19
+      DisplayAmount: 24
+      MaxRange: 100
+      Chance: 9
+      Commands:
+        - sf give %Player% CARGO_NODE_INPUT 24
+    '16':
+      DisplayName: §6Advanced Cargo Node §c(Output)
+      Lore:
+      - ''
+      - §fCargo Output Pipe
+      DisplayItem: PLAYER_HEAD
+      Player: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTViMjFmZDQ4MGMxYzQzYmYzYjlmODQyYzg2OWJkYzNiYzVhY2MyNTk5YmYyZWI2YjhhMWM5NWRjZTk3OGYifX19
+      DisplayAmount: 24
+      MaxRange: 100
+      Chance: 9
+      Commands:
+        - sf give %Player% CARGO_NODE_OUTPUT_ADVANCED 24
+    '17':
+      DisplayName: §6Cargo Manager
+      Lore:
+      - ''
+      - §fCore Component of an Item Transport Network
+      DisplayItem: PLAYER_HEAD
+      Player: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTUxMGJjODUzNjJhMTMwYTZmZjlkOTFmZjExZDZmYTQ2ZDdkMTkxMmEzNDMxZjc1MTU1OGVmM2M0ZDljMiJ9fX0=
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 7
+      Commands:
+        - sf give %Player% CARGO_MANAGER 1
+    '18':
+      DisplayName: §b§lCarbonado
+      Lore:
+      - ''
+      - §7§o"Black Diamond"
+      DisplayItem: PLAYER_HEAD
+      DisplayAmount: 28
+      MaxRange: 100
+      Chance: 11
+      Commands:
+        - sf give %Player% CARBONADO 28
+    '19':
+      DisplayName: §6Blistering Ingot
+      Lore:
+      - ''
+      - '§a☢§7 Radiation level: §cVERY HIGH'
+      - §8⇨ §4Hazmat Suit required!
+      DisplayItem: GOLD_INGOT
+      DisplayAmount: 12
+      MaxRange: 100
+      Chance: 9
+      Commands:
+        - sf give %Player% BLISTERING_INGOT_3 12
+    '20':
+      DisplayName: §5Auto Enchanter §7- §eII
+      Lore:
+      - ''
+      - §4End-Game Machine
+      - '§8⇨ §b⚡ §7Speed: §b3.0x'
+      - §8⇨ §e⚡ §748 J/s
+      DisplayItem: ENCHANTING_TABLE
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 9
+      Commands:
+        - sf give %Player% AUTO_ENCHANTER_2
+    '21':
+      DisplayName: §5Auto Disenchanter §7- §eII
+      Lore:
+      - ''
+      - §4End-Game Machine
+      - '§8⇨ §b⚡ §7Speed: §b3.0x'
+      - §8⇨ §e⚡ §748 J/s
+      DisplayItem: ENCHANTING_TABLE
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 9
+      Commands:
+        - sf give %Player% AUTO_DISENCHANTER_2
+    '22':
+      DisplayName: §8Dust Extractor
+      Lore:
+      - §7Converts cobble into dusts
+      - ''
+      - '§8⇨ §e⚡ §7Speed: §b1x'
+      - §8⇨ §e⚡ §7480 J/s
+      DisplayItem: FURNACE
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 7
+      Commands:
+        - sf give %Player% DUST_EXTRACTOR
+    '23':
+      DisplayName: §aCarbonado Edged Energy Capacitor
+      Lore:
+      - '§7Range: §c6 blocks'
+      - ''
+      - §4End-Game Capacitor
+      - §8⇨ §e⚡ §765536 J Capacity
+      DisplayItem: PLAYER_HEAD
+      Player: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTEzNjFlNTc2YjQ5M2NiZmRmYWUzMjg2NjFjZWRkMWFkZDU1ZmFiNGU1ZWI0MThiOTJjZWJmNjI3NWY4YmI0In19fQ==
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 9
+      Commands:
+        - sf give %Player% CARBONADO_EDGED_CAPACITOR
+    '25':
+      DisplayName: §9Radiant Solar Generator
+      Lore:
+      - ''
+      - §fThis Solar Generator runs
+      - §fall day and night!
+      - ''
+      - §4End-Game Generator
+      - §8⇨ §e⚡ §70 J Buffer
+      - §8⇨ §e⚡ §71024 J/s
+      DisplayItem: PLAYER_HEAD
+      Player: 512
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 9
+      Commands:
+        - sf give %Player% RADIANT_SOLAR_GENERATOR
+    '24':
+      DisplayName: §2Nuclear Reactor
+      Lore:
+      - ''
+      - §fRequires Cooling!
+      - §8⇨ §bMust be surrounded by Water
+      - §8⇨ §bMust be supplied with Reactor Coolant Cells
+      - ''
+      - §4End-Game Generator
+      - §8⇨ §e⚡ §716384 J Buffer
+      - §8⇨ §e⚡ §7500 J/s
+      DisplayItem: PLAYER_HEAD
+      Player: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM0M2NlNThkYTU0Yzc5OTI0YTJjOTMzMWNmYzQxN2ZlOGNjYmJlYTliZTQ1YTdhYzg1ODYwYTZjNzMwIn19fQ==
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 7
+      Commands:
+        - sf give %Player% NUCLEAR_REACTOR 1

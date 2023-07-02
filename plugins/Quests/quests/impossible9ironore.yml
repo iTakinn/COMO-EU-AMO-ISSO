@@ -1,0 +1,38 @@
+tasks:
+  mine:
+    type: "blockbreakcertain"
+    amount: 1000
+    block: IRON_ORE
+display:
+  name: "&4Impossible Quest &8▪ &7Iron ore"
+  lore-normal:
+    - "&8You need to mine a certain"
+    - "&8resource before receiving the reward."
+    - ""
+    - "&4Options:"
+    - "&8■ &7Objective: &4Mine 1000 Iron ore."
+    - "&8■ &7Progress: &4{mine:progress}/1000 Iron ore."
+    - ""
+    - "&4Rewards:"
+    - "&8■ &7You will receive &a&l$&a5000&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "IRON_ORE"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a5000"
+rewards:
+  - "eco give {player} 5000"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a5000 &7was added to your in-game balance."
+options:
+  category: "impossible"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 9

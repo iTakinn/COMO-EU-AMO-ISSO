@@ -1,0 +1,39 @@
+tasks:
+  kill:
+    type: "mobkillingcertain"
+    amount: 32
+    mob: VILLAGER
+display:
+  name: "&cHunter Quest &8▪ &7Villager #2"  
+  lore-normal:
+    - "&8You need to kill a certain"
+    - "&8entity before receiving the reward."
+    - ""
+    - "&cOptions:"
+    - "&8■ &7Objective: &cKill 32 Villagers."
+    - "&8■ &7Progress: &c{kill:progress}/32 villagers."
+    - ""
+    - "&cRewards:"
+    - "&8■ &7You will receive &a&l$&a750&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "VILLAGER_SPAWN_EGG"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a750"
+rewards:
+  - "eco give {player} 750"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a750 &7was added to your in-game balance."
+options:
+  category: "hunter"
+  requires:
+    - "hunter81villager"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 82

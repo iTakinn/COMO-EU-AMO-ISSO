@@ -1,0 +1,37 @@
+tasks:
+  activity:
+    type: "taming"
+    amount: 1
+display:
+  name: "&9Activities Quest &8▪ &7Taming" 
+  lore-normal:
+    - "&8You need to do a certain activity"
+    - "&8before receiving the reward."
+    - ""
+    - "&9Options:"
+    - "&8■ &7Objective: &9Tame 1 animal."
+    - "&8■ &7Progress: &9{activity:progress}/1 animal."
+    - ""
+    - "&9Rewards:"
+    - "&8■ &7You will receive &a&l$&a500&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "BONE"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a500"
+rewards:
+  - "eco give {player} 500"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a500 &7was added to your in-game balance."
+options:
+  category: "activities"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 9

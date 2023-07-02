@@ -1,0 +1,616 @@
+INICIAL:
+  Description:
+  - '&aKit Inicial'
+  - '&aPara ajudar no desenvolvimento'
+  CommandName: INICIAL
+  Delay: 14400
+  Items:
+    '28':
+      v: 3218
+      type: STONE_SWORD
+    '29':
+      v: 3218
+      type: STONE_PICKAXE
+    '30':
+      v: 3218
+      type: STONE_AXE
+    '31':
+      v: 3218
+      type: APPLE
+      amount: 8
+    '36':
+      v: 3218
+      type: TRIPWIRE_HOOK
+      amount: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"Chave
+          Basica"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Abra
+          a caixa em"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"/warp
+          caixas"}],"text":""}'
+        enchants:
+          LUCK: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        internal: H4sIAAAAAAAA/+NiYOBgEHQuSqyqBBIlqcW6YIqBzSmxODM5kQEAQL6pmiAAAAA=
+    Helmet:
+      v: 3218
+      type: CHAINMAIL_HELMET
+    Chest:
+      v: 3218
+      type: CHAINMAIL_CHESTPLATE
+    Legs:
+      v: 3218
+      type: CHAINMAIL_LEGGINGS
+    Boots:
+      v: 3218
+      type: CHAINMAIL_BOOTS
+COMIDA:
+  Description:
+  - '&aComida para nao passar fome'
+  CommandName: COMIDA
+  Delay: 3750
+  Items:
+    '34':
+      v: 3218
+      type: PUMPKIN_PIE
+      amount: 32
+    '35':
+      v: 3218
+      type: BREAD
+      amount: 36
+CLAIM:
+  CommandName: CLAIM
+  Delay: 3600
+  Items:
+    '31':
+      v: 3218
+      type: GOLDEN_SHOVEL
+    '32':
+      v: 3218
+      type: STICK
+VIP:
+  CommandName: VIP
+  Delay: 2539800
+  Items:
+    '22':
+      v: 3218
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '23':
+      v: 3218
+      type: FIREWORK_ROCKET
+      amount: 64
+    '24':
+      v: 3218
+      type: ENCHANTING_TABLE
+    '25':
+      v: 3218
+      type: ENDER_CHEST
+    '26':
+      v: 3218
+      type: NETHERITE_INGOT
+      amount: 2
+    '27':
+      v: 3218
+      type: BOOKSHELF
+      amount: 32
+    '28':
+      v: 3218
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"item
+          do "},{"italic":false,"color":"dark_aqua","text":"{DISPLAYNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Kit
+          "},{"italic":false,"color":"dark_aqua","text":"{KITNAME}"}],"text":""}'
+        enchants:
+          LOOT_BONUS_MOBS: 3
+          DAMAGE_ALL: 5
+          DURABILITY: 3
+    '29':
+      v: 3218
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"item
+          do "},{"italic":false,"color":"dark_aqua","text":"{DISPLAYNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Kit
+          "},{"italic":false,"color":"dark_aqua","text":"{KITNAME}"}],"text":""}'
+        enchants:
+          DIG_SPEED: 5
+          LOOT_BONUS_BLOCKS: 3
+          DURABILITY: 3
+    '30':
+      v: 3218
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"item
+          do "},{"italic":false,"color":"dark_aqua","text":"{DISPLAYNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Kit
+          "},{"italic":false,"color":"dark_aqua","text":"{KITNAME}"}],"text":""}'
+        enchants:
+          DIG_SPEED: 5
+          DURABILITY: 3
+    '31':
+      v: 3218
+      type: ENCHANTED_GOLDEN_APPLE
+      amount: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"item
+          do "},{"italic":false,"color":"dark_aqua","text":"{DISPLAYNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Kit
+          "},{"italic":false,"color":"dark_aqua","text":"{KITNAME}"}],"text":""}'
+    Helmet:
+      v: 3218
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"item
+          do "},{"italic":false,"color":"dark_aqua","text":"{DISPLAYNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Kit
+          "},{"italic":false,"color":"dark_aqua","text":"{KITNAME}"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+    Chest:
+      v: 3218
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"item
+          do "},{"italic":false,"color":"dark_aqua","text":"{DISPLAYNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Kit
+          "},{"italic":false,"color":"dark_aqua","text":"{KITNAME}"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+    Legs:
+      v: 3218
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"item
+          do "},{"italic":false,"color":"dark_aqua","text":"{DISPLAYNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Kit
+          "},{"italic":false,"color":"dark_aqua","text":"{KITNAME}"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+    Boots:
+      v: 3218
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"item
+          do "},{"italic":false,"color":"dark_aqua","text":"{DISPLAYNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Kit
+          "},{"italic":false,"color":"dark_aqua","text":"{KITNAME}"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+MVP:
+  CommandName: MVP
+  Delay: 2539800
+  Items:
+    '12':
+      v: 3218
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '20':
+      v: 3218
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '21':
+      v: 3218
+      type: ENCHANTING_TABLE
+    '22':
+      v: 3218
+      type: BOOKSHELF
+      amount: 64
+    '23':
+      v: 3218
+      type: ENDER_CHEST
+      amount: 2
+    '24':
+      v: 3218
+      type: NETHERITE_INGOT
+      amount: 4
+    '25':
+      v: 3218
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        stored-enchants:
+          DURABILITY: 3
+    '26':
+      v: 3218
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        stored-enchants:
+          SILK_TOUCH: 1
+    '27':
+      v: 3218
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        stored-enchants:
+          DIG_SPEED: 5
+    '28':
+      v: 3218
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"item
+          do "},{"italic":false,"color":"dark_aqua","text":"{DISPLAYNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Kit
+          "},{"italic":false,"color":"dark_aqua","text":"{KITNAME}"}],"text":""}'
+        enchants:
+          LOOT_BONUS_MOBS: 4
+          DAMAGE_ALL: 5
+          DURABILITY: 3
+    '29':
+      v: 3218
+      type: NETHERITE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"item
+          do "},{"italic":false,"color":"dark_aqua","text":"{DISPLAYNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Kit
+          "},{"italic":false,"color":"dark_aqua","text":"{KITNAME}"}],"text":""}'
+        enchants:
+          DIG_SPEED: 5
+          DURABILITY: 3
+    '30':
+      v: 3218
+      type: NETHERITE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"item
+          do "},{"italic":false,"color":"dark_aqua","text":"{DISPLAYNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Kit
+          "},{"italic":false,"color":"dark_aqua","text":"{KITNAME}"}],"text":""}'
+        enchants:
+          DIG_SPEED: 6
+          LOOT_BONUS_BLOCKS: 4
+          DURABILITY: 4
+    '31':
+      v: 3218
+      type: NETHERITE_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"item
+          do "},{"italic":false,"color":"dark_aqua","text":"{DISPLAYNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Kit
+          "},{"italic":false,"color":"dark_aqua","text":"{KITNAME}"}],"text":""}'
+        enchants:
+          DIG_SPEED: 6
+          DURABILITY: 4
+    '32':
+      v: 3218
+      type: ENCHANTED_GOLDEN_APPLE
+      amount: 5
+    '33':
+      v: 3218
+      type: TRIPWIRE_HOOK
+      amount: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Chave
+          SlimeFun"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Abra
+          a caixa em"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"/warp
+          caixas"}],"text":""}'
+        enchants:
+          LUCK: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        internal: H4sIAAAAAAAA/+NiYOBgEHQuSqyqBBIlqcW6YIqBIzgnMzc1rTSPAQCViuJAIgAAAA==
+    '34':
+      v: 3218
+      type: FIREWORK_ROCKET
+      amount: 64
+    '35':
+      v: 3218
+      type: FIREWORK_ROCKET
+      amount: 64
+    Helmet:
+      v: 3218
+      type: NETHERITE_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"item
+          do "},{"italic":false,"color":"dark_aqua","text":"{DISPLAYNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Kit
+          "},{"italic":false,"color":"dark_aqua","text":"{KITNAME}"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 5
+          DURABILITY: 4
+    Chest:
+      v: 3218
+      type: NETHERITE_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"item
+          do "},{"italic":false,"color":"dark_aqua","text":"{DISPLAYNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Kit
+          "},{"italic":false,"color":"dark_aqua","text":"{KITNAME}"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 5
+          DURABILITY: 4
+    Legs:
+      v: 3218
+      type: NETHERITE_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"item
+          do "},{"italic":false,"color":"dark_aqua","text":"{DISPLAYNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Kit
+          "},{"italic":false,"color":"dark_aqua","text":"{KITNAME}"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 5
+          DURABILITY: 4
+    Boots:
+      v: 3218
+      type: NETHERITE_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"item
+          do "},{"italic":false,"color":"dark_aqua","text":"{DISPLAYNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Kit
+          "},{"italic":false,"color":"dark_aqua","text":"{KITNAME}"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 5
+          DURABILITY: 4
+MASTER:
+  CommandName: MASTER
+  Delay: 2539800
+  Items:
+    '1':
+      v: 3218
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '2':
+      v: 3218
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '3':
+      v: 3218
+      type: BOOKSHELF
+      amount: 64
+    '4':
+      v: 3218
+      type: ENDER_CHEST
+      amount: 2
+    '5':
+      v: 3218
+      type: NETHERITE_BLOCK
+      amount: 2
+    '6':
+      v: 3218
+      type: TRIPWIRE_HOOK
+      amount: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Chave
+          SlimeFun"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Abra
+          a caixa em"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"/warp
+          caixas"}],"text":""}'
+        enchants:
+          LUCK: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        internal: H4sIAAAAAAAA/+NiYOBgEHQuSqyqBBIlqcW6YIqBIzgnMzc1rTSPAQCViuJAIgAAAA==
+    '7':
+      v: 3218
+      type: TOTEM_OF_UNDYING
+    '8':
+      v: 3218
+      type: TOTEM_OF_UNDYING
+    '9':
+      v: 3218
+      type: ENCHANTED_GOLDEN_APPLE
+      amount: 10
+    '10':
+      v: 3218
+      type: ELYTRA
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          MENDING: 2
+          DURABILITY: 3
+    '11':
+      v: 3218
+      type: FIREWORK_ROCKET
+      amount: 64
+    '12':
+      v: 3218
+      type: FIREWORK_ROCKET
+      amount: 64
+    '32':
+      v: 3218
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"item
+          do "},{"italic":false,"color":"dark_aqua","text":"{DISPLAYNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Kit
+          "},{"italic":false,"color":"dark_aqua","text":"{KITNAME}"}],"text":""}'
+        enchants:
+          LOOT_BONUS_MOBS: 6
+          MENDING: 1
+          DAMAGE_ALL: 7
+          DURABILITY: 7
+    '33':
+      v: 3218
+      type: NETHERITE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"item
+          do "},{"italic":false,"color":"dark_aqua","text":"{DISPLAYNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Kit
+          "},{"italic":false,"color":"dark_aqua","text":"{KITNAME}"}],"text":""}'
+        enchants:
+          DIG_SPEED: 7
+          MENDING: 1
+          DURABILITY: 7
+    '34':
+      v: 3218
+      type: NETHERITE_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"item
+          do "},{"italic":false,"color":"dark_aqua","text":"{DISPLAYNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Kit
+          "},{"italic":false,"color":"dark_aqua","text":"{KITNAME}"}],"text":""}'
+        enchants:
+          DIG_SPEED: 7
+          MENDING: 1
+          DURABILITY: 7
+    '35':
+      v: 3218
+      type: NETHERITE_HOE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"item
+          do "},{"italic":false,"color":"dark_aqua","text":"{DISPLAYNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Kit
+          "},{"italic":false,"color":"dark_aqua","text":"{KITNAME}"}],"text":""}'
+        enchants:
+          DIG_SPEED: 7
+          MENDING: 1
+          DURABILITY: 7
+    '36':
+      v: 3218
+      type: NETHERITE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"item
+          do "},{"italic":false,"color":"dark_aqua","text":"{DISPLAYNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Kit
+          "},{"italic":false,"color":"dark_aqua","text":"{KITNAME}"}],"text":""}'
+        enchants:
+          DIG_SPEED: 7
+          MENDING: 1
+          DAMAGE_ALL: 7
+          DURABILITY: 7
+    Helmet:
+      v: 3218
+      type: NETHERITE_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"item
+          do "},{"italic":false,"color":"dark_aqua","text":"{DISPLAYNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Kit
+          "},{"italic":false,"color":"dark_aqua","text":"{KITNAME}"}],"text":""}'
+        enchants:
+          MENDING: 1
+          PROTECTION_ENVIRONMENTAL: 8
+          DURABILITY: 7
+    Chest:
+      v: 3218
+      type: NETHERITE_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"item
+          do "},{"italic":false,"color":"dark_aqua","text":"{DISPLAYNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Kit
+          "},{"italic":false,"color":"dark_aqua","text":"{KITNAME}"}],"text":""}'
+        enchants:
+          MENDING: 1
+          PROTECTION_ENVIRONMENTAL: 8
+          DURABILITY: 7
+    Legs:
+      v: 3218
+      type: NETHERITE_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"item
+          do "},{"italic":false,"color":"dark_aqua","text":"{DISPLAYNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Kit
+          "},{"italic":false,"color":"dark_aqua","text":"{KITNAME}"}],"text":""}'
+        enchants:
+          MENDING: 1
+          PROTECTION_ENVIRONMENTAL: 8
+          DURABILITY: 7
+    Boots:
+      v: 3218
+      type: NETHERITE_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"item
+          do "},{"italic":false,"color":"dark_aqua","text":"{DISPLAYNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Kit
+          "},{"italic":false,"color":"dark_aqua","text":"{KITNAME}"}],"text":""}'
+        enchants:
+          MENDING: 1
+          PROTECTION_ENVIRONMENTAL: 8
+          DURABILITY: 7

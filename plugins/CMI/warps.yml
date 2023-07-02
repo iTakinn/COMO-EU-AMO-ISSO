@@ -1,0 +1,12 @@
+Loja:
+  Location: spawn;-84.48;137.0;-14.52;89.79;6.48
+  DisName: '{#1744e6}&lL{#denim}&lO{#mariner}&lJ{#allports}&lA'
+  Slots: 1
+  Creator: 18f7bf45-5c65-3741-9541-bde30f073d69
+  Item:
+    v: 3218
+    type: LIGHT
+caixas:
+  Location: spawn;-158.43;180.0;27.46;-89.07;13.05
+  DisName: '{#e6000e}&lC{#cc0031}&lA{#b3004b}&lI{#99005c}&lX{#800063}&lA{#660062}&lS'
+  Creator: 18f7bf45-5c65-3741-9541-bde30f073d69

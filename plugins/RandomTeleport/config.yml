@@ -1,0 +1,111 @@
+# Default language to use when client's language isn't available
+lang: en
+# Some debug information
+debug: true
+# Delay in ticks between checking chunks when searching
+
+# Blocks to teleport on in normal mode
+safe-blocks:
+- sand
+- sandstone
+- gravel
+- dirt
+- grass_block
+- coarse_dirt
+- podzol
+- stone
+- granite
+- diorite
+- andesite
+- cobblestone
+- end_stone
+- netherrack
+
+# Blocks unsafe when in "--force blocks" mode
+unsafe-blocks:
+- air
+- water
+- lava
+- oak_sapling
+- spruce_sapling
+- birch_sapling
+- jungle_sapling
+- acacia_sapling
+- dark_oak_sapling
+- white_bed
+- orange_bed
+- magenta_bed
+- light_blue_bed
+- yellow_bed
+- lime_bed
+- pink_bed
+- gray_bed
+- light_gray_bed
+- cyan_bed
+- purple_bed
+- blue_bed
+- brown_bed
+- green_bed
+- red_bed
+- black_bed
+- powered_rail
+- detector_rail
+- cobweb
+- piston_head
+- tnt
+- torch
+- fire
+- sign
+- ladder
+- rail
+- wall_sign
+- lever
+- stone_pressure_plate
+- iron_door
+- redstone_wall_torch
+- redstone_torch
+- stone_button
+- cactus
+- magma_block
+- nether_portal
+- vine
+- end_portal
+- end_portal_frame
+- tripwire_hook
+- tripwire
+- flower_pot
+- oak_leaves
+- spruce_leaves
+- birch_leaves
+- jungle_leaves
+- acacia_leaves
+- dark_oak_leaves
+- barrier
+- iron_trapdoor
+- oak_trapdoor
+- spruce_trapdoor
+- birch_trapdoor
+- jungle_trapdoor
+- acacia_trapdoor
+- dark_oak_trapdoor
+- oak_door
+- spruce_door
+- birch_door
+- jungle_door
+- acacia_door
+- dark_oak_door
+- end_rod
+- end_gateway
+
+sign-variables:
+- "[RTP]"
+- "[RandomTP]"
+
+# Just write your command arguments as you would use it ingame behind /rtp
+# Don't use the -p parameter, this will get added automatically with the senders name/the specified playername
+presets:
+  # Triggered when you use /rtp without any additional paramters
+  default: "100 6000 -w world"
+  # add more to use /rtp <rtpname>, player needs "randomteleport.presets.<rtpname>"
+  #   <rtpname>: "/rtp 1 2"
+  recurso: "100 200 -w worldd"

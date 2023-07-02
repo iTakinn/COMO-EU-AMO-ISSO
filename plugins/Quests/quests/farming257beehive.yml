@@ -1,0 +1,38 @@
+tasks:
+  place:
+    type: "blockplacecertain"
+    amount: 10
+    block: BEEHIVE
+display:
+  name: "&dFarming Quest &8▪ &7Bee Hives"
+  lore-normal:
+    - "&8You need to place a certain"
+    - "&8block before receiving the reward."
+    - ""
+    - "&dOptions:"
+    - "&8■ &7Objective: &dPlace 10 Bee Hives."
+    - "&8■ &7Progress: &d{place:progress}/10 bee hives."
+    - ""
+    - "&dRewards:"
+    - "&8■ &7You will receive &a&l$&a350&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "BEEHIVE"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a350"
+rewards:
+  - "eco give {player} 350"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a350 &7was added to your in-game balance."
+options:
+  category: "farming"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 257

@@ -1,0 +1,38 @@
+tasks:
+  enchant:
+    type: "enchanting"
+    amount: 30
+display:
+  name: "&5Enchanting Quest &8▪ &7Items #3" 
+  lore-normal:
+    - "&8You need to enchant a certain amount"
+    - "&8of items before receiving the reward."
+    - ""
+    - "&5Options:"
+    - "&8■ &7Objective: &5Enchant 30 items."
+    - "&8■ &7Progress: &5{enchant:progress}/30 items."
+    - ""
+    - "&5Rewards:"
+    - "&8■ &7You will receive &a&l$&a1500&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "ENCHANTED_BOOK"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a1500"
+rewards:
+  - "eco give {player} 1500"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a1500 &7was added to your in-game balance."
+options:
+  category: "enchanting"
+  requires:
+    - "enchant6items"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 7

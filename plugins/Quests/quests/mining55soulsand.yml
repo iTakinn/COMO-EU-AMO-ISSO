@@ -1,0 +1,39 @@
+tasks:
+  mine:
+    type: "blockbreakcertain"
+    amount: 1152
+    block: SOUL_SAND
+display:
+  name: "&bMining Quest &8▪ &7Soul Sand #3" 
+  lore-normal:
+    - "&8You need to mine a certain"
+    - "&8resource before receiving the reward."
+    - ""
+    - "&bOptions:"
+    - "&8■ &7Objective: &bMine 1152 Soul Sand."
+    - "&8■ &7Progress: &b{mine:progress}/1152 Soul sand."
+    - ""
+    - "&bRewards:"
+    - "&8■ &7You will receive &a&l$&a750&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "SOUL_SAND"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a750"
+rewards:
+  - "eco give {player} 750"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a750 &7was added to your in-game balance."
+options:
+  category: "mining"
+  requires:
+    - "mining54soulsand"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 55

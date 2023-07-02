@@ -1,0 +1,39 @@
+tasks:
+  harvest:
+    type: "blockbreakcertain"
+    amount: 768
+    block: "MELON"
+display:
+  name: "&dFarming Quest &8▪ &7Melon #4"
+  lore-normal:
+    - "&8You need to harvest a certain"
+    - "&8resource before receiving the reward."
+    - ""
+    - "&dOptions:"
+    - "&8■ &7Objective: &dHarvest 768 melon."
+    - "&8■ &7Progress: &d{harvest:progress}/768 melon."
+    - ""
+    - "&dRewards:"
+    - "&8■ &7You will receive &a&l$&a2000&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "MELON"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a2000"
+rewards:
+  - "eco give {player} 2000"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a2000 &7was added to your in-game balance."
+options:
+  category: "farming"
+  requires:
+    - "farming27melon"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 28

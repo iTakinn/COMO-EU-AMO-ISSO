@@ -1,0 +1,29 @@
+messages:
+  prefix: "&#d977c2&lPets&r &8» &r"
+  no-permission: "&cSem permissão!"
+  not-player: "&cComando apenas de players!"
+  invalid-command: "&cComando desconhecido"
+  reloaded: "Recarregado"
+
+  needs-player: "&cEspecifique um player"
+  gave-xp: "&fVocê deu &a%xp% &fXP para o %pet% de %player%&f &f!"
+  reset-xp: "&fVocê resetou o XP do %pet% do %player%&f !"
+  needs-pet: "&cVocê deve especificar um pet!"
+  need-amount: "&cVocê deve especificar uma quantidade!"
+  invalid-player: "&cPlayer invalido"
+  invalid-pet: "&cPet invalido!"
+  already-has-pet: "&cO player ja tem esse pet!"
+  doesnt-have-pet: "&cO player nao tem esse pet!"
+  gave-pet: "&fVocê deu para %player%&f o pet %pet%&f!"
+  gave-pet-egg: "&fVocê deu para %player%&f o ovo do pet %pet%&f!"
+  cannot-spawn-pet: "&cVocê ja desbloqueou esse pet!"
+  invalid-amount: "&cQuantidade invalida"
+  pet-already-active: "&cVocê ja tem esse pet ativo!"
+  no-pet-active: "&cVocê não tem pet ativo!"
+  activated-pet: "&fVocê ativou o pet %pet%&f!"
+  deactivated-pet: "&fVocê desativou o pet %pet%&f!"
+
+menu:
+  title: "Pets"
+
+infinity: "∞"

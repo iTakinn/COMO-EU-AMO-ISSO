@@ -1,0 +1,38 @@
+tasks:
+  mine:
+    type: "blockbreakcertain"
+    amount: 704
+    block: NETHERRACK
+display:
+  name: "&aEXP Quest &8▪ &7Netherrack"
+  lore-normal:
+    - "&8You need to mine a certain"
+    - "&8resource before receiving the reward."
+    - ""
+    - "&aOptions:"
+    - "&8■ &7Objective: &aMine 704 Netherrack."
+    - "&8■ &7Progress: &a{mine:progress}/704 Netherrack."
+    - ""
+    - "&aRewards:"
+    - "&8■ &7You will receive &d160 exp&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "NETHERRACK"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &d160 exp"
+rewards:
+  - "xp give {player} 160"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &d160 exp &7was added to your in-game balance."
+options:
+  category: "expquests"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 10

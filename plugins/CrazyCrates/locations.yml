@@ -1,0 +1,55 @@
+Locations:
+  '1':
+    Crate: Basica
+    World: spawn
+    X: 250
+    Y: 12
+    Z: -282
+  '2':
+    Crate: Avancada
+    World: spawn
+    X: 256
+    Y: 12
+    Z: -281
+  '3':
+    Crate: Premium
+    World: spawn
+    X: 257
+    Y: 12
+    Z: -275
+  '4':
+    Crate: vote
+    World: spawn
+    X: 253
+    Y: 12
+    Z: -271
+  '5':
+    Crate: Slimefun
+    World: spawn
+    X: 246
+    Y: 12
+    Z: -278
+  '6':
+    Crate: Avancada
+    World: spawn
+    X: -143
+    Y: 177
+    Z: 22
+  '7':
+    Crate: Basica
+    World: spawn
+    X: -147
+    Y: 177
+    Z: 20
+  '8':
+    Crate: Premium
+    World: spawn
+    X: -143
+    Y: 177
+    Z: 32
+  '9':
+    Crate: vote
+    World: spawn
+    X: -147
+    Y: 177
+    Z: 34

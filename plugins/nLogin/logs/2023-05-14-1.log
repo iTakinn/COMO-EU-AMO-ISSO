@@ -1,0 +1,55 @@
+[05/14/2023 21:11:46]:           __             _       
+[05/14/2023 21:11:46]:   _ __   / /  ___   __ _(_)_ __  
+[05/14/2023 21:11:46]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[05/14/2023 21:11:46]:  | | | / /__| (_) | (_| | | | | |
+[05/14/2023 21:11:46]:  |_| |_\____/\___/ \__, |_|_| |_|
+[05/14/2023 21:11:46]:                   |___/            
+[05/14/2023 21:11:46]:  By: www.nickuc.com - V 10.1.14
+[05/14/2023 21:11:46]: 
+[05/14/2023 21:11:46]: §3[nLogin] [DEBUG] Detecting hardware and software configurations...
+[05/14/2023 21:11:46]: §3[nLogin] [DEBUG] The config.yml file was created successfully.
+[05/14/2023 21:11:46]: §3[nLogin] [DEBUG] The messages_br.yml message file was created successfully.
+[05/14/2023 21:11:46]: §3[nLogin] [DEBUG] The messages_en.yml message file was created successfully.
+[05/14/2023 21:11:46]: §3[nLogin] [DEBUG] The messages_es.yml message file was created successfully.
+[05/14/2023 21:11:46]: §3[nLogin] [DEBUG] The messages_pl.yml message file was created successfully.
+[05/14/2023 21:11:46]: §3[nLogin] [DEBUG] The messages_ru.yml message file was created successfully.
+[05/14/2023 21:11:46]: §3[nLogin] [DEBUG] The messages_fr.yml message file was created successfully.
+[05/14/2023 21:11:46]: §3[nLogin] [DEBUG] The messages_lt.yml message file was created successfully.
+[05/14/2023 21:11:46]: §3[nLogin] [DEBUG] The messages_de.yml message file was created successfully.
+[05/14/2023 21:11:46]: §3[nLogin] [DEBUG] The messages_tr.yml message file was created successfully.
+[05/14/2023 21:11:46]: §3[nLogin] [DEBUG] The messages_hu.yml message file was created successfully.
+[05/14/2023 21:11:46]: §3[nLogin] [DEBUG] The messages_cn.yml message file was created successfully.
+[05/14/2023 21:11:46]: §3[nLogin] [DEBUG] The messages_cz.yml message file was created successfully.
+[05/14/2023 21:11:46]: §3[nLogin] [DEBUG] The messages_ro.yml message file was created successfully.
+[05/14/2023 21:11:46]: §3[nLogin] [DEBUG] The messages_ua.yml message file was created successfully.
+[05/14/2023 21:11:46]: §3[nLogin] [DEBUG] The messages_id.yml message file was created successfully.
+[05/14/2023 21:12:12]: §3[nLogin] [DEBUG] All settings were loaded in 25301 ms.
+[05/14/2023 21:12:12]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[05/14/2023 21:12:12]: §3[nLogin] [DEBUG] All plugin messages were loaded in 50 ms (languageByClient=false).
+[05/14/2023 21:12:12]: §3[nLogin] [DEBUG] All proxy settings were loaded in 2 ms.
+[05/14/2023 21:12:12]: §3[nLogin] [DEBUG] Starting logger filter...
+[05/14/2023 21:12:12]: §3[nLogin] [DEBUG] Loading database...
+[05/14/2023 21:12:13]: [nLogin] nLogin was loaded in 26369ms.
+[05/14/2023 21:13:36]: [nLogin] 
+[05/14/2023 21:13:36]: [nLogin]  Thank you so much for choosing nLogin! <3
+[05/14/2023 21:13:36]: [nLogin] 
+[05/14/2023 21:13:36]: [nLogin]  For your safety, please read the message below:
+[05/14/2023 21:13:36]: [nLogin]   Never download nLogin from unknown sources.
+[05/14/2023 21:13:36]: [nLogin]   A modified version may contain malicious software.
+[05/14/2023 21:13:36]: [nLogin] 
+[05/14/2023 21:13:36]: [nLogin]  Trusted sources:
+[05/14/2023 21:13:36]: [nLogin]   www.nickuc.com
+[05/14/2023 21:13:36]: [nLogin]   www.github.com/nickuc
+[05/14/2023 21:13:36]: [nLogin]   OpeNLogin installer (from Spigot or GitHub)
+[05/14/2023 21:13:36]: [nLogin] 
+[05/14/2023 21:13:36]: [nLogin]  Official support channels:
+[05/14/2023 21:13:36]: [nLogin]   Discord group: www.nickuc.com/discord
+[05/14/2023 21:13:36]: [nLogin]   Documentation: docs.nickuc.com/nlogin
+[05/14/2023 21:13:36]: [nLogin]   Email: support@nickuc.com
+[05/14/2023 21:13:36]: [nLogin]   YouTube: youtube.com/nickuc
+[05/14/2023 21:13:36]: [nLogin] 
+[05/14/2023 21:31:13]: [nLogin] Successful plugin core shutdown (took 0.00s)
+[05/14/2023 21:31:13]: [nLogin] 
+[05/14/2023 21:31:13]: [nLogin] Shutting down nLogin V 10.1.14...
+[05/14/2023 21:31:13]: [nLogin] 
+[05/14/2023 21:31:13]: [nLogin] nLogin was unloaded in 7ms.

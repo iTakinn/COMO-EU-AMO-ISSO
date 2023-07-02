@@ -1,0 +1,103 @@
+Messages:
+  No-Teleporting: '&cVocê não pode se teletransportar ao abrir uma caixa.'
+  No-Commands-While-In-Crate: '&cVocê não tem permissão para usar comandos ao abrir
+    Caixotes.'
+  No-Key: '&cVoce deve ter uma %key% &cna mao para abrir'
+  No-Virtual-Key: '&cVocê precisa de uma chave para abrir essa caixa.'
+  Not-On-Block: '&cVocê deve estar sobre um bloco para usar esta caixa.'
+  Already-Opening-Crate: '&cVocê já está abrindo um caixote.'
+  Quick-Crate-In-Use: '&cEssa caixa já está em uso. Por favor, espere que a caixa
+    Abra.'
+  World-Disabled: '&cDesculpe, mas as caixas estão desabilitadas em %world%.'
+  Reload: '&3Você recarregou os arquivos de configuração e dados.'
+  Not-Online: '&cO jogador &6%player% &não está online.'
+  No-Permission: '&cVocê não tem permissão para usar este comando!'
+  Crate-Already-Opened: '&cVocê já está abrindo um Crate.'
+  Cant-Be-A-Virtual-Crate: '&cEsse tipo de caixote não pode ser usado como um caixote virtual.'
+  Inventory-Full: '&cSeu inventário está cheio, por favor, abra espaço antes de abrir uma caixa.'
+  To-Close-To-Another-Player: '&cVocê está muito perto de um jogador que está abrindo seu
+    Caixote.'
+  Needs-More-Room: '&cNão há espaço suficiente para abri-lo aqui.'
+  Out-Of-Time: '&cVocê levou 5 Minutos para abrir a Caixa, então ela fechou.'
+  Must-Be-A-Player: '&cVocê deve ser um jogador para usar este comando.'
+  Must-Be-A-Console-Sender: '&cVocê deve estar usando o console para usar este comando.'
+  Must-Be-Looking-At-A-Block: '&cVocê deve estar olhando para um bloco.'
+  Not-A-Crate: '&cNão existe uma caixa chamada &6%crate%.'
+  Not-A-Number: '&6%number% &não é um número.'
+  Given-A-Player-Keys: '&7Você deu &6%player% %amount% &7Keys.'
+  Obtaining-Keys: '&7Você recebeu &6%amount% %key%.'
+  Given-Everyone-Keys: '&7Você deu a todos &6%amount% &7Chaves.'
+  Given-Offline-Player-Keys: '&7Você deu &6%amount% &7chave(s) para o offline
+    jogador &6%player%.'
+  Take-A-Player-Keys: '&7Você pegou &6%amount% &7key(s) de &6%player%.'
+  Take-Offline-Player-Keys: '&7You have taken &6%amount% &7key(s) from the offline
+    player &6%player%.'
+  Opened-A-Crate: '&7You have just opened the &6%crate% &7crate for &6%player%.'
+  Internal-Error: '&cAn internal error has occurred. Please check the console for
+    the full error.'
+  Unknown-Command: '&cThis command is not known.'
+  Too-Many-Args: '&cYou put more arguments then I can handle.'
+  Not-Enough-Args: '&cYou did not supply enough arguments.'
+  No-Item-In-Hand: '&cYou need to have an item in your hand to add it to the Crate.'
+  Added-Item-With-Editor: '&7The item has been added to the %crate% Crate in prize
+    #%prize%.'
+  Preview-Disabled: '&cThe preview for that crate is currently disabled.'
+  No-Schematics-Found: '&cNo schematic were found. Please make sure NBT files exist
+    in the schematics folder if not delete the folder to regenerate.'
+  No-Prizes-Found: '&cThis crate contains no prizes that you can win.'
+  Same-Player: '&cYou can''t use this command on yourself.'
+  Prize-Error: '&cAn error has occurred while trying to give you the prize called
+    &6%prize%&c in crate called &6%crate%&c. Please contact the server owner and show
+    them this error.'
+  Transfer-Keys:
+    Not-Enough-Keys: '&cYou do not have enough keys to transfer.'
+    Transferred-Keys: '&7You have transferred %amount% %crate% keys to %player%.'
+    Received-Transferred-Keys: '&7You have received %amount% %crate% keys from %player%.'
+  Files-Converted:
+    No-Files-To-Convert: '&cNo plugins that can be converted were found.'
+    Error-Converting-Files: '&cThere was an error while trying to convert files. Please
+      check console for the error log.'
+  Created-Physical-Crate:
+  - '%prefix%&7You have set that block to %crate%.'
+  - '&7To remove the crate shift break in creative to remove.'
+  Removed-Physical-Crate: '&7You have removed &6%id%.'
+  Keys:
+    Personal:
+      No-Virtual-Keys: '&8&l(&4&l!&8&l) &7You currently do not have any virtual keys.'
+      Header:
+      - '&8&l(&6&l!&8&l) &7List of your current number of keys.'
+    Other-Player:
+      No-Virtual-Keys: '&8&l(&4&l!&8&l) &7The player %player% does not have any keys.'
+      Header:
+      - '&8&l(&6&l!&8&l) &7List of %player%''s current number of keys.'
+    Per-Crate: '%crate% &7&l>&8&l> &6%keys% keys'
+  Help:
+  - '&e&lCrazy Crates Player Help'
+  - '&6/key [player] &7- &eCheck the number of keys a player has.'
+  - '&6/cc &7- &eOpens the menu.'
+  Admin-Help:
+  - '&c&lCrazy Crates Admin Help'
+  - ''
+  - '&6/cc additem <crate> <prize> &7- &eAdd items in-game to a prize in a crate.'
+  - '&6/cc preview <crate> [player] &7- &eOpens the preview of a crate for a player.'
+  - '&6/cc list &7- &eLists all crates.'
+  - '&6/cc open <crate> [player] &7- &eTries to open a crate for a player if they
+    have a key.'
+  - '&6/cc forceopen <crate> [player] &7- &eOpens a crate for a player for free.'
+  - '&6/cc tp <location> &7- &eTeleport to a Crate.'
+  - '&6/cc give <physical/virtual> <crate> [amount] [player] &7- &eAllows you to take
+    keys from a player.'
+  - '&6/cc set <crate> &7- &eSet the block you are looking at as a crate.'
+  - '&6/cc set Menu &7- &eSet the block you are looking at to open the /cc menu.'
+  - '&6/cc reload &7- &eReloads the config/data files.'
+  - '&6/cc set1/set2 &7- &eSets position &c#1 &eor &c#2 for when making a new schematic
+    for QuadCrates.'
+  - '&6/cc save <file name> &7- &eCreate a new nbt file in the schematics folder.'
+  - ' '
+  - '&6/key [player] &7- &eCheck the number of keys a player has.'
+  - '&6/cc &7- &eOpens the menu.'
+  - ' '
+  - '&7You can find a list of permissions @ &ehttps://github.com/badbones69/Crazy-Crates/wiki/Commands-and-Permissions'
+  Not-Enough-Keys: '&cYou do not have enough keys to transfer.'
+  Transferred-Keys: '&7You have transferred %amount% %crate% keys to %player%.'
+  Received-Transferred-Keys: '&7You have received %amount% %crate% keys from %player%.'

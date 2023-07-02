@@ -1,0 +1,39 @@
+tasks:
+  break:
+    type: "blockbreakcertain"
+    amount: 200
+    block: "JUNGLE_LEAVES"
+display:
+  name: "&dFarming Quest &8▪ &7Jungle Leaves #4"
+  lore-normal:
+    - "&8You need to break a certain"
+    - "&8resource before receiving the reward."
+    - ""
+    - "&dOptions:"
+    - "&8■ &7Objective: &dBreak 200 Jungle Leaves."
+    - "&8■ &7Progress: &d{break:progress}/200 Jungle leaves."
+    - ""
+    - "&dRewards:"
+    - "&8■ &7You will receive &a&l$&a800&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "JUNGLE_LEAVES"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a800"
+rewards:
+  - "eco give {player} 800"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a800 &7was added to your in-game balance."
+options:
+  category: "farming"
+  requires:
+    - "farming187jungleleaves"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 188

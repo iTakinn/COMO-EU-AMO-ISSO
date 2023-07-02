@@ -1,0 +1,39 @@
+tasks:
+  dig:
+    type: "blockbreakcertain"
+    amount: 384
+    block: DIRT
+display:
+  name: "&eDigging Quest &8▪ &7Dirt #2" 
+  lore-normal:
+    - "&8You need to dig a certain amount"
+    - "&8of blocks before receiving the reward."
+    - ""
+    - "&eOptions:"
+    - "&8■ &7Objective: &eDig 384 Dirt."
+    - "&8■ &7Progress: &e{dig:progress}/384 dirt."
+    - ""
+    - "&eRewards:"
+    - "&8■ &7You will receive &a&l$&a500&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "DIRT"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a500"
+rewards:
+  - "eco give {player} 500"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a500 &7was added to your in-game balance."
+options:
+  category: "digging"
+  requires:
+    - "digging5dirt"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 6

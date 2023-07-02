@@ -1,0 +1,39 @@
+tasks:
+  mine:
+    type: "blockbreakcertain"
+    amount: 100
+    block: LAPIS_ORE
+display:
+  name: "&bMining Quest &8▪ &7Lapis Ore #2" 
+  lore-normal:
+    - "&8You need to mine a certain"
+    - "&8resource before receiving the reward."
+    - ""
+    - "&bOptions:"
+    - "&8■ &7Objective: &bMine 100 Lapis Ore."
+    - "&8■ &7Progress: &b{mine:progress}/100 Lapis ore."
+    - ""
+    - "&bRewards:"
+    - "&8■ &7You will receive &a&l$&a500&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "LAPIS_ORE"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a500"
+rewards:
+  - "eco give {player} 500"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a500 &7was added to your in-game balance."
+options:
+  category: "mining"
+  requires:
+    - "mining33lapisore"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 34

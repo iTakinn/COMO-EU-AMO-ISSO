@@ -1,0 +1,12 @@
+race: Human
+time: 0
+Human:
+  level: 3
+  xp: 50
+forceRace: true
+playerName: iTakinn
+class: None
+classTime: 0
+None:
+  level: 3
+  xp: 50

@@ -1,0 +1,37 @@
+tasks:
+  build:
+    type: "blockplace"
+    amount: 5760
+display:
+  name: "&4Impossible Quest &8▪ &7Place Blocks"
+  lore-normal:
+    - "&8You need to place a certain amount"
+    - "&8of blocks before receiving the reward."
+    - ""
+    - "&4Options:"
+    - "&8■ &7Objective: &4Place 5760 blocks."
+    - "&8■ &7Progress: &4{build:progress}/5760 blocks."
+    - ""
+    - "&4Rewards:"
+    - "&8■ &7You will receive &a&l$&a10000&7."
+    - ""
+  lore-started:
+    - "&e▲ Quest has been started."
+  type: "BRICKS"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7Upon completion of this quest, you will be rewarded with"
+  - " &8■ &a&l$&a10000"
+rewards:
+  - "eco give {player} 10000"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a10000 &7was added to your in-game balance."
+options:
+  category: "impossible"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 23
