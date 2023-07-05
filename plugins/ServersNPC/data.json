@@ -218,8 +218,8 @@
   {
     "id": 10,
     "hologramHeight": 0.0,
-    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY4ODE2MTc5MjgzNiwKICAicHJvZmlsZUlkIiA6ICI2NDQzZWVlOWYwMDc0MmZhYTAxMjA4ZjNmYjdkYTliMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJsb2phIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQwMDQxZWE2ZjQzNGJkYWJmNWRiN2U0N2UxN2VkMjZiYTY1ZjQ1MTRjNmY0OTA4YmMxODNjZWFmODIzOWEyYTYiCiAgICB9CiAgfQp9",
-    "signature": "Hq3WA1N6vLIkuH+kJg8H0CR2EDO/4rIR1JEH8brCEgec6QfYxvEn9uoYdZmqu7LNXXllNyYccb7Ggk1ykD83qwX73fWZvtYLdWSbg85qhWJtIoLNeJY8KQ6f8x9lLmdD8Y/Lu43Jsd8AEI80WoVshCbgybjr2WuQFkFfzZAq30ABWbeGaW3a9B6WmHTYLVmCJYdqeMh+mY3mh8lwKyRPcLflwF5/oFm95+aSBMQ7Sx5E9MKIoXHQQEMBfXrZnzNrtoFYY9GB7gj/EIjIRVrIbc+tj0CsMQBaFSIg4wfCNH1N/gOArGKE2B2Iun4fvrpOXlUoyeUA7dMoQPo+nxfTSV+feoddu8TLBO4EzPZGZ6ONAEUtl07aIzK1zZk3pSUvtZtr2d1awlalty8lcXDFV+rlGQNKn00mbePlCa/GjlCxwfmlMkGCgeEmP5/kp0e+55N91qXRcaUfB2BIIBS9QA1qsQhuHf1P5GX8YQbvpamLofyXeSP/5k+e2esFcWdrxvqN96lfcMnUZy0mLsH/PONHnGKFJ9Sl1aZBKg3H3vrFy2ss37/aF22EnGQt0VfqNq0QGc2+5Yc0GgHNLbKNu61ymfcf0VhiMSOGIpMln7sNDem3ejHazNEcILWHF3X24/+esOodRCoiILS/V12p4hbr8tjcKQAqScxSn72kNVw=",
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2OTkxMzg5MjA5OSwKICAicHJvZmlsZUlkIiA6ICI2NDQzZWVlOWYwMDc0MmZhYTAxMjA4ZjNmYjdkYTliMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJsb2phIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQwMDQxZWE2ZjQzNGJkYWJmNWRiN2U0N2UxN2VkMjZiYTY1ZjQ1MTRjNmY0OTA4YmMxODNjZWFmODIzOWEyYTYiCiAgICB9CiAgfQp9",
+    "signature": "jWxDZYPOgzae82T1rAaR5BKIQN8RCWPrJRGX7YZeblHt6OlIFiNq4bHbALmRT5V00k6rekOzMf6dUF24NvRfI9AOmVzIh5uaOVZPo7kF/RoHc07sN68NC/vABtPB63cMyeKzjFl0T6cEFwPuAXlNlbv+lnJJFP8E3nxI14Uuk3F1j1TvkTXgT/A1NXqbWGiI0+UjWR2PPqc4y/nkppPEwYBB+CqG+l75xSONyI6zVKKbt8W1ekIFimTIRAShW67tJdFggQgF5ec4Jn3XItdyIlsXEV3OjAdVRVK7sFhSPc2jzD8Cc99CluZj6+BSIl28siP3kYhcaGrJybUCdnLNEDA5CtQ/UcgnPfuXavPvs3DBmpqdD1epRxSW6wiQbu511j//qsAgT/OEe84/eKeJ4iUxRdyPlnNofB/pUUAL4Hzc4UGETG8O/bHHc41nzMI2+fpQaAkbXelAPOw2hRrQZUimiSrLFFfsDlsnkGkVwW1kZrc/lwOBKpXr2zN2hXIQZNWGcEMUYaY2FHHFTqSjKI1VlsOYqt1DgCOKaY/toaPRkt+vx2VGn+KHPU7DcUI52FAZ/QWlM8Wb4VUmKNfA5CtLWgbXW4viNhTmxbTyRixLDyPoAN/mKSlglkdQXXxpLF4krExEPHQ7NZB8K43oEzE9NKuH68JoAQex3RQj7fA=",
     "location": {
       "world": "spawn",
       "x": -55.5,
@@ -230,12 +230,23 @@
     },
     "npcType": "PLAYER",
     "hologramLines": [
-      "LOJA"
+      "&dClique-para-abrir",
+      "do-servidor",
+      "Loja-de-itens",
+      "☀-&d&lLOJA-&r☀"
     ],
-    "clickActions": [],
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "warp loja",
+        "delay": 0
+      }
+    ],
     "npcEquip": {},
     "npcFunctions": {
-      "holo": true
+      "holo": true,
+      "look": true
     },
     "customizationMap": {}
   },
@@ -278,20 +289,31 @@
     },
     "npcType": "PLAYER",
     "hologramLines": [
-      "TELEPORTE"
+      "&aClique-para-abrir",
+      "do-mapa",
+      "Vá-para-um-local-aleatório",
+      "☃-&a&lEXPLORADOR&r-☃"
     ],
-    "clickActions": [],
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "rtp",
+        "delay": 0
+      }
+    ],
     "npcEquip": {},
     "npcFunctions": {
-      "holo": true
+      "holo": true,
+      "look": true
     },
     "customizationMap": {}
   },
   {
     "id": 13,
     "hologramHeight": 0.0,
-    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY4ODE3MTQwNzg4OSwKICAicHJvZmlsZUlkIiA6ICI2ZmE5ZjE0Yjc4ZGU0ZTZmYTU0N2QwMzhiNDMyOTE1MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWNvbXBlbnNhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JlNzI5ZWIxNTQ3ZjMxYTVhODkwOWMxYjYzMzQ0MjhjZDc4ZDY5MTZiY2E4NjUzNmQxZWI3MjBmNDdlM2RiYjkiCiAgICB9CiAgfQp9",
-    "signature": "rQzDBpcKPSUN+8MSyYqOgcf6mI/fkFBXQD3g51MpLwtGYb9GISijaM4twwc9C1ZOTBxQ6dNoLWRVsZliGtXRsKHsO+mocV7zd2ED6HSglNASstPcljYBOWOnjA2kOEaMvbWVHE0Rz00N0TE0dxcIeD3JMVJjsTjtnrMV25h9a+7PvIPw2iTKSyveo3yxWHQnAcYmV9nm2TrYoiDwlWtA5dwrMySmJPYrv2ZTk+yhRPURmLpTZVyaEEGeA9aI3rm5YLzANJnMzgtgBKwQa44b4u7VnJoS7wMKifKirAEbLBtAGHV/A2zuNI8FMfxJNCYHQTxeXI81q3FC8hW2kcEKBPL+8kDIDaNsF279Uu0/yqzAvSnag9xSIcJobvZGLBHMDBYOZ9V2R4g/GdcOEBbhQabSwFKK2SfNXvghNZv2aXNXfl0J7CmeqvdtpZz51tZBg93MMJkO7G2wWaasyQiTlh2SncMnD+ddTpcuP7C4bKUkfe+R4nuSabCZ7wfDuk35DjWo8vLpotqNBOLvtavfRiDN3HzxLn0ecFiZCg3F+1GD9e3QeSChYykjlthq0LgJrNMK8oLBgAWiRPAgMPWHtYUjwJUXNPwnw5VAloamVi73/cmzVKDS+0y+PBYOkP+mJrAcmV1jXtchaZxO5z4UIq7J+LKDT8S3gr/yasAujrk=",
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2OTU4NDA2MDk3NCwKICAicHJvZmlsZUlkIiA6ICIyOTZmYzYxOGM2YzE0MjBkOTRiZGJkNjBmZDRlMDc4OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJLYWthIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZlZDg4NGFkNmFiN2YyOGVjYjdhNTE3NDliNWZlZmYwM2U5MmExZDI1MWMyM2Y2ZTc1NWI5NTAwOGI4YjMzMjIiCiAgICB9CiAgfQp9",
+    "signature": "CE0U9j7c84KTyOKbLSL104wjSsFjEQhWBMKUGZC8Js6A91TVoV1J6X/lbz0c5VtcX61Os8lqw3U+SrpV297WKY79CUZLQGM+BIP7nKUKUfscko5MqtdibAtXpaguoed+0WRb72o2hm2MKPUMlnmCBwiMMbTus0xWUf23OVWJYR458ipql4qrdm+hX2yLPX4YcCBphwuDDZ3NSCFd7TgzHgdCXcKqsSkG8YXxMYkkgteEBS94071QuzzTbYdIrJvZetihFLOJCXvMaRKlNdM222FTVtlMofFmNXeYmWBi5ObcOjOegzJF2rAojWn1dIHy9EpkWGYvVMOUjDgRP5hV4Olo/moU32PD1qFyyU+H3bPapJMTigbeWelPiClvzqrBNYG6Kp08ylsAaie/c9jOMDxlfaXgg3WH+Jbv/MQCTZ3EG7NVX19xNJmqil/nj4fGpexRAmcgHAuxgmRc/UFPCgQDkOULW5llzo2eelEtKUvyAYqjFWMRVBNULNx+LQsVZbkGl9d7EO0M6yOFbIocIL+5mBHJwrmY9hh9rObLrj9BWT7AP616yZ6wYZNzSmC7h2ESRyAR3HjxyX7OdTje7idlcb1bms88uzaiKzMfOE9v9AjI7ce2pGYc9auC7LwkHjny6rvHt6GVtABtWW/gYwE3iV6819W2svs9d/Czi5Q=",
     "location": {
       "world": "spawn",
       "x": -46.5,
@@ -302,12 +324,23 @@
     },
     "npcType": "PLAYER",
     "hologramLines": [
-      "RECOMPENSA"
+      "&bClique-para-abrir",
+      "uma-nova-recompensa-",
+      "Colete-todos-os-dias",
+      "⌛-&b&lPREMIO-DIÁRIO-&f⌛"
     ],
-    "clickActions": [],
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "rewards",
+        "delay": 0
+      }
+    ],
     "npcEquip": {},
     "npcFunctions": {
-      "holo": true
+      "holo": true,
+      "look": true
     },
     "customizationMap": {}
   },
