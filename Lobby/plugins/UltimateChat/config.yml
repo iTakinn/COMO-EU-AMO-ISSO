@@ -162,11 +162,9 @@ general:
         force: false
       world_nether:
         channel: 'l'
-        # Force player to join this channel on change world?
         force: false
       world_the_end:
         channel: 'l'
-        # Force player to join this channel on change world?
         force: false
       spawn:
         channel: 'l'
