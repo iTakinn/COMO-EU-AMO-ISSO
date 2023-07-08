@@ -1,0 +1,105 @@
+[21:57:25] [ServerMain/INFO]: [io.papermc.paper.plugin.provider.source.SparkProviderSource] Purpur: Using user-provided spark plugin instead of our own.
+[21:57:29] [ServerMain/INFO]: Building unoptimized datafixer
+[21:57:31] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:57:35] [ServerMain/INFO]: Loaded 7 recipes
+[21:57:36] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[21:57:36] [Server thread/INFO]: Loading properties
+[21:57:36] [Server thread/INFO]: This server is running Purpur version git-Purpur-1933 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: 72b7579 on HEAD)
+[21:57:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:57:36] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:57:37] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 6 worker threads, and gen parallelism of 6 threads
+[21:57:38] [Server thread/WARN]: [Pufferfish] SIMD operations are available for your server, but are not configured!
+[21:57:38] [Server thread/WARN]: [Pufferfish] To enable additional optimizations, add "--add-modules=jdk.incubator.vector" to your startup flags, BEFORE the "-jar".
+[21:57:38] [Server thread/WARN]: [Pufferfish] If you have already added this flag, then SIMD operations are not supported on your JVM or CPU.
+[21:57:38] [Server thread/WARN]: [Pufferfish] Debug: Java: 17.0.7, test run: true
+[21:57:38] [Server thread/INFO]: Default game type: SURVIVAL
+[21:57:38] [Server thread/INFO]: Generating keypair
+[21:57:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:57:38] [Server thread/INFO]: Using default channel type
+[21:57:38] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[21:57:38] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[21:57:40] [Server thread/INFO]: [eco] Initializing eco
+[21:57:40] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_19_R2.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[21:57:40] [Server thread/WARN]: java.lang.Exception
+[21:57:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R2.legacy.CraftLegacy.<clinit>(CraftLegacy.java:262)
+[21:57:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R2.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:388)
+[21:57:40] [Server thread/WARN]: 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:119)
+[21:57:40] [Server thread/WARN]: 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35)
+[21:57:40] [Server thread/WARN]: 	at io.papermc.paper.plugin.entrypoint.strategy.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:150)
+[21:57:40] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:35)
+[21:57:40] [Server thread/WARN]: 	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36)
+[21:57:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.loadPlugins(CraftServer.java:442)
+[21:57:40] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:309)
+[21:57:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1117)
+[21:57:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[21:57:40] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[21:57:47] [Server thread/WARN]: Legacy plugin VoidWorld v1.0 does not specify an api-version.
+[21:57:47] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Initializing Terra...
+[21:57:47] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config.yml
+[21:57:47] [Server thread/INFO]: [com.dfsek.terra.config.PluginConfigImpl] Loading config values from config.yml
+[21:57:48] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading 32 Terra addons:
+        - biome-provider-extrusion@1.0.0-BETA+8fff27fdd
+        - biome-provider-image@1.0.0-BETA+8fff27fdd
+        - biome-provider-pipeline@1.0.1-BETA+8fff27fdd
+        - biome-provider-pipeline-v2@1.0.0-BETA+8fff27fdd
+        - biome-provider-single@1.0.0-BETA+8fff27fdd
+        - biome-query-api@1.0.0-BETA+8fff27fdd
+        - chunk-generator-noise-3d@1.1.0-BETA+8fff27fdd
+        - command-addons@1.0.0-BETA+8fff27fdd
+        - command-packs@1.0.0-BETA+8fff27fdd
+        - command-profiler@1.0.0-BETA+8fff27fdd
+        - command-structures@1.0.0-BETA+8fff27fdd
+        - config-biome@1.0.0-BETA+8fff27fdd
+        - config-distributors@1.0.0-BETA+8fff27fdd
+        - config-feature@1.0.0-BETA+8fff27fdd
+        - config-flora@1.0.0-BETA+8fff27fdd
+        - config-locators@1.1.0-BETA+8fff27fdd
+        - config-noise-function@1.0.0-BETA+8fff27fdd
+        - config-ore@1.0.0-BETA+8fff27fdd
+        - config-palette@1.0.0-BETA+8fff27fdd
+        - config-structure@1.0.0-BETA+8fff27fdd
+        - generation-stage-feature@1.1.0-BETA+8fff27fdd
+        - generation-stage-structure@1.0.0-BETA+8fff27fdd
+        - language-yaml@1.0.0-BETA+8fff27fdd
+        - palette-block-shortcut@1.0.0-BETA+8fff27fdd
+        - structure-block-shortcut@1.0.0-BETA+8fff27fdd
+        - structure-function-check-noise-3d@1.0.0-BETA+8fff27fdd
+        - structure-mutator@0.1.0-BETA+8fff27fdd
+        - structure-sponge-loader@1.0.0-BETA+8fff27fdd
+        - structure-terrascript-loader@1.1.0-BETA+8fff27fdd
+        - terra@1.0.0
+        - terra-bukkit@1.0.0
+        - terrascript-function-sampler@1.0.0-BETA+8fff27fdd
+[21:57:48] [Server thread/WARN]: [com.dfsek.terra.addons.biome.pipeline.BiomePipelineAddon] The biome-provider-pipeline addon is deprecated and scheduled for removal in Terra 7.0. It is recommended to use the biome-provider-pipeline-v2 addon for future pack development instead.
+[21:57:48] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Terra addons successfully loaded.
+[21:57:48] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Finished initialization.
+[21:57:48] [AWT-EventQueue-0/WARN]: java.lang.Throwable: Server stopped
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at net.minecraft.server.MinecraftServer.safeShutdown(MinecraftServer.java:1040)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at net.minecraft.server.MinecraftServer.halt(MinecraftServer.java:1033)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at net.minecraft.server.gui.MinecraftServerGui$1.windowClosing(MinecraftServerGui.java:75)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.Window.processWindowEvent(Window.java:2085)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at java.desktop/javax.swing.JFrame.processWindowEvent(JFrame.java:298)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.Window.processEvent(Window.java:2044)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+[21:57:48] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+[21:57:49] [Server thread/INFO]: [EcoPets] Initializing EcoPets
