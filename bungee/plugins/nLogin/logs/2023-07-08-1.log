@@ -1,0 +1,36 @@
+[07/08/2023 11:16:55]:           __             _       
+[07/08/2023 11:16:55]:   _ __   / /  ___   __ _(_)_ __  
+[07/08/2023 11:16:55]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[07/08/2023 11:16:55]:  | | | / /__| (_) | (_| | | | | |
+[07/08/2023 11:16:55]:  |_| |_\____/\___/ \__, |_|_| |_|
+[07/08/2023 11:16:55]:                   |___/            
+[07/08/2023 11:16:55]:  By: www.nickuc.com - V 10.1.16
+[07/08/2023 11:16:55]: 
+[07/08/2023 11:16:55]: [nLogin] [DEBUG] The config.yml file was created successfully.
+[07/08/2023 11:16:55]: [nLogin] [DEBUG] The messages_br.yml message file was created successfully.
+[07/08/2023 11:16:55]: [nLogin] [DEBUG] The messages_en.yml message file was created successfully.
+[07/08/2023 11:16:55]: [nLogin] [DEBUG] The messages_es.yml message file was created successfully.
+[07/08/2023 11:16:55]: [nLogin] [DEBUG] The messages_pl.yml message file was created successfully.
+[07/08/2023 11:16:55]: [nLogin] [DEBUG] The messages_ru.yml message file was created successfully.
+[07/08/2023 11:16:55]: [nLogin] [DEBUG] The messages_fr.yml message file was created successfully.
+[07/08/2023 11:16:55]: [nLogin] [DEBUG] The messages_lt.yml message file was created successfully.
+[07/08/2023 11:16:55]: [nLogin] [DEBUG] The messages_de.yml message file was created successfully.
+[07/08/2023 11:16:55]: [nLogin] [DEBUG] The messages_tr.yml message file was created successfully.
+[07/08/2023 11:16:55]: [nLogin] [DEBUG] The messages_hu.yml message file was created successfully.
+[07/08/2023 11:16:55]: [nLogin] [DEBUG] The messages_cn.yml message file was created successfully.
+[07/08/2023 11:16:55]: [nLogin] [DEBUG] The messages_cz.yml message file was created successfully.
+[07/08/2023 11:16:55]: [nLogin] [DEBUG] The messages_ro.yml message file was created successfully.
+[07/08/2023 11:16:55]: [nLogin] [DEBUG] The messages_ua.yml message file was created successfully.
+[07/08/2023 11:16:55]: [nLogin] [DEBUG] The messages_id.yml message file was created successfully.
+[07/08/2023 11:16:56]: [nLogin] [DEBUG] All settings were loaded in 833 ms.
+[07/08/2023 11:16:56]: [nLogin] [DEBUG] Loading the messages_en.yml message file...
+[07/08/2023 11:16:56]: [nLogin] [DEBUG] All plugin messages were loaded in 59 ms (languageByClient=false).
+[07/08/2023 11:16:56]: [nLogin] [DEBUG] All proxy settings were loaded in 17 ms.
+[07/08/2023 11:16:56]: [nLogin] [DEBUG] Starting logger filter...
+[07/08/2023 11:16:56]: [nLogin] [DEBUG] Loading database...
+[07/08/2023 11:16:57]: [nLogin] nLogin was loaded in 2091ms.
+[07/08/2023 11:17:49]: [nLogin] Successful plugin core shutdown (took 0.00s)
+[07/08/2023 11:17:49]: [nLogin] 
+[07/08/2023 11:17:49]: [nLogin] Shutting down nLogin V 10.1.16...
+[07/08/2023 11:17:49]: [nLogin] 
+[07/08/2023 11:17:49]: [nLogin] nLogin was unloaded in 4ms.

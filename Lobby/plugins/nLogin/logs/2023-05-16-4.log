@@ -1,0 +1,16 @@
+[05/16/2023 19:50:07]:           __             _       
+[05/16/2023 19:50:07]:   _ __   / /  ___   __ _(_)_ __  
+[05/16/2023 19:50:07]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[05/16/2023 19:50:07]:  | | | / /__| (_) | (_| | | | | |
+[05/16/2023 19:50:07]:  |_| |_\____/\___/ \__, |_|_| |_|
+[05/16/2023 19:50:07]:                   |___/            
+[05/16/2023 19:50:07]:  By: www.nickuc.com - V 10.1.14
+[05/16/2023 19:50:07]: 
+[05/16/2023 19:50:07]: §3[nLogin] [DEBUG] Detecting hardware and software configurations...
+[05/16/2023 19:50:07]: §3[nLogin] [DEBUG] All settings were loaded in 138 ms.
+[05/16/2023 19:50:07]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[05/16/2023 19:50:07]: §3[nLogin] [DEBUG] All plugin messages were loaded in 60 ms (languageByClient=false).
+[05/16/2023 19:50:07]: §3[nLogin] [DEBUG] All proxy settings were loaded in 2 ms.
+[05/16/2023 19:50:07]: §3[nLogin] [DEBUG] Starting logger filter...
+[05/16/2023 19:50:07]: §3[nLogin] [DEBUG] Loading database...
+[05/16/2023 19:50:08]: [nLogin] nLogin was loaded in 1204ms.

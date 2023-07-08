@@ -40,7 +40,12 @@ eches:
   alias: /ender
   permission-required: false
   register: true
-
+bungeecord_example:
+  command: /lobby
+  type: BUNGEE_TP
+  server_name: lobby
+  register: true
+  permission-required: false
 lixo:
   command: /lixo
   type: ALIAS

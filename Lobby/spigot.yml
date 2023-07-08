@@ -17,7 +17,7 @@ settings:
   restart-script: ./start.sh
   save-user-cache-on-stop-only: false
   sample-count: 12
-  bungeecord: false
+  bungeecord: true
   moved-too-quickly-multiplier: 10.0
   moved-wrongly-threshold: 0.0625
   player-shuffle: 0
@@ -152,6 +152,8 @@ world-settings:
     zombie-aggressive-towards-villager: true
     enable-zombie-pigmen-portal-spawns: true
     end-portal-sound-radius: 0
+    verbose: false
+  worldeditregentempworld:
     verbose: false
 commands:
   silent-commandblock-console: false

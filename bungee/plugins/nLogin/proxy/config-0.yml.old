@@ -1,0 +1,54 @@
+####################################################################################################
+# +----------------------------------------------------------------------------------------------+ #
+# |                                          __             _                                    | #
+# |                                 _ __   / /  ___   __ _(_)_ __                                | #
+# |                                | '_ \ / /  / _ \ / _` | | '_ \                               | #
+# |                                | | | / /__| (_) | (_| | | | | |                              | #
+# |                                |_| |_\____/\___/ \__, |_|_| |_|                              | #
+# |                                                    |___/                                     | #
+# |                                                                                              | #
+# |                      A practical, secure and friendly authentication plugin                  | #
+# |                                                                                              | #
+# |                                © 2022 - Powered by nickuc.com                                | #
+# |                                                                                              | #
+# |                                                                                              | #
+# |  New options are not automatically added in this file. Default values are used               | #
+# |  if an option is not found.                                                                  | #
+# +----------------------------------------------------------------------------------------------+ #
+####################################################################################################
+
+# Set the version of the file.
+file-version: 2
+
+# Defines whether the redirection system should be overwritten by nLogin.
+# - This option prevents unauthenticated players from bypassing the authentication server.
+override-redirect: true
+
+# Defines whether the proxy should check if authentication servers are properly configured.
+# - If you are using a server without nLogin (e.g. limbo servers not based on Spigot)
+#   it is recommended to disable this option.
+check-ack-message: true
+
+# Sets the list of authentication servers.
+# - You must enter this list ALL servers that nLogin is installed on.
+# - Most servers use either an authentication server or a main lobby.
+# - For more information, go to the tutorial:
+#  ==> https://docs.nickuc.com/bungeeguard
+authentication-servers:
+  - 'lobby'
+
+server-redirect:
+  # Defines whether players should be automatically forwarded to other servers when they login.
+  enabled: false
+
+  # Defines which servers the players should be forwarded to.
+  # - When entering more than one item, the server will be chosen randomly.
+  redirect-servers:
+    - "lobby1"
+    - "lobby2"
+
+  # Sets the waiting time when switching the server.
+  switch-delay: 10
+
+  # Sets the time (in seconds) to reconnect to the server when the connection fails.
+  retry-after: 5

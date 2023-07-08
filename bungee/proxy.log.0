@@ -220,3 +220,1195 @@
 21:57:18 [INFO] Enabled plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
 21:57:18 [INFO] Enabled plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
 21:57:18 [INFO] Listening on /0.0.0.0:25577
+10:32:53 [INFO] Using standard Java JCE cipher.
+10:32:53 [INFO] Using standard Java compressor.
+10:32:53 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.20-R0.1-SNAPSHOT:9f5ace9:1718
+10:32:54 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+10:32:54 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+10:32:54 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+10:32:54 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+10:32:54 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+10:32:54 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+10:32:54 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:32:54 [INFO] Loaded plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:32:54 [INFO] Loaded plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:32:54 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:32:54 [INFO] Loaded plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:32:54 [INFO] Loaded plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:32:54 [WARNING] Forced host server pvp is not defined
+10:32:54 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:32:54 [INFO] Enabled plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:32:54 [INFO] Enabled plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:32:54 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:32:54 [INFO] Enabled plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:32:54 [INFO] Enabled plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:32:54 [INFO] Listening on /0.0.0.0:25577
+10:54:27 [INFO] Using standard Java JCE cipher.
+10:54:27 [INFO] Using standard Java compressor.
+10:54:27 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.20-R0.1-SNAPSHOT:9f5ace9:1718
+10:54:28 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+10:54:28 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+10:54:28 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+10:54:28 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+10:54:28 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+10:54:28 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+10:54:28 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:54:28 [INFO] Loaded plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:54:28 [INFO] Loaded plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:54:28 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:54:28 [INFO] Loaded plugin BungeeGuard version 1.4.1 by Luck
+10:54:28 [INFO] Loaded plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:54:28 [INFO] Loaded plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:54:28 [WARNING] Forced host server pvp is not defined
+10:54:28 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:54:28 [INFO] Enabled plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:54:28 [INFO] Enabled plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:54:28 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:54:28 [INFO] Enabled plugin BungeeGuard version 1.4.1 by Luck
+10:54:28 [INFO] Enabled plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:54:28 [INFO] Enabled plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:54:28 [INFO] Listening on /0.0.0.0:25577
+10:58:19 [INFO] Using standard Java JCE cipher.
+10:58:19 [INFO] Using standard Java compressor.
+10:58:19 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.20-R0.1-SNAPSHOT:9f5ace9:1718
+10:58:19 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+10:58:19 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+10:58:19 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+10:58:19 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+10:58:19 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+10:58:19 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+10:58:19 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:58:19 [INFO] Loaded plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:58:19 [INFO] Loaded plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:58:19 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:58:19 [INFO] Loaded plugin BungeeGuard version 1.4.1 by Luck
+10:58:19 [INFO] Loaded plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:58:19 [INFO] Loaded plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:58:19 [WARNING] Forced host server pvp is not defined
+10:58:19 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:58:19 [INFO] Enabled plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:58:19 [INFO] Enabled plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:58:19 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:58:19 [INFO] Enabled plugin BungeeGuard version 1.4.1 by Luck
+10:58:19 [INFO] Enabled plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:58:19 [INFO] Enabled plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+10:58:19 [INFO] Listening on /0.0.0.0:25577
+11:02:49 [INFO] Using standard Java JCE cipher.
+11:02:49 [INFO] Using standard Java compressor.
+11:02:49 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.20-R0.1-SNAPSHOT:9f5ace9:1718
+11:02:49 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+11:02:49 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+11:02:49 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+11:02:49 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+11:02:49 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+11:02:49 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+11:02:49 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:02:49 [INFO] Loaded plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:02:49 [INFO] Loaded plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:02:49 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:02:49 [INFO] Loaded plugin BungeeGuard version 1.4.1 by Luck
+11:02:49 [INFO] Loaded plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:02:49 [INFO] Loaded plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:02:49 [WARNING] Forced host server pvp is not defined
+11:02:49 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:02:49 [INFO] Enabled plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:02:49 [INFO] Enabled plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:02:49 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:03:10 [INFO] Using standard Java JCE cipher.
+11:03:10 [INFO] Using standard Java compressor.
+11:03:10 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.20-R0.1-SNAPSHOT:9f5ace9:1718
+11:03:11 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+11:03:11 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+11:03:11 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+11:03:11 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+11:03:11 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+11:03:11 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+11:03:11 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:03:11 [INFO] Loaded plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:03:11 [INFO] Loaded plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+11:03:11 [INFO] Loaded plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:03:11 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:03:11 [INFO] Loaded plugin BungeeGuard version 1.4.1 by Luck
+11:03:11 [INFO] Loaded plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:03:11 [INFO] Loaded plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:03:11 [WARNING] Forced host server pvp is not defined
+11:03:11 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:03:11 [INFO] Enabled plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:03:11 [INFO] Enabled plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+11:03:11 [INFO] Enabled plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:03:11 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:03:11 [INFO] Enabled plugin BungeeGuard version 1.4.1 by Luck
+11:03:11 [INFO] Enabled plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:03:11 [INFO] Enabled plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:03:11 [INFO] Listening on /0.0.0.0:25577
+11:03:11 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+11:03:11 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+11:03:11 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+11:03:11 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+11:03:11 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+11:03:11 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.12[0;39m
+11:03:11 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+11:03:11 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+11:03:22 [INFO] Using standard Java JCE cipher.
+11:03:22 [INFO] Using standard Java compressor.
+11:03:22 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.20-R0.1-SNAPSHOT:9f5ace9:1718
+11:03:22 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+11:03:22 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+11:03:22 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+11:03:22 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+11:03:22 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+11:03:22 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+11:03:22 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:03:22 [INFO] Loaded plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:03:22 [INFO] Loaded plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+11:03:22 [INFO] Loaded plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:03:22 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:03:22 [INFO] Loaded plugin BungeeGuard version 1.4.1 by Luck
+11:03:22 [INFO] Loaded plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:03:22 [INFO] Loaded plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:03:22 [WARNING] Forced host server pvp is not defined
+11:03:22 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:03:22 [INFO] Enabled plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:03:23 [INFO] Enabled plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+11:03:23 [INFO] Enabled plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:03:23 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:03:23 [INFO] Enabled plugin BungeeGuard version 1.4.1 by Luck
+11:03:23 [INFO] Enabled plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:03:23 [INFO] Enabled plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:03:23 [INFO] Listening on /0.0.0.0:25577
+11:03:23 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+11:03:23 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+11:03:23 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+11:03:23 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+11:03:23 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+11:03:23 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.12[0;39m
+11:03:23 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+11:03:23 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+11:06:28 [INFO] [/127.0.0.1:57236] <-> InitialHandler has pinged
+11:06:29 [INFO] [/127.0.0.1:57237] <-> InitialHandler has connected
+11:07:12 [INFO] Using standard Java JCE cipher.
+11:07:12 [INFO] Using standard Java compressor.
+11:07:12 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.20-R0.1-SNAPSHOT:9f5ace9:1718
+11:07:12 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+11:07:12 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+11:07:12 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+11:07:12 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+11:07:12 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+11:07:12 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+11:07:12 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:07:12 [INFO] Loaded plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:07:12 [INFO] Loaded plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+11:07:12 [INFO] Loaded plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:07:12 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:07:12 [INFO] Loaded plugin BungeeGuard version 1.4.1 by Luck
+11:07:12 [INFO] Loaded plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:07:12 [INFO] Loaded plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:07:12 [WARNING] Forced host server pvp is not defined
+11:07:12 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:07:12 [INFO] Enabled plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:07:13 [INFO] Enabled plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+11:07:13 [INFO] Enabled plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:07:13 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:07:13 [INFO] Enabled plugin BungeeGuard version 1.4.1 by Luck
+11:07:13 [INFO] Enabled plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:07:13 [INFO] Enabled plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:07:13 [INFO] Listening on /0.0.0.0:25577
+11:07:13 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+11:07:13 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+11:07:13 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+11:07:13 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+11:07:13 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+11:07:13 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.12[0;39m
+11:07:13 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+11:07:13 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+11:09:10 [INFO] [/127.0.0.1:57297] <-> InitialHandler has connected
+11:09:13 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+11:09:13 [INFO] [iTakinn] disconnected with: §cKicked whilst connecting to lobby: §fOutdated client! Please use 1.19.3
+11:09:13 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+11:09:13 [INFO] [iTakinn] <-> ServerConnector [lobby] has disconnected
+11:12:47 [INFO] [/127.0.0.1:57351] <-> InitialHandler has pinged
+11:12:57 [INFO] [/127.0.0.1:57374] <-> InitialHandler has pinged
+11:13:03 [INFO] [/127.0.0.1:57379] <-> InitialHandler has connected
+11:13:03 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+11:13:03 [INFO] [iTakinn] disconnected with: §cKicked whilst connecting to lobby: §f
+
+§aWelcome, §fiTakinn§a!
+§f
+§aTo set up nLogin on the proxy server, you need to
+§aset up the secret keys for encryption.
+§f
+§6Please access the tutorial link below
+§bdocs.nickuc.com/nlogin-proxy§b
+11:13:03 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+11:13:03 [INFO] [iTakinn] <-> ServerConnector [lobby] has disconnected
+11:14:11 [INFO] Using standard Java JCE cipher.
+11:14:11 [INFO] Using standard Java compressor.
+11:14:11 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.20-R0.1-SNAPSHOT:9f5ace9:1718
+11:14:12 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+11:14:12 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+11:14:12 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+11:14:12 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+11:14:12 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+11:14:12 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+11:14:12 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:14:12 [INFO] [nLogin] §bDownloading required dependencies (using 16 cores)
+11:14:47 [INFO] [nLogin] §bRelocating dependencies (using 16 cores)
+11:14:49 [SEVERE] Exception in thread "nLogin Dependency Resolver #0" 
+11:14:49 [SEVERE] java.lang.RuntimeException: Could not relocate the dependency HikariCP v4.0.3
+
+11:14:49 [SEVERE] 	at com.nickuc.login.?????????????.a(:282)
+
+11:14:49 [SEVERE] 	at com.nickuc.login.??????????????.a(:301)
+
+11:14:49 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+
+11:14:49 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+
+11:14:49 [SEVERE] 	at java.base/java.lang.Thread.run(Thread.java:833)
+
+11:14:49 [SEVERE] Caused by: java.lang.reflect.InvocationTargetException
+
+11:14:49 [SEVERE] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+11:14:49 [SEVERE] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+
+11:14:49 [SEVERE] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+11:14:49 [SEVERE] 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+11:14:49 [SEVERE] 	at com.nickuc.login.??????????????.a(:79)
+
+11:14:49 [SEVERE] 	at com.nickuc.login.?????????????.a(:280)
+
+11:14:49 [SEVERE] 	... 4 more
+
+11:14:49 [SEVERE] Caused by: java.util.zip.ZipException: zip END header not found
+
+11:14:49 [SEVERE] 	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1469)
+
+11:14:49 [SEVERE] 	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1477)
+
+11:14:49 [SEVERE] 	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1315)
+
+11:14:49 [SEVERE] 	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1277)
+
+11:14:49 [SEVERE] 	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:709)
+
+11:14:49 [SEVERE] 	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:243)
+
+11:14:49 [SEVERE] 	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:172)
+
+11:14:49 [SEVERE] 	at java.base/java.util.jar.JarFile.<init>(JarFile.java:347)
+
+11:14:49 [SEVERE] 	at java.base/java.util.jar.JarFile.<init>(JarFile.java:318)
+
+11:14:49 [SEVERE] 	at java.base/java.util.jar.JarFile.<init>(JarFile.java:284)
+
+11:14:49 [SEVERE] 	at me.lucko.jarrelocator.JarRelocator.run(JarRelocator.java:87)
+
+11:14:49 [SEVERE] 	... 10 more
+
+11:14:52 [SEVERE] [nLogin] Could not enable the dependency HikariCP v4.0.3.
+java.lang.ClassNotFoundException: com.nickuc.login.lib.hikari.HikariConfig
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+	at com.nickuc.login.loader.MemClassLoader.findClass(MemClassLoader.java:50)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:587)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:375)
+	at com.nickuc.login.?????????????.a(:347)
+	at com.nickuc.login.?????????????.a(:211)
+	at com.nickuc.login.??????????????.a(:336)
+	at com.nickuc.login.?????????????.a(:108)
+	at com.nickuc.login.?????????????.ak(:124)
+	at com.nickuc.login.????????.load(:69)
+	at com.nickuc.login.loader.platform.BungeeLoader.onLoad(BungeeLoader.java:25)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:345)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:281)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+11:14:52 [SEVERE] [nLogin] Could not delete dependency HikariCP v4.0.3: insufficient permissions?
+11:14:52 [SEVERE] [nLogin] 
+11:14:52 [SEVERE] [nLogin] Dependencies could not be downloaded and enabled.
+11:14:52 [SEVERE] [nLogin] 
+11:14:52 [SEVERE] [nLogin] Please contact our team:
+11:14:52 [SEVERE] [nLogin]  Discord: §bwww.nickuc.com/discord
+11:14:52 [SEVERE] [nLogin]  Email: §fsupport@nickuc.com
+11:14:52 [SEVERE] [nLogin] 
+11:14:52 [SEVERE] [nLogin] Server will SHUTDOWN in 30 seconds.
+11:14:52 [SEVERE] [nLogin] 
+11:15:22 [INFO] Loaded plugin nLogin version 10.1.16 by NickUC
+11:15:22 [INFO] Loaded plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:15:22 [INFO] Loaded plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+11:15:22 [INFO] Loaded plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:15:22 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:15:22 [INFO] Loaded plugin BungeeGuard version 1.4.1 by Luck
+11:15:22 [INFO] Loaded plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:15:22 [INFO] Loaded plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:15:22 [WARNING] Forced host server pvp is not defined
+11:15:22 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:15:22 [INFO] Enabled plugin nLogin version 10.1.16 by NickUC
+11:15:22 [INFO] Enabled plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:15:23 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+11:15:23 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+11:15:23 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+11:15:23 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+11:15:23 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+11:15:23 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.12[0;39m
+11:15:23 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+11:15:23 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+11:15:23 [INFO] Enabled plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+11:15:23 [INFO] Enabled plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:15:23 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:15:23 [INFO] Enabled plugin BungeeGuard version 1.4.1 by Luck
+11:15:23 [INFO] Enabled plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:15:23 [INFO] Enabled plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:15:23 [INFO] Listening on /0.0.0.0:25577
+11:15:28 [INFO] §cCommand not found
+11:15:50 [INFO] Using standard Java JCE cipher.
+11:15:50 [INFO] Using standard Java compressor.
+11:15:50 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.20-R0.1-SNAPSHOT:9f5ace9:1718
+11:15:50 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+11:15:50 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+11:15:50 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+11:15:50 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+11:15:50 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+11:15:50 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+11:15:50 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:15:50 [SEVERE] [nLogin] Could not enable the dependency HikariCP v4.0.3.
+java.lang.ClassNotFoundException: com.nickuc.login.lib.hikari.HikariConfig
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+	at com.nickuc.login.loader.MemClassLoader.findClass(MemClassLoader.java:50)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:587)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:375)
+	at com.nickuc.login.?????????????.a(:347)
+	at com.nickuc.login.?????????????.a(:211)
+	at com.nickuc.login.??????????????.a(:336)
+	at com.nickuc.login.?????????????.a(:108)
+	at com.nickuc.login.?????????????.ak(:124)
+	at com.nickuc.login.????????.load(:69)
+	at com.nickuc.login.loader.platform.BungeeLoader.onLoad(BungeeLoader.java:25)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:345)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:281)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+11:15:51 [SEVERE] [nLogin] Could not delete dependency HikariCP v4.0.3: insufficient permissions?
+11:15:51 [SEVERE] [nLogin] 
+11:15:51 [SEVERE] [nLogin] Dependencies could not be downloaded and enabled.
+11:15:51 [SEVERE] [nLogin] 
+11:15:51 [SEVERE] [nLogin] Please contact our team:
+11:15:51 [SEVERE] [nLogin]  Discord: §bwww.nickuc.com/discord
+11:15:51 [SEVERE] [nLogin]  Email: §fsupport@nickuc.com
+11:15:51 [SEVERE] [nLogin] 
+11:15:51 [SEVERE] [nLogin] Server will SHUTDOWN in 30 seconds.
+11:15:51 [SEVERE] [nLogin] 
+11:16:52 [INFO] Using standard Java JCE cipher.
+11:16:52 [INFO] Using standard Java compressor.
+11:16:52 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.20-R0.1-SNAPSHOT:9f5ace9:1718
+11:16:53 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+11:16:53 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+11:16:53 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+11:16:53 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+11:16:53 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+11:16:53 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+11:16:53 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:16:53 [INFO] Loaded plugin nLogin version 10.1.16 by NickUC
+11:16:53 [INFO] Loaded plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:16:53 [INFO] Loaded plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+11:16:53 [INFO] Loaded plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:16:53 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:16:53 [INFO] Loaded plugin BungeeGuard version 1.4.1 by Luck
+11:16:53 [INFO] Loaded plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:16:53 [INFO] Loaded plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:16:53 [WARNING] Forced host server pvp is not defined
+11:16:53 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:16:55 [INFO] [nLogin] Successful plugin core start (took 1.26s)
+11:16:55 [INFO] §9          __             _       
+11:16:55 [INFO] §9  _ __   / /  ___   __ _(_)_ __  
+11:16:55 [INFO] §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+11:16:55 [INFO] §9 | | | / /__| (_) | (_| | | | | |
+11:16:55 [INFO] §9 |_| |_\____/\___/ \__, |_|_| |_|
+11:16:55 [INFO] §9                  |___/            
+11:16:55 [INFO] §9 By: §9www.nickuc.com§9 - V 10.1.16
+11:16:55 [INFO] §9
+11:16:57 [INFO] [nLogin] §enLogin was loaded in 2091ms.
+11:16:57 [INFO] Enabled plugin nLogin version 10.1.16 by NickUC
+11:16:57 [INFO] Enabled plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:16:57 [INFO] Enabled plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+11:16:57 [INFO] Enabled plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:16:57 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:16:57 [INFO] Enabled plugin BungeeGuard version 1.4.1 by Luck
+11:16:57 [INFO] Enabled plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:16:57 [INFO] Enabled plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:16:58 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+11:16:58 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+11:16:58 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+11:16:58 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+11:16:58 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+11:16:58 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.12[0;39m
+11:16:58 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+11:16:58 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+11:16:58 [INFO] Listening on /0.0.0.0:25577
+11:17:48 [INFO] Closing listener [id: 0x8f5798c6, L:/[0:0:0:0:0:0:0:0]:25577]
+11:17:48 [INFO] Closing pending connections
+11:17:48 [INFO] Disconnecting 0 connections
+11:17:49 [INFO] Saving reconnect locations
+11:17:49 [INFO] Disabling plugins
+11:17:49 [INFO] [nLogin] Successful plugin core shutdown (took 0.00s)
+11:17:49 [INFO] [nLogin] 
+11:17:49 [INFO] [nLogin] §cShutting down nLogin V 10.1.16...
+11:17:49 [INFO] [nLogin] 
+11:17:49 [INFO] [nLogin] §cnLogin was unloaded in 4ms.
+11:17:49 [INFO] Closing IO threads
+11:17:58 [INFO] Using standard Java JCE cipher.
+11:17:58 [INFO] Using standard Java compressor.
+11:17:58 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.20-R0.1-SNAPSHOT:9f5ace9:1718
+11:17:59 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+11:17:59 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+11:17:59 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+11:17:59 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+11:17:59 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+11:17:59 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+11:17:59 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:17:59 [INFO] Loaded plugin nLogin version 10.1.16 by NickUC
+11:17:59 [INFO] Loaded plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:17:59 [INFO] Loaded plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+11:17:59 [INFO] Loaded plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:17:59 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:17:59 [INFO] Loaded plugin BungeeGuard version 1.4.1 by Luck
+11:17:59 [INFO] Loaded plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:17:59 [INFO] Loaded plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:17:59 [WARNING] Forced host server pvp is not defined
+11:17:59 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:18:01 [INFO] [nLogin] Successful plugin core start (took 1.18s)
+11:18:01 [INFO] §9          __             _       
+11:18:01 [INFO] §9  _ __   / /  ___   __ _(_)_ __  
+11:18:01 [INFO] §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+11:18:01 [INFO] §9 | | | / /__| (_) | (_| | | | | |
+11:18:01 [INFO] §9 |_| |_\____/\___/ \__, |_|_| |_|
+11:18:01 [INFO] §9                  |___/            
+11:18:01 [INFO] §9 By: §9www.nickuc.com§9 - V 10.1.16
+11:18:01 [INFO] §9
+11:18:02 [INFO] [nLogin] §enLogin was loaded in 1099ms.
+11:18:02 [INFO] Enabled plugin nLogin version 10.1.16 by NickUC
+11:18:02 [INFO] Enabled plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:18:02 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+11:18:02 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+11:18:02 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+11:18:02 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+11:18:02 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+11:18:02 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.12[0;39m
+11:18:02 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+11:18:02 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+11:18:02 [INFO] Enabled plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+11:18:02 [INFO] Enabled plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:18:02 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:18:02 [INFO] Enabled plugin BungeeGuard version 1.4.1 by Luck
+11:18:02 [INFO] Enabled plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:18:02 [INFO] Enabled plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:18:03 [INFO] Listening on /0.0.0.0:25577
+11:19:48 [INFO] [/127.0.0.1:57628] <-> InitialHandler has pinged
+11:19:49 [INFO] [/127.0.0.1:57630] <-> InitialHandler has connected
+11:19:49 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+11:20:24 [WARNING] [iTakinn] -> UpstreamBridge - read timed out
+11:20:24 [INFO] [iTakinn] disconnected with: §fReadTimeoutException : null
+11:20:24 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+11:20:24 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+11:21:54 [INFO] [/127.0.0.1:57704] <-> InitialHandler has pinged
+11:21:54 [INFO] [/127.0.0.1:57706] <-> InitialHandler has pinged
+11:21:57 [INFO] [/127.0.0.1:57711] <-> InitialHandler has pinged
+11:21:58 [INFO] [iTakinn,/127.0.0.1:57714] <-> InitialHandler has connected
+11:21:58 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+11:22:12 [INFO] [nLogin] The user iTakinn has successfully registered.
+11:24:53 [INFO] [iTakinn] disconnected with: §fServer closed
+11:24:53 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+11:24:53 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+11:24:55 [INFO] [/127.0.0.1:57786] <-> InitialHandler has pinged
+11:24:57 [INFO] [/127.0.0.1:57789] <-> InitialHandler has pinged
+11:25:03 [INFO] [/127.0.0.1:57797] <-> InitialHandler has pinged
+11:25:05 [INFO] [/127.0.0.1:57799] <-> InitialHandler has pinged
+11:25:06 [INFO] [iTakinn,/127.0.0.1:57803] <-> InitialHandler has connected
+11:25:07 [INFO] [iTakinn] disconnected with: §cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? AnnotatedConnectException : Connection refused: no further information: localhost/127.0.0.1:25566
+11:25:07 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+11:25:50 [INFO] [/127.0.0.1:57811] <-> InitialHandler has pinged
+11:25:50 [INFO] [/127.0.0.1:57813] <-> InitialHandler has pinged
+11:25:51 [INFO] [/127.0.0.1:57816] <-> InitialHandler has pinged
+11:26:01 [INFO] [/127.0.0.1:57823] <-> InitialHandler has pinged
+11:26:01 [INFO] [/127.0.0.1:57826] <-> InitialHandler has pinged
+11:26:07 [INFO] [/127.0.0.1:57833] <-> InitialHandler has pinged
+11:26:07 [INFO] [/127.0.0.1:57837] <-> InitialHandler has pinged
+11:26:09 [INFO] [/127.0.0.1:57839] <-> InitialHandler has pinged
+11:26:14 [INFO] [/127.0.0.1:57847] <-> InitialHandler has pinged
+11:26:15 [INFO] [/127.0.0.1:57850] <-> InitialHandler has pinged
+11:26:16 [INFO] [/127.0.0.1:57853] <-> InitialHandler has pinged
+11:26:17 [INFO] [iTakinn,/127.0.0.1:57856] <-> InitialHandler has connected
+11:26:17 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+11:26:20 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+11:26:24 [WARNING] No client connected for pending server!
+11:26:24 [INFO] [iTakinn] <-> ServerConnector [lobby] has disconnected
+11:26:47 [INFO] [/127.0.0.1:57873] <-> InitialHandler has pinged
+11:26:48 [INFO] [iTakinn,/127.0.0.1:57876] <-> InitialHandler has connected
+11:26:48 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+11:26:58 [INFO] [nLogin] The user iTakinn has successfully logged in.
+11:28:13 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+11:28:13 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+11:29:11 [INFO] [/127.0.0.1:57919] <-> InitialHandler has pinged
+11:29:12 [INFO] [iTakinn,/127.0.0.1:57924] <-> InitialHandler has connected
+11:29:12 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+11:29:18 [INFO] [nLogin] The user iTakinn has successfully logged in.
+11:58:04 [INFO] [iTakinn] disconnected with: §fServer closed
+11:58:04 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+11:58:04 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+11:58:44 [INFO] [/127.0.0.1:58783] <-> InitialHandler has pinged
+11:59:13 [INFO] [/127.0.0.1:58798] <-> InitialHandler has pinged
+11:59:15 [INFO] [iTakinn,/127.0.0.1:58804] <-> InitialHandler has connected
+11:59:16 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+11:59:31 [INFO] [nLogin] The user iTakinn has successfully logged in.
+12:01:59 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+12:01:59 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+12:02:55 [INFO] [/127.0.0.1:58832] <-> InitialHandler has pinged
+12:03:19 [INFO] [/127.0.0.1:58846] <-> InitialHandler has pinged
+12:03:46 [INFO] [/127.0.0.1:58854] <-> InitialHandler has pinged
+12:03:47 [INFO] [iTakinn,/127.0.0.1:58860] <-> InitialHandler has connected
+12:03:47 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+12:03:50 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+12:03:52 [INFO] [/127.0.0.1:58863] <-> InitialHandler has pinged
+12:03:52 [INFO] [/127.0.0.1:58865] <-> InitialHandler has pinged
+12:04:01 [INFO] [/127.0.0.1:58873] <-> InitialHandler has pinged
+12:04:03 [INFO] [/127.0.0.1:58876] <-> InitialHandler has pinged
+12:04:04 [INFO] [/127.0.0.1:58879] <-> InitialHandler has pinged
+12:04:17 [WARNING] [iTakinn] <-> ServerConnector [lobby] - read timed out
+12:04:17 [INFO] [iTakinn] <-> ServerConnector [lobby] has disconnected
+12:04:18 [INFO] [/127.0.0.1:58883] <-> InitialHandler has pinged
+12:04:20 [INFO] [/127.0.0.1:58886] <-> InitialHandler has pinged
+12:04:20 [INFO] [/127.0.0.1:58889] <-> InitialHandler has pinged
+12:04:37 [INFO] [/127.0.0.1:58906] <-> InitialHandler has pinged
+12:04:43 [INFO] [/127.0.0.1:58910] <-> InitialHandler has pinged
+12:04:44 [INFO] [iTakinn,/127.0.0.1:58913] <-> InitialHandler has connected
+12:04:44 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+12:04:54 [INFO] [nLogin] The user iTakinn has successfully logged in.
+12:07:18 [INFO] [iTakinn] disconnected with: §fServer closed
+12:07:18 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+12:07:18 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+12:08:49 [INFO] [/127.0.0.1:58979] <-> InitialHandler has pinged
+12:08:50 [INFO] [iTakinn,/127.0.0.1:58983] <-> InitialHandler has connected
+12:08:50 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+12:08:58 [INFO] [nLogin] The user iTakinn has successfully logged in.
+12:17:35 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+12:17:35 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+12:17:37 [INFO] [/127.0.0.1:59045] <-> InitialHandler has pinged
+12:18:14 [INFO] [/127.0.0.1:59065] <-> InitialHandler has pinged
+12:18:27 [INFO] [/127.0.0.1:59071] <-> InitialHandler has pinged
+12:19:30 [INFO] [/127.0.0.1:59095] <-> InitialHandler has pinged
+12:19:31 [INFO] [iTakinn,/127.0.0.1:59099] <-> InitialHandler has connected
+12:19:34 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+12:19:48 [INFO] [nLogin] The user iTakinn has successfully logged in.
+12:23:14 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+12:23:14 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+12:23:27 [INFO] [/127.0.0.1:59126] <-> InitialHandler has pinged
+12:24:10 [INFO] [/127.0.0.1:59134] <-> InitialHandler has pinged
+12:24:11 [INFO] [/127.0.0.1:59138] <-> InitialHandler has pinged
+12:24:11 [INFO] [/127.0.0.1:59142] <-> InitialHandler has pinged
+12:24:11 [INFO] [/127.0.0.1:59146] <-> InitialHandler has pinged
+12:24:11 [INFO] [/127.0.0.1:59149] <-> InitialHandler has pinged
+12:24:11 [INFO] [/127.0.0.1:59152] <-> InitialHandler has pinged
+12:24:12 [INFO] [/127.0.0.1:59155] <-> InitialHandler has pinged
+12:24:12 [INFO] [/127.0.0.1:59159] <-> InitialHandler has pinged
+12:24:25 [INFO] [/127.0.0.1:59167] <-> InitialHandler has pinged
+12:24:29 [INFO] [/127.0.0.1:59175] <-> InitialHandler has pinged
+12:24:30 [INFO] [iTakinn,/127.0.0.1:59179] <-> InitialHandler has connected
+12:24:30 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+12:24:39 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+12:24:40 [INFO] [/127.0.0.1:59189] <-> InitialHandler has pinged
+12:24:41 [INFO] [iTakinn,/127.0.0.1:59192] <-> InitialHandler has connected
+12:24:41 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+12:24:51 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+12:24:52 [INFO] [/127.0.0.1:59198] <-> InitialHandler has pinged
+12:24:52 [INFO] [/127.0.0.1:59200] <-> InitialHandler has pinged
+12:24:53 [INFO] [iTakinn,/127.0.0.1:59204] <-> InitialHandler has connected
+12:24:53 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+12:24:58 [WARNING] No client connected for pending server!
+12:24:58 [INFO] [iTakinn] <-> ServerConnector [lobby] has disconnected
+12:25:04 [INFO] [iTakinn] disconnected with: §4[nLogin] Error detected on proxy server setup:
+§f
+§cACK message not received from authentication server §f(lobby)§c.
+§f
+§cPlease make sure to install nLogin on the authentication server
+§cand set up the secret key correctly in §f`nLogin/secret.yml`§c.
+§f
+§eIn case of problems, follow the proxy server installation tutorial:
+§bhttps://docs.nickuc.com/nlogin-proxy§b
+12:25:04 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+12:25:04 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+12:25:04 [WARNING] No client connected for pending server!
+12:25:04 [INFO] [iTakinn] <-> ServerConnector [lobby] has disconnected
+12:25:11 [INFO] [/127.0.0.1:59219] <-> InitialHandler has pinged
+12:25:13 [INFO] [iTakinn,/127.0.0.1:59222] <-> InitialHandler has connected
+12:25:13 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+12:25:19 [INFO] [nLogin] The user iTakinn has successfully logged in.
+12:43:41 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+12:43:41 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+12:43:42 [INFO] [/127.0.0.1:59398] <-> InitialHandler has pinged
+12:43:43 [INFO] [iTakinn,/127.0.0.1:59401] <-> InitialHandler has connected
+12:43:44 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+12:43:52 [INFO] [nLogin] The user iTakinn has successfully logged in.
+13:22:04 [INFO] §cCommand not found
+13:23:17 [INFO] [iTakinn] disconnected with: §fServer closed
+13:23:17 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+13:23:17 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+13:23:23 [INFO] Closing listener [id: 0xf79ac8b9, L:/[0:0:0:0:0:0:0:0]:25577]
+13:23:23 [INFO] Closing pending connections
+13:23:23 [INFO] Disconnecting 0 connections
+13:23:24 [INFO] Saving reconnect locations
+13:23:24 [INFO] Disabling plugins
+13:23:24 [INFO] [nLogin] Successful plugin core shutdown (took 0.00s)
+13:23:24 [INFO] [nLogin] 
+13:23:24 [INFO] [nLogin] §cShutting down nLogin V 10.1.16...
+13:23:24 [INFO] [nLogin] 
+13:23:24 [INFO] [nLogin] §cnLogin was unloaded in 4ms.
+13:23:24 [INFO] Closing IO threads
+13:23:31 [INFO] Using standard Java JCE cipher.
+13:23:31 [INFO] Using standard Java compressor.
+13:23:31 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.20-R0.1-SNAPSHOT:9f5ace9:1718
+13:23:31 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+13:23:31 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+13:23:31 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+13:23:31 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+13:23:31 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+13:23:31 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+13:23:31 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:23:32 [INFO] Loaded plugin nLogin version 10.1.16 by NickUC
+13:23:32 [INFO] Loaded plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:23:32 [INFO] Loaded plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+13:23:32 [INFO] Loaded plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:23:32 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:23:32 [INFO] Loaded plugin BungeeGuard version 1.4.1 by Luck
+13:23:32 [INFO] Loaded plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:23:32 [INFO] Loaded plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:23:32 [WARNING] Forced host server pvp is not defined
+13:23:32 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:23:33 [INFO] [nLogin] Successful plugin core start (took 1.57s)
+13:23:33 [INFO] §9          __             _       
+13:23:33 [INFO] §9  _ __   / /  ___   __ _(_)_ __  
+13:23:33 [INFO] §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+13:23:33 [INFO] §9 | | | / /__| (_) | (_| | | | | |
+13:23:33 [INFO] §9 |_| |_\____/\___/ \__, |_|_| |_|
+13:23:33 [INFO] §9                  |___/            
+13:23:33 [INFO] §9 By: §9www.nickuc.com§9 - V 10.1.16
+13:23:33 [INFO] §9
+13:23:35 [INFO] [nLogin] §enLogin foi carregado em 1236ms.
+13:23:35 [INFO] Enabled plugin nLogin version 10.1.16 by NickUC
+13:23:35 [INFO] Enabled plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:23:35 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+13:23:35 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+13:23:35 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+13:23:35 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+13:23:35 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+13:23:35 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.12[0;39m
+13:23:35 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+13:23:35 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+13:23:35 [INFO] Enabled plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+13:23:35 [INFO] Enabled plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:23:35 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:23:35 [INFO] Enabled plugin BungeeGuard version 1.4.1 by Luck
+13:23:35 [INFO] Enabled plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:23:35 [INFO] Enabled plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:23:36 [INFO] Listening on /0.0.0.0:25577
+13:25:45 [INFO] [/127.0.0.1:59879] <-> InitialHandler has connected
+13:25:46 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+13:25:54 [INFO] [nLogin] O usuário iTakinn se autenticou com sucesso.
+13:26:19 [INFO] [iTakinn] <-> ServerConnector [survival] has connected
+13:26:19 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+13:26:30 [INFO] [iTakinn] disconnected with: §f§4[nLogin] Error detected on proxy server setup:
+§f
+§cACK message not received in backend server §f(Bukkit)§c.
+§f
+§cPlease make sure to install nLogin on the proxy server
+§cand set up the secret key correctly in §f`nLogin/proxy/secret.yml`§c.
+§f
+§eIn case of problems, follow the proxy server installation tutorial:
+§bhttps://docs.nickuc.com/nlogin-proxy
+13:26:30 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+13:26:30 [INFO] [iTakinn] <-> DownstreamBridge <-> [survival] has disconnected
+13:27:22 [INFO] [/127.0.0.1:59916] <-> InitialHandler has pinged
+13:27:32 [INFO] [/127.0.0.1:59921] <-> InitialHandler has pinged
+13:27:56 [INFO] [/127.0.0.1:59933] <-> InitialHandler has pinged
+13:27:57 [INFO] [iTakinn,/127.0.0.1:59938] <-> InitialHandler has connected
+13:27:57 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+13:28:03 [INFO] [nLogin] O usuário iTakinn se autenticou com sucesso.
+13:28:08 [INFO] [iTakinn] <-> ServerConnector [survival] has connected
+13:28:08 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+13:28:18 [INFO] [iTakinn] disconnected with: §f§4[nLogin] Error detected on proxy server setup:
+§f
+§cACK message not received in backend server §f(Bukkit)§c.
+§f
+§cPlease make sure to install nLogin on the proxy server
+§cand set up the secret key correctly in §f`nLogin/proxy/secret.yml`§c.
+§f
+§eIn case of problems, follow the proxy server installation tutorial:
+§bhttps://docs.nickuc.com/nlogin-proxy
+13:28:18 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+13:28:18 [INFO] [iTakinn] <-> DownstreamBridge <-> [survival] has disconnected
+13:30:36 [INFO] Using standard Java JCE cipher.
+13:30:36 [INFO] Using standard Java compressor.
+13:30:36 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.20-R0.1-SNAPSHOT:9f5ace9:1718
+13:30:37 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+13:30:37 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+13:30:37 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+13:30:37 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+13:30:37 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+13:30:37 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+13:30:37 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:30:38 [INFO] Loaded plugin nLogin version 10.1.16 by NickUC
+13:30:38 [INFO] Loaded plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:30:38 [INFO] Loaded plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+13:30:38 [INFO] Loaded plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:30:38 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:30:38 [INFO] Loaded plugin BungeeGuard version 1.4.1 by Luck
+13:30:38 [INFO] Loaded plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:30:38 [INFO] Loaded plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:30:38 [WARNING] Forced host server pvp is not defined
+13:30:38 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:30:40 [INFO] [nLogin] Successful plugin core start (took 2.02s)
+13:30:40 [INFO] §9          __             _       
+13:30:40 [INFO] §9  _ __   / /  ___   __ _(_)_ __  
+13:30:40 [INFO] §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+13:30:40 [INFO] §9 | | | / /__| (_) | (_| | | | | |
+13:30:40 [INFO] §9 |_| |_\____/\___/ \__, |_|_| |_|
+13:30:40 [INFO] §9                  |___/            
+13:30:40 [INFO] §9 By: §9www.nickuc.com§9 - V 10.1.16
+13:30:40 [INFO] §9
+13:30:41 [INFO] [nLogin] §enLogin foi carregado em 1436ms.
+13:30:41 [INFO] Enabled plugin nLogin version 10.1.16 by NickUC
+13:30:41 [INFO] Enabled plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:30:42 [INFO] Enabled plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+13:30:42 [INFO] Enabled plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:30:42 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:30:42 [INFO] Enabled plugin BungeeGuard version 1.4.1 by Luck
+13:30:42 [INFO] Enabled plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:30:42 [INFO] Enabled plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:30:42 [INFO] Listening on /0.0.0.0:25577
+13:30:42 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+13:30:42 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+13:30:42 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+13:30:42 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+13:30:42 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+13:30:42 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.12[0;39m
+13:30:42 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+13:30:42 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+13:31:31 [INFO] [/127.0.0.1:60082] <-> InitialHandler has pinged
+13:31:32 [INFO] [/127.0.0.1:60086] <-> InitialHandler has connected
+13:31:32 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+13:31:39 [INFO] [nLogin] O usuário iTakinn se autenticou com sucesso.
+13:32:10 [INFO] [iTakinn] <-> ServerConnector [survival] has connected
+13:32:11 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+13:32:21 [INFO] [iTakinn] disconnected with: §f§4[nLogin] Error detected on proxy server setup:
+§f
+§cACK message not received in backend server §f(Bukkit)§c.
+§f
+§cPlease make sure to install nLogin on the proxy server
+§cand set up the secret key correctly in §f`nLogin/proxy/secret.yml`§c.
+§f
+§eIn case of problems, follow the proxy server installation tutorial:
+§bhttps://docs.nickuc.com/nlogin-proxy
+13:32:21 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+13:32:21 [INFO] [iTakinn] <-> DownstreamBridge <-> [survival] has disconnected
+13:37:05 [INFO] Using standard Java JCE cipher.
+13:37:05 [INFO] Using standard Java compressor.
+13:37:05 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.20-R0.1-SNAPSHOT:9f5ace9:1718
+13:37:05 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+13:37:05 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+13:37:05 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+13:37:05 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+13:37:05 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+13:37:05 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+13:37:05 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:37:06 [INFO] Loaded plugin nLogin version 10.1.16 by NickUC
+13:37:06 [INFO] Loaded plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:37:06 [INFO] Loaded plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+13:37:06 [INFO] Loaded plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:37:06 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:37:06 [INFO] Loaded plugin BungeeGuard version 1.4.1 by Luck
+13:37:06 [INFO] Loaded plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:37:06 [INFO] Loaded plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:37:06 [WARNING] Forced host server pvp is not defined
+13:37:06 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:37:08 [INFO] [nLogin] Successful plugin core start (took 1.83s)
+13:37:08 [INFO] §9          __             _       
+13:37:08 [INFO] §9  _ __   / /  ___   __ _(_)_ __  
+13:37:08 [INFO] §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+13:37:08 [INFO] §9 | | | / /__| (_) | (_| | | | | |
+13:37:08 [INFO] §9 |_| |_\____/\___/ \__, |_|_| |_|
+13:37:08 [INFO] §9                  |___/            
+13:37:08 [INFO] §9 By: §9www.nickuc.com§9 - V 10.1.16
+13:37:08 [INFO] §9
+13:37:09 [INFO] [nLogin] §enLogin foi carregado em 1083ms.
+13:37:09 [INFO] Enabled plugin nLogin version 10.1.16 by NickUC
+13:37:09 [INFO] Enabled plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:37:09 [INFO] Enabled plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+13:37:09 [INFO] Enabled plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:37:09 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:37:09 [INFO] Enabled plugin BungeeGuard version 1.4.1 by Luck
+13:37:09 [INFO] Enabled plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:37:09 [INFO] Enabled plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:37:09 [INFO] Listening on /0.0.0.0:25577
+13:37:10 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+13:37:10 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+13:37:10 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+13:37:10 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+13:37:10 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+13:37:10 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.12[0;39m
+13:37:10 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+13:37:10 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+13:37:10 [INFO] [/127.0.0.1:60317] <-> InitialHandler has pinged
+13:37:12 [INFO] [/127.0.0.1:60322] <-> InitialHandler has connected
+13:37:12 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+13:37:19 [INFO] [nLogin] O usuário iTakinn se autenticou com sucesso.
+13:37:22 [INFO] [iTakinn] <-> ServerConnector [survival] has connected
+13:37:22 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+13:38:04 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+13:38:04 [INFO] [iTakinn] <-> DownstreamBridge <-> [survival] has disconnected
+14:16:50 [WARNING] [iTakinn] <-> DownstreamBridge <-> [lobby] - SocketException: Connection reset
+14:16:50 [INFO] [iTakinn] disconnected with: §fSocketException : Connection reset @ sun.nio.ch.SocketChannelImpl:394
+14:16:50 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+14:16:50 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+14:17:08 [INFO] [/127.0.0.1:61666] <-> InitialHandler has pinged
+14:19:12 [INFO] [/127.0.0.1:61697] <-> InitialHandler has pinged
+14:19:13 [INFO] [iTakinn,/127.0.0.1:61699] <-> InitialHandler has connected
+14:19:14 [INFO] [iTakinn] <-> ServerConnector [survival] has connected
+14:19:26 [INFO] [nLogin] O usuário iTakinn se autenticou com sucesso.
+14:19:32 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+14:19:32 [INFO] [iTakinn] <-> DownstreamBridge <-> [survival] has disconnected
+14:19:38 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+14:19:38 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+14:19:38 [INFO] [/127.0.0.1:61727] <-> InitialHandler has pinged
+14:19:39 [INFO] [/127.0.0.1:61730] <-> InitialHandler has pinged
+14:19:40 [INFO] [iTakinn,/127.0.0.1:61733] <-> InitialHandler has connected
+14:19:40 [INFO] [iTakinn] <-> ServerConnector [survival] has connected
+14:19:47 [INFO] [nLogin] O usuário iTakinn se autenticou com sucesso.
+14:19:51 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+14:19:51 [INFO] [iTakinn] <-> DownstreamBridge <-> [survival] has disconnected
+14:25:15 [WARNING] [iTakinn] <-> DownstreamBridge <-> [lobby] - SocketException: Connection reset
+14:25:15 [INFO] [iTakinn] disconnected with: §fSocketException : Connection reset @ sun.nio.ch.SocketChannelImpl:394
+14:25:15 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+14:25:15 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+14:25:43 [INFO] Using standard Java JCE cipher.
+14:25:43 [INFO] Using standard Java compressor.
+14:25:43 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.20-R0.1-SNAPSHOT:9f5ace9:1718
+14:25:43 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+14:25:43 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+14:25:43 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+14:25:43 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+14:25:43 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+14:25:43 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+14:25:43 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:25:44 [INFO] Loaded plugin nLogin version 10.1.16 by NickUC
+14:25:44 [INFO] Loaded plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:25:44 [INFO] Loaded plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+14:25:44 [INFO] Loaded plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:25:44 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:25:44 [INFO] Loaded plugin BungeeGuard version 1.4.1 by Luck
+14:25:44 [INFO] Loaded plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:25:44 [INFO] Loaded plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:25:44 [WARNING] Forced host server pvp is not defined
+14:25:44 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:25:46 [INFO] [nLogin] Successful plugin core start (took 1.80s)
+14:25:46 [INFO] §9          __             _       
+14:25:46 [INFO] §9  _ __   / /  ___   __ _(_)_ __  
+14:25:46 [INFO] §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+14:25:46 [INFO] §9 | | | / /__| (_) | (_| | | | | |
+14:25:46 [INFO] §9 |_| |_\____/\___/ \__, |_|_| |_|
+14:25:46 [INFO] §9                  |___/            
+14:25:46 [INFO] §9 By: §9www.nickuc.com§9 - V 10.1.16
+14:25:46 [INFO] §9
+14:25:47 [INFO] [nLogin] §enLogin foi carregado em 1178ms.
+14:25:47 [INFO] Enabled plugin nLogin version 10.1.16 by NickUC
+14:25:47 [INFO] Enabled plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:25:48 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+14:25:48 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+14:25:48 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+14:25:48 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+14:25:48 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+14:25:48 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.12[0;39m
+14:25:48 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+14:25:48 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+14:25:48 [INFO] Enabled plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+14:25:48 [INFO] Enabled plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:25:48 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:25:48 [INFO] Enabled plugin BungeeGuard version 1.4.1 by Luck
+14:25:48 [INFO] Enabled plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:25:48 [INFO] Enabled plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:25:48 [INFO] Listening on /0.0.0.0:25577
+14:27:21 [INFO] [/127.0.0.1:62090] <-> InitialHandler has pinged
+14:27:21 [INFO] [/127.0.0.1:62093] <-> InitialHandler has connected
+14:27:21 [INFO] [iTakinn] <-> ServerConnector [survival] has connected
+14:27:30 [INFO] [nLogin] O usuário iTakinn se autenticou com sucesso.
+14:28:43 [WARNING] [iTakinn] <-> DownstreamBridge <-> [survival] - SocketException: Connection reset
+14:28:43 [INFO] [iTakinn] <-> DownstreamBridge <-> [survival] has disconnected
+14:28:43 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+14:30:56 [INFO] Using standard Java JCE cipher.
+14:30:56 [INFO] Using standard Java compressor.
+14:30:56 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.20-R0.1-SNAPSHOT:9f5ace9:1718
+14:30:57 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+14:30:57 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+14:30:57 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+14:30:57 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+14:30:57 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+14:30:57 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+14:30:57 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:30:57 [INFO] Loaded plugin nLogin version 10.1.16 by NickUC
+14:30:57 [INFO] Loaded plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:30:57 [INFO] Loaded plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+14:30:57 [INFO] Loaded plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:30:57 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:30:57 [INFO] Loaded plugin BungeeGuard version 1.4.1 by Luck
+14:30:57 [INFO] Loaded plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:30:57 [INFO] Loaded plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:30:57 [WARNING] Forced host server pvp is not defined
+14:30:57 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:30:59 [INFO] [nLogin] Successful plugin core start (took 1.38s)
+14:30:59 [INFO] §9          __             _       
+14:30:59 [INFO] §9  _ __   / /  ___   __ _(_)_ __  
+14:30:59 [INFO] §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+14:30:59 [INFO] §9 | | | / /__| (_) | (_| | | | | |
+14:30:59 [INFO] §9 |_| |_\____/\___/ \__, |_|_| |_|
+14:30:59 [INFO] §9                  |___/            
+14:30:59 [INFO] §9 By: §9www.nickuc.com§9 - V 10.1.16
+14:30:59 [INFO] §9
+14:31:00 [INFO] [nLogin] §enLogin foi carregado em 1136ms.
+14:31:00 [INFO] Enabled plugin nLogin version 10.1.16 by NickUC
+14:31:00 [INFO] Enabled plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:31:01 [INFO] Enabled plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+14:31:01 [INFO] Enabled plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:31:01 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:31:01 [INFO] Enabled plugin BungeeGuard version 1.4.1 by Luck
+14:31:01 [INFO] Enabled plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:31:01 [INFO] Enabled plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:31:01 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+14:31:01 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+14:31:01 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+14:31:01 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+14:31:01 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+14:31:01 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.12[0;39m
+14:31:01 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+14:31:01 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+14:31:01 [INFO] Listening on /0.0.0.0:25577
+14:31:50 [INFO] [/127.0.0.1:62184] <-> InitialHandler has pinged
+14:31:54 [INFO] [/127.0.0.1:62187] <-> InitialHandler has pinged
+14:31:55 [INFO] [/127.0.0.1:62190] <-> InitialHandler has connected
+14:31:55 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+14:32:07 [INFO] [nLogin] O usuário iTakinn se autenticou com sucesso.
+14:33:43 [INFO] [iTakinn] <-> ServerConnector [survival] has connected
+14:33:43 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+14:33:57 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+14:33:57 [INFO] [iTakinn] <-> DownstreamBridge <-> [survival] has disconnected
+14:33:58 [INFO] [/127.0.0.1:62231] <-> InitialHandler has pinged
+14:33:59 [INFO] [/127.0.0.1:62233] <-> InitialHandler has pinged
+14:34:03 [INFO] [/127.0.0.1:62237] <-> InitialHandler has pinged
+14:34:03 [INFO] [/127.0.0.1:62240] <-> InitialHandler has pinged
+14:34:04 [INFO] [/127.0.0.1:62243] <-> InitialHandler has pinged
+14:34:16 [INFO] [iTakinn,/127.0.0.1:62249] <-> InitialHandler has connected
+14:34:17 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+14:34:24 [INFO] [nLogin] O usuário iTakinn se autenticou com sucesso.
+14:34:44 [WARNING] [iTakinn] <-> DownstreamBridge <-> [lobby] - SocketException: Connection reset
+14:34:44 [INFO] [iTakinn] disconnected with: §fSocketException : Connection reset @ sun.nio.ch.SocketChannelImpl:394
+14:34:44 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+14:34:44 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+14:34:51 [INFO] [/127.0.0.1:62265] <-> InitialHandler has pinged
+14:34:52 [INFO] [/127.0.0.1:62269] <-> InitialHandler has pinged
+14:39:39 [INFO] [iTakinn,/127.0.0.1:62175] <-> InitialHandler has connected
+14:39:39 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+14:39:51 [INFO] [nLogin] O usuário iTakinn se autenticou com sucesso.
+14:46:30 [INFO] Using standard Java JCE cipher.
+14:46:30 [INFO] Using standard Java compressor.
+14:46:30 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.20-R0.1-SNAPSHOT:9f5ace9:1718
+14:46:31 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+14:46:31 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+14:46:31 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+14:46:31 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+14:46:31 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+14:46:31 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+14:46:31 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:46:32 [INFO] Loaded plugin nLogin version 10.1.16 by NickUC
+14:46:32 [INFO] Loaded plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:46:32 [INFO] Loaded plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+14:46:32 [INFO] Loaded plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:46:32 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:46:32 [INFO] Loaded plugin BungeeGuard version 1.4.1 by Luck
+14:46:32 [INFO] Loaded plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:46:32 [INFO] Loaded plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:46:32 [WARNING] Forced host server pvp is not defined
+14:46:32 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:46:35 [WARNING] [nLogin] Awaiting remote response from api.nickuc.com...
+14:46:35 [INFO] [nLogin] Successful plugin core start (took 3.69s)
+14:46:35 [INFO] §9          __             _       
+14:46:35 [INFO] §9  _ __   / /  ___   __ _(_)_ __  
+14:46:35 [INFO] §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+14:46:35 [INFO] §9 | | | / /__| (_) | (_| | | | | |
+14:46:35 [INFO] §9 |_| |_\____/\___/ \__, |_|_| |_|
+14:46:35 [INFO] §9                  |___/            
+14:46:35 [INFO] §9 By: §9www.nickuc.com§9 - V 10.1.16
+14:46:35 [INFO] §9
+14:46:37 [INFO] [nLogin] §enLogin foi carregado em 1288ms.
+14:46:37 [INFO] Enabled plugin nLogin version 10.1.16 by NickUC
+14:46:37 [INFO] Enabled plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:46:37 [INFO] Enabled plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+14:46:37 [INFO] Enabled plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:46:37 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:46:37 [INFO] Enabled plugin BungeeGuard version 1.4.1 by Luck
+14:46:37 [INFO] Enabled plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:46:37 [INFO] Enabled plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+14:46:37 [INFO] Listening on /0.0.0.0:25577
+14:46:38 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+14:46:38 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+14:46:38 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+14:46:38 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+14:46:38 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+14:46:38 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.12[0;39m
+14:46:38 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+14:46:38 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+14:54:00 [INFO] [/127.0.0.1:63028] <-> InitialHandler has connected
+14:54:03 [INFO] [/127.0.0.1:63030] <-> InitialHandler has pinged
+14:54:05 [INFO] [/127.0.0.1:63033] <-> InitialHandler has connected
+14:54:05 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+14:54:15 [INFO] [nLogin] O usuário iTakinn se autenticou com sucesso.
+14:54:43 [WARNING] [iTakinn] <-> DownstreamBridge <-> [lobby] - SocketException: Connection reset
+14:54:43 [INFO] [iTakinn] disconnected with: §fSocketException : Connection reset @ sun.nio.ch.SocketChannelImpl:394
+14:54:43 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+14:54:43 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+14:59:55 [INFO] [iTakinn,/127.0.0.1:63199] <-> InitialHandler has connected
+14:59:55 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+15:00:06 [INFO] [nLogin] O usuário iTakinn se autenticou com sucesso.
+15:00:18 [INFO] [iTakinn] <-> ServerConnector [survival] has connected
+15:00:19 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+15:00:30 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+15:00:30 [INFO] [iTakinn] <-> DownstreamBridge <-> [survival] has disconnected
+15:01:59 [INFO] [iTakinn] <-> ServerConnector [survival] has connected
+15:02:00 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+15:02:47 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+15:02:47 [INFO] [iTakinn] <-> DownstreamBridge <-> [survival] has disconnected
+15:24:36 [INFO] [iTakinn] <-> ServerConnector [survival] has connected
+15:24:36 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+15:24:52 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+15:24:52 [INFO] [iTakinn] <-> DownstreamBridge <-> [survival] has disconnected
+15:26:23 [INFO] [iTakinn] <-> ServerConnector [survival] has connected
+15:26:23 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+15:26:53 [SEVERE] [nLogin] Could not connect to the api - internet unavailable or HTTPS port closed (this likely is a hosting error!)
+15:26:59 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+15:26:59 [INFO] [iTakinn] <-> DownstreamBridge <-> [survival] has disconnected
+15:39:49 [INFO] [iTakinn] <-> ServerConnector [survival] has connected
+15:39:49 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+15:39:57 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+15:39:57 [INFO] [iTakinn] <-> DownstreamBridge <-> [survival] has disconnected
+15:47:12 [INFO] [iTakinn] <-> ServerConnector [survival] has connected
+15:47:12 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+15:50:06 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+15:50:06 [INFO] [iTakinn] <-> DownstreamBridge <-> [survival] has disconnected
+15:50:28 [INFO] [iTakinn] <-> ServerConnector [survival] has connected
+15:50:28 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected

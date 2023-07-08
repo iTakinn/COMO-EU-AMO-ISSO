@@ -1,0 +1,156 @@
+tablist:
+  change-interval: 100
+  texts:
+  - "&#2920ff&nR&#1400ff&nE&#2920ff&nD&#3442f9&nE &#355de4&nG&#254986&nA&#1d5677&nL&#1b799a&nA&#22b0ec&nX&#30cdfc&nY"
+  - "&#3442f9&nR&#2920ff&nE&#1400ff&nD&#2920ff&nE &#3442f9&nG&#355de4&nA&#254986&nL&#1d5677&nA&#1b799a&nX&#22b0ec&nY"
+  - "&#355de4&nR&#3442f9&nE&#2920ff&nD&#1400ff&nE &#2920ff&nG&#3442f9&nA&#355de4&nL&#254986&nA&#1d5677&nX&#1b799a&nY"
+  - "&#254986&nR&#355de4&nE&#3442f9&nD&#2920ff&nE &#1400ff&nG&#2920ff&nA&#3442f9&nL&#355de4&nA&#254986&nX&#1d5677&nY"
+  - "&#1d5677&nR&#254986&nE&#355de4&nD&#3442f9&nE &#2920ff&nG&#1400ff&nA&#2920ff&nL&#3442f9&nA&#355de4&nX&#254986&nY"
+  - "&#1b799a&nR&#1d5677&nE&#254986&nD&#355de4&nE &#3442f9&nG&#2920ff&nA&#1400ff&nL&#2920ff&nA&#3442f9&nX&#355de4&nY"
+  - "&#22b0ec&nR&#1b799a&nE&#1d5677&nD&#254986&nE &#355de4&nG&#3442f9&nA&#2920ff&nL&#1400ff&nA&#2920ff&nX&#3442f9&nY"
+  - "&#30cdfc&nR&#22b0ec&nE&#1b799a&nD&#1d5677&nE &#254986&nG&#355de4&nA&#3442f9&nL&#2920ff&nA&#1400ff&nX&#2920ff&nY"
+  - "&#27d0e6&nR&#30cdfc&nE&#22b0ec&nD&#1b799a&nE &#1d5677&nG&#254986&nA&#355de4&nL&#3442f9&nA&#2920ff&nX&#1400ff&nY"
+  - "&#00b7ac&nR&#27d0e6&nE&#30cdfc&nD&#22b0ec&nE &#1b799a&nG&#1d5677&nA&#254986&nL&#355de4&nA&#3442f9&nX&#2920ff&nY"
+  - "&#27d0e6&nR&#00b7ac&nE&#27d0e6&nD&#30cdfc&nE &#22b0ec&nG&#1b799a&nA&#1d5677&nL&#254986&nA&#355de4&nX&#3442f9&nY"
+  - "&#30cdfc&nR&#27d0e6&nE&#00b7ac&nD&#27d0e6&nE &#30cdfc&nG&#22b0ec&nA&#1b799a&nL&#1d5677&nA&#254986&nX&#355de4&nY"
+  - "&#22b0ec&nR&#30cdfc&nE&#27d0e6&nD&#00b7ac&nE &#27d0e6&nG&#30cdfc&nA&#22b0ec&nL&#1b799a&nA&#1d5677&nX&#254986&nY"
+  - "&#1b799a&nR&#22b0ec&nE&#30cdfc&nD&#27d0e6&nE &#00b7ac&nG&#27d0e6&nA&#30cdfc&nL&#22b0ec&nA&#1b799a&nX&#1d5677&nY"
+  - "&#1d5677&nR&#1b799a&nE&#22b0ec&nD&#30cdfc&nE &#27d0e6&nG&#00b7ac&nA&#27d0e6&nL&#30cdfc&nA&#22b0ec&nX&#1b799a&nY"
+  - "&#254986&nR&#1d5677&nE&#1b799a&nD&#22b0ec&nE &#30cdfc&nG&#27d0e6&nA&#00b7ac&nL&#27d0e6&nA&#30cdfc&nX&#22b0ec&nY"
+  - "&#355de4&nR&#254986&nE&#1d5677&nD&#1b799a&nE &#22b0ec&nG&#30cdfc&nA&#27d0e6&nL&#00b7ac&nA&#27d0e6&nX&#30cdfc&nY"
+  - "&#3442f9&nR&#355de4&nE&#254986&nD&#1d5677&nE &#1b799a&nG&#22b0ec&nA&#30cdfc&nL&#27d0e6&nA&#00b7ac&nX&#27d0e6&nY"
+  - "&#2920ff&nR&#3442f9&nE&#355de4&nD&#254986&nE &#1d5677&nG&#1b799a&nA&#22b0ec&nL&#30cdfc&nA&#27d0e6&nX&#00b7ac&nY"
+  - "&#1400ff&nR&#2920ff&nE&#3442f9&nD&#355de4&nE &#254986&nG&#1d5677&nA&#1b799a&nL&#22b0ec&nA&#30cdfc&nX&#27d0e6&nY"
+                
+MyAnimation1:
+  change-interval: 50
+  texts:
+  - "&#4bf200&l&m &#42ff00&l&m &#4bf200&l&m &#55e600&l&m &#5ed900&l&m &#68cc00&l&m &#71bf00&l&m &#7bb300&l&m &#84a600&l&m &#8e9900&l&m &#978c00&l&m &#a18000&l&m &#aa7300&l&m &#b36600&l&m &#bd5900&l&m &#c64d00&l&m &#d04000&l&m &#d93300&l&m &#e32600&l&m &#ec1a00&l&m &#f60d00&l&m "
+  - "&#55e600&l&m &#4bf200&l&m &#42ff00&l&m &#4bf200&l&m &#55e600&l&m &#5ed900&l&m &#68cc00&l&m &#71bf00&l&m &#7bb300&l&m &#84a600&l&m &#8e9900&l&m &#978c00&l&m &#a18000&l&m &#aa7300&l&m &#b36600&l&m &#bd5900&l&m &#c64d00&l&m &#d04000&l&m &#d93300&l&m &#e32600&l&m &#ec1a00&l&m "
+  - "&#5ed900&l&m &#55e600&l&m &#4bf200&l&m &#42ff00&l&m &#4bf200&l&m &#55e600&l&m &#5ed900&l&m &#68cc00&l&m &#71bf00&l&m &#7bb300&l&m &#84a600&l&m &#8e9900&l&m &#978c00&l&m &#a18000&l&m &#aa7300&l&m &#b36600&l&m &#bd5900&l&m &#c64d00&l&m &#d04000&l&m &#d93300&l&m &#e32600&l&m "
+  - "&#68cc00&l&m &#5ed900&l&m &#55e600&l&m &#4bf200&l&m &#42ff00&l&m &#4bf200&l&m &#55e600&l&m &#5ed900&l&m &#68cc00&l&m &#71bf00&l&m &#7bb300&l&m &#84a600&l&m &#8e9900&l&m &#978c00&l&m &#a18000&l&m &#aa7300&l&m &#b36600&l&m &#bd5900&l&m &#c64d00&l&m &#d04000&l&m &#d93300&l&m "
+  - "&#71bf00&l&m &#68cc00&l&m &#5ed900&l&m &#55e600&l&m &#4bf200&l&m &#42ff00&l&m &#4bf200&l&m &#55e600&l&m &#5ed900&l&m &#68cc00&l&m &#71bf00&l&m &#7bb300&l&m &#84a600&l&m &#8e9900&l&m &#978c00&l&m &#a18000&l&m &#aa7300&l&m &#b36600&l&m &#bd5900&l&m &#c64d00&l&m &#d04000&l&m "
+  - "&#7bb300&l&m &#71bf00&l&m &#68cc00&l&m &#5ed900&l&m &#55e600&l&m &#4bf200&l&m &#42ff00&l&m &#4bf200&l&m &#55e600&l&m &#5ed900&l&m &#68cc00&l&m &#71bf00&l&m &#7bb300&l&m &#84a600&l&m &#8e9900&l&m &#978c00&l&m &#a18000&l&m &#aa7300&l&m &#b36600&l&m &#bd5900&l&m &#c64d00&l&m "
+  - "&#84a600&l&m &#7bb300&l&m &#71bf00&l&m &#68cc00&l&m &#5ed900&l&m &#55e600&l&m &#4bf200&l&m &#42ff00&l&m &#4bf200&l&m &#55e600&l&m &#5ed900&l&m &#68cc00&l&m &#71bf00&l&m &#7bb300&l&m &#84a600&l&m &#8e9900&l&m &#978c00&l&m &#a18000&l&m &#aa7300&l&m &#b36600&l&m &#bd5900&l&m "
+  - "&#8e9900&l&m &#84a600&l&m &#7bb300&l&m &#71bf00&l&m &#68cc00&l&m &#5ed900&l&m &#55e600&l&m &#4bf200&l&m &#42ff00&l&m &#4bf200&l&m &#55e600&l&m &#5ed900&l&m &#68cc00&l&m &#71bf00&l&m &#7bb300&l&m &#84a600&l&m &#8e9900&l&m &#978c00&l&m &#a18000&l&m &#aa7300&l&m &#b36600&l&m "
+  - "&#978c00&l&m &#8e9900&l&m &#84a600&l&m &#7bb300&l&m &#71bf00&l&m &#68cc00&l&m &#5ed900&l&m &#55e600&l&m &#4bf200&l&m &#42ff00&l&m &#4bf200&l&m &#55e600&l&m &#5ed900&l&m &#68cc00&l&m &#71bf00&l&m &#7bb300&l&m &#84a600&l&m &#8e9900&l&m &#978c00&l&m &#a18000&l&m &#aa7300&l&m "
+  - "&#a18000&l&m &#978c00&l&m &#8e9900&l&m &#84a600&l&m &#7bb300&l&m &#71bf00&l&m &#68cc00&l&m &#5ed900&l&m &#55e600&l&m &#4bf200&l&m &#42ff00&l&m &#4bf200&l&m &#55e600&l&m &#5ed900&l&m &#68cc00&l&m &#71bf00&l&m &#7bb300&l&m &#84a600&l&m &#8e9900&l&m &#978c00&l&m &#a18000&l&m "
+  - "&#aa7300&l&m &#a18000&l&m &#978c00&l&m &#8e9900&l&m &#84a600&l&m &#7bb300&l&m &#71bf00&l&m &#68cc00&l&m &#5ed900&l&m &#55e600&l&m &#4bf200&l&m &#42ff00&l&m &#4bf200&l&m &#55e600&l&m &#5ed900&l&m &#68cc00&l&m &#71bf00&l&m &#7bb300&l&m &#84a600&l&m &#8e9900&l&m &#978c00&l&m "
+  - "&#b36600&l&m &#aa7300&l&m &#a18000&l&m &#978c00&l&m &#8e9900&l&m &#84a600&l&m &#7bb300&l&m &#71bf00&l&m &#68cc00&l&m &#5ed900&l&m &#55e600&l&m &#4bf200&l&m &#42ff00&l&m &#4bf200&l&m &#55e600&l&m &#5ed900&l&m &#68cc00&l&m &#71bf00&l&m &#7bb300&l&m &#84a600&l&m &#8e9900&l&m "
+  - "&#bd5900&l&m &#b36600&l&m &#aa7300&l&m &#a18000&l&m &#978c00&l&m &#8e9900&l&m &#84a600&l&m &#7bb300&l&m &#71bf00&l&m &#68cc00&l&m &#5ed900&l&m &#55e600&l&m &#4bf200&l&m &#42ff00&l&m &#4bf200&l&m &#55e600&l&m &#5ed900&l&m &#68cc00&l&m &#71bf00&l&m &#7bb300&l&m &#84a600&l&m "
+  - "&#c64d00&l&m &#bd5900&l&m &#b36600&l&m &#aa7300&l&m &#a18000&l&m &#978c00&l&m &#8e9900&l&m &#84a600&l&m &#7bb300&l&m &#71bf00&l&m &#68cc00&l&m &#5ed900&l&m &#55e600&l&m &#4bf200&l&m &#42ff00&l&m &#4bf200&l&m &#55e600&l&m &#5ed900&l&m &#68cc00&l&m &#71bf00&l&m &#7bb300&l&m "
+  - "&#d04000&l&m &#c64d00&l&m &#bd5900&l&m &#b36600&l&m &#aa7300&l&m &#a18000&l&m &#978c00&l&m &#8e9900&l&m &#84a600&l&m &#7bb300&l&m &#71bf00&l&m &#68cc00&l&m &#5ed900&l&m &#55e600&l&m &#4bf200&l&m &#42ff00&l&m &#4bf200&l&m &#55e600&l&m &#5ed900&l&m &#68cc00&l&m &#71bf00&l&m "
+  - "&#d93300&l&m &#d04000&l&m &#c64d00&l&m &#bd5900&l&m &#b36600&l&m &#aa7300&l&m &#a18000&l&m &#978c00&l&m &#8e9900&l&m &#84a600&l&m &#7bb300&l&m &#71bf00&l&m &#68cc00&l&m &#5ed900&l&m &#55e600&l&m &#4bf200&l&m &#42ff00&l&m &#4bf200&l&m &#55e600&l&m &#5ed900&l&m &#68cc00&l&m "
+  - "&#e32600&l&m &#d93300&l&m &#d04000&l&m &#c64d00&l&m &#bd5900&l&m &#b36600&l&m &#aa7300&l&m &#a18000&l&m &#978c00&l&m &#8e9900&l&m &#84a600&l&m &#7bb300&l&m &#71bf00&l&m &#68cc00&l&m &#5ed900&l&m &#55e600&l&m &#4bf200&l&m &#42ff00&l&m &#4bf200&l&m &#55e600&l&m &#5ed900&l&m "
+  - "&#ec1a00&l&m &#e32600&l&m &#d93300&l&m &#d04000&l&m &#c64d00&l&m &#bd5900&l&m &#b36600&l&m &#aa7300&l&m &#a18000&l&m &#978c00&l&m &#8e9900&l&m &#84a600&l&m &#7bb300&l&m &#71bf00&l&m &#68cc00&l&m &#5ed900&l&m &#55e600&l&m &#4bf200&l&m &#42ff00&l&m &#4bf200&l&m &#55e600&l&m "
+  - "&#f60d00&l&m &#ec1a00&l&m &#e32600&l&m &#d93300&l&m &#d04000&l&m &#c64d00&l&m &#bd5900&l&m &#b36600&l&m &#aa7300&l&m &#a18000&l&m &#978c00&l&m &#8e9900&l&m &#84a600&l&m &#7bb300&l&m &#71bf00&l&m &#68cc00&l&m &#5ed900&l&m &#55e600&l&m &#4bf200&l&m &#42ff00&l&m &#4bf200&l&m "
+  - "&#ff0000&l&m &#f60d00&l&m &#ec1a00&l&m &#e32600&l&m &#d93300&l&m &#d04000&l&m &#c64d00&l&m &#bd5900&l&m &#b36600&l&m &#aa7300&l&m &#a18000&l&m &#978c00&l&m &#8e9900&l&m &#84a600&l&m &#7bb300&l&m &#71bf00&l&m &#68cc00&l&m &#5ed900&l&m &#55e600&l&m &#4bf200&l&m &#42ff00&l&m "
+  - "&#f60d00&l&m &#ff0000&l&m &#f60d00&l&m &#ec1a00&l&m &#e32600&l&m &#d93300&l&m &#d04000&l&m &#c64d00&l&m &#bd5900&l&m &#b36600&l&m &#aa7300&l&m &#a18000&l&m &#978c00&l&m &#8e9900&l&m &#84a600&l&m &#7bb300&l&m &#71bf00&l&m &#68cc00&l&m &#5ed900&l&m &#55e600&l&m &#4bf200&l&m "
+  - "&#ec1a00&l&m &#f60d00&l&m &#ff0000&l&m &#f60d00&l&m &#ec1a00&l&m &#e32600&l&m &#d93300&l&m &#d04000&l&m &#c64d00&l&m &#bd5900&l&m &#b36600&l&m &#aa7300&l&m &#a18000&l&m &#978c00&l&m &#8e9900&l&m &#84a600&l&m &#7bb300&l&m &#71bf00&l&m &#68cc00&l&m &#5ed900&l&m &#55e600&l&m "
+  - "&#e32600&l&m &#ec1a00&l&m &#f60d00&l&m &#ff0000&l&m &#f60d00&l&m &#ec1a00&l&m &#e32600&l&m &#d93300&l&m &#d04000&l&m &#c64d00&l&m &#bd5900&l&m &#b36600&l&m &#aa7300&l&m &#a18000&l&m &#978c00&l&m &#8e9900&l&m &#84a600&l&m &#7bb300&l&m &#71bf00&l&m &#68cc00&l&m &#5ed900&l&m "
+  - "&#d93300&l&m &#e32600&l&m &#ec1a00&l&m &#f60d00&l&m &#ff0000&l&m &#f60d00&l&m &#ec1a00&l&m &#e32600&l&m &#d93300&l&m &#d04000&l&m &#c64d00&l&m &#bd5900&l&m &#b36600&l&m &#aa7300&l&m &#a18000&l&m &#978c00&l&m &#8e9900&l&m &#84a600&l&m &#7bb300&l&m &#71bf00&l&m &#68cc00&l&m "
+  - "&#d04000&l&m &#d93300&l&m &#e32600&l&m &#ec1a00&l&m &#f60d00&l&m &#ff0000&l&m &#f60d00&l&m &#ec1a00&l&m &#e32600&l&m &#d93300&l&m &#d04000&l&m &#c64d00&l&m &#bd5900&l&m &#b36600&l&m &#aa7300&l&m &#a18000&l&m &#978c00&l&m &#8e9900&l&m &#84a600&l&m &#7bb300&l&m &#71bf00&l&m "
+  - "&#c64d00&l&m &#d04000&l&m &#d93300&l&m &#e32600&l&m &#ec1a00&l&m &#f60d00&l&m &#ff0000&l&m &#f60d00&l&m &#ec1a00&l&m &#e32600&l&m &#d93300&l&m &#d04000&l&m &#c64d00&l&m &#bd5900&l&m &#b36600&l&m &#aa7300&l&m &#a18000&l&m &#978c00&l&m &#8e9900&l&m &#84a600&l&m &#7bb300&l&m "
+  - "&#bd5900&l&m &#c64d00&l&m &#d04000&l&m &#d93300&l&m &#e32600&l&m &#ec1a00&l&m &#f60d00&l&m &#ff0000&l&m &#f60d00&l&m &#ec1a00&l&m &#e32600&l&m &#d93300&l&m &#d04000&l&m &#c64d00&l&m &#bd5900&l&m &#b36600&l&m &#aa7300&l&m &#a18000&l&m &#978c00&l&m &#8e9900&l&m &#84a600&l&m "
+  - "&#b36600&l&m &#bd5900&l&m &#c64d00&l&m &#d04000&l&m &#d93300&l&m &#e32600&l&m &#ec1a00&l&m &#f60d00&l&m &#ff0000&l&m &#f60d00&l&m &#ec1a00&l&m &#e32600&l&m &#d93300&l&m &#d04000&l&m &#c64d00&l&m &#bd5900&l&m &#b36600&l&m &#aa7300&l&m &#a18000&l&m &#978c00&l&m &#8e9900&l&m "
+  - "&#aa7300&l&m &#b36600&l&m &#bd5900&l&m &#c64d00&l&m &#d04000&l&m &#d93300&l&m &#e32600&l&m &#ec1a00&l&m &#f60d00&l&m &#ff0000&l&m &#f60d00&l&m &#ec1a00&l&m &#e32600&l&m &#d93300&l&m &#d04000&l&m &#c64d00&l&m &#bd5900&l&m &#b36600&l&m &#aa7300&l&m &#a18000&l&m &#978c00&l&m "
+  - "&#a18000&l&m &#aa7300&l&m &#b36600&l&m &#bd5900&l&m &#c64d00&l&m &#d04000&l&m &#d93300&l&m &#e32600&l&m &#ec1a00&l&m &#f60d00&l&m &#ff0000&l&m &#f60d00&l&m &#ec1a00&l&m &#e32600&l&m &#d93300&l&m &#d04000&l&m &#c64d00&l&m &#bd5900&l&m &#b36600&l&m &#aa7300&l&m &#a18000&l&m "
+  - "&#978c00&l&m &#a18000&l&m &#aa7300&l&m &#b36600&l&m &#bd5900&l&m &#c64d00&l&m &#d04000&l&m &#d93300&l&m &#e32600&l&m &#ec1a00&l&m &#f60d00&l&m &#ff0000&l&m &#f60d00&l&m &#ec1a00&l&m &#e32600&l&m &#d93300&l&m &#d04000&l&m &#c64d00&l&m &#bd5900&l&m &#b36600&l&m &#aa7300&l&m "
+  - "&#8e9900&l&m &#978c00&l&m &#a18000&l&m &#aa7300&l&m &#b36600&l&m &#bd5900&l&m &#c64d00&l&m &#d04000&l&m &#d93300&l&m &#e32600&l&m &#ec1a00&l&m &#f60d00&l&m &#ff0000&l&m &#f60d00&l&m &#ec1a00&l&m &#e32600&l&m &#d93300&l&m &#d04000&l&m &#c64d00&l&m &#bd5900&l&m &#b36600&l&m "
+  - "&#84a600&l&m &#8e9900&l&m &#978c00&l&m &#a18000&l&m &#aa7300&l&m &#b36600&l&m &#bd5900&l&m &#c64d00&l&m &#d04000&l&m &#d93300&l&m &#e32600&l&m &#ec1a00&l&m &#f60d00&l&m &#ff0000&l&m &#f60d00&l&m &#ec1a00&l&m &#e32600&l&m &#d93300&l&m &#d04000&l&m &#c64d00&l&m &#bd5900&l&m "
+  - "&#7bb300&l&m &#84a600&l&m &#8e9900&l&m &#978c00&l&m &#a18000&l&m &#aa7300&l&m &#b36600&l&m &#bd5900&l&m &#c64d00&l&m &#d04000&l&m &#d93300&l&m &#e32600&l&m &#ec1a00&l&m &#f60d00&l&m &#ff0000&l&m &#f60d00&l&m &#ec1a00&l&m &#e32600&l&m &#d93300&l&m &#d04000&l&m &#c64d00&l&m "
+  - "&#71bf00&l&m &#7bb300&l&m &#84a600&l&m &#8e9900&l&m &#978c00&l&m &#a18000&l&m &#aa7300&l&m &#b36600&l&m &#bd5900&l&m &#c64d00&l&m &#d04000&l&m &#d93300&l&m &#e32600&l&m &#ec1a00&l&m &#f60d00&l&m &#ff0000&l&m &#f60d00&l&m &#ec1a00&l&m &#e32600&l&m &#d93300&l&m &#d04000&l&m "
+  - "&#68cc00&l&m &#71bf00&l&m &#7bb300&l&m &#84a600&l&m &#8e9900&l&m &#978c00&l&m &#a18000&l&m &#aa7300&l&m &#b36600&l&m &#bd5900&l&m &#c64d00&l&m &#d04000&l&m &#d93300&l&m &#e32600&l&m &#ec1a00&l&m &#f60d00&l&m &#ff0000&l&m &#f60d00&l&m &#ec1a00&l&m &#e32600&l&m &#d93300&l&m "
+  - "&#5ed900&l&m &#68cc00&l&m &#71bf00&l&m &#7bb300&l&m &#84a600&l&m &#8e9900&l&m &#978c00&l&m &#a18000&l&m &#aa7300&l&m &#b36600&l&m &#bd5900&l&m &#c64d00&l&m &#d04000&l&m &#d93300&l&m &#e32600&l&m &#ec1a00&l&m &#f60d00&l&m &#ff0000&l&m &#f60d00&l&m &#ec1a00&l&m &#e32600&l&m "
+  - "&#55e600&l&m &#5ed900&l&m &#68cc00&l&m &#71bf00&l&m &#7bb300&l&m &#84a600&l&m &#8e9900&l&m &#978c00&l&m &#a18000&l&m &#aa7300&l&m &#b36600&l&m &#bd5900&l&m &#c64d00&l&m &#d04000&l&m &#d93300&l&m &#e32600&l&m &#ec1a00&l&m &#f60d00&l&m &#ff0000&l&m &#f60d00&l&m &#ec1a00&l&m "
+  - "&#4bf200&l&m &#55e600&l&m &#5ed900&l&m &#68cc00&l&m &#71bf00&l&m &#7bb300&l&m &#84a600&l&m &#8e9900&l&m &#978c00&l&m &#a18000&l&m &#aa7300&l&m &#b36600&l&m &#bd5900&l&m &#c64d00&l&m &#d04000&l&m &#d93300&l&m &#e32600&l&m &#ec1a00&l&m &#f60d00&l&m &#ff0000&l&m &#f60d00&l&m "
+  - "&#42ff00&l&m &#4bf200&l&m &#55e600&l&m &#5ed900&l&m &#68cc00&l&m &#71bf00&l&m &#7bb300&l&m &#84a600&l&m &#8e9900&l&m &#978c00&l&m &#a18000&l&m &#aa7300&l&m &#b36600&l&m &#bd5900&l&m &#c64d00&l&m &#d04000&l&m &#d93300&l&m &#e32600&l&m &#ec1a00&l&m &#f60d00&l&m &#ff0000&l&m "
+ServerName:
+  change-interval: 300
+  texts:
+  - '&c&lRede Galaxy'
+  - '&c&n&lRede Galaxy'
+  - '&b&lRede Galaxy'
+  - '&b&l&nRede Galaxy'
+  - '&e&lRede Galaxy'
+  - '&e&n&lRede Galaxy'
+web:
+  change-interval: 200
+  texts:
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&6w&eww.domain.com'
+  - '&ew&6w&ew.domain.com'
+  - '&eww&6w&e.domain.com'
+  - '&ewww&6.&edomain.com'
+  - '&ewww.&6d&eomain.com'
+  - '&ewww.d&6o&emain.com'
+  - '&ewww.do&6m&eain.com'
+  - '&ewww.dom&6a&ein.com'
+  - '&ewww.doma&6i&en.com'
+  - '&ewww.domai&6n&e.com'
+  - '&ewww.domain&6.&ecom'
+  - '&ewww.domain.&6c&eom'
+  - '&ewww.domain.c&6o&em'
+  - '&ewww.domain.co&6m'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+vote:
+  change-interval: 1000
+  texts:
+  - '&avote.domain.com'
+  - '&a&nvote.domain.com'
+  - '&5vote.domain.com'
+  - '&5&nvote.domain.com'
+Welcome:
+  change-interval: 400
+  texts:
+  - '&7&lW_'
+  - '&7&lW_'
+  - '&7&lWe_'
+  - '&7&lWel_'
+  - '&7&lWelc_'
+  - '&7&lWelco_'
+  - '&7&lWelcom_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcom_'
+  - '&7&lWelco_'
+  - '&7&lWelc_'
+  - '&7&lWel_'
+  - '&7&lWe_'
+  - '&7&lW_'
+  - '&7&lW_'
+time:
+  change-interval: 900
+  texts:
+  - '&7Time &b%time%'
+  - '&7> Time &b%time% &7<'
+  - '&7>> Time &b%time% &7<<'
+  - '&7>>> Time &b%time% &7<<<'
+  - '&7Date &b%date%'
+  - '&7> Date &b%date% &7<'
+  - '&7>> Date &b%date% &7<<'
+  - '&7>>> Date &b%date% &7<<<'
+barcolors:
+  change-interval: 1500
+  texts:
+  - BLUE
+  - PURPLE
+  - RED
+  - PURPLE
+  - BLUE
+  - PURPLE
+  - RED
+  - PURPLE
+

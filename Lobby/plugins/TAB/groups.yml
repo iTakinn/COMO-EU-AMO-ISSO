@@ -1,0 +1,61 @@
+ceo:
+  tabprefix: '%luckperms-prefix% &r'
+  tagprefix: '%luckperms-prefix% &r'
+
+  tabsuffix: ''
+  tagsuffix: ' '
+admin:
+  tabprefix: '%luckperms-prefix% &r'
+  tagprefix: '%luckperms-prefix% &r'
+
+  tabsuffix: ''
+  tagsuffix: ' '
+mod:
+  tabprefix: '%luckperms-prefix% &r'
+  tagprefix: '%luckperms-prefix% &r'
+
+  tabsuffix: ''
+  tagsuffix: ' '
+helper:
+  tabprefix: '%luckperms-prefix% &r'
+  tagprefix: '%luckperms-prefix% &r'
+
+  tabsuffix: ''
+  tagsuffix: ' '
+youtuber:
+  tabprefix: '%luckperms-prefix% &r'
+  tagprefix: '%luckperms-prefix% &r'
+
+  tabsuffix: ''
+  tagsuffix: ' '
+master:
+  tabprefix: '%luckperms-prefix% &r'
+  tagprefix: '%luckperms-prefix% &r'
+
+  tabsuffix: ''
+  tagsuffix: ' '
+mvp:
+  tabprefix: '%luckperms-prefix% &r'
+  tagprefix: '%luckperms-prefix% &r'
+
+  tabsuffix: ''
+  tagsuffix: ' '
+vip:
+  tabprefix: '%luckperms-prefix% &r'
+  tagprefix: '%luckperms-prefix% &r'
+
+  tabsuffix: ''
+  tagsuffix: ' '
+booster:
+  tabprefix: '%luckperms-prefix% &r'
+  tagprefix: '%luckperms-prefix% &r'
+  tabsuffix: ''
+  tagsuffix: ' '
+default:
+  tabprefix: '%luckperms-prefix% &r'
+  tabsuffix: '  &r'
+  tagsuffix: ' &r '
+_DEFAULT_:
+  tabprefix: '%luckperms-prefix% '
+  tabsuffix: ' '
+  tagsuffix: ' &r '

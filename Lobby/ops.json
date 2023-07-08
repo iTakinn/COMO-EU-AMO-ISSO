@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "18f7bf45-5c65-3741-9541-bde30f073d69",
+    "name": "iTakinn",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

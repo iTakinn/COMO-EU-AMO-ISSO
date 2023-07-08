@@ -16,7 +16,7 @@ settings:
   moved-too-quickly-multiplier: 10.0
   save-user-cache-on-stop-only: false
   sample-count: 12
-  bungeecord: false
+  bungeecord: true
   timeout-time: 60
   restart-on-crash: true
   restart-script: ./start.sh

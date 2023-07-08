@@ -1,1 +1,1 @@
-java -Xmx256M -jar bungee/bungeecord.jar
+java -Xmx256M -jar bungeecord.jar

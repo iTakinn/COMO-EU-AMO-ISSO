@@ -1,1 +1,1 @@
-java -Xmx3G -jar purpur.jar
+java -jar purpur.jar
