@@ -1,7 +1,8 @@
 enforce_secure_profile: false
 listeners:
 - query_port: 25565
-  motd: '&1Another Bungee server'
+  motd: '&6*&b-&6*&b-&6*&b-&6*&b-&6*&b-&6*&b-&6*&b-&6*&b-&6*&b- &d&lREDE  GALAXY &b-&6*&b-&6*&b-&6*&b-&6*&b-&6*&b-&6*&b-&6*&b-&6*&b-&6*
+    &6&l| &eSurvival &6&l|&e loja.redegalaxy.space &6&l| &eSlimeFun &6&l|'
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false

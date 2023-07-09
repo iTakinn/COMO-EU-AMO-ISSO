@@ -59,7 +59,7 @@ settings:
 
   # If you want to use the /lobby command (with aliases).
   # Requires Proxy reboot for applying changes.
-  lobby_command: true
+  lobby_command: false
 
   # Aliases for /lobby command, it's possible to remove the base /hub command too.
   lobby_command_aliases:

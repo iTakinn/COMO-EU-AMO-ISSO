@@ -1,0 +1,15 @@
+[07/09/2023 15:35:47]:           __             _       
+[07/09/2023 15:35:47]:   _ __   / /  ___   __ _(_)_ __  
+[07/09/2023 15:35:47]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[07/09/2023 15:35:47]:  | | | / /__| (_) | (_| | | | | |
+[07/09/2023 15:35:47]:  |_| |_\____/\___/ \__, |_|_| |_|
+[07/09/2023 15:35:47]:                   |___/            
+[07/09/2023 15:35:47]:  By: www.nickuc.com - V 10.1.16
+[07/09/2023 15:35:47]: 
+[07/09/2023 15:35:48]: [nLogin] [DEBUG] All settings were loaded in 360 ms.
+[07/09/2023 15:35:48]: [nLogin] [DEBUG] Loading the messages_br.yml message file...
+[07/09/2023 15:35:48]: [nLogin] [DEBUG] All plugin messages were loaded in 86 ms (languageByClient=false).
+[07/09/2023 15:35:48]: [nLogin] [DEBUG] All proxy settings were loaded in 29 ms.
+[07/09/2023 15:35:48]: [nLogin] [DEBUG] Starting logger filter...
+[07/09/2023 15:35:48]: [nLogin] [DEBUG] Loading database...
+[07/09/2023 15:35:49]: [nLogin] nLogin foi carregado em 1522ms.
