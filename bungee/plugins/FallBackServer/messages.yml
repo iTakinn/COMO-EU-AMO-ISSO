@@ -60,10 +60,10 @@ TITLES: # Everything in seconds.
     fade_in: 1 # The time for showing the title
     fade_out: 1  # Time for making title go away
     stay: 3 # Time for making title stay in
-    fallback_title: "&cServer crashed!"
-    fallback_sub_title: "&7You've been moved to lobby."
+    fallback_title: "&cServer crashou!"
+    fallback_sub_title: "&7Movido para o Lobby!"
   lobby:
-    enabled: true
+    enabled: false
     fade_in: 1
     fade_out: 1
     stay: 3
