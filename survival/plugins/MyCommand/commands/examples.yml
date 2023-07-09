@@ -285,12 +285,7 @@ scoreboard_example:
   - "0;&6Food: &e$food"
   scoreboard_refresh_ticks: 5
   delaytimer: 10
-  
-# Teleport to another server inside the same network using the following command type (BungeeCord required)
-bungeecord_example:
-  command: /gotohub
-  type: BUNGEE_TP
-  server_name: hub
+
   
 # Limit the command execution to only certain worlds :
 allowed_worlds_example:

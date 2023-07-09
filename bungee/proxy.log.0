@@ -1412,3 +1412,80 @@ java.lang.ClassNotFoundException: com.nickuc.login.lib.hikari.HikariConfig
 15:50:06 [INFO] [iTakinn] <-> DownstreamBridge <-> [survival] has disconnected
 15:50:28 [INFO] [iTakinn] <-> ServerConnector [survival] has connected
 15:50:28 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+11:06:00 [INFO] Using standard Java JCE cipher.
+11:06:00 [INFO] Using standard Java compressor.
+11:06:00 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.20-R0.1-SNAPSHOT:9f5ace9:1718
+11:06:00 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+11:06:00 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+11:06:00 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+11:06:00 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+11:06:00 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+11:06:00 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+11:06:00 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:06:01 [INFO] Loaded plugin nLogin version 10.1.16 by NickUC
+11:06:01 [INFO] Loaded plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:06:01 [INFO] Loaded plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+11:06:01 [INFO] Loaded plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:06:01 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:06:01 [INFO] Loaded plugin BungeeGuard version 1.4.1 by Luck
+11:06:01 [INFO] Loaded plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:06:01 [INFO] Loaded plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:06:02 [WARNING] Forced host server pvp is not defined
+11:06:02 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:06:04 [INFO] [nLogin] Successful plugin core start (took 2.84s)
+11:06:04 [INFO] §9          __             _       
+11:06:05 [INFO] §9  _ __   / /  ___   __ _(_)_ __  
+11:06:05 [INFO] §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+11:06:05 [INFO] §9 | | | / /__| (_) | (_| | | | | |
+11:06:05 [INFO] §9 |_| |_\____/\___/ \__, |_|_| |_|
+11:06:05 [INFO] §9                  |___/            
+11:06:05 [INFO] §9 By: §9www.nickuc.com§9 - V 10.1.16
+11:06:05 [INFO] §9
+11:06:06 [INFO] [nLogin] §enLogin foi carregado em 1624ms.
+11:06:06 [INFO] Enabled plugin nLogin version 10.1.16 by NickUC
+11:06:06 [INFO] Enabled plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:06:07 [INFO] Enabled plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+11:06:07 [INFO] Enabled plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:06:07 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:06:07 [INFO] Enabled plugin BungeeGuard version 1.4.1 by Luck
+11:06:07 [INFO] Enabled plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:06:07 [INFO] Enabled plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+11:06:07 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+11:06:07 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+11:06:07 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+11:06:07 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+11:06:07 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+11:06:07 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.12[0;39m
+11:06:07 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+11:06:07 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+11:06:07 [INFO] Listening on /0.0.0.0:25577
+11:10:55 [INFO] [/127.0.0.1:53499] <-> InitialHandler has pinged
+11:11:07 [INFO] [/127.0.0.1:53502] <-> InitialHandler has connected
+11:11:11 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+11:11:37 [INFO] [nLogin] O usuário iTakinn se autenticou com sucesso.
+11:11:42 [INFO] [iTakinn] <-> ServerConnector [survival] has connected
+11:11:43 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+11:13:47 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+11:13:47 [INFO] [iTakinn] <-> DownstreamBridge <-> [survival] has disconnected
+11:13:54 [INFO] [iTakinn] <-> ServerConnector [survival] has connected
+11:13:54 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+11:24:29 [INFO] Closing listener [id: 0x6e1c4719, L:/[0:0:0:0:0:0:0:0]:25577]
+11:24:29 [INFO] Closing pending connections
+11:24:29 [INFO] Disconnecting 1 connections
+11:24:29 [INFO] [iTakinn] disconnected with: §cThe proxy server is restarting
+11:24:29 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+11:24:29 [INFO] [iTakinn] <-> DownstreamBridge <-> [survival] has disconnected
+11:24:30 [INFO] Saving reconnect locations
+11:24:30 [INFO] Disabling plugins
+11:24:30 [INFO] [nLogin] Successful plugin core shutdown (took 0.00s)
+11:24:30 [INFO] [nLogin] 
+11:24:30 [INFO] [nLogin] §cEncerrando o nLogin V 10.1.16...
+11:24:30 [INFO] [nLogin] 
+11:24:30 [INFO] [nLogin] §cnLogin foi encerrado em 6ms.
+11:24:30 [INFO] Closing IO threads
