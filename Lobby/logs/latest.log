@@ -1,129 +1,129 @@
-[11:06:13] [ServerMain/INFO]: Building unoptimized datafixer
-[11:06:16] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11:06:20] [ServerMain/INFO]: Loaded 7 recipes
-[11:06:23] [Server thread/INFO]: Starting minecraft server version 1.19.3
-[11:06:23] [Server thread/INFO]: Loading properties
-[11:06:23] [Server thread/INFO]: This server is running Purpur version git-Purpur-1933 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: 72b7579 on HEAD)
-[11:06:23] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:06:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:06:23] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 6 worker threads, and gen parallelism of 6 threads
-[11:06:24] [Server thread/WARN]: [Pufferfish] SIMD operations are available for your server, but are not configured!
-[11:06:24] [Server thread/WARN]: [Pufferfish] To enable additional optimizations, add "--add-modules=jdk.incubator.vector" to your startup flags, BEFORE the "-jar".
-[11:06:24] [Server thread/WARN]: [Pufferfish] If you have already added this flag, then SIMD operations are not supported on your JVM or CPU.
-[11:06:24] [Server thread/WARN]: [Pufferfish] Debug: Java: 17.0.7, test run: true
-[11:06:24] [Server thread/INFO]: Default game type: SURVIVAL
-[11:06:24] [Server thread/INFO]: Generating keypair
-[11:06:25] [Server thread/INFO]: Starting Minecraft server on *:25566
-[11:06:25] [Server thread/INFO]: Using default channel type
-[11:06:25] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[11:06:25] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[11:06:26] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_19_R2.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[11:06:33] [Server thread/WARN]: Legacy plugin VoidWorld v1.0 does not specify an api-version.
-[11:06:34] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.5.1
-[11:06:34] [Server thread/INFO]: [ViaVersion] ViaVersion 4.5.1 is now loaded, injecting!
-[11:06:34] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
-[11:06:34] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
-[11:06:34] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
-[11:06:34] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
-[11:06:34] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[11:06:34] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
-[11:06:34] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
-[11:06:35] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
-[11:06:35] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
-[11:06:35] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.18 -> 1.19 mappings...
-[11:06:35] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.19 -> 1.19.3 mappings...
-[11:06:35] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.58
-[11:06:35] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[11:06:35] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.13+46576cc
-[11:06:37] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5c231e88]
-[11:06:37] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.2
-[11:06:37] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.0.0-SNAPSHOT-b612
-[11:06:39] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.5.1
-[11:06:39] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[11:06:39] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
-[11:06:39] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
-[11:06:39] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
-[11:06:39] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
-[11:06:40] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
-[11:06:40] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
-[11:06:40] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
-[11:06:40] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
-[11:06:40] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
-[11:06:40] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
-[11:06:40] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
-[11:06:40] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.19 -> 1.18 mappings...
-[11:06:40] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.19.3 -> 1.19 mappings...
-[11:06:40] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
-[11:06:40] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.7+216b061
-[11:06:40] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.43
-[11:06:40] [Server thread/INFO]: [ServersNPC] Loading server plugin ServersNPC v4.0
-[11:06:40] [Server thread/INFO]: [VoidWorld] Loading server plugin VoidWorld v1.0
-[11:06:40] [Server thread/INFO]: [UltimateChat] Loading server plugin UltimateChat v1.9.1
-[11:06:40] [Server thread/INFO]: [TAB] Loading server plugin TAB v3.2.1
-[11:06:40] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v14.2.12
-[11:06:40] [Server thread/INFO]: [PluginManager] Loading server plugin PluginManager v2.8.1
-[11:06:40] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.1.16
-[11:06:41] [Server thread/INFO]: [MyCommand] Loading server plugin MyCommand v5.7.3
-[11:06:41] [Server thread/INFO]: [HolographicDisplays] Loading server plugin HolographicDisplays v3.0.1-SNAPSHOT-b244
-[11:06:41] [Server thread/INFO]: [DeluxeHub] Loading server plugin DeluxeHub v3.5.4
-[11:06:41] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.30-SNAPSHOT (build 2809)
-[11:06:41] [Server thread/INFO]: [BungeeGuard] Loading server plugin BungeeGuard v1.4.1
-[11:06:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:06:41] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.58
-[11:06:42] [Server thread/INFO]:         __    
-[11:06:42] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.58
-[11:06:42] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
-[11:06:42] [Server thread/INFO]: 
-[11:06:42] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[11:06:43] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[11:06:44] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[11:06:44] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[11:06:44] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3382ms)
-[11:06:44] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[11:06:45] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[11:06:45] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[11:06:45] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[11:06:45] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.13+46576cc
-[11:06:45] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[11:06:45] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[11:06:45] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R2.PaperweightAdapter as the Bukkit adapter
-[11:06:47] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b612
-[11:06:47] [Server thread/INFO]: [VoidWorld] Enabling VoidWorld v1.0*
-[11:06:47] [Server thread/INFO]: [nLogin] Enabling nLogin v10.1.16
-[11:06:48] [Server thread/INFO]: [nLogin] Successful plugin core start (took 1.19s)
-[11:06:48] [Server thread/INFO]:           __             _       
-[11:06:48] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
-[11:06:48] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
-[11:06:48] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
-[11:06:48] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
-[11:06:48] [Server thread/INFO]:                   |___/            
-[11:06:48] [Server thread/INFO]:  By: www.nickuc.com - V 10.1.16
-[11:06:48] [Server thread/INFO]: 
-[11:06:49] [Server thread/INFO]: [nLogin] nLogin foi carregado em 380ms.
-[11:06:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:06:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:06:49] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[11:06:49] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[11:06:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:06:49] [Server thread/INFO]: Preparing level "world"
-[11:06:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:06:51] [Server thread/INFO]: Time elapsed: 250 ms
-[11:06:51] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.5.1
-[11:06:51] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
-[11:06:52] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[11:06:52] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.5.1
-[11:06:52] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[11:06:52] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[11:06:52] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[11:06:52] [Server thread/INFO]: Could not set generator for world 'world': Plugin 'Terra' does not exist
-[11:06:53] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
-[11:06:53] [Server thread/INFO]: Time elapsed: 557 ms
-[11:06:53] [Server thread/INFO]: [Multiverse-Core] 2 - World(s) loaded.
-[11:06:53] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[11:06:53] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[11:06:53] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.7+216b061
-[11:06:54] [Server thread/ERROR]: [WorldGuard] Error parsing configuration for world world. 
-[11:06:54] [Server thread/ERROR]: Error occurred while enabling WorldGuard v7.0.7+216b061 (Is it up to date?)
+[13:29:34] [ServerMain/INFO]: Building unoptimized datafixer
+[13:29:36] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:29:41] [ServerMain/INFO]: Loaded 7 recipes
+[13:29:43] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[13:29:43] [Server thread/INFO]: Loading properties
+[13:29:43] [Server thread/INFO]: This server is running Purpur version git-Purpur-1933 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: 72b7579 on HEAD)
+[13:29:43] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:29:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:29:44] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 6 worker threads, and gen parallelism of 6 threads
+[13:29:45] [Server thread/WARN]: [Pufferfish] SIMD operations are available for your server, but are not configured!
+[13:29:45] [Server thread/WARN]: [Pufferfish] To enable additional optimizations, add "--add-modules=jdk.incubator.vector" to your startup flags, BEFORE the "-jar".
+[13:29:45] [Server thread/WARN]: [Pufferfish] If you have already added this flag, then SIMD operations are not supported on your JVM or CPU.
+[13:29:45] [Server thread/WARN]: [Pufferfish] Debug: Java: 17.0.7, test run: true
+[13:29:45] [Server thread/INFO]: Default game type: SURVIVAL
+[13:29:45] [Server thread/INFO]: Generating keypair
+[13:29:45] [Server thread/INFO]: Starting Minecraft server on *:25566
+[13:29:45] [Server thread/INFO]: Using default channel type
+[13:29:46] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[13:29:46] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[13:29:47] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_19_R2.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[13:29:54] [Server thread/WARN]: Legacy plugin VoidWorld v1.0 does not specify an api-version.
+[13:29:54] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.5.1
+[13:29:54] [Server thread/INFO]: [ViaVersion] ViaVersion 4.5.1 is now loaded, injecting!
+[13:29:55] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[13:29:55] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[13:29:55] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[13:29:55] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[13:29:55] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[13:29:55] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[13:29:55] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[13:29:55] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[13:29:55] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[13:29:56] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.18 -> 1.19 mappings...
+[13:29:56] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.19 -> 1.19.3 mappings...
+[13:29:56] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.58
+[13:29:56] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[13:29:56] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.13+46576cc
+[13:29:58] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@a15710]
+[13:29:58] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.2
+[13:29:58] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.0.0-SNAPSHOT-b612
+[13:30:00] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.5.1
+[13:30:00] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[13:30:00] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[13:30:00] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[13:30:00] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
+[13:30:00] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[13:30:00] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[13:30:00] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[13:30:00] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+[13:30:00] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+[13:30:01] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+[13:30:01] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+[13:30:01] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
+[13:30:01] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.19 -> 1.18 mappings...
+[13:30:01] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.19.3 -> 1.19 mappings...
+[13:30:01] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
+[13:30:01] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.7+216b061
+[13:30:01] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.43
+[13:30:01] [Server thread/INFO]: [ServersNPC] Loading server plugin ServersNPC v4.0
+[13:30:01] [Server thread/INFO]: [VoidWorld] Loading server plugin VoidWorld v1.0
+[13:30:01] [Server thread/INFO]: [UltimateChat] Loading server plugin UltimateChat v1.9.1
+[13:30:01] [Server thread/INFO]: [TAB] Loading server plugin TAB v3.2.1
+[13:30:01] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v14.2.12
+[13:30:01] [Server thread/INFO]: [PluginManager] Loading server plugin PluginManager v2.8.1
+[13:30:01] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.1.16
+[13:30:02] [Server thread/INFO]: [MyCommand] Loading server plugin MyCommand v5.7.3
+[13:30:02] [Server thread/INFO]: [HolographicDisplays] Loading server plugin HolographicDisplays v3.0.1-SNAPSHOT-b244
+[13:30:02] [Server thread/INFO]: [DeluxeHub] Loading server plugin DeluxeHub v3.5.4
+[13:30:02] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.30-SNAPSHOT (build 2809)
+[13:30:02] [Server thread/INFO]: [BungeeGuard] Loading server plugin BungeeGuard v1.4.1
+[13:30:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:30:02] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.58
+[13:30:03] [Server thread/INFO]:         __    
+[13:30:03] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.58
+[13:30:03] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
+[13:30:03] [Server thread/INFO]: 
+[13:30:03] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[13:30:03] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[13:30:04] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[13:30:04] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[13:30:04] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2848ms)
+[13:30:04] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[13:30:05] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[13:30:05] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[13:30:05] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[13:30:05] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.13+46576cc
+[13:30:05] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[13:30:05] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[13:30:05] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R2.PaperweightAdapter as the Bukkit adapter
+[13:30:07] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b612
+[13:30:07] [Server thread/INFO]: [VoidWorld] Enabling VoidWorld v1.0*
+[13:30:07] [Server thread/INFO]: [nLogin] Enabling nLogin v10.1.16
+[13:30:08] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.94s)
+[13:30:08] [Server thread/INFO]:           __             _       
+[13:30:08] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
+[13:30:08] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[13:30:08] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
+[13:30:08] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[13:30:08] [Server thread/INFO]:                   |___/            
+[13:30:08] [Server thread/INFO]:  By: www.nickuc.com - V 10.1.16
+[13:30:08] [Server thread/INFO]: 
+[13:30:09] [Server thread/INFO]: [nLogin] nLogin foi carregado em 431ms.
+[13:30:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:30:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:30:09] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[13:30:09] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[13:30:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:30:09] [Server thread/INFO]: Preparing level "world"
+[13:30:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:30:11] [Server thread/INFO]: Time elapsed: 320 ms
+[13:30:11] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.5.1
+[13:30:11] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
+[13:30:12] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[13:30:12] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.5.1
+[13:30:12] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[13:30:12] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[13:30:12] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[13:30:12] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
+[13:30:13] [Server thread/INFO]: Time elapsed: 133 ms
+[13:30:13] [Server thread/INFO]: Could not set generator for world 'world': Plugin 'Terra' does not exist
+[13:30:13] [Server thread/INFO]: [Multiverse-Core] 2 - World(s) loaded.
+[13:30:13] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[13:30:13] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[13:30:13] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.7+216b061
+[13:30:14] [Server thread/ERROR]: [WorldGuard] Error parsing configuration for world world. 
+[13:30:14] [Server thread/ERROR]: Error occurred while enabling WorldGuard v7.0.7+216b061 (Is it up to date?)
 org.yaml.snakeyaml.reader.ReaderException: special characters are not allowed
 	at org.yaml.snakeyaml.reader.StreamReader.update(StreamReader.java:204) ~[snakeyaml-1.33.jar:?]
 	at org.yaml.snakeyaml.reader.StreamReader.ensureEnoughData(StreamReader.java:169) ~[snakeyaml-1.33.jar:?]
@@ -162,9 +162,9 @@ org.yaml.snakeyaml.reader.ReaderException: special characters are not allowed
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1117) ~[purpur-1.19.3.jar:git-Purpur-1933]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321) ~[purpur-1.19.3.jar:git-Purpur-1933]
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[11:06:54] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.7+216b061
-[11:06:54] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[11:06:54] [Server thread/ERROR]: Error occurred (in the plugin loader) while disabling WorldGuard v7.0.7+216b061 (Is it up to date?)
+[13:30:14] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.7+216b061
+[13:30:14] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[13:30:14] [Server thread/ERROR]: Error occurred (in the plugin loader) while disabling WorldGuard v7.0.7+216b061 (Is it up to date?)
 java.lang.NullPointerException: Cannot invoke "com.sk89q.worldguard.bukkit.BukkitRegionContainer.shutdown()" because "this.regionContainer" is null
 	at com.sk89q.worldguard.bukkit.BukkitWorldGuardPlatform.unload(BukkitWorldGuardPlatform.java:150) ~[worldguard-bukkit-7.0.7-dist.jar:?]
 	at com.sk89q.worldguard.WorldGuard.disable(WorldGuard.java:206) ~[worldguard-bukkit-7.0.7-dist.jar:?]
@@ -184,183 +184,171 @@ java.lang.NullPointerException: Cannot invoke "com.sk89q.worldguard.bukkit.Bukki
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1117) ~[purpur-1.19.3.jar:git-Purpur-1933]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321) ~[purpur-1.19.3.jar:git-Purpur-1933]
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[11:06:54] [Server thread/INFO]: [spark] Enabling spark v1.10.43
-[11:06:55] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
-[11:06:55] [Server thread/INFO]: [spark] Starting background profiler...
-[11:06:55] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[11:06:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: spark [1.10.43]
-[11:06:56] [Server thread/INFO]: [spark] Registered PlaceholderAPI placeholders
-[11:06:56] [Server thread/INFO]: [ServersNPC] Enabling ServersNPC v4.0
-[11:06:56] [Server thread/WARN]: [io.github.znetworkw.znpcservers.cache.TypeCache$BaseCache] No cache found for: [net.minecraft.world.entity.monster.warden.EntityWarden]
-[11:06:56] [Server thread/WARN]: [io.github.znetworkw.znpcservers.cache.TypeCache$BaseCache] No cache found for: [net.minecraft.world.entity.monster.warden.EntityWarden] : []
-[11:06:56] [Server thread/WARN]: [io.github.znetworkw.znpcservers.cache.TypeCache$BaseCache] Skipping cache for [net.minecraft.world.entity.monster.warden.EntityWarden]
-[11:06:56] [Server thread/INFO]: [UltimateChat] Enabling UltimateChat v1.9.1
-[11:06:56] [Server thread/INFO]: [UltimateChat] All configurations loaded!
-[11:06:56] [Server thread/INFO]: [UltimateChat] Language file loaded - Using: PT-BR
-[11:06:56] [Server thread/INFO]: [UltimateChat] Vault found Economy, but for some reason cant be used.
-[11:06:56] [Server thread/INFO]: [UltimateChat] Vault chat found. Hooked.
-[11:06:56] [Server thread/INFO]: [UltimateChat] Vault perms found. Hooked.
-[11:06:56] [Server thread/INFO]: [UltimateChat] ProtocolLib found. Hooked.
-[11:06:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: uchat [1.9.1]
-[11:06:56] [Server thread/INFO]: [UltimateChat] PlaceHolderAPI found. Hooked and registered some chat placeholders with relational tag feature.
-[11:06:56] [Server thread/INFO]: [UltimateChat] Init API module...
-[11:06:56] [Server thread/INFO]: [UltimateChat] Server Version: 1.19.3-R0.1-SNAPSHOT
-[11:06:56] [Server thread/INFO]: 
-[11:06:56] [Server thread/INFO]:   _    _ _ _   _                 _        _____ _           _  
-[11:06:56] [Server thread/INFO]:  | |  | | | | (_)               | |      / ____| |         | |  
-[11:06:56] [Server thread/INFO]:  | |  | | | |_ _ _ __ ___   __ _| |_ ___| |    | |__   __ _| |_ 
-[11:06:56] [Server thread/INFO]:  | |  | | | __| | '_ ` _ \ / _` | __/ _ \ |    | '_ \ / _` | __|
-[11:06:56] [Server thread/INFO]:  | |__| | | |_| | | | | | | (_| | ||  __/ |____| | | | (_| | |_ 
-[11:06:56] [Server thread/INFO]:   \____/|_|\__|_|_| |_| |_|\__,_|\__\___|\_____|_| |_|\__,_|\__|
-[11:06:56] [Server thread/INFO]:                                                                 
-[11:06:56] [Server thread/INFO]: UltimateChat v1.9.1 enabled!
-[11:06:56] [Server thread/INFO]: [UltimateChat] Metrics enabled! See our stats here: https://bstats.org/plugin/bukkit/UltimateChat
-[11:06:56] [Server thread/INFO]: [TAB] Enabling TAB v3.2.1
-[11:06:56] [Server thread/INFO]: [TAB] Server version: 1.19.3 (v1_19_R2)
-[11:06:56] [Server thread/INFO]: [TAB] Loaded NMS hook in 162ms
-[11:06:56] [Server thread/INFO]: [TAB] Enabled in 188ms
-[11:06:56] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.12
-[11:06:57] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R2[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m
-[11:06:57] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m-------------------------/Warning\-------------------------[0;39m
-[11:06:57] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mThis plugin is running in PROXY mode![0;39m
-[11:06:57] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mYou have to do all configuration at config file[0;39m
-[11:06:57] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39minside your BungeeCord/Velocity server.[0;39m
-[11:06:57] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m(<proxy>/plugins/SkinsRestorer/)[0;39m
-[11:06:57] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m-------------------------\Warning/-------------------------[0;39m
-[11:06:57] [Server thread/INFO]: [PluginManager] Enabling PluginManager v2.8.1
-[11:06:57] [Server thread/INFO]: [MyCommand] Enabling MyCommand v5.7.3
-[11:06:57] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.3*-=-=-=-=-=-=-=-=-=-*
-[11:06:57] [Server thread/INFO]: | Hooked on Vault 1.7.3-b131
-[11:06:57] [Server thread/INFO]: | Command file(s) found : 1
-[11:06:57] [Server thread/INFO]: | Config : Ready.
-[11:06:57] [Server thread/INFO]: | ProtocolLib found, features availables (SignMenu)
-[11:06:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: mycommand [1.0.0]
-[11:06:57] [Server thread/INFO]: | Placeholder_API : Hooked, Ok.
-[11:06:57] [Server thread/INFO]: | Custom commands loaded : 54
-[11:06:58] [Server thread/INFO]: | New update available : MyCommand v5.7.4
-[11:06:58] [Server thread/INFO]: |          by emmerrei a.k.a. ivanfromitaly.           
-[11:06:58] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
-[11:06:58] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.1-SNAPSHOT-b244
-[11:06:58] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.4
-[11:06:58] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
-[11:06:58] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
-[11:06:58] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
-[11:06:58] [Server thread/INFO]: [DeluxeHub] 
-[11:06:58] [Server thread/INFO]: [DeluxeHub] Version: 3.5.4
-[11:06:58] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
-[11:06:58] [Server thread/INFO]: [DeluxeHub] 
-[11:06:58] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
-[11:06:58] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
-[11:06:58] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_19_R2! Trying to find NMS support
-[11:06:58] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_19_R2' loaded!
-[11:06:58] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Gson: class com.google.gson.Gson
-[11:06:58] [Server thread/INFO]: [DeluxeHub] Loaded 15 plugin modules.
-[11:06:58] [Server thread/INFO]: [DeluxeHub] 
-[11:06:58] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 446ms
-[11:06:58] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.30-SNAPSHOT (build 2809)
-[11:06:58] [Server thread/INFO]: [Citizens] Loading external libraries
-[11:06:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: citizensplaceholder [1.0.0]
-[11:06:59] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
-[11:06:59] [Server thread/INFO]: [BungeeGuard] Enabling BungeeGuard v1.4.1
-[11:06:59] [Server thread/INFO]: [BungeeGuard] Using Paper's PlayerHandshakeEvent to listen for connections.
-[11:07:00] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[11:07:00] [Server thread/INFO]: Running delayed init tasks
-[11:07:00] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19.3 (761)
-[11:07:00] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] Checking for Updates ... 
-[11:07:00] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
-[11:07:00] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[11:07:00] [Server thread/INFO]: Done (37.809s)! For help, type "help"
-[11:07:01] [Server thread/INFO]: [HolographicDisplays] Found a new version available: v3.0.2
-[11:07:01] [Server thread/INFO]: [HolographicDisplays] Download it on Bukkit Dev:
-[11:07:01] [Server thread/INFO]: [HolographicDisplays] https://dev.bukkit.org/projects/holographic-displays
-[11:07:02] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[11:07:02] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[11:07:02] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[11:07:02] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
-[11:07:02] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |    [33;1mProxy Mode[32;1m    |[0;39m
-[11:07:02] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[11:07:02] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[11:07:02] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.12[0;39m
-[11:07:02] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[11:07:02] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[11:07:02] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] No new version available
-[11:07:02] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.3) is available at:
-[11:07:02] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
-[11:07:02] [Craft Scheduler Thread - 11 - PluginManager/INFO]: PM | You are using the latest version of PluginManager.
-[11:07:02] [Server thread/INFO]: [ProtocolLib] The updater found an update: 5.0.0 (Running 5.0.0-SNAPSHOT-b612). Download at https://www.spigotmc.org/resources/protocollib.1997/
-[11:07:03] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 4.7.0, you're on: 4.5.1
-[11:07:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bungee [2.2]
-[11:07:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: luckperms [5.1-R2]
-[11:07:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.3]
-[11:07:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server [2.6.1]
-[11:07:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic [2.0.1]
-[11:07:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault [1.7.1]
-[11:07:05] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion simpleclans due to a missing plugin: SimpleClans
-[11:07:05] [Server thread/INFO]: 6 placeholder hook(s) registered! 4 placeholder hook(s) have an update available.
-[11:07:10] [Server thread/INFO]: [MyCommand] found an update for MyCommand. Type /mycommand for more infos.
-[11:11:11] [User Authenticator #0/INFO]: UUID of player iTakinn is 18f7bf45-5c65-3741-9541-bde30f073d69
-[11:11:11] [Server thread/INFO]: + iTakinn Entrou
-[11:11:11] [Server thread/INFO]: iTakinn[/127.0.0.1:53506] logged in with entity id 49 at ([spawn]67.5, 61.0, 413.5)
-[11:11:43] [Server thread/INFO]: iTakinn lost connection: Disconnected
-[11:11:43] [Server thread/INFO]: - iTakinn Saiu
-[11:13:47] [User Authenticator #1/INFO]: UUID of player iTakinn is 18f7bf45-5c65-3741-9541-bde30f073d69
-[11:13:47] [Server thread/INFO]: + iTakinn Entrou
-[11:13:47] [Server thread/INFO]: iTakinn[/127.0.0.1:53613] logged in with entity id 12547 at ([spawn]67.5, 61.0, 413.5)
-[11:13:54] [Server thread/INFO]: iTakinn issued server command: /survival
-[11:13:54] [Server thread/INFO]: iTakinn lost connection: Disconnected
-[11:13:54] [Server thread/INFO]: - iTakinn Saiu
-[11:24:32] [Server thread/INFO]: Stopping server
-[11:24:32] [Server thread/INFO]: [BungeeGuard] Disabling BungeeGuard v1.4.1
-[11:24:32] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.30-SNAPSHOT (build 2809)
-[11:24:32] [Server thread/INFO]: [DeluxeHub] Disabling DeluxeHub v3.5.4
-[11:24:32] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v3.0.1-SNAPSHOT-b244
-[11:24:32] [Server thread/INFO]: [MyCommand] Disabling MyCommand v5.7.3
-[11:24:32] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.3*-=-=-=-=-=-=-=-=-=-*
-[11:24:32] [Server thread/INFO]: | Tasks : Stopped all tasks.
-[11:24:32] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*    Bye!   *-=-=-=-=-=-=-=-=-=-=-*
-[11:24:32] [Server thread/INFO]: [nLogin] Disabling nLogin v10.1.16
-[11:24:32] [Server thread/INFO]: [nLogin] Successful plugin core shutdown (took 0.00s)
-[11:24:32] [Server thread/INFO]: [nLogin] 
-[11:24:32] [Server thread/INFO]: [nLogin] Encerrando o nLogin V 10.1.16...
-[11:24:32] [Server thread/INFO]: [nLogin] 
-[11:24:32] [Server thread/INFO]: [nLogin] nLogin foi encerrado em 1ms.
-[11:24:32] [Server thread/INFO]: [PluginManager] Disabling PluginManager v2.8.1
-[11:24:32] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.12
-[11:24:32] [Server thread/INFO]: [TAB] Disabling TAB v3.2.1
-[11:24:32] [Server thread/INFO]: [TAB] Disabled in 4ms
-[11:24:32] [Server thread/INFO]: [UltimateChat] Disabling UltimateChat v1.9.1
-[11:24:32] [Server thread/INFO]: [UltimateChat] UltimateChat v1.9.1 disabled!
-[11:24:32] [Server thread/INFO]: [VoidWorld] Disabling VoidWorld v1.0
-[11:24:32] [Server thread/INFO]: [ServersNPC] Disabling ServersNPC v4.0
-[11:24:32] [Server thread/INFO]: [spark] Disabling spark v1.10.43
-[11:24:32] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
-[11:24:32] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.5.1
-[11:24:32] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0-SNAPSHOT-b612
-[11:24:32] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
-[11:24:32] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.13+46576cc
-[11:24:32] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[11:24:32] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[11:24:32] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.58
-[11:24:32] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[11:24:32] [Server thread/INFO]: [LuckPerms] Closing storage...
-[11:24:33] [Server thread/INFO]: [LuckPerms] Goodbye!
-[11:24:33] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.5.1
-[11:24:33] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[11:24:33] [Server thread/INFO]: Saving players
-[11:24:33] [Server thread/INFO]: Saving worlds
-[11:24:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11:24:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[11:24:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[11:24:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[11:24:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 12 entity chunks, 0 poi chunks in world 'world' in 0.03s
-[11:24:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:24:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[spawn]'/minecraft:spawn
-[11:24:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'spawn'
-[11:24:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'spawn'
-[11:24:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'spawn'
-[11:24:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 4 entity chunks, 0 poi chunks in world 'spawn' in 0.02s
-[11:24:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (spawn): All chunks are saved
-[11:24:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[11:24:33] [Server thread/INFO]: Flushing Chunk IO
-[11:24:33] [Server thread/INFO]: Closing Thread Pool
-[11:24:33] [Server thread/INFO]: Closing Server
+[13:30:14] [Server thread/INFO]: [spark] Enabling spark v1.10.43
+[13:30:15] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[13:30:15] [Server thread/INFO]: [spark] Starting background profiler...
+[13:30:15] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[13:30:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: spark [1.10.43]
+[13:30:15] [Server thread/INFO]: [spark] Registered PlaceholderAPI placeholders
+[13:30:15] [Server thread/INFO]: [ServersNPC] Enabling ServersNPC v4.0
+[13:30:15] [Server thread/WARN]: [io.github.znetworkw.znpcservers.cache.TypeCache$BaseCache] No cache found for: [net.minecraft.world.entity.monster.warden.EntityWarden]
+[13:30:15] [Server thread/WARN]: [io.github.znetworkw.znpcservers.cache.TypeCache$BaseCache] No cache found for: [net.minecraft.world.entity.monster.warden.EntityWarden] : []
+[13:30:15] [Server thread/WARN]: [io.github.znetworkw.znpcservers.cache.TypeCache$BaseCache] Skipping cache for [net.minecraft.world.entity.monster.warden.EntityWarden]
+[13:30:15] [Server thread/INFO]: [UltimateChat] Enabling UltimateChat v1.9.1
+[13:30:15] [Server thread/INFO]: [UltimateChat] All configurations loaded!
+[13:30:15] [Server thread/INFO]: [UltimateChat] Language file loaded - Using: PT-BR
+[13:30:15] [Server thread/INFO]: [UltimateChat] Vault found Economy, but for some reason cant be used.
+[13:30:15] [Server thread/INFO]: [UltimateChat] Vault chat found. Hooked.
+[13:30:15] [Server thread/INFO]: [UltimateChat] Vault perms found. Hooked.
+[13:30:15] [Server thread/INFO]: [UltimateChat] ProtocolLib found. Hooked.
+[13:30:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: uchat [1.9.1]
+[13:30:15] [Server thread/INFO]: [UltimateChat] PlaceHolderAPI found. Hooked and registered some chat placeholders with relational tag feature.
+[13:30:15] [Server thread/INFO]: [UltimateChat] Init API module...
+[13:30:15] [Server thread/INFO]: [UltimateChat] Server Version: 1.19.3-R0.1-SNAPSHOT
+[13:30:15] [Server thread/INFO]: 
+[13:30:15] [Server thread/INFO]:   _    _ _ _   _                 _        _____ _           _  
+[13:30:15] [Server thread/INFO]:  | |  | | | | (_)               | |      / ____| |         | |  
+[13:30:15] [Server thread/INFO]:  | |  | | | |_ _ _ __ ___   __ _| |_ ___| |    | |__   __ _| |_ 
+[13:30:15] [Server thread/INFO]:  | |  | | | __| | '_ ` _ \ / _` | __/ _ \ |    | '_ \ / _` | __|
+[13:30:15] [Server thread/INFO]:  | |__| | | |_| | | | | | | (_| | ||  __/ |____| | | | (_| | |_ 
+[13:30:15] [Server thread/INFO]:   \____/|_|\__|_|_| |_| |_|\__,_|\__\___|\_____|_| |_|\__,_|\__|
+[13:30:15] [Server thread/INFO]:                                                                 
+[13:30:15] [Server thread/INFO]: UltimateChat v1.9.1 enabled!
+[13:30:15] [Server thread/INFO]: [UltimateChat] Metrics enabled! See our stats here: https://bstats.org/plugin/bukkit/UltimateChat
+[13:30:15] [Server thread/INFO]: [TAB] Enabling TAB v3.2.1
+[13:30:15] [Server thread/INFO]: [TAB] Server version: 1.19.3 (v1_19_R2)
+[13:30:15] [Server thread/INFO]: [TAB] Loaded NMS hook in 239ms
+[13:30:16] [Server thread/INFO]: [TAB] Enabled in 200ms
+[13:30:16] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.12
+[13:30:16] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R2[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m
+[13:30:16] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m-------------------------/Warning\-------------------------[0;39m
+[13:30:16] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mThis plugin is running in PROXY mode![0;39m
+[13:30:16] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mYou have to do all configuration at config file[0;39m
+[13:30:16] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39minside your BungeeCord/Velocity server.[0;39m
+[13:30:16] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m(<proxy>/plugins/SkinsRestorer/)[0;39m
+[13:30:16] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m-------------------------\Warning/-------------------------[0;39m
+[13:30:16] [Server thread/INFO]: [PluginManager] Enabling PluginManager v2.8.1
+[13:30:16] [Server thread/INFO]: [MyCommand] Enabling MyCommand v5.7.3
+[13:30:16] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.3*-=-=-=-=-=-=-=-=-=-*
+[13:30:16] [Server thread/INFO]: | Hooked on Vault 1.7.3-b131
+[13:30:16] [Server thread/INFO]: | Command file(s) found : 1
+[13:30:16] [Server thread/INFO]: | Config : Ready.
+[13:30:16] [Server thread/INFO]: | ProtocolLib found, features availables (SignMenu)
+[13:30:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: mycommand [1.0.0]
+[13:30:16] [Server thread/INFO]: | Placeholder_API : Hooked, Ok.
+[13:30:16] [Server thread/INFO]: | Custom commands loaded : 54
+[13:30:17] [Server thread/INFO]: | New update available : MyCommand v5.7.4
+[13:30:17] [Server thread/INFO]: |          by emmerrei a.k.a. ivanfromitaly.           
+[13:30:17] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
+[13:30:17] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.1-SNAPSHOT-b244
+[13:30:17] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.4
+[13:30:17] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
+[13:30:17] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
+[13:30:17] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
+[13:30:17] [Server thread/INFO]: [DeluxeHub] 
+[13:30:17] [Server thread/INFO]: [DeluxeHub] Version: 3.5.4
+[13:30:17] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
+[13:30:17] [Server thread/INFO]: [DeluxeHub] 
+[13:30:17] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
+[13:30:18] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[13:30:18] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_19_R2! Trying to find NMS support
+[13:30:18] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_19_R2' loaded!
+[13:30:18] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Gson: class com.google.gson.Gson
+[13:30:18] [Server thread/INFO]: [DeluxeHub] Loaded 15 plugin modules.
+[13:30:18] [Server thread/INFO]: [DeluxeHub] 
+[13:30:18] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 333ms
+[13:30:18] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.30-SNAPSHOT (build 2809)
+[13:30:18] [Server thread/INFO]: [Citizens] Loading external libraries
+[13:30:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: citizensplaceholder [1.0.0]
+[13:30:18] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[13:30:19] [Server thread/INFO]: [BungeeGuard] Enabling BungeeGuard v1.4.1
+[13:30:19] [Server thread/INFO]: [BungeeGuard] Using Paper's PlayerHandshakeEvent to listen for connections.
+[13:30:19] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[13:30:19] [Server thread/INFO]: Running delayed init tasks
+[13:30:19] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19.3 (761)
+[13:30:19] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] Checking for Updates ... 
+[13:30:20] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] No new version available
+[13:30:20] [Craft Scheduler Thread - 5 - PluginManager/INFO]: PM | You are using the latest version of PluginManager.
+[13:30:20] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
+[13:30:20] [Server thread/INFO]: [HolographicDisplays] Found a new version available: v3.0.2
+[13:30:20] [Server thread/INFO]: [HolographicDisplays] Download it on Bukkit Dev:
+[13:30:20] [Server thread/INFO]: [HolographicDisplays] https://dev.bukkit.org/projects/holographic-displays
+[13:30:20] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[13:30:20] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.3) is available at:
+[13:30:20] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[13:30:20] [Server thread/INFO]: Done (37.014s)! For help, type "help"
+[13:30:20] [Craft Scheduler Thread - 10 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[13:30:20] [Craft Scheduler Thread - 10 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[13:30:20] [Craft Scheduler Thread - 10 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[13:30:20] [Craft Scheduler Thread - 10 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[13:30:20] [Craft Scheduler Thread - 10 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |    [33;1mProxy Mode[32;1m    |[0;39m
+[13:30:20] [Craft Scheduler Thread - 10 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[13:30:20] [Craft Scheduler Thread - 10 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[13:30:20] [Craft Scheduler Thread - 10 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.12[0;39m
+[13:30:20] [Craft Scheduler Thread - 10 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[13:30:20] [Craft Scheduler Thread - 10 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[13:30:21] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 4.7.0, you're on: 4.5.1
+[13:30:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bungee [2.2]
+[13:30:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: luckperms [5.1-R2]
+[13:30:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.3]
+[13:30:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server [2.6.1]
+[13:30:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic [2.0.1]
+[13:30:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault [1.7.1]
+[13:30:26] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion simpleclans due to a missing plugin: SimpleClans
+[13:30:26] [Server thread/INFO]: 6 placeholder hook(s) registered! 4 placeholder hook(s) have an update available.
+[13:30:29] [Server thread/INFO]: [MyCommand] found an update for MyCommand. Type /mycommand for more infos.
+[13:31:15] [Server thread/INFO]: Stopping server
+[13:31:15] [Server thread/INFO]: [BungeeGuard] Disabling BungeeGuard v1.4.1
+[13:31:15] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.30-SNAPSHOT (build 2809)
+[13:31:15] [Server thread/INFO]: [DeluxeHub] Disabling DeluxeHub v3.5.4
+[13:31:15] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v3.0.1-SNAPSHOT-b244
+[13:31:15] [Server thread/INFO]: [MyCommand] Disabling MyCommand v5.7.3
+[13:31:15] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.3*-=-=-=-=-=-=-=-=-=-*
+[13:31:15] [Server thread/INFO]: | Tasks : Stopped all tasks.
+[13:31:15] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*    Bye!   *-=-=-=-=-=-=-=-=-=-=-*
+[13:31:15] [Server thread/INFO]: [nLogin] Disabling nLogin v10.1.16
+[13:31:15] [Server thread/INFO]: [nLogin] Successful plugin core shutdown (took 0.00s)
+[13:31:15] [Server thread/INFO]: [nLogin] 
+[13:31:15] [Server thread/INFO]: [nLogin] Encerrando o nLogin V 10.1.16...
+[13:31:15] [Server thread/INFO]: [nLogin] 
+[13:31:15] [Server thread/INFO]: [nLogin] nLogin foi encerrado em 1ms.
+[13:31:15] [Server thread/INFO]: [PluginManager] Disabling PluginManager v2.8.1
+[13:31:15] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.12
+[13:31:15] [Server thread/INFO]: [TAB] Disabling TAB v3.2.1
+[13:31:15] [Server thread/INFO]: [TAB] Disabled in 2ms
+[13:31:15] [Server thread/INFO]: [UltimateChat] Disabling UltimateChat v1.9.1
+[13:31:15] [Server thread/INFO]: [UltimateChat] UltimateChat v1.9.1 disabled!
+[13:31:15] [Server thread/INFO]: [VoidWorld] Disabling VoidWorld v1.0
+[13:31:15] [Server thread/INFO]: [ServersNPC] Disabling ServersNPC v4.0
+[13:31:15] [Server thread/INFO]: [spark] Disabling spark v1.10.43
+[13:31:15] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[13:31:15] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.5.1
+[13:31:15] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0-SNAPSHOT-b612
+[13:31:15] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
+[13:31:15] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.13+46576cc
+[13:31:15] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[13:31:15] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[13:31:15] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.58
+[13:31:15] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[13:31:15] [Server thread/INFO]: [LuckPerms] Closing storage...
+[13:31:16] [Server thread/INFO]: [LuckPerms] Goodbye!
+[13:31:16] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.5.1
+[13:31:16] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[13:31:16] [Server thread/INFO]: Saving players
+[13:31:16] [Server thread/INFO]: Saving worlds
+[13:31:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:31:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[13:31:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[13:31:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[13:31:18] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 1.95s
+[13:31:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:31:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[spawn]'/minecraft:spawn
+[13:31:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'spawn'
+[13:31:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'spawn'
+[13:31:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'spawn'
+[13:31:19] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'spawn' in 0.73s
+[13:31:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (spawn): All chunks are saved
+[13:31:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:31:19] [Server thread/INFO]: Flushing Chunk IO
+[13:31:19] [Server thread/INFO]: Closing Thread Pool
+[13:31:19] [Server thread/INFO]: Closing Server
