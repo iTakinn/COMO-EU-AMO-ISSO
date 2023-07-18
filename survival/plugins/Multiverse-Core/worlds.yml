@@ -1,12 +1,12 @@
 worlds:
-  spawn:
+  world_the_end:
     ==: MVWorld
     hidden: 'false'
-    alias: spawn
+    alias: ''
     color: WHITE
     style: NORMAL
     pvp: 'true'
-    scale: '1.0'
+    scale: '16.0'
     respawnWorld: ''
     allowWeather: 'true'
     difficulty: EASY
@@ -34,16 +34,16 @@ worlds:
     spawnLocation:
       ==: MVSpawnLocation
       x: 0.0
-      y: 128.0
+      y: 67.0
       z: 0.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
-    environment: NORMAL
-    seed: '5091839409618287017'
-    generator: VoidWorld
+    environment: THE_END
+    seed: '-5881273412092191633'
+    generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
   world:
@@ -93,14 +93,14 @@ worlds:
     generator: Terra:OVERWORLD
     playerLimit: '-1'
     allowFlight: 'true'
-  world_the_end:
+  spawn:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: spawn
     color: WHITE
     style: NORMAL
     pvp: 'true'
-    scale: '16.0'
+    scale: '1.0'
     respawnWorld: ''
     allowWeather: 'true'
     difficulty: EASY
@@ -128,16 +128,16 @@ worlds:
     spawnLocation:
       ==: MVSpawnLocation
       x: 0.0
-      y: 67.0
+      y: 128.0
       z: 0.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
-    environment: THE_END
-    seed: '-5881273412092191633'
-    generator: 'null'
+    environment: NORMAL
+    seed: '5091839409618287017'
+    generator: VoidWorld
     playerLimit: '-1'
     allowFlight: 'true'
   world_nether:
