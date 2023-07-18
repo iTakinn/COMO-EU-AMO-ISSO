@@ -10,7 +10,7 @@ caixabasica:
   - '{#0a664a}Direito Para Abrir'
   - '{#0a664a}Esquerdo Para Ver'
 '{#c500e6}&lCAIXA':
-  Loc: spawn;-146.5;179.62;34.48
+  Loc: spawn;-146.5;179.62;34.47
   HoverParticles:
     Count: 1
   Range: 8
@@ -41,3 +41,23 @@ caixabasica:
   - '{#5900b3}Chave Obtida No Site'
   - '{#0a664a}Direito Para Abrir'
   - '{#0a664a}Esquerdo Para Ver'
+baltop:
+  Loc: spawn;-81.49;148.22;18.51
+  HoverParticles:
+    Count: 1
+  Range: 8
+  RangeExtra: 16
+  Lines:
+  - '{#840099}&l MAIS RICOS'
+  - '{#0007b3}&l-----------'
+  - '{#cc000c}%cmi_baltop_name_1% {#0052cc}- {#cc000c}%cmi_baltop_money_1%'
+  - '{#cc0031}%cmi_baltop_name_2% {#0052cc}- {#cc0031}%cmi_baltop_money_2%'
+  - '{#cc0056}%cmi_baltop_name_3% {#0052cc}- {#cc0056}%cmi_baltop_money_3%'
+  - '{#cc007a}%cmi_baltop_name_4% {#0052cc}- {#cc007a}%cmi_baltop_money_4%'
+  - '{#cc009f}%cmi_baltop_name_5% {#0052cc}- {#cc009f}%cmi_baltop_money_5%'
+  - '{#cc00c4}%cmi_baltop_name_6% {#0052cc}- {#cc00c4}%cmi_baltop_money_6%'
+  - '{#af00cc}%cmi_baltop_name_7% {#0052cc}- {#af00cc}%cmi_baltop_money_7%'
+  - '{#8b00cc}%cmi_baltop_name_8% {#0052cc}- {#8b00cc}%cmi_baltop_money_8%'
+  - '{#6600cc}%cmi_baltop_name_9% {#0052cc}- {#6600cc}%cmi_baltop_money_9%'
+  - '{#4100cc}%cmi_baltop_name_10% {#0052cc}- {#4100cc}%cmi_baltop_money_10%'
+  - '{#0007b3}&l-----------'

@@ -2998,3 +2998,92 @@ Caused by: xyz.jpenilla.minimotd.lib.com.typesafe.config.ConfigException$Parse: 
 11:57:52 [INFO] [nLogin] 
 11:57:52 [INFO] [nLogin] §cnLogin foi encerrado em 6ms.
 11:57:52 [INFO] Closing IO threads
+12:09:13 [INFO] Using standard Java JCE cipher.
+12:09:13 [INFO] Using standard Java compressor.
+12:09:13 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.20-R0.1-SNAPSHOT:9f5ace9:1718
+12:09:14 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+12:09:14 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+12:09:14 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+12:09:14 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+12:09:14 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+12:09:14 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+12:09:14 [INFO] Loaded plugin MiniMOTD version 2.0.13 by jmp
+12:09:14 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+12:09:15 [INFO] Loaded plugin nLogin version 10.1.16 by NickUC
+12:09:15 [INFO] Loaded plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+12:09:15 [INFO] Loaded plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+12:09:15 [INFO] Loaded plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+12:09:15 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+12:09:15 [INFO] Loaded plugin BungeeGuard version 1.4.1 by Luck
+12:09:15 [INFO] Loaded plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+12:09:15 [INFO] Loaded plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+12:09:15 [INFO] Loaded plugin FallBackServer version 3.1.2 by CandiesJar
+12:09:15 [WARNING] Forced host server pvp is not defined
+12:09:16 [INFO] Enabled plugin MiniMOTD version 2.0.13 by jmp
+12:09:16 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+12:09:18 [INFO] [nLogin] Successful plugin core start (took 1.71s)
+12:09:18 [INFO] §9          __             _       
+12:09:18 [INFO] §9  _ __   / /  ___   __ _(_)_ __  
+12:09:18 [INFO] §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+12:09:18 [INFO] §9 | | | / /__| (_) | (_| | | | | |
+12:09:18 [INFO] §9 |_| |_\____/\___/ \__, |_|_| |_|
+12:09:18 [INFO] §9                  |___/            
+12:09:18 [INFO] §9 By: §9www.nickuc.com§9 - V 10.1.16
+12:09:18 [INFO] §9
+12:09:20 [INFO] [nLogin] §enLogin foi carregado em 2095ms.
+12:09:20 [INFO] Enabled plugin nLogin version 10.1.16 by NickUC
+12:09:20 [INFO] Enabled plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+12:09:21 [INFO] Enabled plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+12:09:21 [INFO] Enabled plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+12:09:21 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+12:09:21 [INFO] Enabled plugin BungeeGuard version 1.4.1 by Luck
+12:09:22 [INFO] Enabled plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+12:09:22 [INFO] [FallBackServer] §b __________      ________________              ______      ________                               
+12:09:22 [INFO] Enabled plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+12:09:22 [INFO] [FallBackServer] §b ___  ____/_____ ___  /__  /__  /_______ _________  /__    __  ___/______________   ______________
+12:09:22 [INFO] [FallBackServer] §b __  /_   _  __ `/_  /__  /__  __ \  __ `/  ___/_  //_/    _____ \_  _ \_  ___/_ | / /  _ \_  ___/
+12:09:22 [INFO] [FallBackServer] §b _  __/   / /_/ /_  / _  / _  /_/ / /_/ // /__ _  ,<       ____/ //  __/  /   __ |/ //  __/  /    
+12:09:22 [INFO] [FallBackServer] §b /_/      \__,_/ /_/  /_/  /_.___/\__,_/ \___/ /_/|_|      /____/ \___//_/    _____/ \___//_/     
+12:09:22 [INFO] [FallBackServer] §7[§b!§7] Creating configuration files... §7[§b!§7]
+12:09:22 [INFO] [FallBackServer] §7[§b!§7] Starting all listeners... §7[§b!§7]
+12:09:22 [INFO] [FallBackServer] §7[§b!§7] Preparing commands... §7[§b!§7]
+12:09:22 [INFO] [FallBackServer] §7[§b!§7] Starting stats service... §7[§b!§7]
+12:09:22 [INFO] [FallBackServer] §7[§b!§7] Final steps... §7[§b!§7]
+12:09:22 [INFO] [FallBackServer] §7[§b!§7] Plugin loaded successfully §7[§b!§7]
+12:09:22 [INFO] Enabled plugin FallBackServer version 3.1.2 by CandiesJar
+12:09:22 [INFO] Listening on /0.0.0.0:25577
+12:09:25 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+12:09:25 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+12:09:25 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+12:09:25 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+12:09:25 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+12:09:25 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.12[0;39m
+12:09:25 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+12:09:25 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+12:11:07 [INFO] [/127.0.0.1:52319] <-> InitialHandler has pinged
+12:11:09 [INFO] [/127.0.0.1:52327] <-> InitialHandler has connected
+12:11:10 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+12:11:20 [INFO] [nLogin] O usuário iTakinn se autenticou com sucesso.
+12:11:53 [INFO] [iTakinn] <-> ServerConnector [survival] has connected
+12:11:54 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+12:35:23 [INFO] Closing listener [id: 0x811037a4, L:/[0:0:0:0:0:0:0:0]:25577]
+12:35:23 [INFO] Closing pending connections
+12:35:23 [INFO] Disconnecting 1 connections
+12:35:23 [INFO] [iTakinn] disconnected with: §cThe proxy server is restarting
+12:35:23 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+12:35:23 [INFO] [iTakinn] <-> DownstreamBridge <-> [survival] has disconnected
+12:35:24 [INFO] Saving reconnect locations
+12:35:24 [INFO] Disabling plugins
+12:35:24 [INFO] [FallBackServer] §7[§c!§7] §bFallbackServer §7is disabling... §7[§c!§7]
+12:35:24 [INFO] [nLogin] Successful plugin core shutdown (took 0.00s)
+12:35:24 [INFO] [nLogin] 
+12:35:24 [INFO] [nLogin] §cEncerrando o nLogin V 10.1.16...
+12:35:24 [INFO] [nLogin] 
+12:35:24 [INFO] [nLogin] §cnLogin foi encerrado em 6ms.
+12:35:24 [INFO] Closing IO threads

@@ -204,11 +204,11 @@ mycmd_list_command:
   - '&2There are &a$online &2players online.'
   - '&a $ponline'
 clear_chat:
-  command: /clearchat
+  command: /clear_chat
   type: BROADCAST_TEXT
   text:
   - '%Repeat%100% '
-  - '&0[&eMyCommand&0]&b Chat cleared :D'
+  - '&0[&dChat&0]&b Chat limpo :D'
 shortcut_with_multiargs:
   command: /mycmd-shortcut
   type: RUN_COMMAND

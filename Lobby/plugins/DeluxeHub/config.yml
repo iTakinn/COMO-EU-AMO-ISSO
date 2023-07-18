@@ -283,13 +283,13 @@ join_events:
   - "[MESSAGE] &r  &2&lSITE &fwww.examplemc.net"
   - "[MESSAGE] &r  &9&lDISCORD &fdiscord.examplemc.net"
   - "[MESSAGE] &r"
-  - "[MESSAGE] &r            &7&oPowered By DeluxeHub"
+  - "[MESSAGE] &r            &d&oGalaxy
   - "[MESSAGE] &8&m+---------------***---------------+"
   - "[TITLE] &b&lBEM VINDO;&f%player%;1;2;1"
   - "[SOUND] ENTITY_PLAYER_LEVELUP"
   - "[GAMEMODE] survival"
   - "[EFFECT] SPEED;1"
-
+#
 join_settings:
   # Should we teleport the player to the spawn point (if set) on join?
   spawn_join: true
