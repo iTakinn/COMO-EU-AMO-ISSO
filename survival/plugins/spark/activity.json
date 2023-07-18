@@ -24,42 +24,5 @@
       "type": "url",
       "value": "https://spark.lucko.me/9Yxb4cLo6f"
     }
-  },
-  {
-    "user": {
-      "type": "other",
-      "name": "CONSOLE"
-    },
-    "time": 1684348996745,
-    "type": "Heap dump summary",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/ElykwK7LbX"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "iTakinn",
-      "uniqueId": "18f7bf45-5c65-3741-9541-bde30f073d69"
-    },
-    "time": 1684198908003,
-    "type": "Heap dump summary",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/bKF3gEffuB"
-    }
-  },
-  {
-    "user": {
-      "type": "other",
-      "name": "CONSOLE"
-    },
-    "time": 1684111657206,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/2BNFFizJxD"
-    }
   }
 ]

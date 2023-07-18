@@ -16,7 +16,14 @@
     "hologramLines": [
       "Blocos"
     ],
-    "clickActions": [],
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "shop Blocks",
+        "delay": 0
+      }
+    ],
     "npcEquip": {},
     "npcFunctions": {
       "holo": true
@@ -40,7 +47,14 @@
     "hologramLines": [
       "Decorações"
     ],
-    "clickActions": [],
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "shop Decoration",
+        "delay": 0
+      }
+    ],
     "npcEquip": {},
     "npcFunctions": {
       "holo": true
@@ -64,7 +78,14 @@
     "hologramLines": [
       "Redstone"
     ],
-    "clickActions": [],
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "shop Redstone",
+        "delay": 0
+      }
+    ],
     "npcEquip": {},
     "npcFunctions": {
       "holo": true
@@ -88,7 +109,14 @@
     "hologramLines": [
       "Mobs"
     ],
-    "clickActions": [],
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "shop Mobs",
+        "delay": 0
+      }
+    ],
     "npcEquip": {},
     "npcFunctions": {
       "holo": true
@@ -112,7 +140,14 @@
     "hologramLines": [
       "Minerios"
     ],
-    "clickActions": [],
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "shop Ores",
+        "delay": 0
+      }
+    ],
     "npcEquip": {},
     "npcFunctions": {
       "holo": true
@@ -136,7 +171,14 @@
     "hologramLines": [
       "Outros"
     ],
-    "clickActions": [],
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "shop Miscellaneous",
+        "delay": 0
+      }
+    ],
     "npcEquip": {},
     "npcFunctions": {
       "holo": true
@@ -160,7 +202,14 @@
     "hologramLines": [
       "Plantações"
     ],
-    "clickActions": [],
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "shop Farming",
+        "delay": 0
+      }
+    ],
     "npcEquip": {},
     "npcFunctions": {
       "holo": true
@@ -184,7 +233,14 @@
     "hologramLines": [
       "Comidas"
     ],
-    "clickActions": [],
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "shop Food",
+        "delay": 0
+      }
+    ],
     "npcEquip": {},
     "npcFunctions": {
       "holo": true
@@ -208,7 +264,14 @@
     "hologramLines": [
       "Spawners"
     ],
-    "clickActions": [],
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "shop Spawners",
+        "delay": 0
+      }
+    ],
     "npcEquip": {},
     "npcFunctions": {
       "holo": true
@@ -265,9 +328,19 @@
     },
     "npcType": "PLAYER",
     "hologramLines": [
-      "TRABALHO"
+      "&aClique-para-abrir",
+      "&fe-seja-recompensado",
+      "&fEntre-em-um-trabalho",
+      "&f▪-&d&lTrabalho-&f▪"
     ],
-    "clickActions": [],
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "jobs",
+        "delay": 0
+      }
+    ],
     "npcEquip": {},
     "npcFunctions": {
       "holo": true
@@ -359,9 +432,19 @@
     },
     "npcType": "PLAYER",
     "hologramLines": [
-      "CAIXAS"
+      "&aClique-para-abrir",
+      "&fabra-e-ganhe-algo",
+      "&fVá-para-as-caixas",
+      "&f▪-&4&lCaixas-&f▪"
     ],
-    "clickActions": [],
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "warp caixas",
+        "delay": 0
+      }
+    ],
     "npcEquip": {},
     "npcFunctions": {
       "holo": true

@@ -1,0 +1,43 @@
+caixabasica:
+  Loc: spawn;-146.47;179.62;20.48
+  HoverParticles:
+    Count: 1
+  Range: 8
+  RangeExtra: 16
+  Lines:
+  - '{#004a80}&lCaixa Basica'
+  - '{#5900b3}Chave Obtida No Site/Kits'
+  - '{#0a664a}Direito Para Abrir'
+  - '{#0a664a}Esquerdo Para Ver'
+'{#c500e6}&lCAIXA':
+  Loc: spawn;-146.5;179.62;34.48
+  HoverParticles:
+    Count: 1
+  Range: 8
+  RangeExtra: 16
+  Lines:
+  - '{#c500e6}&lCAIXA VOTO'
+  - '{#5900b3}Chave Obtida Com Votos'
+  - '{#0a664a}Direito Para Abrir'
+  - '{#0a664a}Esquerdo Para Ver'
+'{#12b39F)&lCaixa':
+  Loc: spawn;-142.53;179.62;22.46
+  HoverParticles:
+    Count: 1
+  Range: 8
+  RangeExtra: 16
+  Lines:
+  - '{#12a9b3}&lCaixa Avançada'
+  - '{#0a664a}Direito Para Abrir'
+  - '{#0a664a}Esquerdo Para Ver'
+'{#009918}&lCaixa':
+  Loc: spawn;-142.51;179.62;32.51
+  HoverParticles:
+    Count: 1
+  Range: 8
+  RangeExtra: 16
+  Lines:
+  - '{#009918}&lCaixa Premium'
+  - '{#5900b3}Chave Obtida No Site'
+  - '{#0a664a}Direito Para Abrir'
+  - '{#0a664a}Esquerdo Para Ver'

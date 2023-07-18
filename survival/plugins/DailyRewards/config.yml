@@ -17,10 +17,10 @@ config:
   update-checker: true
   reward-reset: '&8▪ &6&lDaily &8▪&r &fYou reset &e%type% &freward for player &e%player%'
   unavailable-player: '&8▪ &6&lDaily &8▪&r &cPlayer &n%player%&c is not available'
-  permission-msg: '&8▪ &6&lDaily &8▪&r &cYou are not permitted to use this command'
-  rewards-dont-set: '&c[&4&lDailyRewards&c] Rewards is not set'
+  permission-msg: '&8▪ &6&lRecompensa &8▪&r &cVocê não tem permissão para usar este comando'
+  rewards-dont-set: '&c[&4&lRecompensa&c] Recompensao nao setada'
   reload-msg: '&8▪ &6&lDaily &8▪&r &fPlugin was successfully reloaded'
-  menu-title: Rewards
+  menu-title: Recompensa
   menu-size: 27
   fill-background-enabled: true
   background-item: GRAY_STAINED_GLASS_PANE
@@ -30,117 +30,113 @@ config:
   announce-enabled: false
   # In seconds
   join-notification-delay: 3
-  join-hover-message: '&7Click for collect your rewards'
+  join-hover-message: '&7Clique para coletar suas recompensas'
   join-notifications:
   - ' '
-  - '&2 - &6%rewards% reward(s) are waiting for you! &f(Click here)'
+  - '&2 - &6%rewards% recompensa(s) aguardando você! &f(Clique aqui)'
   - ' '
-  cooldown-format: '&c%days% days %hours% hours'
-  cooldown-message: '&8▪ &6&lDaily &8▪&r &7For &6%type% &7reward you have to wait &6%time%'
+  cooldown-format: '&c%days% dias %hours% horas'
+  cooldown-message: '&8▪ &6&lRecompensa &8▪ &7Aguarde mais &6%time% &7para a recompensa &6%type%!'
   unavailable-reward-sound: ENTITY_ENDER_DRAGON_HURT
   #
   # DAILY REWARD SECTION
   #
   daily-position: 11
   daily-sound: ENTITY_PLAYER_LEVELUP
-  daily-title: '&e&lRewards'
-  daily-subtitle: '&7You have collected your &eDaily&7 reward'
+  daily-title: '&e&lRecompensa'
+  daily-subtitle: '&7Você coletou sua recompensa &eDiaria&7!'
   daily-collected: '&e%player% &7collected his &e&lDaily Rewards'
   daily-premium-collected: '&e%player% &7collected his &e&lPremium Daily Rewards!'
-  daily-displayname-available: '&6&lDAILY REWARD'
-  daily-available-item: CHEST_MINECART
-  daily-unavailable-item: MINECART
+  daily-displayname-available: '&6DIARIA'
+  daily-available-item: COPPER_BLOCK
+  daily-unavailable-item: COPPER_INGOT
   daily-available-lore:
-  - '&7Reward contains:'
-  - '&6 8x &fIron Ingot'
-  - ' '
-  - '&c❌ Premium reward unavailable'
+  - '&7Recompensa contém:'
+  - ''
+  - '&e 8x &7Barras de Ferro'
+  - '&e 2x &6Barras de Ouro'
   daily-available-premium-lore:
-  - '&7Reward contains:'
-  - '&6 16x &fIron Ingot'
-  - '&6  3x &fGold Ingot'
-  - ' '
-  - '&a✔ Premium reward available'
-  daily-displayname-unavailable: '&c&lDAILY REWARD'
+  - '&7Recompensa contém:'
+  - ''
+  - '&e 16x &7Barras de Ferro'
+  - '&e 4x &6Barras de Ouro'
+  daily-displayname-unavailable: '&cDIARIA'
   daily-unavailable-lore:
   - ' '
-  - '&cAvailable in: %cooldown%'
+  - '&cNovamente em: %cooldown%'
   daily-rewards:
   - 'give %player% iron_ingot 8'
+  - 'give %player% gold_ingot 2'
   daily-premium-rewards:
   - 'give %player% iron_ingot 16'
-  - 'give %player% gold_ingot 3'
+  - 'give %player% gold_ingot 4'
   #
   # WEEKLY REWARD SECTION
   #
   weekly-position: 13
   weekly-sound: ENTITY_FIREWORK_ROCKET_LARGE_BLAST
-  weekly-title: '&e&lRewards'
-  weekly-subtitle: '&7You have collected your &eweekly &7reward'
+  weekly-title: '&e&lRecompensa'
+  weekly-subtitle: '&7Você coletou sua recompensa &eSemanal&7!'
   weekly-collected: '&e%player% &7collected his &e&lWeekly Rewards!'
   weekly-premium-collected: '&e%player% &7collected his &e&lPremium Weekly Rewards!'
-  weekly-displayname-available: '&6&lWEEKLY REWARD'
-  weekly-available-item: CHEST_MINECART
-  weekly-unavailable-item: MINECART
+  weekly-displayname-available: '&6SEMANAL'
+  weekly-available-item: IRON_BLOCK
+  weekly-unavailable-item: IRON_INGOT
   weekly-available-lore:
-  - '&7Reward contains:'
-  - '&6 1x &fDiamond'
-  - ' '
-  - '&c❌ Premium reward unavailable'
+  - '&7Recompensa contém:'
+  - ''
+  - '&e 6x &bDiamantes'
+  - '&e 2x &2Esmeraldas'
   weekly-available-premium-lore:
-  - '&7Reward contains:'
-  - '&6 5x &fDiamond'
-  - '&6 3x &fEmerald'
-  - ' '
-  - '&a✔ Premium reward available'
-  weekly-displayname-unavailable: '&c&lWEEKLY REWARD'
+  - '&7Recompensa contém:'
+  - ''
+  - '&e 12x &bDiamantes'
+  - '&e 4x &2Esmeraldas'
+  weekly-displayname-unavailable: '&cSEMANAL'
   weekly-unavailable-lore:
   - ' '
-  - '&cAvailable in: %cooldown%'
+  - '&cNovamente em: %cooldown%'
   weekly-rewards:
-  - 'give %player% diamond 1'
+  - 'give %player% diamond 6'
+  - 'give %player% emerald 2'
   weekly-premium-rewards:
-  - 'give %player% diamond 5'
-  - 'give %player% emerald 3'
+  - 'give %player% diamond 12'
+  - 'give %player% emerald 4'
   #
   # MONTHLY REWARD SECTION
   #
   monthly-position: 15
   monthly-sound: ENTITY_FIREWORK_ROCKET_BLAST
-  monthly-title: '&e&lRewards'
-  monthly-subtitle: '&7You have collected your &emonthly &7reward'
+  monthly-title: '&e&lRecompensa'
+  monthly-subtitle: '&7Você coletou sua recompensa &eMensal&7!'
   monthly-collected: '&e%player% &7collected his &e&lMonthly Rewards!'
   monthly-premium-collected: '&e%player% &7collected his &e&lPremium Monthly Rewards!'
-  monthly-displayname-available: '&6&lMONTHLY REWARD'
-  monthly-available-item: CHEST_MINECART
-  monthly-unavailable-item: MINECART
+  monthly-displayname-available: '&6MENSAL'
+  monthly-available-item: GOLD_BLOCK
+  monthly-unavailable-item: GOLD_INGOT
   monthly-available-lore:
-  - '&7Reward contains:'
-  - '&6  8x &fDiamond'
-  - '&6 32x &fIron Ingot'
-  - '&6 16x &fGold Ingot'
-  - ' '
-  - '&c❌ Premium reward unavailable'
+  - '&7Recompensa contém:'
+  - ''
+  - '&e 32x &7Barras de Ferro'
+  - '&e 16x &6Barras de Ouro'
+  - '&e 1000&2$'
   monthly-available-premium-lore:
-  - '&7Reward contains:'
-  - '&6  1x &fNether Star'
-  - '&6 16x &fDiamond'
-  - '&6 64x &fIron Ingot'
-  - '&6 32x &fGold Ingot'
-  - ' '
-  - '&a✔ Premium reward activated'
-  monthly-displayname-unavailable: '&c&lMONTHLY REWARD'
+  - '&7Recompensa contém:'
+  - ''
+  - '&e 1x &dNether Star'
+  - '&e 64x &7Barras de Ferro'
+  - '&e 32x &6Barras de Ouro'
+  - '&e 2500&2$'
+  monthly-displayname-unavailable: '&cMENSAL'
   monthly-unavailable-lore:
   - ' '
-  - '&cAvailable in: %cooldown%'
+  - '&cNovamente em: %cooldown%'
   monthly-rewards:
-  - 'give %player% diamond 8'
   - 'give %player% iron_ingot 32'
   - 'give %player% gold_ingot 16'
-  - 'eco give %player% 2000'
+  - 'money give %player% 1000'
   monthly-premium-rewards:
   - 'give %player% nether_star 1'
-  - 'give %player% diamond 16'
   - 'give %player% iron_ingot 64'
   - 'give %player% gold_ingot 32'
-  - 'eco give %player% 500'
+  - 'money give %player% 2500'
