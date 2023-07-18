@@ -1,7 +1,7 @@
 # TODO
 -------------
 ### PERMISSOES
-### Tirar end do DynMap
+### Tirar end do DynMap ✅
 ### Configurar NPCs
 ### Gradiente em todos os cargos
 ### Comandos do mycommand
@@ -11,7 +11,7 @@
 - Mostrar o tipo dos encantamento
 ### Recompensa diária
 ### Holograma para os baltop
-### Traduzir os Jobs e pets
+### Traduzir os Jobs e pets ✅
 ### Eventos/Dungeons
 ### Mudar os Kits
 ### Colocar todas as mensagens em uma unica paleta de cores
