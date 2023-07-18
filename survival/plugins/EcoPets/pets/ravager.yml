@@ -1,5 +1,5 @@
 name: "<gradient:#1e3c72>Ravager</gradient:#2a5298>"
-description: "&8&oLevel up by successfully defending against village raids"
+description: "&8&oSubir de nível, defendendo com sucesso ataques à vila"
 
 level-xp-requirements:
   - 50
@@ -62,15 +62,15 @@ level-placeholders:
 
 effects-description:
   1:
-    - "&8» &8Gives a &a+%health_boost%%&8 bonus"
+    - "&8» &8Da um bonus de &a+%health_boost%%&8 "
 
 rewards-description:
   1:
-    - "&8» &8Gives a &a+%health_boost%%&8 bonus"
+    - "&8» &8Da um bonus de &a+%health_boost%%&8 "
 
 level-up-messages:
   1:
-    - "&8» &8Gives a &a+%health_boost%%&8 bonus"
+    - "&8» &8Da um bonus de &a+%health_boost%%&8 "
 
 level-commands: [ ]
 
@@ -88,10 +88,10 @@ icon: player_head texture:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dX
 spawn-egg:
   enabled: true
   item: ravager_spawn_egg unbreaking:1 hide_enchants
-  name: "<gradient:#1e3c72>Ravager</gradient:#2a5298>&f Pet Spawn Egg"
+  name: "&fOvo de <gradient:#1e3c72>Ravager</gradient:#2a5298>&f"
   lore:
     - ""
-    - "&8&oPlace on the ground to"
-    - "&8&ounlock the &r<gradient:#1e3c72>Ravager</gradient:#2a5298>&8&o pet!"
+    - "&8&oColoque no chão para"
+    - "&8&odesbloquearo pet &r<gradient:#1e3c72>Ravager</gradient:#2a5298>&8&o!"
   craftable: false
   recipe: [ ]

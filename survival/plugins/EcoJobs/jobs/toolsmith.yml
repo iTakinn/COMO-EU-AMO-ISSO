@@ -5,9 +5,9 @@
 # _example.yml is not loaded.
 
 # The display name of the job
-name: "&#0047b3Toolsmith"
+name: "&#0047b3Ferreiro"
 
-description: "&8&oLevel up by crafting tools"
+description: "&8&oSubir de nivel criando ferramentas"
 
 unlocked-by-default: true
 
@@ -123,15 +123,15 @@ level-placeholders:
 
 effects-description:
   1:
-    - "&8» &8Earn &a$%money%&8 for each tool crafted"
+    - "&8» &8Ganhe &a$%money%&8 Para cada ferramenta criada"
 
 rewards-description:
   1:
-    - "&8» &8Earn &a$%money%&8 for each tool crafted"
+    - "&8» &8Ganhe &a$%money%&8 Para cada ferramenta criada"
 
 level-up-messages:
   1:
-    - "&8» &8Earn &a$%money%&8 for each tool crafted"
+    - "&8» &8Ganhe &a$%money%&8 Para cada ferramenta criada"
 
 level-commands: [ ]
 

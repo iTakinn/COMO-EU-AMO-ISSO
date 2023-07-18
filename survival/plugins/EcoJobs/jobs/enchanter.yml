@@ -1,5 +1,5 @@
-name: "&#7A54FBEnchanter"
-description: "&8&oLevel up by enchanting items"
+name: "&#7A54FBEncantador"
+description: "&8&oSubir de nível encantando itens"
 
 unlocked-by-default: true
 
@@ -82,15 +82,15 @@ level-placeholders:
 
 effects-description:
   1:
-    - "&8» &8Earn &a$%money%&8 for each enchanted item"
+    - "&8» &8Ganhe &a$%money%&8 Para cada item encantado"
 
 rewards-description:
   1:
-    - "&8» &8Earn &a$%money%&8 for each enchanted item"
+    - "&8» &8Ganhe &a$%money%&8 Para cada item encantado"
 
 level-up-messages:
   1:
-    - "&8» &8Earn &a$%money%&8 for each enchanted item"
+    - "&8» &8Ganhe &a$%money%&8 Para cada item encantado"
 
 level-commands: [ ]
 

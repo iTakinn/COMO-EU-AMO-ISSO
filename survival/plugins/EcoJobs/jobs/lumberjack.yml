@@ -1,5 +1,5 @@
-name: "&#FD9113Lumberjack"
-description: "&7&oLevel up by chopping wood"
+name: "&#FD9113Lenhador"
+description: "&7&oSubir de nível cortando madeira"
 
 unlocked-by-default: true
 
@@ -94,15 +94,15 @@ level-placeholders:
 
 effects-description:
   1:
-    - "&8» &7Earn &a$%money%&7 for each log chopped."
+    - "&8» &7Ganhe &a$%money%&7 Para cada tronco cortado."
 
 rewards-description:
   1:
-    - "&8» &7Earn &a$%money%&7 for each log chopped."
+    - "&8» &7Ganhe &a$%money%&7 Para cada tronco cortado."
 
 level-up-messages:
   1:
-    - "&8» &7Earn &a$%money%&7 for each log chopped."
+    - "&8» &7Ganhe &a$%money%&7 Para cada tronco cortado."
 
 level-commands: [ ]
 

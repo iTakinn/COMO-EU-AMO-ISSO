@@ -1,5 +1,5 @@
 name: "&#964B00Builder"
-description: "&8&oLevel up by placing blocks"
+description: "&8&oSubir de nível colocando blocos"
 
 unlocked-by-default: true
 
@@ -84,15 +84,15 @@ level-placeholders:
 
 effects-description:
   1:
-    - "&8» &8Earn &a$%money%&8 for each &a%blocks%&8 blocks placed"
+    - "&8» &8Ganhe &a$%money%&8 para cada &a%blocks%&8 blocos colocados"
 
 rewards-description:
   1:
-    - "&8» &8Earn &a$%money%&8 for each &a%blocks%&8 blocks placed"
+    - "&8» &8Ganhe &a$%money%&8 para cada &a%blocks%&8 blocos colocados"
 
 level-up-messages:
   1:
-    - "&8» &8Earn &a$%money%&8 for each &a%blocks%&8 blocks placed"
+    - "&8» &8Ganhe &a$%money%&8 para cada &a%blocks%&8 blocos colocados"
 
 level-commands: [ ]
 

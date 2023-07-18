@@ -1,5 +1,5 @@
-name: "&6Miner"
-description: "&8&oLevel up by mining blocks"
+name: "&6Mineiro"
+description: "&8&oSubir de nível por blocos minerados"
 
 unlocked-by-default: true
 
@@ -92,15 +92,15 @@ level-placeholders:
 
 effects-description:
   1:
-    - "&8» &8Earn &a$%money%&8 for each &a%blocks%&8 blocks mined"
+    - "&8» &8Ganhe &a$%money%&8 para cada &a%blocks%&8 blocos minerados"
 
 rewards-description:
   1:
-    - "&8» &8Earn &a$%money%&8 for each &a%blocks%&8 blocks mined"
+    - "&8» &8Ganhe &a$%money%&8 para cada &a%blocks%&8 blocos minerados"
 
 level-up-messages:
   1:
-    - "&8» &8Earn &a$%money%&8 for each &a%blocks%&8 blocks mined"
+    - "&8» &8Ganhe &a$%money%&8 para cada &a%blocks%&8 blocos minerados"
 
 level-commands: [ ]
 

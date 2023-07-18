@@ -1,5 +1,5 @@
-name: "&#adf3fdFisherman"
-description: "&8&oLevel up by fishing"
+name: "&#adf3fdPescador"
+description: "&8&oSubir de nível por pesca"
 
 unlocked-by-default: true
 
@@ -82,15 +82,15 @@ level-placeholders:
 
 effects-description:
   1:
-    - "&8» &8Earn &a$%money%&8 for each fish caught"
+    - "&8» &8Ganhe &a$%money%&8 Para cada peixe capturado"
 
 rewards-description:
   1:
-    - "&8» &8Earn &a$%money%&8 for each fish caught"
+    - "&8» &8Ganhe &a$%money%&8 Para cada peixe capturado"
 
 level-up-messages:
   1:
-    - "&8» &8Earn &a$%money%&8 for each fish caught"
+    - "&8» &8Ganhe &a$%money%&8 Para cada peixe capturado"
 
 level-commands: [ ]
 

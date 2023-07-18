@@ -1,5 +1,5 @@
-name: "&6Tiger"
-description: "&8&oLevel up by dealing melee damage"
+name: "&6Tigre"
+description: "&8&oSubir de nível causando danos corpo a corpo"
 
 level-xp-requirements:
   - 50
@@ -63,18 +63,18 @@ level-placeholders:
 
 effects-description:
   1:
-    - "&8» &8Gives a &a+%damage_multiplier%%&8 bonus to"
-    - "   &8melee damage"
+    - "&8» &8Da &a+%damage_multiplier%%&8 de bonus para"
+    - "   &8dano físico"
 
 rewards-description:
   1:
-    - "&8» &8Gives a &a+%damage_multiplier%%&8 bonus to"
-    - "   &8melee damage"
+    - "&8» &8Da &a+%damage_multiplier%%&8 de bonus para"
+    - "   &8dano físico"
 
 level-up-messages:
   1:
-    - "&8» &8Gives a &a+%damage_multiplier%%&8 bonus to"
-    - "   &8melee damage"
+    - "&8» &8Da &a+%damage_multiplier%%&8 de bonus para"
+    - "   &8dano físico"
 
 level-commands: [ ]
 
@@ -94,10 +94,10 @@ icon: player_head texture:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dX
 spawn-egg:
   enabled: true
   item: blaze_spawn_egg unbreaking:1 hide_enchants
-  name: "&6Tiger&f Pet Spawn Egg"
+  name: "&fOvo de &6Tigre"
   lore:
     - ""
-    - "&8&oPlace on the ground to"
-    - "&8&ounlock the &r&6Tiger&8&o pet!"
+    - "&8&oColoque no chão para"
+    - "&8&odesbloquear o pet &r&6Tigre&8&o!"
   craftable: false
   recipe: [ ]

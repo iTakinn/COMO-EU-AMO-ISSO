@@ -262,10 +262,6 @@ DynMap.prototype = {
 				   worldName = 'nether';
 				   mapName = (mapindex == 'nether') ? 'surface' : 'flat';
 				}
-				else if (worldName.endsWith('the_end') || (worldName == 'DIM1')) {
-				   worldName = 'the_end';
-				   mapName = (mapindex == 'the_end') ? 'surface' : 'flat';
-				}
 				else {
 				    worldName = 'world';
 				    mapName = [ 'surface', 'flat', 'biome' ].includes(mapindex) ? mapindex : 'flat';

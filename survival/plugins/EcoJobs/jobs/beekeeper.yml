@@ -1,5 +1,5 @@
-name: "&#FD9113Beekeeper"
-description: "&8&oLevelling up by breeding bees, but don't drink any honey!"
+name: "&#FD9113Apicultor"
+description: "&8&oAumentando o nivel por meio de abelhas, mas não beba mel!"
 
 unlocked-by-default: true
 
@@ -85,15 +85,15 @@ level-placeholders:
 
 effects-description:
   1:
-    - "&8» &8Earn &a$%money%&8 for each bee you breed"
+    - "&8» &8Ganhe &a$%money%&8 Para cada abelha que você reproduz"
 
 rewards-description:
   1:
-    - "&8» &8Earn &a$%money%&8 for each bee you breed"
+    - "&8» &8Ganhe &a$%money%&8 Para cada abelha que você reproduz"
 
 level-up-messages:
   1:
-    - "&8» &8Earn &a$%money%&8 for each bee you breed"
+    - "&8» &8Ganhe &a$%money%&8 Para cada abelha que você reproduz"
 
 level-commands: [ ]
 

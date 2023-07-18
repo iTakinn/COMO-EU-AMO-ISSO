@@ -1,5 +1,5 @@
-name: "&eFarmer"
-description: "&8&oLevel up by farming crops"
+name: "&eFazendeiro"
+description: "&8&oSubir de nível com culturas agrícolas"
 
 unlocked-by-default: true
 
@@ -97,15 +97,15 @@ level-placeholders:
 
 effects-description:
   1:
-    - "&8» &8Earn &a$%money%&8 for each crop farmed"
+    - "&8» &8Ganhe &a$%money%&8 Para cada cultura cultivada"
 
 rewards-description:
   1:
-    - "&8» &8Earn &a$%money%&8 for each crop farmed"
+    - "&8» &8Ganhe &a$%money%&8 Para cada cultura cultivada"
 
 level-up-messages:
   1:
-    - "&8» &8Earn &a$%money%&8 for each crop farmed"
+    - "&8» &8Ganhe &a$%money%&8 Para cada cultura cultivada"
 
 level-commands: [ ]
 

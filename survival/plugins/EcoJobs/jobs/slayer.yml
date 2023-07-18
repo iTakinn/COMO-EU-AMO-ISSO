@@ -1,5 +1,5 @@
-name: "&#8a0303Slayer"
-description: "&8&oLevel up by killing mobs"
+name: "&#8a0303Caçador"
+description: "&8&oSubir de nivel por matar mobs"
 
 unlocked-by-default: true
 
@@ -82,18 +82,18 @@ level-placeholders:
 
 effects-description:
   1:
-    - "&8» &8Earn &a$%money%&8 per heart of health that"
-    - "  &8mobs you kill have"
+    - "&8» &8Ganhe &a$%money%&8 por coraçao de vida"
+    - "  &8que o mob que você matou tinha"
 
 rewards-description:
   1:
-    - "&8» &8Earn &a$%money%&8 per heart of health that"
-    - "  &8mobs you kill have"
+    - "&8» &8Ganhe &a$%money%&8 por coraçao de vida"
+    - "  &8que o mob que você matou tinha"
 
 level-up-messages:
   1:
-    - "&8» &8Earn &a$%money%&8 per heart of health that"
-    - "  &8mobs you kill have"
+    - "&8» &8Ganhe &a$%money%&8 por coraçao de vida"
+    - "  &8que o mob que você matou tinha"
 
 level-commands: [ ]
 
