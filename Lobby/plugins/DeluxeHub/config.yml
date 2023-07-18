@@ -283,7 +283,7 @@ join_events:
   - "[MESSAGE] &r  &2&lSITE &fwww.examplemc.net"
   - "[MESSAGE] &r  &9&lDISCORD &fdiscord.examplemc.net"
   - "[MESSAGE] &r"
-  - "[MESSAGE] &r            &d&oGalaxy
+  - "[MESSAGE] &r            &d&oGalaxy"
   - "[MESSAGE] &8&m+---------------***---------------+"
   - "[TITLE] &b&lBEM VINDO;&f%player%;1;2;1"
   - "[SOUND] ENTITY_PLAYER_LEVELUP"
