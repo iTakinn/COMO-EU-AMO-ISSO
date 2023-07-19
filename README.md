@@ -9,8 +9,8 @@
 ### Mudar recompensas das caixas
 - Mostrar a chance de ganhar
 - Mostrar o tipo dos encantamento
-### Recompensa diária
-### Holograma para os baltop
+### Recompensa diária✅
+### Holograma para os baltop✅
 ### Traduzir os Jobs e pets ✅
 ### Eventos/Dungeons
 ### Mudar os Kits
@@ -23,3 +23,4 @@
 ### Tags Custom
 ### Integrar o painel com um bot no discord
 ### Criar bancos diferentes
+### Integrar db com o dbm e ter /perfil <nick> com money, png da cabeça
