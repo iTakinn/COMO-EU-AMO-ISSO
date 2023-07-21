@@ -1,0 +1,5 @@
+options:
+  mob-eggs-to-inventory: false
+  auto-update: true
+  capture-named-mobs: true
+  ignored-mobs: []

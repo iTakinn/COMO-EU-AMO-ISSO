@@ -6,7 +6,7 @@ header-footer:
   disable-in-servers:
     - disabledserver
   header:
-    - "&f=-=-=-=-=<gradient:#1b15cf:#00e1ff>&lREDE GALAXY</gradient>&f=-=-=-=-="
+    - "&f=-=-=-=-=<gradient:#1b15cf:#00e1ff>&lREDE ATLANTIDA</gradient>&f=-=-=-=-="
     - "&fjogar.redegalaxy.space"
     - "%animation:MyAnimation1%"
   footer:
@@ -134,7 +134,7 @@ scoreboard:
     admin:
       # Only players with tab.scoreboard.admin can see this scoreboard, others will see scoreboard1
       display-condition: "permission:tab.scoreboard.admin"
-      title: "&#941dfd&lR&#8627fd&le&#7730fd&ld&#693afd&le &#5a44fd&l- &#4c4efd&lG&#3e57fd&la&#2f61fd&ll&#216bfd&la&#1274fd&lx&#047efd&ly"
+      title: "<gradient:#1b15cf:#00e1ff>&lREDE ATLANTIDA</gradient>"
       lines:
         - "&e&l| &fCargo: %leaftags_tag_tablistprefix%"
         - "&a&l| &fDinheiro: &6%cmi_user_balance_formatted%"
@@ -143,7 +143,7 @@ scoreboard:
         - "&b&l| &fVida: &c%health%"
         - "&6&l| &fOnline: &6%server_online%"
     scoreboard1:
-      title: "&#941dfd&lR&#8627fd&le&#7730fd&ld&#693afd&le &#5a44fd&l- &#4c4efd&lG&#3e57fd&la&#2f61fd&ll&#216bfd&la&#1274fd&lx&#047efd&ly"
+      title: "<gradient:#1b15cf:#00e1ff>&lREDE ATLANTIDA</gradient>"
       lines:
         - "&e&l| &fCargo: %leaftags_tag_tablistprefix%"
         - "&a&l| &fDinheiro: &6%cmi_user_balance_formatted%"

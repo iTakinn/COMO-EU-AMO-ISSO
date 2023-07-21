@@ -1,0 +1,20 @@
+[07/21/2023 18:11:07]:           __             _       
+[07/21/2023 18:11:07]:   _ __   / /  ___   __ _(_)_ __  
+[07/21/2023 18:11:07]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[07/21/2023 18:11:07]:  | | | / /__| (_) | (_| | | | | |
+[07/21/2023 18:11:07]:  |_| |_\____/\___/ \__, |_|_| |_|
+[07/21/2023 18:11:07]:                   |___/            
+[07/21/2023 18:11:07]:  By: www.nickuc.com - V 10.1.16
+[07/21/2023 18:11:07]: 
+[07/21/2023 18:11:07]: [nLogin] [DEBUG] All settings were loaded in 362 ms.
+[07/21/2023 18:11:07]: [nLogin] [DEBUG] Loading the messages_br.yml message file...
+[07/21/2023 18:11:07]: [nLogin] [DEBUG] All plugin messages were loaded in 84 ms (languageByClient=false).
+[07/21/2023 18:11:07]: [nLogin] [DEBUG] All proxy settings were loaded in 27 ms.
+[07/21/2023 18:11:07]: [nLogin] [DEBUG] Starting logger filter...
+[07/21/2023 18:11:07]: [nLogin] [DEBUG] Loading database...
+[07/21/2023 18:11:08]: [nLogin] nLogin foi carregado em 1609ms.
+[07/21/2023 18:15:03]: [nLogin] Successful plugin core shutdown (took 0.00s)
+[07/21/2023 18:15:03]: [nLogin] 
+[07/21/2023 18:15:03]: [nLogin] Encerrando o nLogin V 10.1.16...
+[07/21/2023 18:15:03]: [nLogin] 
+[07/21/2023 18:15:03]: [nLogin] nLogin foi encerrado em 7ms.

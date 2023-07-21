@@ -10,7 +10,7 @@ listeners:
     pvp.md-5.net: pvp
   ping_passthrough: false
   priorities:
-  - lobby
+  - survival
   bind_local_address: true
   host: 0.0.0.0:25577
   max_players: 1
@@ -33,8 +33,8 @@ log_pings: true
 connection_throttle_limit: 3
 server_connect_timeout: 5000
 timeout: 30000
+stats: c3d54cf5-d0bc-4a0a-9cf4-e197bc168ae2
 player_limit: -5
-prevent_proxy_connections: false
 ip_forward: true
 groups:
   iTakinn:
@@ -42,7 +42,7 @@ groups:
 remote_ping_timeout: 5000
 connection_throttle: 4000
 log_commands: false
-stats: c3d54cf5-d0bc-4a0a-9cf4-e197bc168ae2
+prevent_proxy_connections: false
 online_mode: false
 forge_support: false
 disabled_commands:
@@ -50,7 +50,7 @@ disabled_commands:
 servers:
   lobby:
     motd: '&1Just another BungeeCord - Forced Host'
-    address: localhost:25566
+    address: localhost:25565
     restricted: false
   survival:
     motd: '&1Just another BungeeCord - Forced Host'

@@ -1,43 +1,43 @@
-[19:58:39] [ServerMain/INFO]: [io.papermc.paper.plugin.provider.source.SparkProviderSource] Purpur: Using user-provided spark plugin instead of our own.
-[19:58:44] [ServerMain/INFO]: Building unoptimized datafixer
-[19:58:47] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:58:50] [ServerMain/INFO]: Loaded 7 recipes
-[19:58:52] [Server thread/INFO]: Starting minecraft server version 1.19.3
-[19:58:52] [Server thread/INFO]: Loading properties
-[19:58:52] [Server thread/INFO]: This server is running Purpur version git-Purpur-1933 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: 72b7579 on HEAD)
-[19:58:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:58:52] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:58:53] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 6 worker threads, and gen parallelism of 6 threads
-[19:58:53] [Server thread/WARN]: [Pufferfish] SIMD operations are available for your server, but are not configured!
-[19:58:53] [Server thread/WARN]: [Pufferfish] To enable additional optimizations, add "--add-modules=jdk.incubator.vector" to your startup flags, BEFORE the "-jar".
-[19:58:53] [Server thread/WARN]: [Pufferfish] If you have already added this flag, then SIMD operations are not supported on your JVM or CPU.
-[19:58:53] [Server thread/WARN]: [Pufferfish] Debug: Java: 17.0.7, test run: true
-[19:58:53] [Server thread/INFO]: Default game type: SURVIVAL
-[19:58:53] [Server thread/INFO]: Generating keypair
-[19:58:54] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:58:54] [Server thread/INFO]: Using default channel type
-[19:58:54] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[19:58:54] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[19:58:58] [Server thread/INFO]: [eco] Initializing eco
-[19:58:58] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_19_R2.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[19:58:58] [Server thread/WARN]: java.lang.Exception
-[19:58:58] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R2.legacy.CraftLegacy.<clinit>(CraftLegacy.java:262)
-[19:58:58] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R2.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:388)
-[19:58:58] [Server thread/WARN]: 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:119)
-[19:58:58] [Server thread/WARN]: 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35)
-[19:58:58] [Server thread/WARN]: 	at io.papermc.paper.plugin.entrypoint.strategy.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:150)
-[19:58:58] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:35)
-[19:58:58] [Server thread/WARN]: 	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36)
-[19:58:58] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.loadPlugins(CraftServer.java:442)
-[19:58:58] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:309)
-[19:58:58] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1117)
-[19:58:58] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
-[19:58:58] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[19:59:05] [Server thread/WARN]: Legacy plugin VoidWorld v1.0 does not specify an api-version.
-[19:59:05] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Initializing Terra...
-[19:59:05] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config.yml
-[19:59:05] [Server thread/INFO]: [com.dfsek.terra.config.PluginConfigImpl] Loading config values from config.yml
-[19:59:06] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading 32 Terra addons:
+[18:11:16] [ServerMain/INFO]: [io.papermc.paper.plugin.provider.source.SparkProviderSource] Purpur: Using user-provided spark plugin instead of our own.
+[18:11:22] [ServerMain/INFO]: Building unoptimized datafixer
+[18:11:24] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:11:27] [ServerMain/INFO]: Loaded 7 recipes
+[18:11:29] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[18:11:29] [Server thread/INFO]: Loading properties
+[18:11:30] [Server thread/INFO]: This server is running Purpur version git-Purpur-1933 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: 72b7579 on HEAD)
+[18:11:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:11:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:11:30] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 6 worker threads, and gen parallelism of 6 threads
+[18:11:31] [Server thread/WARN]: [Pufferfish] SIMD operations are available for your server, but are not configured!
+[18:11:31] [Server thread/WARN]: [Pufferfish] To enable additional optimizations, add "--add-modules=jdk.incubator.vector" to your startup flags, BEFORE the "-jar".
+[18:11:31] [Server thread/WARN]: [Pufferfish] If you have already added this flag, then SIMD operations are not supported on your JVM or CPU.
+[18:11:31] [Server thread/WARN]: [Pufferfish] Debug: Java: 17.0.7, test run: true
+[18:11:31] [Server thread/INFO]: Default game type: SURVIVAL
+[18:11:31] [Server thread/INFO]: Generating keypair
+[18:11:31] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:11:31] [Server thread/INFO]: Using default channel type
+[18:11:31] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[18:11:31] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[18:11:34] [Server thread/INFO]: [eco] Initializing eco
+[18:11:35] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_19_R2.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[18:11:35] [Server thread/WARN]: java.lang.Exception
+[18:11:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R2.legacy.CraftLegacy.<clinit>(CraftLegacy.java:262)
+[18:11:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R2.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:388)
+[18:11:35] [Server thread/WARN]: 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:119)
+[18:11:35] [Server thread/WARN]: 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35)
+[18:11:35] [Server thread/WARN]: 	at io.papermc.paper.plugin.entrypoint.strategy.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:150)
+[18:11:35] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:35)
+[18:11:35] [Server thread/WARN]: 	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36)
+[18:11:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.loadPlugins(CraftServer.java:442)
+[18:11:35] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:309)
+[18:11:35] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1117)
+[18:11:35] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[18:11:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[18:11:42] [Server thread/WARN]: Legacy plugin VoidWorld v1.0 does not specify an api-version.
+[18:11:42] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Initializing Terra...
+[18:11:42] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config.yml
+[18:11:42] [Server thread/INFO]: [com.dfsek.terra.config.PluginConfigImpl] Loading config values from config.yml
+[18:11:43] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading 32 Terra addons:
         - biome-provider-extrusion@1.0.0-BETA+8fff27fdd
         - biome-provider-image@1.0.0-BETA+8fff27fdd
         - biome-provider-pipeline@1.0.1-BETA+8fff27fdd
@@ -70,973 +70,892 @@
         - terra@1.0.0
         - terra-bukkit@1.0.0
         - terrascript-function-sampler@1.0.0-BETA+8fff27fdd
-[19:59:06] [Server thread/WARN]: [com.dfsek.terra.addons.biome.pipeline.BiomePipelineAddon] The biome-provider-pipeline addon is deprecated and scheduled for removal in Terra 7.0. It is recommended to use the biome-provider-pipeline-v2 addon for future pack development instead.
-[19:59:06] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Terra addons successfully loaded.
-[19:59:06] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Finished initialization.
-[19:59:07] [Server thread/INFO]: [EcoPets] Initializing EcoPets
-[19:59:11] [Server thread/INFO]: [EcoJobs] Initializing EcoJobs
-[19:59:15] [Server thread/INFO]: [SpigotLibraryLoader] [CrazyCrates] Loading 1 libraries... please wait
-[19:59:15] [Server thread/INFO]: [SpigotLibraryLoader] [CrazyCrates] Loaded library C:\Users\iTakin\Desktop\COMO EU AMO ISSO\survival\libraries\org\jetbrains\kotlin\kotlin-stdlib\1.7.10\kotlin-stdlib-1.7.10.jar
-[19:59:15] [Server thread/INFO]: [SpigotLibraryLoader] [CrazyCrates] Loaded library C:\Users\iTakin\Desktop\COMO EU AMO ISSO\survival\libraries\org\jetbrains\kotlin\kotlin-stdlib-common\1.7.10\kotlin-stdlib-common-1.7.10.jar
-[19:59:15] [Server thread/INFO]: [SpigotLibraryLoader] [CrazyCrates] Loaded library C:\Users\iTakin\Desktop\COMO EU AMO ISSO\survival\libraries\org\jetbrains\annotations\13.0\annotations-13.0.jar
-[19:59:15] [Server thread/WARN]: Legacy plugin CMIEInjector v1.0.2.3 does not specify an api-version.
-[19:59:15] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.5.1
-[19:59:15] [Server thread/INFO]: [ViaVersion] ViaVersion 4.5.1 is now loaded, injecting!
-[19:59:16] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
-[19:59:16] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
-[19:59:16] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
-[19:59:16] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
-[19:59:16] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
-[19:59:16] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[19:59:16] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
-[19:59:16] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
-[19:59:16] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
-[19:59:16] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.18 -> 1.19 mappings...
-[19:59:16] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.19 -> 1.19.3 mappings...
-[19:59:16] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.58
-[19:59:17] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[19:59:17] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.13+46576cc
-[19:59:19] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@76f1970c]
-[19:59:19] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.0.0-SNAPSHOT-b612
-[19:59:21] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.5.1
-[19:59:21] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[19:59:21] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
-[19:59:21] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
-[19:59:21] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
-[19:59:21] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
-[19:59:21] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
-[19:59:21] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
-[19:59:21] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
-[19:59:21] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
-[19:59:21] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
-[19:59:21] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
-[19:59:21] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
-[19:59:21] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.19 -> 1.18 mappings...
-[19:59:21] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.19.3 -> 1.19 mappings...
-[19:59:21] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.7+216b061
-[19:59:21] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.2
-[19:59:21] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v14.2.12
-[19:59:21] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
-[19:59:21] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.30-SNAPSHOT (build 2809)
-[19:59:21] [Server thread/INFO]: [SimpleClans] Loading server plugin SimpleClans v2.18.1-43da5bd
-[19:59:21] [Server thread/INFO]: [mcMMO] Loading server plugin mcMMO v2.1.218
-[19:59:21] [Server thread/INFO]: [mcMMO] Registered WG flags successfully!
-[19:59:21] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.5-beta-3-866
-[19:59:21] [Server thread/INFO]: [dynmap] version=git-Purpur-1933 (MC: 1.19.3)
-[19:59:21] [Server thread/INFO]: [dynmap] Mod Support API available
-[19:59:21] [Server thread/INFO]: [CMILib] Loading server plugin CMILib v1.2.4.1
-[19:59:21] [Server thread/INFO]: [EpicPluginLib] Loading server plugin EpicPluginLib v2.0
-[19:59:21] [Server thread/INFO]: [LeafPlugins] Loading server plugin LeafPlugins vpre-1.3.0
-[19:59:21] [Server thread/INFO]: [eco] Loading server plugin eco
-[19:59:21] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention v16.18
-[19:59:21] [Server thread/INFO]: [CMI] Loading server plugin CMI v9.3.0.5
-[19:59:21] [Server thread/INFO]: [ServersNPC] Loading server plugin ServersNPC v4.0
-[19:59:21] [Server thread/INFO]: [VoidWorld] Loading server plugin VoidWorld v1.0
-[19:59:21] [Server thread/INFO]: [UltimateChat] Loading server plugin UltimateChat v1.9.1
-[19:59:21] [Server thread/INFO]: [Terra] Loading server plugin Terra v6.2.2-BETA+8fff27fdd
-[19:59:21] [Server thread/INFO]: [TAB] Loading server plugin TAB v3.2.1
-[19:59:21] [Server thread/INFO]: [Stress] Loading server plugin Stress v1.0.3
-[19:59:21] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.17
-[19:59:21] [Server thread/INFO]: [RandomTeleport] Loading server plugin RandomTeleport v2.0-SNAPSHOT (build 71)
-[19:59:21] [Server thread/INFO]: [Quests] Loading server plugin Quests v3.9.1
-[19:59:21] [Server thread/INFO]: [PluginManager] Loading server plugin PluginManager v2.8.1
-[19:59:21] [Server thread/INFO]: [PlayMoreSounds] Loading server plugin PlayMoreSounds v4.0.4
-[19:59:21] [Server thread/INFO]: [MyCommand] Loading server plugin MyCommand v5.7.3
-[19:59:21] [Server thread/INFO]: [LoneLibs] Loading server plugin LoneLibs v1.0.24
-[19:59:21] [Server thread/INFO]: [LeafTags] Loading server plugin LeafTags vpre-1.2.4
-[19:59:22] [Server thread/INFO]: [EcoPets] Loading server plugin EcoPets
-[19:59:22] [Server thread/INFO]: [libreforge] Initializing libreforge
-[19:59:22] [Server thread/INFO]: [libreforge] Loading server plugin libreforge v4.10.0
-[19:59:22] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI
-[19:59:22] [Server thread/INFO]: [EcoJobs] Loading server plugin EcoJobs
-[19:59:22] [Server thread/INFO]: [Dynmap-GriefPrevention] Loading server plugin Dynmap-GriefPrevention v0.88
-[19:59:22] [Server thread/INFO]: [DailyRewards] Loading server plugin DailyRewards v1.1.0
-[19:59:22] [Server thread/INFO]: [CrazyCrates] Loading server plugin CrazyCrates v1.11.6-SNAPSHOT
-[19:59:22] [Server thread/INFO]: [CMIEInjector] Loading server plugin CMIEInjector v1.0.2.3
-[19:59:22] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.92
-[19:59:22] [Server thread/INFO]: [BungeeGuard] Loading server plugin BungeeGuard v1.4.1
-[19:59:22] [Server thread/INFO]: [BlockParticles] Loading server plugin BlockParticles v1.11.1-RELEASE
-[19:59:22] [Server thread/INFO]: [BankPlus] Loading server plugin BankPlus v5.7
-[19:59:22] [Server thread/INFO]: [AuctionHouse] Loading server plugin AuctionHouse v3.3.2
-[19:59:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:59:22] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.58
-[19:59:24] [Server thread/INFO]:         __    
-[19:59:24] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.58
-[19:59:24] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
-[19:59:24] [Server thread/INFO]: 
-[19:59:24] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[19:59:25] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[19:59:27] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[19:59:28] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[19:59:28] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 6320ms)
-[19:59:28] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[19:59:29] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[19:59:29] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[19:59:29] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[19:59:29] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.13+46576cc
-[19:59:29] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[19:59:29] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[19:59:29] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R2.PaperweightAdapter as the Bukkit adapter
-[19:59:30] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b612
-[19:59:30] [Server thread/INFO]: [LeafPlugins] Enabling LeafPlugins vpre-1.3.0
-[19:59:31] [Server thread/INFO]: [LeafPlugins] Connected to SQLite successfully
-[19:59:31] [Server thread/INFO]: [LeafPlugins] [WARN] Language not defined, configure it in: LeafPlugins/config.yml
-[19:59:32] [Server thread/INFO]: [LeafPlugins] WorldGuard Regions API loaded
-[19:59:32] [Server thread/INFO]: [LeafPlugins] Successful plugin start (took 0.38s)
-[19:59:32] [Server thread/INFO]: [eco] Enabling eco
-[19:59:32] [Server thread/INFO]: [eco] Loading eco
-[19:59:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: eco [6.60.0]
-[19:59:32] [Server thread/INFO]: [eco] Loaded integrations: EconomyShopGUI, mcMMO, Vault, GriefPrevention, CMI, PlaceholderAPI, WorldGuard
-[19:59:32] [Server thread/INFO]: [eco] Scanning for conflicts...
-[19:59:32] [Server thread/WARN]: [eco] CrazyCrates will likely conflict with eco! Reason: Kotlin found in libraries (lib-loader)
-[19:59:32] [Server thread/WARN]: [eco] You can fix the conflicts by either removing the conflicting plugins, or by asking on the support discord to have them patched!
-[19:59:32] [Server thread/WARN]: [eco] Only remove potentially conflicting plugins if you see Loader Constraint Violation / LinkageError anywhere
-[19:59:32] [Server thread/INFO]: [VoidWorld] Enabling VoidWorld v1.0*
-[19:59:32] [Server thread/INFO]: [Terra] Enabling Terra v6.2.2-BETA+8fff27fdd
-[19:59:32] [Server thread/INFO]: [com.dfsek.terra.bukkit.TerraBukkitPlugin] Running on Minecraft version v1.19.2 with server implementation Purpur.
-[19:59:32] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config packs...
-[19:59:32] [Server thread/INFO]: [com.dfsek.terra.registry.master.ConfigRegistry] Loading ZIP archive: default.zip
-[19:59:35] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loading config pack "OVERWORLD:OVERWORLD"
-[19:59:37] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loaded config pack "OVERWORLD:OVERWORLD" v1.3.0 by Astrash, Sancires, Aureus in 4805.271ms.
-[19:59:37] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loaded packs.
-[19:59:38] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_19_R2.AwfulBukkitHacks] Hacking biome registry...
-[19:59:39] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_19_R2.AwfulBukkitHacks] Doing tag garbage....
-[19:59:39] [Server thread/INFO]: [LoneLibs] Enabling LoneLibs v1.0.24
-[19:59:39] [Server thread/INFO]: [CMIEInjector] Enabling CMIEInjector v1.0.2.3*
-[19:59:39] [Server thread/INFO]: [CMIEInjector] Injecting CMI Economy
-[19:59:39] [Server thread/INFO]: [CMIEInjector] [Economy] CMI Economy found: Waiting
-[19:59:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:59:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:59:39] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[19:59:39] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[19:59:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:59:39] [Server thread/INFO]: Preparing level "world"
-[19:59:41] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_19_R2.NMSInjectListener] Preparing to take over the world: world
-[19:59:41] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_19_R2.NMSInjectListener] Successfully injected into world.
-[19:59:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:59:42] [Server thread/INFO]: Time elapsed: 701 ms
-[19:59:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:59:42] [Server thread/INFO]: Time elapsed: 76 ms
-[19:59:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:59:42] [Server thread/INFO]: Time elapsed: 126 ms
-[19:59:42] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.5.1
-[19:59:42] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.5.1
-[19:59:42] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.7+216b061
-[19:59:43] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[19:59:43] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[19:59:43] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[19:59:43] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[19:59:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[19:59:43] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[19:59:43] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[19:59:43] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[19:59:43] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[19:59:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[19:59:43] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[19:59:43] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[19:59:43] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[19:59:43] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[19:59:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[19:59:43] [Server thread/INFO]: [WorldGuard] Loading region data...
-[19:59:44] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
-[19:59:48] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[19:59:48] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.12
-[19:59:49] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R2[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m
-[19:59:49] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m-------------------------/Warning\-------------------------[0;39m
-[19:59:49] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mThis plugin is running in PROXY mode![0;39m
-[19:59:49] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mYou have to do all configuration at config file[0;39m
-[19:59:49] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39minside your BungeeCord/Velocity server.[0;39m
-[19:59:49] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m(<proxy>/plugins/SkinsRestorer/)[0;39m
-[19:59:49] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m-------------------------\Warning/-------------------------[0;39m
-[19:59:50] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[19:59:50] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[19:59:50] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[19:59:51] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
-[19:59:52] [Server thread/INFO]: Time elapsed: 1449 ms
-[19:59:52] [Server thread/INFO]: [WorldGuard] (spawn) TNT ignition is PERMITTED.
-[19:59:52] [Server thread/INFO]: [WorldGuard] (spawn) Lighters are PERMITTED.
-[19:59:52] [Server thread/INFO]: [WorldGuard] (spawn) Lava fire is PERMITTED.
-[19:59:52] [Server thread/INFO]: [WorldGuard] (spawn) Fire spread is UNRESTRICTED.
-[19:59:52] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'spawn'
-[19:59:53] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[19:59:53] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[19:59:53] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[19:59:53] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.30-SNAPSHOT (build 2809)
-[19:59:53] [Server thread/INFO]: [Citizens] Loading external libraries
-[19:59:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: citizensplaceholder [1.0.0]
-[19:59:54] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
-[19:59:54] [Server thread/INFO]: [SimpleClans] Enabling SimpleClans v2.18.1-43da5bd
-[19:59:55] [Server thread/INFO]: [SimpleClans] SQLite Connection successful
-[19:59:55] [Server thread/INFO]: [SimpleClans] Clan players: 1
-[19:59:55] [Server thread/INFO]: [SimpleClans] Registering 4 chat handlers...
-[19:59:55] [Server thread/INFO]: [SimpleClans] [ACF] Enabled Asynchronous Tab Completion Support!
-[19:59:55] [Server thread/INFO]: [SimpleClans] Registering 12 command contexts...
-[19:59:55] [Server thread/INFO]: [SimpleClans] Registering 15 base commands...
-[19:59:55] [Server thread/INFO]: [SimpleClans] Registering 32 command conditions...
-[19:59:55] [Server thread/INFO]: [SimpleClans] Registering 18 command completions...
-[19:59:55] [Server thread/INFO]: [SimpleClans] Multithreading: true
-[19:59:55] [Server thread/INFO]: [SimpleClans] BungeeCord: false
-[19:59:55] [Server thread/INFO]: [SimpleClans] HEX support: true
-[19:59:55] [Server thread/INFO]: [SimpleClans] Help us translate SimpleClans to your language! Access https://crowdin.com/project/simpleclans/
-[19:59:55] [Server thread/INFO]: [SimpleClans] PlaceholderAPI found. Registering hook...
-[19:59:55] [Server thread/INFO]: [SimpleClans] Registering 7 placeholder resolvers...
-[19:59:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: simpleclans [2.18.1-43da5bd]
-[19:59:55] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.218
-[19:59:55] [Server thread/INFO]: [mcMMO] [config] Initializing config: config.yml
-[19:59:55] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: config.yml
-[19:59:55] [Server thread/INFO]: [mcMMO] [config] Config initialized: config.yml
-[19:59:55] [Server thread/INFO]: [mcMMO] [Debug] No errors found in config.yml!
-[19:59:55] [Server thread/INFO]: [mcMMO] Loading locale from plugins\mcMMO\locales\locale_override.properties
-[19:59:55] [Server thread/INFO]: [mcMMO] [config] Initializing config: advanced.yml
-[19:59:55] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: advanced.yml
-[19:59:55] [Server thread/INFO]: [mcMMO] [config] Config initialized: advanced.yml
-[19:59:55] [Server thread/INFO]: [mcMMO] [Debug] No errors found in advanced.yml!
-[19:59:55] [Server thread/INFO]: [mcMMO] Platform String: 1.19.3-R0.1-SNAPSHOT
-[19:59:55] [Server thread/INFO]: [mcMMO] Minecraft version determined to be - 1.19.3
-[19:59:55] [Server thread/INFO]: [mcMMO] Loading compatibility layers...
-[19:59:55] [Server thread/INFO]: [mcMMO] Finished loading compatibility layers.
-[19:59:55] [Server thread/INFO]: [mcMMO] [config] Initializing config: persistent_data.yml
-[19:59:55] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: persistent_data.yml
-[19:59:55] [Server thread/INFO]: [mcMMO] [config] Config initialized: persistent_data.yml
-[19:59:55] [Server thread/INFO]: [mcMMO] [Debug] No errors found in persistent_data.yml!
-[19:59:55] [Server thread/INFO]: [mcMMO] [config] Initializing config: upgrades_overhaul.yml
-[19:59:55] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: upgrades_overhaul.yml
-[19:59:55] [Server thread/INFO]: [mcMMO] [config] Config initialized: upgrades_overhaul.yml
-[19:59:55] [Server thread/INFO]: [mcMMO] [config] Initializing config: treasures.yml
-[19:59:55] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: treasures.yml
-[19:59:55] [Server thread/INFO]: [mcMMO] [config] Config initialized: treasures.yml
-[19:59:56] [Server thread/INFO]: [mcMMO] [config] Initializing config: fishing_treasures.yml
-[19:59:56] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: fishing_treasures.yml
-[19:59:56] [Server thread/INFO]: [mcMMO] [config] Config initialized: fishing_treasures.yml
-[19:59:56] [Server thread/INFO]: [mcMMO] Registering enchantments for Fishing Book...
-[19:59:56] [Server thread/INFO]: [mcMMO] Loading mcMMO potions.yml File...
-[19:59:56] [Server thread/INFO]: [mcMMO] [config] Initializing config: coreskills.yml
-[19:59:56] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: coreskills.yml
-[19:59:56] [Server thread/INFO]: [mcMMO] [config] Config initialized: coreskills.yml
-[19:59:56] [Server thread/INFO]: [mcMMO] [config] Initializing config: sounds.yml
-[19:59:56] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: sounds.yml
-[19:59:56] [Server thread/INFO]: [mcMMO] [config] Config initialized: sounds.yml
-[19:59:56] [Server thread/INFO]: [mcMMO] Loading mcMMO skillranks.yml File...
-[19:59:58] [Server thread/INFO]: [mcMMO] [config] Initializing config: child.yml
-[19:59:58] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: child.yml
-[19:59:58] [Server thread/INFO]: [mcMMO] [config] Config initialized: child.yml
-[19:59:58] [Server thread/INFO]: [mcMMO] [config] Initializing config: repair.vanilla.yml
-[19:59:58] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: repair.vanilla.yml
-[19:59:58] [Server thread/INFO]: [mcMMO] [config] Config initialized: repair.vanilla.yml
-[19:59:58] [Server thread/INFO]: [mcMMO] [config] Initializing config: salvage.vanilla.yml
-[19:59:58] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: salvage.vanilla.yml
-[19:59:58] [Server thread/INFO]: [mcMMO] [config] Config initialized: salvage.vanilla.yml
-[19:59:58] [Server thread/INFO]: [mcMMO] (plugins\mcMMO\flatfile\mcmmo.users) Validating database file..
-[19:59:58] [Server thread/INFO]: [mcMMO] Enabling Acrobatics Skills
-[19:59:58] [Server thread/INFO]: [mcMMO] Registered subskill: Roll
-[19:59:58] [Server thread/INFO]: [mcMMO] [config] Initializing config: experience.yml
-[19:59:58] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: experience.yml
-[19:59:58] [Server thread/INFO]: [mcMMO] [config] Config initialized: experience.yml
-[19:59:58] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
-[19:59:59] [Server thread/INFO]: [mcMMO] [config] Initializing config: chat.yml
-[19:59:59] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: chat.yml
-[19:59:59] [Server thread/INFO]: [mcMMO] [config] Config initialized: chat.yml
-[19:59:59] [Server thread/INFO]: [dynmap] Enabling dynmap v3.5-beta-3-866
-[19:59:59] [Server thread/INFO]: [dynmap] Added 181 custom biome mappings
-[19:59:59] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.58 for access control
-[19:59:59] [Server thread/INFO]: [dynmap] Mod Support processing completed
-[20:00:02] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
-[20:00:02] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
-[20:00:02] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
-[20:00:02] [Server thread/INFO]: [dynmap] Starting enter/exit processing
-[20:00:03] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
-[20:00:03] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
-[20:00:03] [Server thread/INFO]: [dynmap] version 3.5-beta-3-866 is enabled - core version 3.5-beta-3-866
-[20:00:03] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
-[20:00:03] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
-[20:00:03] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
-[20:00:03] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
-[20:00:03] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world'.
-[20:00:03] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
-[20:00:03] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
-[20:00:03] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'spawn'.
-[20:00:03] [Server thread/INFO]: [dynmap] Loaded 169 pending tile renders for world 'spawn'
-[20:00:03] [Server thread/INFO]: [dynmap] Enabled
-[20:00:03] [Server thread/INFO]: [CMILib] Enabling CMILib v1.2.4.1
-[20:00:04] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
-[20:00:04] [Server thread/INFO]: Server version: v1_19_R2 - 1.19.3 - paper
-[20:00:05] [Server thread/INFO]: CMI hooked.
-[20:00:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: cmil [1.2.4.1]
-[20:00:05] [Server thread/INFO]: PlaceholderAPI hooked.
-[20:00:05] [Server thread/INFO]: Updated (EN) language file. Took 84ms
-[20:00:05] [Server thread/INFO]: [EpicPluginLib] Enabling EpicPluginLib v2.0
-[20:00:05] [Server thread/INFO]: [EpicPluginLib] Dependency found: PlayMoreSounds.
-[20:00:05] [Server thread/INFO]: [EpicPluginLib] Lib enabled successfully.
-[20:00:05] [Server thread/INFO]: [EpicPluginLib] EpicPluginLib is using bStats as metrics collector.
-[20:00:05] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18
-[20:00:05] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
-[20:00:05] [Server thread/INFO]: [GriefPrevention] 0 total claims loaded.
-[20:00:05] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
-[20:00:05] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
-[20:00:05] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
-[20:00:05] [Server thread/INFO]: [GriefPrevention] Boot finished.
-[20:00:05] [Server thread/INFO]: [CMI] Enabling CMI v9.3.0.5
-[20:00:05] [Server thread/INFO]: [CMI] [36m[Spigotunlocked.net] - COSMO
-[20:00:05] [Server thread/INFO]: ????? ?????? ????
-[20:00:05] [Server thread/INFO]: ????? ? ?? ? ????
-[20:00:05] [Server thread/INFO]: ?? ?? ??????  ?? 
-[20:00:05] [Server thread/INFO]: ?? ?? ??????  ?? 
-[20:00:05] [Server thread/INFO]: ????? ?????? ????
-[20:00:05] [Server thread/INFO]: ????? ?????? ????
-[20:00:05] [Server thread/INFO]: _______________________________________________________
-[20:00:05] [Server thread/INFO]:   Integrating PaperSpigot async methods
-[20:00:06] [Server thread/INFO]:   Citizens found.
-[20:00:06] [Server thread/INFO]:   57 Enabled and 0 Disabled modules
-[20:00:06] [Server thread/INFO]:   Permission plugin: LuckPerms5.4.58
-[20:00:06] [Server thread/INFO]:   Initialized Cipher256 AES
-[20:00:06] [Server thread/INFO]:   Loaded (60) regular alias into memory. Took 54ms
-[20:00:06] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 2ms
-[20:00:06] [Server thread/INFO]:   3.36.0 data base type detected
-[20:00:07] [Server thread/INFO]:   Started SqLite data base. Took 158ms
-[20:00:07] [Server thread/INFO]:   Vault was found - Enabling capabilities. Economy: CMIEconomy
-[20:00:07] [Server thread/INFO]:   Loaded (5) holograms into memory. Took 26ms
-[20:00:07] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 0ms
-[20:00:07] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 0ms
-[20:00:07] [Server thread/INFO]:   Loaded (142) custom mob heads into memory. Took 19ms
-[20:00:07] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 33ms
-[20:00:07] [Server thread/INFO]:   Enabling BungeeCord Support
-[20:00:07] [Server thread/INFO]:   Initializing BungeeCord
-[20:00:07] [Server thread/INFO]:   Loaded (6) kits into memory. Took 20ms
-[20:00:07] [Server thread/INFO]:   Loaded (7) ranks into memory. Took 18ms
-[20:00:07] [Server thread/INFO]:   Loaded (8) playtime rewards into memory. Took 6ms
-[20:00:07] [Server thread/INFO]:   Loaded (2) player data into memory. Took 16ms
-[20:00:07] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 1ms
-[20:00:07] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 0ms
-[20:00:07] [Server thread/INFO]:   Loaded (0) custom alias into memory. Took 1ms
-[20:00:07] [Server thread/INFO]:   Found dynmap
-[20:00:07] [Server thread/INFO]:   Registered events. Took 175ms
-[20:00:07] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 8ms
-[20:00:07] [Server thread/INFO]:   Updated (EN) language file. Took 152ms
-[20:00:07] [Server thread/INFO]:   Loaded (245) worth values into memory. Took 147ms
-[20:00:07] [Server thread/INFO]:   Loaded (2) warps into memory. Took 2ms
-[20:00:07] [Server thread/INFO]:   Vault permissions was found - Enabling capabilities.
-[20:00:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: cmi [9.3.0.5]
-[20:00:07] [Server thread/INFO]:   PlaceholderAPI hooked.
-[20:00:07] [Server thread/INFO]:   PlaceholderAPI was found - Enabling capabilities.
-[20:00:08] [Server thread/INFO]:   McMMO was found - Enabling capabilities.
-[20:00:08] [Server thread/INFO]:   Starting world timer.
-[20:00:08] [Server thread/INFO]:   Initializing world manager.
-[20:00:08] [Server thread/INFO]:   Loaded (4) schedules into memory. Took 11ms
-[20:00:08] [Server thread/INFO]:   Loaded GeoIP
-[20:00:08] [Server thread/INFO]:   Loaded (2) skin cache entries into memory. Took 2ms
-[20:00:08] [Server thread/INFO]:   Loaded (0) ArmorStand templates into memory. Took 0ms
-[20:00:08] [Server thread/INFO]:   Version 9.3.0.5 has been enabled
-[20:00:08] [Server thread/INFO]: ???????????????????????????????????????????????????????
-[20:00:08] [Server thread/INFO]: [CMIEInjector][Economy] CMI Economy hooked.
-[20:00:08] [Server thread/INFO]: [ServersNPC] Enabling ServersNPC v4.0
-[20:00:08] [Server thread/WARN]: [io.github.znetworkw.znpcservers.cache.TypeCache$BaseCache] No cache found for: [net.minecraft.world.entity.monster.warden.EntityWarden]
-[20:00:08] [Server thread/WARN]: [io.github.znetworkw.znpcservers.cache.TypeCache$BaseCache] No cache found for: [net.minecraft.world.entity.monster.warden.EntityWarden] : []
-[20:00:08] [Server thread/WARN]: [io.github.znetworkw.znpcservers.cache.TypeCache$BaseCache] Skipping cache for [net.minecraft.world.entity.monster.warden.EntityWarden]
-[20:00:08] [Server thread/INFO]: [UltimateChat] Enabling UltimateChat v1.9.1
-[20:00:08] [Server thread/INFO]: [UltimateChat] All configurations loaded!
-[20:00:08] [Server thread/INFO]: [UltimateChat] Language file loaded - Using: PT-BR
-[20:00:08] [Server thread/INFO]: [UltimateChat] Vault economy found. Hooked.
-[20:00:08] [Server thread/INFO]: [UltimateChat] Vault chat found. Hooked.
-[20:00:08] [Server thread/INFO]: [UltimateChat] Vault perms found. Hooked.
-[20:00:08] [Server thread/INFO]: [UltimateChat] ProtocolLib found. Hooked.
-[20:00:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: uchat [1.9.1]
-[20:00:08] [Server thread/INFO]: [UltimateChat] PlaceHolderAPI found. Hooked and registered some chat placeholders with relational tag feature.
-[20:00:08] [Server thread/INFO]: [UltimateChat] SimpleClans found. Hooked.
-[20:00:08] [Server thread/INFO]: [UltimateChat] Dynmap found. Hooked.
-[20:00:08] [Server thread/INFO]: [UltimateChat] Init API module...
-[20:00:08] [Server thread/INFO]: [UltimateChat] Server Version: 1.19.3-R0.1-SNAPSHOT
-[20:00:08] [Server thread/INFO]: 
-[20:00:08] [Server thread/INFO]:   _    _ _ _   _                 _        _____ _           _  
-[20:00:08] [Server thread/INFO]:  | |  | | | | (_)               | |      / ____| |         | |  
-[20:00:08] [Server thread/INFO]:  | |  | | | |_ _ _ __ ___   __ _| |_ ___| |    | |__   __ _| |_ 
-[20:00:08] [Server thread/INFO]:  | |  | | | __| | '_ ` _ \ / _` | __/ _ \ |    | '_ \ / _` | __|
-[20:00:08] [Server thread/INFO]:  | |__| | | |_| | | | | | | (_| | ||  __/ |____| | | | (_| | |_ 
-[20:00:08] [Server thread/INFO]:   \____/|_|\__|_|_| |_| |_|\__,_|\__\___|\_____|_| |_|\__,_|\__|
-[20:00:08] [Server thread/INFO]:                                                                 
-[20:00:08] [Server thread/INFO]: UltimateChat v1.9.1 enabled!
-[20:00:08] [Server thread/INFO]: [UltimateChat] Metrics enabled! See our stats here: https://bstats.org/plugin/bukkit/UltimateChat
-[20:00:08] [Server thread/INFO]: [TAB] Enabling TAB v3.2.1
-[20:00:08] [Server thread/INFO]: [TAB] Server version: 1.19.3 (v1_19_R2)
-[20:00:08] [Server thread/INFO]: [TAB] Loaded NMS hook in 36ms
-[20:00:08] [Server thread/INFO]: [TAB] Enabled in 200ms
-[20:00:08] [Server thread/INFO]: [Stress] Enabling Stress v1.0.3
-[20:00:08] [Server thread/INFO]: [spark] Enabling spark v1.10.17
-[20:00:09] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
-[20:00:09] [Server thread/INFO]: [spark] Starting background profiler...
-[20:00:09] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[20:00:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: spark [1.10.17]
-[20:00:09] [Server thread/INFO]: [spark] Registered PlaceholderAPI placeholders
-[20:00:09] [Server thread/INFO]: [RandomTeleport] Enabling RandomTeleport v2.0-SNAPSHOT (build 71)
-[20:00:10] [Server thread/WARN]: [RandomTeleport] Error in unsave-blocks config! No material found with name sign
-[20:00:10] [Server thread/WARN]: [RandomTeleport] Error in unsave-blocks config! No material found with name wall_sign
-[20:00:10] [Server thread/INFO]: [RandomTeleport] Found locale en!
-[20:00:10] [Server thread/INFO]: [Quests] Enabling Quests v3.9.1
-[20:00:10] [Server thread/INFO]: [Quests] Your server is running version 1.19
-[20:00:10] [Server thread/INFO]: [Quests] Metrics started. This can be disabled at /plugins/bStats/config.yml.
-[20:00:10] [Server thread/INFO]: [PluginManager] Enabling PluginManager v2.8.1
-[20:00:10] [Server thread/INFO]: [PlayMoreSounds] Enabling PlayMoreSounds v4.0.4
-[20:00:10] [Server thread/INFO]: [PlayMoreSounds] -> Configurations loaded.
-[20:00:10] [Server thread/INFO]: [PlayMoreSounds] -> 16 listeners loaded.
-[20:00:10] [Server thread/INFO]: [PlayMoreSounds] -> Commands loaded.
-[20:00:10] [Server thread/INFO]: [PlayMoreSounds] ProtocolLib was found and hooked.
-[20:00:10] [Server thread/INFO]: [PlayMoreSounds] ============================================
-[20:00:10] [Server thread/INFO]: [PlayMoreSounds] PlayMoreSounds has been enabled
-[20:00:10] [Server thread/INFO]: [PlayMoreSounds] 1190 sounds available on 1.19.3
-[20:00:10] [Server thread/INFO]: [PlayMoreSounds] ============================================
-[20:00:10] [Server thread/WARN]: [PlayMoreSounds] PlayMoreSounds detected you are on version 1.19.3. This version is not officially supported and some errors might be thrown.
-[20:00:10] [Server thread/INFO]: [PlayMoreSounds] PlayMoreSounds is using bStats as metrics collector.
-[20:00:10] [Server thread/INFO]: [PlayMoreSounds] Procurando por atualizações...
-[20:00:11] [Server thread/INFO]: [MyCommand] Enabling MyCommand v5.7.3
-[20:00:11] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.3*-=-=-=-=-=-=-=-=-=-*
-[20:00:11] [Server thread/INFO]: | Hooked on Vault 1.7.3-b131
-[20:00:11] [Server thread/INFO]: | Command file(s) found : 1
-[20:00:11] [Server thread/INFO]: | Config : Ready.
-[20:00:11] [Server thread/INFO]: | ProtocolLib found, features availables (SignMenu)
-[20:00:11] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: mycommand [1.0.0]
-[20:00:11] [Server thread/INFO]: | Placeholder_API : Hooked, Ok.
-[20:00:11] [Server thread/INFO]: | Custom commands loaded : 54
-[20:00:11] [EPL Update Checker/INFO]: [PlayMoreSounds] PlayMoreSounds v4.2 está disponível. Baixe a última versão em spigotmc.org.
-[20:00:11] [Server thread/INFO]: | New update available : MyCommand v5.7.4
-[20:00:11] [Server thread/INFO]: |          by emmerrei a.k.a. ivanfromitaly.           
-[20:00:11] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
-[20:00:11] [Server thread/INFO]: [LeafTags] Enabling LeafTags vpre-1.2.4
-[20:00:13] [Server thread/INFO]: [LeafTags] Connected to SQLite successfully
-[20:00:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: LeafTags [pre-1.2.4]
-[20:00:13] [Server thread/INFO]: [LeafTags] Successful plugin start (took 0.16s)
-[20:00:13] [Server thread/INFO]: [EcoPets] Enabling EcoPets
-[20:00:13] [Server thread/INFO]: [EcoPets] Loading EcoPets
-[20:00:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ecopets [2.10.0]
-[20:00:14] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI
-[20:00:14] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Usando o arquivo de idioma lang-pt.yml.
-[20:00:14] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Shops.yml encontrado!
-[20:00:14] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Sections.yml encontrado!
-[20:00:14] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault
-[20:00:14] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: Completed loading '1' economy provider(s) for all 16 shop sections.
-[20:00:14] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Usando a versão 1.19.3 do minecraft...
-[20:00:14] [Server thread/INFO]: [EconomyShopGUI] [INFO]: A compatibilidade do MINEABLESPAWNERS foi habilitada nas configurações
-[20:00:14] [Server thread/INFO]: [EconomyShopGUI] [WARN]: MineableSpawners não encontrado, usando os spawners do EconomyShopGUI...
-[20:00:14] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Usando spawners padrão do plugin...
-[20:00:14] [Server thread/INFO]: [EconomyShopGUI] [INFO]: O modo Debug foi ativado
-[20:00:14] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Atualizando as configurações do Shop...
-[20:00:14] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Carregando todos os itens...
-[20:00:15] [Server thread/INFO]: [EconomyShopGUI] Feito!
-[20:00:15] [Server thread/INFO]: [EcoJobs] Enabling EcoJobs
-[20:00:15] [Server thread/INFO]: [EcoJobs] Loading EcoJobs
-[20:00:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ecojobs [3.10.0]
-[20:00:15] [Server thread/INFO]: [Dynmap-GriefPrevention] Enabling Dynmap-GriefPrevention v0.88
-[20:00:15] [Server thread/INFO]: [Dynmap-GriefPrevention] Activated successfully.
-[20:00:15] [Server thread/INFO]: [Dynmap-GriefPrevention] Enabled successfully.
-[20:00:15] [Server thread/INFO]: [DailyRewards] Enabling DailyRewards v1.1.0
-[20:00:15] [Server thread/INFO]: [CrazyCrates] Enabling CrazyCrates v1.11.6-SNAPSHOT
-[20:00:15] [Server thread/INFO]: [CrazyCrates] Loading the config.yml
-[20:00:15] [Server thread/INFO]: [CrazyCrates] Successfully loaded config.yml
-[20:00:15] [Server thread/INFO]: [CrazyCrates] Loading the messages.yml
-[20:00:15] [Server thread/INFO]: [CrazyCrates] Successfully loaded messages.yml
-[20:00:15] [Server thread/INFO]: [CrazyCrates] Loading the locations.yml
-[20:00:15] [Server thread/INFO]: [CrazyCrates] Successfully loaded locations.yml
-[20:00:15] [Server thread/INFO]: [CrazyCrates] Loading the data.yml
-[20:00:15] [Server thread/INFO]: [CrazyCrates] Successfully loaded data.yml
-[20:00:15] [Server thread/INFO]: [CrazyCrates] Loading custom files.
-[20:00:15] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /crates/Avancada.yml.
-[20:00:15] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /crates/Basica.yml.
-[20:00:15] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /crates/Premium.yml.
-[20:00:15] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /crates/Slimefun.yml.
-[20:00:15] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /crates/vote.yml.
-[20:00:15] [Server thread/INFO]: [CrazyCrates] Finished loading custom files.
-[20:00:15] [Server thread/INFO]: [CrazyCrates] Loading all crate information...
-[20:00:15] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_19_R2! Trying to find NMS support
-[20:00:15] [Server thread/WARN]: [NBTAPI] [NBTAPI] This Server-Version(v1_19_R2) is not supported by this NBT-API Version(2.10.0) located at com.badbones69.crazycrates.plugin.lib.de.tr7zw.changeme.nbtapi.utils.MinecraftVersion. The NBT-API will try to work as good as it can! Some functions may not work!
-[20:00:15] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Gson: class com.google.gson.Gson
-[20:00:16] [Server thread/INFO]: [CrazyCrates] All crate information has been loaded.
-[20:00:16] [Server thread/INFO]: [CrazyCrates] Loading all the physical crate locations.
-[20:00:16] [Server thread/INFO]: [CrazyCrates] All physical crate locations have been loaded.
-[20:00:16] [Server thread/INFO]: [CrazyCrates] Searching for schematics to load.
-[20:00:16] [Server thread/INFO]: [CrazyCrates] classic.nbt was successfully found and loaded.
-[20:00:16] [Server thread/INFO]: [CrazyCrates] nether.nbt was successfully found and loaded.
-[20:00:16] [Server thread/INFO]: [CrazyCrates] outdoors.nbt was successfully found and loaded.
-[20:00:16] [Server thread/INFO]: [CrazyCrates] sea.nbt was successfully found and loaded.
-[20:00:16] [Server thread/INFO]: [CrazyCrates] soul.nbt was successfully found and loaded.
-[20:00:16] [Server thread/INFO]: [CrazyCrates] wooden.nbt was successfully found and loaded.
-[20:00:16] [Server thread/INFO]: [CrazyCrates] All schematics were found and loaded.
-[20:00:16] [Server thread/INFO]: [CrazyCrates] Cleaning up the data.yml file.
-[20:00:16] [Server thread/INFO]: [CrazyCrates] The data.yml file has been cleaned.
-[20:00:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: CrazyCrates [1.11.6-SNAPSHOT]
-[20:00:16] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.92
-[20:00:16] [Server thread/INFO]: [BungeeGuard] Enabling BungeeGuard v1.4.1
-[20:00:16] [Server thread/INFO]: [BungeeGuard] Using Paper's PlayerHandshakeEvent to listen for connections.
-[20:00:16] [Server thread/INFO]: [BlockParticles] Enabling BlockParticles v1.11.1-RELEASE
-[20:00:16] [Server thread/INFO]: [BlockParticles] [BlockParticles] Loading the config.yml
-[20:00:16] [Server thread/INFO]: [BlockParticles] [BlockParticles] Successfully loaded config.yml
-[20:00:16] [Server thread/INFO]: [BlockParticles] [BlockParticles] Loading the data.yml
-[20:00:16] [Server thread/INFO]: [BlockParticles] [BlockParticles] Successfully loaded data.yml
-[20:00:16] [Server thread/INFO]: [BankPlus] Enabling BankPlus v5.7
-[20:00:16] [Server thread/INFO]: 
-[20:00:16] [Server thread/INFO]:     BankPlus Enabling plugin...
-[20:00:16] [Server thread/INFO]:     Running on version 5.7!
-[20:00:16] [Server thread/INFO]:     Detected server version: git-Purpur-1933 (MC: 1.19.3)
-[20:00:16] [Thread-26/WARN]: [NBTAPI] [NBTAPI] The NBT-API located at 'package com.badbones69.crazycrates.plugin.lib.de.tr7zw.changeme.nbtapi' seems to be outdated!
-[20:00:16] [Thread-26/WARN]: [NBTAPI] [NBTAPI] Current Version: '2.10.0' Newest Version: 2.11.3'
-[20:00:16] [Thread-26/WARN]: [NBTAPI] [NBTAPI] Please update the NBTAPI or the plugin that contains the api(nag the mod author when the newest release has an old version, not the NBTAPI dev)!
-[20:00:16] [Server thread/INFO]:     Loaded config files! (52ms)
-[20:00:16] [Server thread/INFO]:     Registered events! (6ms)
-[20:00:16] [Server thread/INFO]:     Loaded plugin command! (2ms)
-[20:00:16] [Server thread/INFO]:     Done! (61 total ms)
-[20:00:16] [Server thread/INFO]: 
-[20:00:16] [Server thread/INFO]: BankPlus [INFO] Hooked into PlaceholderAPI!
-[20:00:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bankplus [5.7]
-[20:00:16] [Server thread/INFO]: [AuctionHouse] Enabling AuctionHouse v3.3.2
-[20:00:16] [Server thread/INFO]: [AuctionHouse] Found locale file en_us.json
-[20:00:16] [Server thread/WARN]: [AuctionHouse] [1;33mA backup of the database has been saved with .backup extension.[0m
-[20:00:19] [Server thread/INFO]: [AuctionHouse] Using NMS version v1_19_R2
-[20:00:19] [Server thread/INFO]: [AuctionHouse] Using en_us locale
-[20:00:19] [Server thread/INFO]: [AuctionHouse] Loaded 192 listings
-[20:00:19] [Server thread/INFO]: [libreforge] Enabling libreforge v4.10.0
-[20:00:19] [Server thread/INFO]: [libreforge] Loading libreforge
-[20:00:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: libreforge [4.10.0]
-[20:00:19] [Server thread/INFO]: [libreforge] Loaded integrations: mcMMO, Vault
-[20:00:19] [Server thread/INFO]: [libreforge] 
-[20:00:19] [Server thread/INFO]: [libreforge] Hey, what's this plugin doing here? I didn't install it!
-[20:00:19] [Server thread/INFO]: [libreforge] libreforge is the effects system for plugins like EcoEnchants,
-[20:00:19] [Server thread/INFO]: [libreforge] EcoJobs, EcoItems, etc. If you're looking for config options for
-[20:00:19] [Server thread/INFO]: [libreforge] things like cooldown messages, lrcdb, and stuff like that, you'll
-[20:00:19] [Server thread/INFO]: [libreforge] find it under /plugins/libreforge
-[20:00:19] [Server thread/INFO]: [libreforge] 
-[20:00:19] [Server thread/INFO]: [libreforge] Don't worry about updating libreforge, it's handled automatically!
-[20:00:19] [Server thread/INFO]: [libreforge] 
-[20:00:20] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[20:00:20] [Server thread/INFO]: Running delayed init tasks
-[20:00:20] [Craft Scheduler Thread - 14 - EpicPluginLib/INFO]: [EpicPluginLib] EpicPluginLib v2.5 is available. Please update.
-[20:00:20] [Craft Scheduler Thread - 24 - Vault/INFO]: [Vault] Checking for Updates ... 
-[20:00:20] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19.3 (761)
-[20:00:21] [Server thread/INFO]: [SimpleClans] Registered WorldGuardProvider successfully
-[20:00:21] [Server thread/WARN]: [SimpleClans] Error registering provider WorldGuard6Provider
-[20:00:21] [Server thread/INFO]: [SimpleClans] Registered GriefPreventionProvider successfully
-[20:00:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: quests [3.9.1]
-[20:00:21] [User Authenticator #0/INFO]: UUID of player iTakinn is 18f7bf45-5c65-3741-9541-bde30f073d69
-[20:00:21] [User Authenticator #1/INFO]: UUID of player iTakinn is 18f7bf45-5c65-3741-9541-bde30f073d69
-[20:00:21] [Craft Scheduler Thread - 24 - Vault/INFO]: [Vault] No new version available
-[20:00:21] [Server thread/INFO]: [Quests] 33 task types have been registered.
-[20:00:21] [Server thread/INFO]: [Quests] 0 quest items have been registered.
-[20:00:21] [Craft Scheduler Thread - 14 - PluginManager/INFO]: PM | You are using the latest version of PluginManager.
-[20:00:22] [Craft Scheduler Thread - 17 - Quests/INFO]: [Quests] A new version 3.14.2 was found on Spigot (your version: 3.9.1). Please update me! <3 - Link: https://get.leonardobishop.com/quests
-[20:00:22] [Craft Scheduler Thread - 12 - CMILib/INFO]: New version of CMILib was detected. Please update it
-[20:00:22] [Server thread/INFO]: [Quests] 7 quests have been registered.
-[20:00:22] [Server thread/INFO]: [AuctionHouse] Registered Service Provider CMIEInjector for Vault's Economy API
-[20:00:22] [Server thread/INFO]: [AuctionHouse] Registered Service Provider LuckPerms for Vault's Chat API
-[20:00:22] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[20:00:22] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[20:00:22] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[20:00:22] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
-[20:00:22] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |    [33;1mProxy Mode[32;1m    |[0;39m
-[20:00:22] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[20:00:22] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[20:00:22] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.12[0;39m
-[20:00:22] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[20:00:22] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[20:00:22] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
-[20:00:22] [Craft Scheduler Thread - 19 - DailyRewards/INFO]: [DailyRewards] There is a new v1.7.8 update available (You are running v1.1.0).
+[18:11:43] [Server thread/WARN]: [com.dfsek.terra.addons.biome.pipeline.BiomePipelineAddon] The biome-provider-pipeline addon is deprecated and scheduled for removal in Terra 7.0. It is recommended to use the biome-provider-pipeline-v2 addon for future pack development instead.
+[18:11:43] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Terra addons successfully loaded.
+[18:11:43] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Finished initialization.
+[18:11:45] [Server thread/INFO]: [EcoPets] Initializing EcoPets
+[18:11:49] [Server thread/INFO]: [EcoJobs] Initializing EcoJobs
+[18:11:53] [Server thread/INFO]: [SpigotLibraryLoader] [CrazyCrates] Loading 1 libraries... please wait
+[18:11:53] [Server thread/INFO]: [SpigotLibraryLoader] [CrazyCrates] Loaded library C:\Users\iTakin\Desktop\COMO EU AMO ISSO\survival\libraries\org\jetbrains\kotlin\kotlin-stdlib\1.7.10\kotlin-stdlib-1.7.10.jar
+[18:11:53] [Server thread/INFO]: [SpigotLibraryLoader] [CrazyCrates] Loaded library C:\Users\iTakin\Desktop\COMO EU AMO ISSO\survival\libraries\org\jetbrains\kotlin\kotlin-stdlib-common\1.7.10\kotlin-stdlib-common-1.7.10.jar
+[18:11:53] [Server thread/INFO]: [SpigotLibraryLoader] [CrazyCrates] Loaded library C:\Users\iTakin\Desktop\COMO EU AMO ISSO\survival\libraries\org\jetbrains\annotations\13.0\annotations-13.0.jar
+[18:11:53] [Server thread/WARN]: Legacy plugin CMIEInjector v1.0.2.3 does not specify an api-version.
+[18:11:53] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.5.1
+[18:11:53] [Server thread/INFO]: [ViaVersion] ViaVersion 4.5.1 is now loaded, injecting!
+[18:11:53] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[18:11:54] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[18:11:54] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[18:11:54] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[18:11:54] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[18:11:54] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[18:11:54] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[18:11:54] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[18:11:54] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[18:11:54] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.18 -> 1.19 mappings...
+[18:11:54] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.19 -> 1.19.3 mappings...
+[18:11:54] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.58
+[18:11:55] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[18:11:55] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.13+46576cc
+[18:11:57] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@a153ee9]
+[18:11:57] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.7+216b061
+[18:11:57] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.0.0-SNAPSHOT-b612
+[18:11:59] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.5.1
+[18:11:59] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[18:11:59] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[18:11:59] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[18:11:59] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
+[18:11:59] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[18:11:59] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[18:11:59] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[18:11:59] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+[18:11:59] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+[18:11:59] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+[18:11:59] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+[18:11:59] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
+[18:11:59] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.19 -> 1.18 mappings...
+[18:11:59] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.19.3 -> 1.19 mappings...
+[18:11:59] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.2
+[18:11:59] [Server thread/INFO]: [mcMMO] Loading server plugin mcMMO v2.1.218
+[18:11:59] [Server thread/INFO]: [mcMMO] Registered WG flags successfully!
+[18:11:59] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v14.2.12
+[18:11:59] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
+[18:11:59] [Server thread/INFO]: [Slimefun] Loading server plugin Slimefun vRC - 35 (git 5e901972)
+[18:11:59] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.30-SNAPSHOT (build 2809)
+[18:11:59] [Server thread/INFO]: [SimpleClans] Loading server plugin SimpleClans v2.18.1-43da5bd
+[18:11:59] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.5-beta-3-866
+[18:11:59] [Server thread/INFO]: [dynmap] version=git-Purpur-1933 (MC: 1.19.3)
+[18:11:59] [Server thread/INFO]: [dynmap] Mod Support API available
+[18:11:59] [Server thread/INFO]: [CMILib] Loading server plugin CMILib v1.2.4.1
+[18:11:59] [Server thread/INFO]: [EpicPluginLib] Loading server plugin EpicPluginLib v2.0
+[18:11:59] [Server thread/INFO]: [LeafPlugins] Loading server plugin LeafPlugins vpre-1.3.0
+[18:11:59] [Server thread/INFO]: [eco] Loading server plugin eco
+[18:11:59] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention v16.18
+[18:11:59] [Server thread/INFO]: [CMI] Loading server plugin CMI v9.3.0.5
+[18:11:59] [Server thread/INFO]: [ServersNPC] Loading server plugin ServersNPC v4.0
+[18:11:59] [Server thread/INFO]: [VoidWorld] Loading server plugin VoidWorld v1.0
+[18:11:59] [Server thread/INFO]: [VillagerUtil] Loading server plugin VillagerUtil vDEV - 1 (git 0a949b19)
+[18:11:59] [Server thread/INFO]: [UltimateChat] Loading server plugin UltimateChat v1.9.1
+[18:11:59] [Server thread/INFO]: [Terra] Loading server plugin Terra v6.2.2-BETA+8fff27fdd
+[18:11:59] [Server thread/INFO]: [TAB] Loading server plugin TAB v3.2.1
+[18:11:59] [Server thread/INFO]: [Stress] Loading server plugin Stress v1.0.3
+[18:11:59] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.17
+[18:11:59] [Server thread/INFO]: [SlimeHUD] Loading server plugin SlimeHUD vDEV - 10 (git 7d1c666b)
+[18:11:59] [Server thread/INFO]: [SlimefunOreChunks] Loading server plugin SlimefunOreChunks vDEV - 15 (git 2520cb23)
+[18:11:59] [Server thread/INFO]: [SimpleUtils] Loading server plugin SimpleUtils vDEV - 15 (git 4250fd5e)
+[18:11:59] [Server thread/INFO]: [SimpleStorage] Loading server plugin SimpleStorage vDEV - 10 (git ea5e5637)
+[18:11:59] [Server thread/INFO]: [SFCalc] Loading server plugin SFCalc vDEV - 37 (git dfc0fc41)
+[18:11:59] [Server thread/INFO]: [RandomTeleport] Loading server plugin RandomTeleport v2.0-SNAPSHOT (build 71)
+[18:11:59] [Server thread/INFO]: [Quests] Loading server plugin Quests v3.9.1
+[18:11:59] [Server thread/INFO]: [PrivateStorage] Loading server plugin PrivateStorage vDEV - 18 (git 5832db21)
+[18:11:59] [Server thread/INFO]: [PluginManager] Loading server plugin PluginManager v2.8.1
+[18:11:59] [Server thread/INFO]: [PlayMoreSounds] Loading server plugin PlayMoreSounds v4.0.4
+[18:11:59] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.1.16
+[18:12:01] [Server thread/INFO]: [MyCommand] Loading server plugin MyCommand v5.7.3
+[18:12:01] [Server thread/INFO]: [MobCapturer] Loading server plugin MobCapturer vDEV - 31 (git c979dc9a)
+[18:12:01] [Server thread/INFO]: [LoneLibs] Loading server plugin LoneLibs v1.0.24
+[18:12:01] [Server thread/INFO]: [LeafTags] Loading server plugin LeafTags vpre-1.2.4
+[18:12:03] [Server thread/INFO]: [EcoPets] Loading server plugin EcoPets
+[18:12:03] [Server thread/INFO]: [libreforge] Initializing libreforge
+[18:12:03] [Server thread/INFO]: [libreforge] Loading server plugin libreforge v4.10.0
+[18:12:03] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI
+[18:12:03] [Server thread/INFO]: [EcoJobs] Loading server plugin EcoJobs
+[18:12:03] [Server thread/INFO]: [Dynmap-GriefPrevention] Loading server plugin Dynmap-GriefPrevention v0.88
+[18:12:03] [Server thread/INFO]: [DailyRewards] Loading server plugin DailyRewards v1.1.0
+[18:12:03] [Server thread/INFO]: [CrazyCrates] Loading server plugin CrazyCrates v1.11.6-SNAPSHOT
+[18:12:03] [Server thread/INFO]: [CMIEInjector] Loading server plugin CMIEInjector v1.0.2.3
+[18:12:03] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.92
+[18:12:03] [Server thread/INFO]: [BungeeGuard] Loading server plugin BungeeGuard v1.4.1
+[18:12:03] [Server thread/INFO]: [BlockParticles] Loading server plugin BlockParticles v1.11.1-RELEASE
+[18:12:03] [Server thread/INFO]: [BankPlus] Loading server plugin BankPlus v5.7
+[18:12:03] [Server thread/INFO]: [AuctionHouse] Loading server plugin AuctionHouse v3.3.2
+[18:12:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:12:03] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.58
+[18:12:05] [Server thread/INFO]:         __    
+[18:12:05] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.58
+[18:12:05] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
+[18:12:05] [Server thread/INFO]: 
+[18:12:05] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:12:07] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:12:08] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:12:09] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:12:10] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 6925ms)
+[18:12:10] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[18:12:10] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[18:12:10] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[18:12:10] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[18:12:10] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.13+46576cc
+[18:12:10] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:12:10] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[18:12:11] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R2.PaperweightAdapter as the Bukkit adapter
+[18:12:12] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b612
+[18:12:12] [Server thread/INFO]: [LeafPlugins] Enabling LeafPlugins vpre-1.3.0
+[18:12:14] [Server thread/INFO]: [LeafPlugins] Connected to SQLite successfully
+[18:12:14] [Server thread/INFO]: [LeafPlugins] [WARN] Language not defined, configure it in: LeafPlugins/config.yml
+[18:12:14] [Server thread/INFO]: [LeafPlugins] WorldGuard Regions API loaded
+[18:12:14] [Server thread/INFO]: [LeafPlugins] Successful plugin start (took 0.31s)
+[18:12:14] [Server thread/INFO]: [eco] Enabling eco
+[18:12:14] [Server thread/INFO]: [eco] Loading eco
+[18:12:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: eco [6.60.0]
+[18:12:14] [Server thread/INFO]: [eco] Loaded integrations: EconomyShopGUI, mcMMO, Vault, GriefPrevention, CMI, PlaceholderAPI, WorldGuard
+[18:12:14] [Server thread/INFO]: [eco] Scanning for conflicts...
+[18:12:14] [Server thread/WARN]: [eco] CrazyCrates will likely conflict with eco! Reason: Kotlin found in libraries (lib-loader)
+[18:12:14] [Server thread/WARN]: [eco] You can fix the conflicts by either removing the conflicting plugins, or by asking on the support discord to have them patched!
+[18:12:14] [Server thread/WARN]: [eco] Only remove potentially conflicting plugins if you see Loader Constraint Violation / LinkageError anywhere
+[18:12:14] [Server thread/INFO]: [VoidWorld] Enabling VoidWorld v1.0*
+[18:12:14] [Server thread/INFO]: [Terra] Enabling Terra v6.2.2-BETA+8fff27fdd
+[18:12:14] [Server thread/INFO]: [com.dfsek.terra.bukkit.TerraBukkitPlugin] Running on Minecraft version v1.19.2 with server implementation Purpur.
+[18:12:14] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config packs...
+[18:12:14] [Server thread/INFO]: [com.dfsek.terra.registry.master.ConfigRegistry] Loading ZIP archive: default.zip
+[18:12:17] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loading config pack "OVERWORLD:OVERWORLD"
+[18:12:20] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loaded config pack "OVERWORLD:OVERWORLD" v1.3.0 by Astrash, Sancires, Aureus in 5472.1435ms.
+[18:12:20] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loaded packs.
+[18:12:21] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_19_R2.AwfulBukkitHacks] Hacking biome registry...
+[18:12:21] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_19_R2.AwfulBukkitHacks] Doing tag garbage....
+[18:12:21] [Server thread/INFO]: [nLogin] Enabling nLogin v10.1.16
+[18:12:24] [Server thread/INFO]: [nLogin] Successful plugin core start (took 2.24s)
+[18:12:24] [Server thread/INFO]:           __             _       
+[18:12:24] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
+[18:12:24] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[18:12:24] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
+[18:12:24] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[18:12:24] [Server thread/INFO]:                   |___/            
+[18:12:24] [Server thread/INFO]:  By: www.nickuc.com - V 10.1.16
+[18:12:24] [Server thread/INFO]: 
+[18:12:24] [Server thread/INFO]: [nLogin] nLogin foi carregado em 757ms.
+[18:12:24] [Server thread/INFO]: [LoneLibs] Enabling LoneLibs v1.0.24
+[18:12:24] [Server thread/INFO]: [CMIEInjector] Enabling CMIEInjector v1.0.2.3*
+[18:12:24] [Server thread/INFO]: [CMIEInjector] Injecting CMI Economy
+[18:12:24] [Server thread/INFO]: [CMIEInjector] [Economy] CMI Economy found: Waiting
+[18:12:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:12:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:12:24] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[18:12:24] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[18:12:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:12:24] [Server thread/INFO]: Preparing level "world"
+[18:12:26] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_19_R2.NMSInjectListener] Preparing to take over the world: world
+[18:12:26] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_19_R2.NMSInjectListener] Successfully injected into world.
+[18:12:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:12:27] [Server thread/INFO]: Time elapsed: 533 ms
+[18:12:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:12:27] [Server thread/INFO]: Time elapsed: 76 ms
+[18:12:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:12:28] [Server thread/INFO]: Time elapsed: 108 ms
+[18:12:28] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.5.1
+[18:12:28] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.7+216b061
+[18:12:28] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[18:12:28] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[18:12:28] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[18:12:28] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[18:12:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[18:12:28] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[18:12:28] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[18:12:28] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[18:12:28] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[18:12:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[18:12:28] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[18:12:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[18:12:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[18:12:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[18:12:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[18:12:28] [Server thread/INFO]: [WorldGuard] Loading region data...
+[18:12:29] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.5.1
+[18:12:29] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
+[18:12:33] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[18:12:33] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.218
+[18:12:33] [Server thread/INFO]: [mcMMO] [config] Initializing config: config.yml
+[18:12:33] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: config.yml
+[18:12:33] [Server thread/INFO]: [mcMMO] [config] Config initialized: config.yml
+[18:12:33] [Server thread/INFO]: [mcMMO] [Debug] No errors found in config.yml!
+[18:12:33] [Server thread/INFO]: [mcMMO] Loading locale from plugins\mcMMO\locales\locale_override.properties
+[18:12:33] [Server thread/INFO]: [mcMMO] [config] Initializing config: advanced.yml
+[18:12:33] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: advanced.yml
+[18:12:33] [Server thread/INFO]: [mcMMO] [config] Config initialized: advanced.yml
+[18:12:33] [Server thread/INFO]: [mcMMO] [Debug] No errors found in advanced.yml!
+[18:12:33] [Server thread/INFO]: [mcMMO] Platform String: 1.19.3-R0.1-SNAPSHOT
+[18:12:33] [Server thread/INFO]: [mcMMO] Minecraft version determined to be - 1.19.3
+[18:12:33] [Server thread/INFO]: [mcMMO] Loading compatibility layers...
+[18:12:33] [Server thread/INFO]: [mcMMO] Finished loading compatibility layers.
+[18:12:33] [Server thread/INFO]: [mcMMO] [config] Initializing config: persistent_data.yml
+[18:12:33] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: persistent_data.yml
+[18:12:33] [Server thread/INFO]: [mcMMO] [config] Config initialized: persistent_data.yml
+[18:12:33] [Server thread/INFO]: [mcMMO] [Debug] No errors found in persistent_data.yml!
+[18:12:33] [Server thread/INFO]: [mcMMO] [config] Initializing config: upgrades_overhaul.yml
+[18:12:33] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: upgrades_overhaul.yml
+[18:12:33] [Server thread/INFO]: [mcMMO] [config] Config initialized: upgrades_overhaul.yml
+[18:12:33] [Server thread/INFO]: [mcMMO] [config] Initializing config: treasures.yml
+[18:12:33] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: treasures.yml
+[18:12:33] [Server thread/INFO]: [mcMMO] [config] Config initialized: treasures.yml
+[18:12:33] [Server thread/INFO]: [mcMMO] [config] Initializing config: fishing_treasures.yml
+[18:12:33] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: fishing_treasures.yml
+[18:12:33] [Server thread/INFO]: [mcMMO] [config] Config initialized: fishing_treasures.yml
+[18:12:33] [Server thread/INFO]: [mcMMO] Registering enchantments for Fishing Book...
+[18:12:33] [Server thread/INFO]: [mcMMO] Loading mcMMO potions.yml File...
+[18:12:33] [Server thread/INFO]: [mcMMO] [config] Initializing config: coreskills.yml
+[18:12:33] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: coreskills.yml
+[18:12:33] [Server thread/INFO]: [mcMMO] [config] Config initialized: coreskills.yml
+[18:12:33] [Server thread/INFO]: [mcMMO] [config] Initializing config: sounds.yml
+[18:12:33] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: sounds.yml
+[18:12:33] [Server thread/INFO]: [mcMMO] [config] Config initialized: sounds.yml
+[18:12:33] [Server thread/INFO]: [mcMMO] Loading mcMMO skillranks.yml File...
+[18:12:35] [Server thread/INFO]: [mcMMO] [config] Initializing config: child.yml
+[18:12:35] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: child.yml
+[18:12:35] [Server thread/INFO]: [mcMMO] [config] Config initialized: child.yml
+[18:12:35] [Server thread/INFO]: [mcMMO] [config] Initializing config: repair.vanilla.yml
+[18:12:35] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: repair.vanilla.yml
+[18:12:35] [Server thread/INFO]: [mcMMO] [config] Config initialized: repair.vanilla.yml
+[18:12:35] [Server thread/INFO]: [mcMMO] [config] Initializing config: salvage.vanilla.yml
+[18:12:35] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: salvage.vanilla.yml
+[18:12:35] [Server thread/INFO]: [mcMMO] [config] Config initialized: salvage.vanilla.yml
+[18:12:36] [Server thread/INFO]: [mcMMO] (plugins\mcMMO\flatfile\mcmmo.users) Validating database file..
+[18:12:36] [Server thread/INFO]: [mcMMO] Enabling Acrobatics Skills
+[18:12:36] [Server thread/INFO]: [mcMMO] Registered subskill: Roll
+[18:12:36] [Server thread/INFO]: [mcMMO] [config] Initializing config: experience.yml
+[18:12:36] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: experience.yml
+[18:12:36] [Server thread/INFO]: [mcMMO] [config] Config initialized: experience.yml
+[18:12:36] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
+[18:12:37] [Server thread/INFO]: [mcMMO] [config] Initializing config: chat.yml
+[18:12:37] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: chat.yml
+[18:12:37] [Server thread/INFO]: [mcMMO] [config] Config initialized: chat.yml
+[18:12:37] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.12
+[18:12:37] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R2[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m
+[18:12:37] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m-------------------------/Warning\-------------------------[0;39m
+[18:12:37] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mThis plugin is running in PROXY mode![0;39m
+[18:12:37] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mYou have to do all configuration at config file[0;39m
+[18:12:37] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39minside your BungeeCord/Velocity server.[0;39m
+[18:12:37] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m(<proxy>/plugins/SkinsRestorer/)[0;39m
+[18:12:37] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m-------------------------\Warning/-------------------------[0;39m
+[18:12:37] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[18:12:37] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[18:12:37] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[18:12:38] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
+[18:12:41] [Server thread/INFO]: Time elapsed: 2723 ms
+[18:12:41] [Server thread/INFO]: [WorldGuard] (spawn) TNT ignition is PERMITTED.
+[18:12:41] [Server thread/INFO]: [WorldGuard] (spawn) Lighters are PERMITTED.
+[18:12:41] [Server thread/INFO]: [WorldGuard] (spawn) Lava fire is PERMITTED.
+[18:12:41] [Server thread/INFO]: [WorldGuard] (spawn) Fire spread is UNRESTRICTED.
+[18:12:41] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'spawn'
+[18:12:41] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[18:12:41] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[18:12:41] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[18:12:41] [Server thread/INFO]: [Slimefun] Enabling Slimefun vRC - 35 (git 5e901972)
+[18:12:41] [Server thread/INFO]: [Slimefun] Paper was detected! Performance optimizations have been applied.
+[18:12:41] [Server thread/INFO]: [Slimefun] Creating directories...
+[18:12:41] [Server thread/INFO]: [Slimefun] Loading language files...
+[18:12:41] [Server thread/INFO]: [Slimefun] Loaded language "en"
+[18:12:41] [Server thread/INFO]: [Slimefun] Available languages: en, de, fr, it, es, ru, uk, sv, cs, bg, pt-BR, hu, sk, vi, id, zh-CN, zh-TW, ja, ko, he, ar, tr, th, tl
+[18:12:41] [Server thread/INFO]: [Slimefun] Starting Auto-Updater...
+[18:12:41] [Server thread/INFO]: [Slimefun] Loading GEO-Resources...
+[18:12:42] [Server thread/INFO]: [Slimefun] Loading Tags...
+[18:12:42] [Server thread/INFO]: [Slimefun] Loading items...
+[18:12:43] [Server thread/INFO]: [Slimefun] Loading researches...
+[18:12:43] [Server thread/INFO]: [Slimefun] Loading Wiki pages...
+[18:12:43] [Server thread/INFO]: [Slimefun] Registering listeners...
+[18:12:43] [Server thread/INFO]: [Slimefun] Loading Third-Party plugin integrations...
+[18:12:43] [Server thread/INFO]: [Slimefun] Hooked into Plugin: PlaceholderAPI v2.11.2
+[18:12:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: slimefun [RC - 35 (git 5e901972)]
+[18:12:43] [Server thread/INFO]: [Slimefun] Hooked into Plugin: WorldEdit v7.2.13+46576cc
+[18:12:43] [Server thread/INFO]: [Slimefun] Hooked into Plugin: mcMMO v2.1.218
+[18:12:43] [Server thread/INFO]: [Slimefun] Slimefun has finished loading in 2.33s
+[18:12:43] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.30-SNAPSHOT (build 2809)
+[18:12:43] [Server thread/INFO]: [Citizens] Loading external libraries
+[18:12:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: citizensplaceholder [1.0.0]
+[18:12:44] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[18:12:44] [Server thread/INFO]: [SimpleClans] Enabling SimpleClans v2.18.1-43da5bd
+[18:12:44] [Server thread/INFO]: [SimpleClans] SQLite Connection successful
+[18:12:44] [Server thread/INFO]: [SimpleClans] Clan players: 1
+[18:12:44] [Server thread/INFO]: [SimpleClans] Registering 4 chat handlers...
+[18:12:44] [Server thread/INFO]: [SimpleClans] [ACF] Enabled Asynchronous Tab Completion Support!
+[18:12:44] [Server thread/INFO]: [SimpleClans] Registering 12 command contexts...
+[18:12:44] [Server thread/INFO]: [SimpleClans] Registering 15 base commands...
+[18:12:44] [Server thread/INFO]: [SimpleClans] Registering 32 command conditions...
+[18:12:44] [Server thread/INFO]: [SimpleClans] Registering 18 command completions...
+[18:12:44] [Server thread/INFO]: [SimpleClans] Multithreading: true
+[18:12:44] [Server thread/INFO]: [SimpleClans] BungeeCord: false
+[18:12:44] [Server thread/INFO]: [SimpleClans] HEX support: true
+[18:12:44] [Server thread/INFO]: [SimpleClans] Help us translate SimpleClans to your language! Access https://crowdin.com/project/simpleclans/
+[18:12:45] [Server thread/INFO]: [SimpleClans] PlaceholderAPI found. Registering hook...
+[18:12:45] [Server thread/INFO]: [SimpleClans] Registering 7 placeholder resolvers...
+[18:12:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: simpleclans [2.18.1-43da5bd]
+[18:12:45] [Server thread/INFO]: [dynmap] Enabling dynmap v3.5-beta-3-866
+[18:12:45] [Server thread/INFO]: [dynmap] Added 181 custom biome mappings
+[18:12:45] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.58 for access control
+[18:12:45] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[18:12:48] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[18:12:48] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
+[18:12:48] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[18:12:48] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[18:12:49] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[18:12:49] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[18:12:49] [Server thread/INFO]: [dynmap] version 3.5-beta-3-866 is enabled - core version 3.5-beta-3-866
+[18:12:49] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[18:12:49] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[18:12:49] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[18:12:49] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[18:12:49] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world'.
+[18:12:49] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[18:12:49] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[18:12:49] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'spawn'.
+[18:12:49] [Server thread/INFO]: [dynmap] Enabled
+[18:12:49] [Server thread/INFO]: [CMILib] Enabling CMILib v1.2.4.1
+[18:12:50] [Server thread/INFO]: Server version: v1_19_R2 - 1.19.3 - paper
+[18:12:50] [Server thread/INFO]: CMI hooked.
+[18:12:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: cmil [1.2.4.1]
+[18:12:50] [Server thread/INFO]: PlaceholderAPI hooked.
+[18:12:51] [Server thread/INFO]: Updated (EN) language file. Took 98ms
+[18:12:51] [Server thread/INFO]: [EpicPluginLib] Enabling EpicPluginLib v2.0
+[18:12:51] [Server thread/INFO]: [EpicPluginLib] Dependency found: PlayMoreSounds.
+[18:12:51] [Server thread/INFO]: [EpicPluginLib] Lib enabled successfully.
+[18:12:51] [Server thread/INFO]: [EpicPluginLib] EpicPluginLib is using bStats as metrics collector.
+[18:12:51] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18
+[18:12:51] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[18:12:51] [Server thread/INFO]: [GriefPrevention] 0 total claims loaded.
+[18:12:51] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[18:12:51] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
+[18:12:51] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[18:12:51] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[18:12:51] [Server thread/INFO]: [CMI] Enabling CMI v9.3.0.5
+[18:12:51] [Server thread/INFO]: [CMI] [36m[Spigotunlocked.net] - COSMO
+[18:12:52] [Server thread/INFO]: ????? ?????? ????
+[18:12:52] [Server thread/INFO]: ????? ? ?? ? ????
+[18:12:52] [Server thread/INFO]: ?? ?? ??????  ?? 
+[18:12:52] [Server thread/INFO]: ?? ?? ??????  ?? 
+[18:12:52] [Server thread/INFO]: ????? ?????? ????
+[18:12:52] [Server thread/INFO]: ????? ?????? ????
+[18:12:52] [Server thread/INFO]: _______________________________________________________
+[18:12:52] [Server thread/INFO]:   Integrating PaperSpigot async methods
+[18:12:52] [Server thread/INFO]:   Citizens found.
+[18:12:52] [Server thread/INFO]:   57 Enabled and 0 Disabled modules
+[18:12:53] [Server thread/INFO]:   Permission plugin: LuckPerms5.4.58
+[18:12:53] [Server thread/INFO]:   Initialized Cipher256 AES
+[18:12:53] [Server thread/INFO]:   Loaded (60) regular alias into memory. Took 48ms
+[18:12:53] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 2ms
+[18:12:53] [Server thread/INFO]:   3.36.0 data base type detected
+[18:12:53] [Server thread/INFO]:   Started SqLite data base. Took 155ms
+[18:12:53] [Server thread/INFO]:   Vault was found - Enabling capabilities. Economy: CMIEconomy
+[18:12:53] [Server thread/INFO]:   Loaded (5) holograms into memory. Took 32ms
+[18:12:53] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 0ms
+[18:12:53] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 0ms
+[18:12:53] [Server thread/INFO]:   Loaded (142) custom mob heads into memory. Took 19ms
+[18:12:53] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 37ms
+[18:12:54] [Server thread/INFO]:   Enabling BungeeCord Support
+[18:12:54] [Server thread/INFO]:   Initializing BungeeCord
+[18:12:54] [Server thread/INFO]:   Loaded (6) kits into memory. Took 13ms
+[18:12:54] [Server thread/INFO]:   Loaded (7) ranks into memory. Took 13ms
+[18:12:54] [Server thread/INFO]:   Loaded (8) playtime rewards into memory. Took 1ms
+[18:12:54] [Server thread/INFO]:   Loaded (2) player data into memory. Took 13ms
+[18:12:54] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 0ms
+[18:12:54] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 0ms
+[18:12:54] [Server thread/INFO]:   Loaded (0) custom alias into memory. Took 1ms
+[18:12:54] [Server thread/INFO]:   Found dynmap
+[18:12:54] [Server thread/INFO]:   Registered events. Took 132ms
+[18:12:54] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 4ms
+[18:12:54] [Server thread/INFO]:   Updated (EN) language file. Took 139ms
+[18:12:54] [Server thread/INFO]:   Loaded (245) worth values into memory. Took 124ms
+[18:12:54] [Server thread/INFO]:   Loaded (2) warps into memory. Took 3ms
+[18:12:54] [Server thread/INFO]:   Vault permissions was found - Enabling capabilities.
+[18:12:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: cmi [9.3.0.5]
+[18:12:54] [Server thread/INFO]:   PlaceholderAPI hooked.
+[18:12:54] [Server thread/INFO]:   PlaceholderAPI was found - Enabling capabilities.
+[18:12:54] [Server thread/INFO]:   McMMO was found - Enabling capabilities.
+[18:12:54] [Server thread/INFO]:   Starting world timer.
+[18:12:54] [Server thread/INFO]:   Initializing world manager.
+[18:12:54] [Server thread/INFO]:   Loaded (4) schedules into memory. Took 7ms
+[18:12:54] [Server thread/INFO]:   Loaded GeoIP
+[18:12:54] [Server thread/INFO]:   Loaded (2) skin cache entries into memory. Took 2ms
+[18:12:54] [Server thread/INFO]:   Loaded (0) ArmorStand templates into memory. Took 1ms
+[18:12:54] [Server thread/INFO]:   Version 9.3.0.5 has been enabled
+[18:12:54] [Server thread/INFO]: ???????????????????????????????????????????????????????
+[18:12:54] [Server thread/INFO]: [CMIEInjector][Economy] CMI Economy hooked.
+[18:12:54] [Server thread/INFO]: [ServersNPC] Enabling ServersNPC v4.0
+[18:12:54] [Server thread/WARN]: [io.github.znetworkw.znpcservers.cache.TypeCache$BaseCache] No cache found for: [net.minecraft.world.entity.monster.warden.EntityWarden]
+[18:12:54] [Server thread/WARN]: [io.github.znetworkw.znpcservers.cache.TypeCache$BaseCache] No cache found for: [net.minecraft.world.entity.monster.warden.EntityWarden] : []
+[18:12:54] [Server thread/WARN]: [io.github.znetworkw.znpcservers.cache.TypeCache$BaseCache] Skipping cache for [net.minecraft.world.entity.monster.warden.EntityWarden]
+[18:12:54] [Server thread/INFO]: [VillagerUtil] Enabling VillagerUtil vDEV - 1 (git 0a949b19)
+[18:12:54] [Server thread/INFO]: [UltimateChat] Enabling UltimateChat v1.9.1
+[18:12:54] [Server thread/INFO]: [UltimateChat] All configurations loaded!
+[18:12:54] [Server thread/INFO]: [UltimateChat] Language file loaded - Using: PT-BR
+[18:12:54] [Server thread/INFO]: [UltimateChat] Vault economy found. Hooked.
+[18:12:54] [Server thread/INFO]: [UltimateChat] Vault chat found. Hooked.
+[18:12:54] [Server thread/INFO]: [UltimateChat] Vault perms found. Hooked.
+[18:12:54] [Server thread/INFO]: [UltimateChat] ProtocolLib found. Hooked.
+[18:12:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: uchat [1.9.1]
+[18:12:54] [Server thread/INFO]: [UltimateChat] PlaceHolderAPI found. Hooked and registered some chat placeholders with relational tag feature.
+[18:12:54] [Server thread/INFO]: [UltimateChat] SimpleClans found. Hooked.
+[18:12:54] [Server thread/INFO]: [UltimateChat] Dynmap found. Hooked.
+[18:12:54] [Server thread/INFO]: [UltimateChat] Init API module...
+[18:12:54] [Server thread/INFO]: [UltimateChat] Server Version: 1.19.3-R0.1-SNAPSHOT
+[18:12:54] [Server thread/INFO]: 
+[18:12:54] [Server thread/INFO]:   _    _ _ _   _                 _        _____ _           _  
+[18:12:54] [Server thread/INFO]:  | |  | | | | (_)               | |      / ____| |         | |  
+[18:12:54] [Server thread/INFO]:  | |  | | | |_ _ _ __ ___   __ _| |_ ___| |    | |__   __ _| |_ 
+[18:12:54] [Server thread/INFO]:  | |  | | | __| | '_ ` _ \ / _` | __/ _ \ |    | '_ \ / _` | __|
+[18:12:54] [Server thread/INFO]:  | |__| | | |_| | | | | | | (_| | ||  __/ |____| | | | (_| | |_ 
+[18:12:54] [Server thread/INFO]:   \____/|_|\__|_|_| |_| |_|\__,_|\__\___|\_____|_| |_|\__,_|\__|
+[18:12:54] [Server thread/INFO]:                                                                 
+[18:12:54] [Server thread/INFO]: UltimateChat v1.9.1 enabled!
+[18:12:54] [Server thread/INFO]: [UltimateChat] Metrics enabled! See our stats here: https://bstats.org/plugin/bukkit/UltimateChat
+[18:12:54] [Server thread/INFO]: [TAB] Enabling TAB v3.2.1
+[18:12:54] [Server thread/INFO]: [TAB] Server version: 1.19.3 (v1_19_R2)
+[18:12:55] [Server thread/INFO]: [TAB] Loaded NMS hook in 34ms
+[18:12:55] [Server thread/INFO]: [TAB] Enabled in 154ms
+[18:12:55] [Server thread/INFO]: [Stress] Enabling Stress v1.0.3
+[18:12:55] [Server thread/INFO]: [spark] Enabling spark v1.10.17
+[18:12:55] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[18:12:55] [Server thread/INFO]: [spark] Starting background profiler...
+[18:12:55] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[18:12:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: spark [1.10.17]
+[18:12:56] [Server thread/INFO]: [spark] Registered PlaceholderAPI placeholders
+[18:12:56] [Server thread/INFO]: [SlimeHUD] Enabling SlimeHUD vDEV - 10 (git 7d1c666b)
+[18:12:56] [Server thread/INFO]: [SlimeHUD] #=================================#
+[18:12:56] [Server thread/INFO]: [SlimeHUD] #    SlimeHUD by SchnTgaiSpock    #
+[18:12:56] [Server thread/INFO]: [SlimeHUD] #=================================#
+[18:12:56] [Server thread/INFO]: [SlimefunOreChunks] Enabling SlimefunOreChunks vDEV - 15 (git 2520cb23)
+[18:12:56] [Server thread/INFO]: [SimpleUtils] Enabling SimpleUtils vDEV - 15 (git 4250fd5e)
+[18:12:56] [Server thread/INFO]: [SimpleStorage] Enabling SimpleStorage vDEV - 10 (git ea5e5637)
+[18:12:56] [Server thread/INFO]: [SimpleStorage] ########################################
+[18:12:56] [Server thread/INFO]: [SimpleStorage]   SimpleStorage - Created by Sefiraat   
+[18:12:56] [Server thread/INFO]: [SimpleStorage] ########################################
+[18:12:56] [Server thread/INFO]: [SFCalc] Enabling SFCalc vDEV - 37 (git dfc0fc41)
+[18:12:56] [Server thread/INFO]: [RandomTeleport] Enabling RandomTeleport v2.0-SNAPSHOT (build 71)
+[18:12:57] [Server thread/WARN]: [RandomTeleport] Error in unsave-blocks config! No material found with name sign
+[18:12:57] [Server thread/WARN]: [RandomTeleport] Error in unsave-blocks config! No material found with name wall_sign
+[18:12:57] [Server thread/INFO]: [RandomTeleport] Found locale en!
+[18:12:57] [Server thread/INFO]: [Quests] Enabling Quests v3.9.1
+[18:12:57] [Server thread/INFO]: [Quests] Your server is running version 1.19
+[18:12:57] [Server thread/INFO]: [Quests] Metrics started. This can be disabled at /plugins/bStats/config.yml.
+[18:12:57] [Server thread/INFO]: [PrivateStorage] Enabling PrivateStorage vDEV - 18 (git 5832db21)
+[18:12:57] [Server thread/INFO]: [PluginManager] Enabling PluginManager v2.8.1
+[18:12:57] [Server thread/INFO]: [PlayMoreSounds] Enabling PlayMoreSounds v4.0.4
+[18:12:58] [Server thread/INFO]: [PlayMoreSounds] -> Configurations loaded.
+[18:12:58] [Server thread/INFO]: [PlayMoreSounds] -> 16 listeners loaded.
+[18:12:58] [Server thread/INFO]: [PlayMoreSounds] -> Commands loaded.
+[18:12:58] [Server thread/INFO]: [PlayMoreSounds] ProtocolLib was found and hooked.
+[18:12:58] [Server thread/INFO]: [PlayMoreSounds] ============================================
+[18:12:58] [Server thread/INFO]: [PlayMoreSounds] PlayMoreSounds has been enabled
+[18:12:58] [Server thread/INFO]: [PlayMoreSounds] 1190 sounds available on 1.19.3
+[18:12:58] [Server thread/INFO]: [PlayMoreSounds] ============================================
+[18:12:58] [Server thread/WARN]: [PlayMoreSounds] PlayMoreSounds detected you are on version 1.19.3. This version is not officially supported and some errors might be thrown.
+[18:12:58] [Server thread/INFO]: [PlayMoreSounds] PlayMoreSounds is using bStats as metrics collector.
+[18:12:58] [Server thread/INFO]: [PlayMoreSounds] Procurando por atualizações...
+[18:12:58] [Server thread/INFO]: [MyCommand] Enabling MyCommand v5.7.3
+[18:12:58] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.3*-=-=-=-=-=-=-=-=-=-*
+[18:12:58] [Server thread/INFO]: | Hooked on Vault 1.7.3-b131
+[18:12:58] [Server thread/INFO]: | Command file(s) found : 1
+[18:12:58] [Server thread/INFO]: | Config : Ready.
+[18:12:58] [Server thread/INFO]: | ProtocolLib found, features availables (SignMenu)
+[18:12:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: mycommand [1.0.0]
+[18:12:58] [Server thread/INFO]: | Placeholder_API : Hooked, Ok.
+[18:12:58] [Server thread/INFO]: | Custom commands loaded : 54
+[18:12:59] [Server thread/INFO]: | New update available : MyCommand v5.7.4
+[18:13:00] [Server thread/INFO]: |          by emmerrei a.k.a. ivanfromitaly.           
+[18:13:00] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
+[18:13:00] [Server thread/INFO]: [MobCapturer] Enabling MobCapturer vDEV - 31 (git c979dc9a)
+[18:13:00] [EPL Update Checker/INFO]: [PlayMoreSounds] PlayMoreSounds v4.2 está disponível. Baixe a última versão em spigotmc.org.
+[18:13:00] [Server thread/INFO]: [LeafTags] Enabling LeafTags vpre-1.2.4
+[18:13:03] [Server thread/INFO]: [LeafTags] Connected to SQLite successfully
+[18:13:03] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: LeafTags [pre-1.2.4]
+[18:13:03] [Server thread/INFO]: [LeafTags] Successful plugin start (took 0.17s)
+[18:13:04] [Server thread/INFO]: [EcoPets] Enabling EcoPets
+[18:13:04] [Server thread/INFO]: [EcoPets] Loading EcoPets
+[18:13:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ecopets [2.10.0]
+[18:13:04] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI
+[18:13:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Usando o arquivo de idioma lang-pt.yml.
+[18:13:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Shops.yml encontrado!
+[18:13:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Sections.yml encontrado!
+[18:13:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault
+[18:13:04] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: Completed loading '1' economy provider(s) for all 16 shop sections.
+[18:13:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Usando a versão 1.19.3 do minecraft...
+[18:13:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: A compatibilidade do MINEABLESPAWNERS foi habilitada nas configurações
+[18:13:04] [Server thread/INFO]: [EconomyShopGUI] [WARN]: MineableSpawners não encontrado, usando os spawners do EconomyShopGUI...
+[18:13:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Usando spawners padrão do plugin...
+[18:13:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: O modo Debug foi ativado
+[18:13:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Atualizando as configurações do Shop...
+[18:13:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Carregando todos os itens...
+[18:13:05] [spark-worker-0-4/WARN]: [spark] Timed out waiting for world statistics
+[18:13:05] [Server thread/INFO]: [EconomyShopGUI] Feito!
+[18:13:05] [Server thread/INFO]: [EcoJobs] Enabling EcoJobs
+[18:13:05] [Server thread/INFO]: [EcoJobs] Loading EcoJobs
+[18:13:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ecojobs [3.10.0]
+[18:13:05] [Server thread/INFO]: [Dynmap-GriefPrevention] Enabling Dynmap-GriefPrevention v0.88
+[18:13:05] [Server thread/INFO]: [Dynmap-GriefPrevention] Activated successfully.
+[18:13:05] [Server thread/INFO]: [Dynmap-GriefPrevention] Enabled successfully.
+[18:13:05] [Server thread/INFO]: [DailyRewards] Enabling DailyRewards v1.1.0
+[18:13:05] [Server thread/INFO]: [CrazyCrates] Enabling CrazyCrates v1.11.6-SNAPSHOT
+[18:13:05] [Server thread/INFO]: [CrazyCrates] Loading the config.yml
+[18:13:05] [Server thread/INFO]: [CrazyCrates] Successfully loaded config.yml
+[18:13:05] [Server thread/INFO]: [CrazyCrates] Loading the messages.yml
+[18:13:05] [Server thread/INFO]: [CrazyCrates] Successfully loaded messages.yml
+[18:13:05] [Server thread/INFO]: [CrazyCrates] Loading the locations.yml
+[18:13:05] [Server thread/INFO]: [CrazyCrates] Successfully loaded locations.yml
+[18:13:05] [Server thread/INFO]: [CrazyCrates] Loading the data.yml
+[18:13:05] [Server thread/INFO]: [CrazyCrates] Successfully loaded data.yml
+[18:13:05] [Server thread/INFO]: [CrazyCrates] Loading custom files.
+[18:13:05] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /crates/Avancada.yml.
+[18:13:05] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /crates/Basica.yml.
+[18:13:05] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /crates/Premium.yml.
+[18:13:05] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /crates/Slimefun.yml.
+[18:13:05] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /crates/vote.yml.
+[18:13:05] [Server thread/INFO]: [CrazyCrates] Finished loading custom files.
+[18:13:05] [Server thread/INFO]: [CrazyCrates] Loading all crate information...
+[18:13:05] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_19_R2! Trying to find NMS support
+[18:13:05] [Server thread/WARN]: [NBTAPI] [NBTAPI] This Server-Version(v1_19_R2) is not supported by this NBT-API Version(2.10.0) located at com.badbones69.crazycrates.plugin.lib.de.tr7zw.changeme.nbtapi.utils.MinecraftVersion. The NBT-API will try to work as good as it can! Some functions may not work!
+[18:13:05] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Gson: class com.google.gson.Gson
+[18:13:05] [Server thread/INFO]: [CrazyCrates] All crate information has been loaded.
+[18:13:05] [Server thread/INFO]: [CrazyCrates] Loading all the physical crate locations.
+[18:13:05] [Server thread/INFO]: [CrazyCrates] All physical crate locations have been loaded.
+[18:13:05] [Server thread/INFO]: [CrazyCrates] Searching for schematics to load.
+[18:13:05] [Server thread/INFO]: [CrazyCrates] classic.nbt was successfully found and loaded.
+[18:13:05] [Server thread/INFO]: [CrazyCrates] nether.nbt was successfully found and loaded.
+[18:13:05] [Server thread/INFO]: [CrazyCrates] outdoors.nbt was successfully found and loaded.
+[18:13:05] [Server thread/INFO]: [CrazyCrates] sea.nbt was successfully found and loaded.
+[18:13:05] [Server thread/INFO]: [CrazyCrates] soul.nbt was successfully found and loaded.
+[18:13:05] [Server thread/INFO]: [CrazyCrates] wooden.nbt was successfully found and loaded.
+[18:13:05] [Server thread/INFO]: [CrazyCrates] All schematics were found and loaded.
+[18:13:05] [Server thread/INFO]: [CrazyCrates] Cleaning up the data.yml file.
+[18:13:05] [Server thread/INFO]: [CrazyCrates] The data.yml file has been cleaned.
+[18:13:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: CrazyCrates [1.11.6-SNAPSHOT]
+[18:13:05] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.92
+[18:13:06] [Server thread/INFO]: [BungeeGuard] Enabling BungeeGuard v1.4.1
+[18:13:06] [Server thread/INFO]: [BungeeGuard] Using Paper's PlayerHandshakeEvent to listen for connections.
+[18:13:06] [Server thread/INFO]: [BlockParticles] Enabling BlockParticles v1.11.1-RELEASE
+[18:13:06] [Server thread/INFO]: [BlockParticles] [BlockParticles] Loading the config.yml
+[18:13:06] [Server thread/INFO]: [BlockParticles] [BlockParticles] Successfully loaded config.yml
+[18:13:06] [Server thread/INFO]: [BlockParticles] [BlockParticles] Loading the data.yml
+[18:13:06] [Server thread/INFO]: [BlockParticles] [BlockParticles] Successfully loaded data.yml
+[18:13:06] [Server thread/INFO]: [BankPlus] Enabling BankPlus v5.7
+[18:13:06] [Server thread/INFO]: 
+[18:13:06] [Server thread/INFO]:     BankPlus Enabling plugin...
+[18:13:06] [Server thread/INFO]:     Running on version 5.7!
+[18:13:06] [Server thread/INFO]:     Detected server version: git-Purpur-1933 (MC: 1.19.3)
+[18:13:06] [Server thread/INFO]:     Loaded config files! (106ms)
+[18:13:06] [Server thread/INFO]:     Registered events! (14ms)
+[18:13:06] [Server thread/INFO]:     Loaded plugin command! (3ms)
+[18:13:06] [Server thread/INFO]:     Done! (126 total ms)
+[18:13:06] [Server thread/INFO]: 
+[18:13:06] [Server thread/INFO]: BankPlus [INFO] Hooked into PlaceholderAPI!
+[18:13:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bankplus [5.7]
+[18:13:06] [Server thread/INFO]: [AuctionHouse] Enabling AuctionHouse v3.3.2
+[18:13:06] [Server thread/INFO]: [AuctionHouse] Found locale file en_us.json
+[18:13:06] [Server thread/WARN]: [AuctionHouse] [1;33mA backup of the database has been saved with .backup extension.[0m
+[18:13:06] [Server thread/INFO]: [AuctionHouse] Using NMS version v1_19_R2
+[18:13:06] [Server thread/INFO]: [AuctionHouse] Using en_us locale
+[18:13:06] [Server thread/INFO]: [AuctionHouse] Loaded 192 listings
+[18:13:06] [Server thread/INFO]: [libreforge] Enabling libreforge v4.10.0
+[18:13:06] [Server thread/INFO]: [libreforge] Loading libreforge
+[18:13:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: libreforge [4.10.0]
+[18:13:06] [Server thread/INFO]: [libreforge] Loaded integrations: mcMMO, Vault
+[18:13:06] [Server thread/INFO]: [libreforge] 
+[18:13:06] [Server thread/INFO]: [libreforge] Hey, what's this plugin doing here? I didn't install it!
+[18:13:06] [Server thread/INFO]: [libreforge] libreforge is the effects system for plugins like EcoEnchants,
+[18:13:06] [Server thread/INFO]: [libreforge] EcoJobs, EcoItems, etc. If you're looking for config options for
+[18:13:06] [Server thread/INFO]: [libreforge] things like cooldown messages, lrcdb, and stuff like that, you'll
+[18:13:06] [Server thread/INFO]: [libreforge] find it under /plugins/libreforge
+[18:13:06] [Server thread/INFO]: [libreforge] 
+[18:13:06] [Server thread/INFO]: [libreforge] Don't worry about updating libreforge, it's handled automatically!
+[18:13:06] [Server thread/INFO]: [libreforge] 
+[18:13:07] [Thread-27/WARN]: [NBTAPI] [NBTAPI] The NBT-API located at 'package com.badbones69.crazycrates.plugin.lib.de.tr7zw.changeme.nbtapi' seems to be outdated!
+[18:13:07] [Thread-27/WARN]: [NBTAPI] [NBTAPI] Current Version: '2.10.0' Newest Version: 2.11.3'
+[18:13:07] [Thread-27/WARN]: [NBTAPI] [NBTAPI] Please update the NBTAPI or the plugin that contains the api(nag the mod author when the newest release has an old version, not the NBTAPI dev)!
+[18:13:07] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[18:13:08] [Server thread/INFO]: Running delayed init tasks
+[18:13:08] [Craft Scheduler Thread - 5 - EpicPluginLib/INFO]: [EpicPluginLib] EpicPluginLib v2.5 is available. Please update.
+[18:13:08] [Craft Scheduler Thread - 35 - Vault/INFO]: [Vault] Checking for Updates ... 
+[18:13:08] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19.3 (761)
+[18:13:08] [Craft Scheduler Thread - 11 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[18:13:08] [Craft Scheduler Thread - 11 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[18:13:08] [Craft Scheduler Thread - 11 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[18:13:08] [Craft Scheduler Thread - 11 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[18:13:08] [Craft Scheduler Thread - 11 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |    [33;1mProxy Mode[32;1m    |[0;39m
+[18:13:08] [Craft Scheduler Thread - 11 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[18:13:08] [Craft Scheduler Thread - 11 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[18:13:08] [Craft Scheduler Thread - 11 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.12[0;39m
+[18:13:08] [Craft Scheduler Thread - 11 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[18:13:08] [Craft Scheduler Thread - 11 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[18:13:08] [Craft Scheduler Thread - 16 - VillagerUtil/INFO]: [VillagerUtil] VillagerUtil is already up to date!
+[18:13:08] [Craft Scheduler Thread - 15 - CMILib/INFO]: New version of CMILib was detected. Please update it
+[18:13:08] [Craft Scheduler Thread - 27 - EcoJobs/WARN]: [EcoJobs] EcoJobs is out of date! (Version 3.10.0)
+[18:13:08] [Craft Scheduler Thread - 27 - EcoJobs/WARN]: [EcoJobs] The newest version is 3.24.0
+[18:13:08] [Craft Scheduler Thread - 27 - EcoJobs/WARN]: [EcoJobs] Download the new version!
+[18:13:08] [Craft Scheduler Thread - 20 - SimpleStorage/WARN]: [SimpleStorage] Could not connect to the updating site, is it down?
+java.io.FileNotFoundException: https://thebusybiscuit.github.io/builds/Sefiraat/SimpleStorage/master/builds.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at io.github.thebusybiscuit.slimefun4.libraries.dough.updater.UpdaterTask.getLatestVersion(UpdaterTask.java:64) ~[Slimefun4 - RC 32 (git e13d1).jar:?]
+	at io.github.thebusybiscuit.slimefun4.libraries.dough.updater.UpdaterTask.run(UpdaterTask.java:45) ~[Slimefun4 - RC 32 (git e13d1).jar:?]
+	at org.bukkit.craftbukkit.v1_19_R2.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.19.3.jar:git-Purpur-1933]
+	at org.bukkit.craftbukkit.v1_19_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[purpur-1.19.3.jar:git-Purpur-1933]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[purpur-1.19.3.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[18:13:08] [Server thread/INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[18:13:08] [Server thread/INFO]: [Slimefun] Found 1,089 Recipes!
+[18:13:08] [Craft Scheduler Thread - 18 - SlimeHUD/INFO]: [SlimeHUD] SlimeHUD is already up to date!
+[18:13:08] [Craft Scheduler Thread - 17 - SlimefunOreChunks/INFO]: [SlimefunOreChunks] SlimefunOreChunks is already up to date!
+[18:13:08] [Craft Scheduler Thread - 19 - SimpleUtils/INFO]: [SimpleUtils] SimpleUtils is already up to date!
+[18:13:08] [Craft Scheduler Thread - 6 - PrivateStorage/INFO]: [PrivateStorage] PrivateStorage is already up to date!
+[18:13:08] [Craft Scheduler Thread - 12 - Slimefun/INFO]: [Slimefun] Slimefun is already up to date!
+[18:13:08] [Craft Scheduler Thread - 24 - MobCapturer/INFO]: [MobCapturer] MobCapturer is already up to date!
+[18:13:08] [Craft Scheduler Thread - 21 - SFCalc/INFO]: [SFCalc] SFCalc is already up to date!
+[18:13:08] [Server thread/INFO]: 
+[18:13:08] [Server thread/INFO]: ######################### - Slimefun vRC - 35 (git 5e901972) - #########################
+[18:13:08] [Server thread/INFO]: 
+[18:13:08] [Server thread/INFO]: Successfully loaded 717 Items and 265 Researches
+[18:13:08] [Server thread/INFO]: ( 549 Items from Slimefun, 168 Items from 10 Addons )
+[18:13:08] [Server thread/INFO]: 
+[18:13:08] [Server thread/INFO]: Slimefun is an Open-Source project that is kept alive by a large community.
+[18:13:08] [Server thread/INFO]: Consider helping us maintain this project by contributing on GitHub!
+[18:13:08] [Server thread/INFO]: 
+[18:13:08] [Server thread/INFO]:  - Source Code:  https://github.com/Slimefun/Slimefun4
+[18:13:08] [Server thread/INFO]:  - Wiki:         https://github.com/Slimefun/Slimefun4/wiki
+[18:13:08] [Server thread/INFO]:  - Addons:       https://github.com/Slimefun/Slimefun4/wiki/Addons
+[18:13:08] [Server thread/INFO]:  - Bug Reports:  https://github.com/Slimefun/Slimefun4/issues
+[18:13:08] [Server thread/INFO]:  - Discord:      https://discord.gg/slimefun
+[18:13:08] [Server thread/INFO]: 
+[18:13:09] [Craft Scheduler Thread - 22 - Quests/INFO]: [Quests] A new version 3.14.2 was found on Spigot (your version: 3.9.1). Please update me! <3 - Link: https://get.leonardobishop.com/quests
+[18:13:09] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world"
+[18:13:09] [Server thread/INFO]: [Slimefun] This may take a long time...
+[18:13:09] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[18:13:09] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world"
+[18:13:09] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_nether"
+[18:13:09] [Server thread/INFO]: [Slimefun] This may take a long time...
+[18:13:09] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[18:13:09] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_nether"
+[18:13:09] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_the_end"
+[18:13:09] [Server thread/INFO]: [Slimefun] This may take a long time...
+[18:13:09] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[18:13:09] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_the_end"
+[18:13:09] [Server thread/INFO]: [Slimefun] Loading Blocks for World "spawn"
+[18:13:09] [Server thread/INFO]: [Slimefun] This may take a long time...
+[18:13:09] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[18:13:09] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "spawn"
+[18:13:09] [Craft Scheduler Thread - 35 - Vault/INFO]: [Vault] No new version available
+[18:13:09] [Craft Scheduler Thread - 28 - DailyRewards/INFO]: [DailyRewards] There is a new v1.7.8 update available (You are running v1.1.0).
 Outdated versions are no longer supported, get new one here https://www.spigotmc.org/resources/%E2%9A%A1-daily-weekly-monthly-rewards-papi-support-1-13-1-17.81780/
-[20:00:22] [Craft Scheduler Thread - 4 - eco/WARN]: [eco] eco is out of date! (Version 6.60.0)
-[20:00:22] [Craft Scheduler Thread - 4 - eco/WARN]: [eco] The newest version is 6.65.3
-[20:00:22] [Craft Scheduler Thread - 4 - eco/WARN]: [eco] Download the new version!
-[20:00:23] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[20:00:23] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.3) is available at:
-[20:00:23] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
-[20:00:23] [Server thread/INFO]: [AuctionHouse] Found PlaceholderAPI plugin
-[20:00:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: auctionhouse [3.3.2]
-[20:00:23] [Server thread/INFO]: [AuctionHouse] Registered PlaceholderAPI placeholders
-[20:00:23] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 4.7.0, you're on: 4.5.1
-[20:00:23] [Server thread/INFO]: Done (90.986s)! For help, type "help"
-[20:00:23] [Server thread/INFO]: [eco] Loaded eco
-[20:00:23] [Server thread/INFO]: [EcoPets] Loaded EcoPets
-[20:00:23] [Server thread/INFO]: [EcoJobs] Loaded EcoJobs
-[20:00:23] [Server thread/INFO]: [libreforge] Loaded libreforge
-[20:00:24] [Server thread/INFO]: com.mojang.authlib.GameProfile@1fab861e[id=18f7bf45-5c65-3741-9541-bde30f073d69,name=iTakinn,properties={textures=[com.mojang.authlib.properties.Property@7bb84c5e]},legacy=false] (/127.0.0.1:56390) lost connection: Disconnected
-[20:00:24] [Server thread/INFO]: com.mojang.authlib.GameProfile@423e8d7c[id=18f7bf45-5c65-3741-9541-bde30f073d69,name=iTakinn,properties={textures=[com.mojang.authlib.properties.Property@aaf805f]},legacy=false] (/127.0.0.1:56377) lost connection: Disconnected
-[20:00:26] [Server thread/WARN]: [io.github.znetworkw.znpcservers.cache.TypeCache$BaseCache] No cache found for: [net.minecraft.server.level.EntityPlayer] : []
-[20:00:26] [Server thread/WARN]: [io.github.znetworkw.znpcservers.cache.TypeCache$BaseCache] Skipping cache for [net.minecraft.server.level.EntityPlayer]
-[20:00:30] [Server thread/INFO]: [MyCommand] found an update for MyCommand. Type /mycommand for more infos.
-[20:00:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: luckperms [5.1-R2]
-[20:00:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.3]
-[20:00:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server [2.6.1]
-[20:00:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic [2.0.1]
-[20:00:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault [1.7.1]
-[20:00:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: simpleclans [2.0.3]
-[20:00:35] [Server thread/INFO]: 6 placeholder hook(s) registered! 4 placeholder hook(s) have an update available.
-[20:10:24] [Server thread/INFO]: [PlayMoreSounds] PMS has a new update available. Please download it on spigotmc.org.
-[20:10:24] [Server thread/INFO]: BankPlus [INFO] All player balances have been saved!
-[20:20:24] [Server thread/INFO]: [PlayMoreSounds] PMS has a new update available. Please download it on spigotmc.org.
-[20:20:24] [Server thread/INFO]: BankPlus [INFO] All player balances have been saved!
-[20:22:25] [User Authenticator #2/INFO]: UUID of player iTakinn is 18f7bf45-5c65-3741-9541-bde30f073d69
-[20:22:27] [Server thread/INFO]: iTakinn joined the game
-[20:22:27] [Server thread/INFO]: iTakinn[/127.0.0.1:56877] logged in with entity id 280 at ([spawn]-127.51443333801869, 168.0, 52.48221176952868)
-[20:22:30] [Craft Scheduler Thread - 42 - mcMMO/INFO]: [mcMMO] Creating new data for player: iTakinn
-[20:22:36] [Server thread/INFO]: iTakinn issued server command: /tags
-[20:30:24] [Server thread/INFO]: [PlayMoreSounds] PMS has a new update available. Please download it on spigotmc.org.
-[20:30:24] [Server thread/INFO]: Banco Do Brasil O TOP Investidores atualizou!
-[20:30:24] [Server thread/INFO]: BankPlus [INFO] All player balances have been saved!
-[20:30:24] [Craft Scheduler Thread - 56 - EpicPluginLib/INFO]: [EpicPluginLib] EpicPluginLib v2.5 is available. Please update.
-[20:38:41] [Server thread/INFO]: iTakinn issued server command: /tags
-[20:40:24] [Server thread/INFO]: [PlayMoreSounds] PMS has a new update available. Please download it on spigotmc.org.
-[20:40:24] [Server thread/INFO]: BankPlus [INFO] All player balances have been saved!
-[20:44:59] [Server thread/INFO]: iTakinn issued server command: /bank
-[20:47:02] [Server thread/INFO]: iTakinn issued server command: /leafplugins reload LeafTags
-[20:47:02] [Server thread/INFO]: [LeafTags] Settings reloaded!
-[20:47:05] [Server thread/INFO]: iTakinn issued server command: /tags
-[20:50:13] [luckperms-command-executor/INFO]: [LP] Preparing a new editor session, please wait...
-[20:50:20] [luckperms-command-executor/INFO]: [LP] Click the link below to open the editor:
-[20:50:20] [luckperms-command-executor/INFO]: https://luckperms.net/editor/sFO5xh7IXS
-[20:50:24] [Server thread/INFO]: [PlayMoreSounds] PMS has a new update available. Please download it on spigotmc.org.
-[20:50:24] [Server thread/INFO]: BankPlus [INFO] All player balances have been saved!
-[20:50:52] [luckperms-worker-4/INFO]: [LP] Editor window connected successfully.
-[20:52:08] [Server thread/INFO]: iTakinn issued server command: /leafplugins reload LeafTags
-[20:52:08] [Server thread/INFO]: [LeafTags] Settings reloaded!
-[20:52:09] [Server thread/INFO]: iTakinn issued server command: /tags
-[20:53:34] [Server thread/INFO]: iTakinn issued server command: /leafplugins reload LeafTags
-[20:53:34] [Server thread/INFO]: [LeafTags] Settings reloaded!
-[20:53:37] [Server thread/INFO]: iTakinn issued server command: /tags
-[20:53:41] [Server thread/INFO]: iTakinn issued server command: /tag dev
-[20:53:41] [Server thread/INFO]: [LeafTags] [Tag] O jogador iTakinn alterou sua tag para CTO
-[20:53:41] [Server thread/INFO]: iTakinn issued server command: /tag dev
-[20:53:44] [Server thread/INFO]: iTakinn issued server command: /tags
-[20:54:35] [Server thread/INFO]: iTakinn issued server command: /leafplugins reload LeafTags
-[20:54:35] [Server thread/INFO]: [LeafTags] Settings reloaded!
-[20:54:36] [Server thread/INFO]: iTakinn issued server command: /tags
-[20:55:07] [Server thread/INFO]: iTakinn issued server command: /leafplugins reload LeafTags
-[20:55:07] [Server thread/INFO]: [LeafTags] Settings reloaded!
-[20:55:09] [Server thread/INFO]: iTakinn issued server command: /tags
-[20:56:28] [Server thread/INFO]: iTakinn issued server command: /tag dev
-[20:56:41] [Server thread/INFO]: iTakinn issued server command: /leafplugins reload LeafTags
-[20:56:41] [Server thread/INFO]: [LeafTags] Settings reloaded!
-[20:56:43] [Server thread/INFO]: iTakinn issued server command: /tags
-[20:58:30] [Craft Scheduler Thread - 89 - ServersNPC/WARN]: [io.github.znetworkw.znpcservers.cache.TypeCache$BaseCache] No cache found for: [net.minecraft.network.protocol.game.PacketPlayOutEntityMetadata] : []
-[20:58:30] [Craft Scheduler Thread - 89 - ServersNPC/WARN]: [io.github.znetworkw.znpcservers.cache.TypeCache$BaseCache] Skipping cache for [net.minecraft.network.protocol.game.PacketPlayOutEntityMetadata]
-[20:58:38] [Server thread/INFO]: iTakinn issued server command: /gm 1
-[21:00:24] [Server thread/INFO]: [PlayMoreSounds] PMS has a new update available. Please download it on spigotmc.org.
-[21:00:24] [Server thread/INFO]: Banco Do Brasil O TOP Investidores atualizou!
-[21:00:24] [Server thread/INFO]: BankPlus [INFO] All player balances have been saved!
-[21:00:24] [Craft Scheduler Thread - 93 - EpicPluginLib/INFO]: [EpicPluginLib] EpicPluginLib v2.5 is available. Please update.
-[21:07:51] [Server thread/INFO]: iTakinn issued server command: /spawn
-[21:07:51] [Server thread/WARN]: iTakinn moved too quickly! -56.57999920886566,3.6158157378182523,4.755431291472373
-[21:10:24] [Server thread/INFO]: [PlayMoreSounds] PMS has a new update available. Please download it on spigotmc.org.
-[21:10:24] [Server thread/INFO]: BankPlus [INFO] All player balances have been saved!
-[21:13:40] [Server thread/INFO]: iTakinn issued server command: /tab reload
-[21:13:40] [Server thread/INFO]: [TAB] Disabled in 5ms
-[21:13:40] [Server thread/INFO]: [TAB] Enabled in 23ms
-[21:16:19] [Server thread/INFO]: iTakinn issued server command: /leafplugins reload LeafTags
-[21:16:19] [Server thread/INFO]: [LeafTags] Settings reloaded!
-[21:16:25] [Server thread/INFO]: iTakinn issued server command: /tags
-[21:17:44] [Server thread/INFO]: iTakinn issued server command: /tab reload
-[21:17:44] [Server thread/INFO]: [TAB] Disabled in 2ms
-[21:17:44] [Server thread/INFO]: [TAB] Enabled in 19ms
-[21:17:52] [Server thread/INFO]: [L] [Membro] ITAKINN: a
-[21:20:24] [Server thread/INFO]: [PlayMoreSounds] PMS has a new update available. Please download it on spigotmc.org.
-[21:20:24] [Server thread/INFO]: BankPlus [INFO] All player balances have been saved!
-[21:24:30] [Server thread/INFO]: iTakinn issued server command: /uchat reload
-[21:24:30] [Server thread/INFO]: [UltimateChat] All configurations loaded!
-[21:24:30] [Server thread/INFO]: [UltimateChat] Language file loaded - Using: PT-BR
-[21:24:32] [Server thread/INFO]: [L] [Membro] ITAKINN: a
-[21:24:33] [Server thread/INFO]: iTakinn issued server command: /g a
-[21:24:33] [Server thread/INFO]: [G] [Membro] ITAKINN: a
-[21:30:24] [Server thread/INFO]: [PlayMoreSounds] PMS has a new update available. Please download it on spigotmc.org.
-[21:30:24] [Server thread/INFO]: Banco Do Brasil O TOP Investidores atualizou!
-[21:30:24] [Server thread/INFO]: BankPlus [INFO] All player balances have been saved!
-[21:30:24] [Craft Scheduler Thread - 122 - EpicPluginLib/INFO]: [EpicPluginLib] EpicPluginLib v2.5 is available. Please update.
-[21:33:28] [Server thread/INFO]: iTakinn issued server command: /uchat reload
-[21:33:28] [Server thread/INFO]: [UltimateChat] All configurations loaded!
-[21:33:28] [Server thread/INFO]: [UltimateChat] Language file loaded - Using: PT-BR
-[21:33:29] [Server thread/INFO]: [L] DEV  ITAKINN: a
-[21:33:31] [Server thread/INFO]: iTakinn issued server command: /g a
-[21:33:31] [Server thread/INFO]: [G] DEV  ITAKINN: a
-[21:33:40] [Server thread/INFO]: iTakinn issued server command: /uchat reload
-[21:33:40] [Server thread/INFO]: [UltimateChat] All configurations loaded!
-[21:33:40] [Server thread/INFO]: [UltimateChat] Language file loaded - Using: PT-BR
-[21:33:44] [Server thread/INFO]: iTakinn issued server command: /g a
-[21:33:44] [Server thread/INFO]: [G] DEV ITAKINN: a
-[21:33:44] [Server thread/INFO]: [L] DEV ITAKINN: a
-[21:33:45] [Server thread/INFO]: [L] DEV ITAKINN: a
-[21:33:46] [Server thread/INFO]: [L] DEV ITAKINN: a
-[21:33:46] [Server thread/INFO]: [L] DEV ITAKINN: a
-[21:34:31] [Server thread/INFO]: iTakinn issued server command: /pl
-[21:34:36] [Server thread/INFO]: Paper Plugins: (4):
-[21:34:36] [Server thread/INFO]:  - eco, EcoJobs, EconomyShopGUI, EcoPets
-[21:34:36] [Server thread/INFO]: Bukkit Plugins: (43):
-[21:34:36] [Server thread/INFO]:  - AuctionHouse, BankPlus, BlockParticles, BungeeGuard, Chunky, Citizens, CMI, *CMIEInjector, CMILib, CrazyCrates
-[21:34:36] [Server thread/INFO]:  DailyRewards, dynmap, Dynmap-GriefPrevention, EpicPluginLib, GriefPrevention, LeafPlugins, LeafTags, libreforge, LoneLibs, LuckPerms
-[21:34:36] [Server thread/INFO]:  mcMMO, Multiverse-Core, MyCommand, PlaceholderAPI, PlayMoreSounds, PluginManager, ProtocolLib, Quests, RandomTeleport, ServersNPC
-[21:34:36] [Server thread/INFO]:  SimpleClans, SkinsRestorer, spark, Stress, TAB, Terra, UltimateChat, Vault, ViaBackwards, ViaVersion
-[21:34:36] [Server thread/INFO]:  *VoidWorld, WorldEdit, WorldGuard
-[21:40:24] [Server thread/INFO]: [PlayMoreSounds] PMS has a new update available. Please download it on spigotmc.org.
-[21:40:24] [Server thread/INFO]: BankPlus [INFO] All player balances have been saved!
-[21:47:39] [Server thread/INFO]: iTakinn issued server command: /v
-[21:47:39] [Server thread/INFO]: iTakinn issued server command: /vanish
-[21:49:54] [Server thread/INFO]: iTakinn issued server command: /spark profiler stop
-[21:49:54] [Craft Scheduler Thread - 147 - spark/INFO]: [?] Stopping the profiler & uploading results, please wait...
-[21:49:56] [Server thread/INFO]: iTakinn issued server command: /tpsbar
-[21:49:59] [Craft Scheduler Thread - 146 - spark/WARN]: [spark] A command execution has not completed after 5 seconds, it might be stuck. Trace: 
-  java.base@17.0.7/sun.nio.ch.Net.poll(Native Method)
-  java.base@17.0.7/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:181)
-  java.base@17.0.7/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:190)
-  java.base@17.0.7/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:415)
-  java.base@17.0.7/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
-  java.base@17.0.7/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:826)
-  java.base@17.0.7/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
-  java.base@17.0.7/sun.security.ssl.SSLSocketOutputRecord.deliver(SSLSocketOutputRecord.java:345)
-  java.base@17.0.7/sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1304)
-  java.base@17.0.7/java.io.BufferedOutputStream.write(BufferedOutputStream.java:123)
-  java.base@17.0.7/java.io.PrintStream.write(PrintStream.java:568)
-  java.base@17.0.7/java.io.ByteArrayOutputStream.writeTo(ByteArrayOutputStream.java:161)
-  java.base@17.0.7/sun.net.www.http.HttpClient.writeRequests(HttpClient.java:729)
-  java.base@17.0.7/sun.net.www.http.HttpClient.writeRequests(HttpClient.java:737)
-  java.base@17.0.7/sun.net.www.protocol.http.HttpURLConnection.writeRequests(HttpURLConnection.java:747)
-  java.base@17.0.7/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1686)
-  java.base@17.0.7/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
-  java.base@17.0.7/sun.net.www.protocol.http.HttpURLConnection.getHeaderField(HttpURLConnection.java:3240)
-  java.base@17.0.7/sun.net.www.protocol.https.HttpsURLConnectionImpl.getHeaderField(HttpsURLConnectionImpl.java:261)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.util.BytebinClient.postContent(BytebinClient.java:66)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.util.BytebinClient.postContent(BytebinClient.java:78)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.command.modules.SamplerModule.handleUpload(SamplerModule.java:358)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.command.modules.SamplerModule.profilerStop(SamplerModule.java:337)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.command.modules.SamplerModule.profiler(SamplerModule.java:126)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.command.modules.SamplerModule$$Lambda$10952/0x0000000802c764d8.execute(Unknown Source)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.SparkPlatform.executeCommand0(SparkPlatform.java:408)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.SparkPlatform.lambda$executeCommand$2(SparkPlatform.java:317)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.SparkPlatform$$Lambda$12858/0x0000000803301808.run(Unknown Source)
-  org.bukkit.craftbukkit.v1_19_R2.scheduler.CraftTask.run(CraftTask.java:101)
-  org.bukkit.craftbukkit.v1_19_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
-  com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
-  java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-  java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-  java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
-[21:50:04] [Craft Scheduler Thread - 146 - spark/WARN]: [spark] A command execution has not completed after 10 seconds, it might be stuck. Trace: 
-  java.base@17.0.7/sun.nio.ch.Net.poll(Native Method)
-  java.base@17.0.7/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:181)
-  java.base@17.0.7/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:190)
-  java.base@17.0.7/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:415)
-  java.base@17.0.7/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
-  java.base@17.0.7/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:826)
-  java.base@17.0.7/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
-  java.base@17.0.7/sun.security.ssl.SSLSocketOutputRecord.deliver(SSLSocketOutputRecord.java:345)
-  java.base@17.0.7/sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1304)
-  java.base@17.0.7/java.io.BufferedOutputStream.write(BufferedOutputStream.java:123)
-  java.base@17.0.7/java.io.PrintStream.write(PrintStream.java:568)
-  java.base@17.0.7/java.io.ByteArrayOutputStream.writeTo(ByteArrayOutputStream.java:161)
-  java.base@17.0.7/sun.net.www.http.HttpClient.writeRequests(HttpClient.java:729)
-  java.base@17.0.7/sun.net.www.http.HttpClient.writeRequests(HttpClient.java:737)
-  java.base@17.0.7/sun.net.www.protocol.http.HttpURLConnection.writeRequests(HttpURLConnection.java:747)
-  java.base@17.0.7/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1686)
-  java.base@17.0.7/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
-  java.base@17.0.7/sun.net.www.protocol.http.HttpURLConnection.getHeaderField(HttpURLConnection.java:3240)
-  java.base@17.0.7/sun.net.www.protocol.https.HttpsURLConnectionImpl.getHeaderField(HttpsURLConnectionImpl.java:261)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.util.BytebinClient.postContent(BytebinClient.java:66)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.util.BytebinClient.postContent(BytebinClient.java:78)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.command.modules.SamplerModule.handleUpload(SamplerModule.java:358)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.command.modules.SamplerModule.profilerStop(SamplerModule.java:337)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.command.modules.SamplerModule.profiler(SamplerModule.java:126)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.command.modules.SamplerModule$$Lambda$10952/0x0000000802c764d8.execute(Unknown Source)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.SparkPlatform.executeCommand0(SparkPlatform.java:408)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.SparkPlatform.lambda$executeCommand$2(SparkPlatform.java:317)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.SparkPlatform$$Lambda$12858/0x0000000803301808.run(Unknown Source)
-  org.bukkit.craftbukkit.v1_19_R2.scheduler.CraftTask.run(CraftTask.java:101)
-  org.bukkit.craftbukkit.v1_19_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
-  com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
-  java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-  java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-  java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
-[21:50:09] [Craft Scheduler Thread - 146 - spark/WARN]: [spark] A command execution has not completed after 15 seconds, it might be stuck. Trace: 
-  java.base@17.0.7/sun.nio.ch.Net.poll(Native Method)
-  java.base@17.0.7/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:181)
-  java.base@17.0.7/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:190)
-  java.base@17.0.7/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:415)
-  java.base@17.0.7/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
-  java.base@17.0.7/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:826)
-  java.base@17.0.7/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
-  java.base@17.0.7/sun.security.ssl.SSLSocketOutputRecord.deliver(SSLSocketOutputRecord.java:345)
-  java.base@17.0.7/sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1304)
-  java.base@17.0.7/java.io.BufferedOutputStream.write(BufferedOutputStream.java:123)
-  java.base@17.0.7/java.io.PrintStream.write(PrintStream.java:568)
-  java.base@17.0.7/java.io.ByteArrayOutputStream.writeTo(ByteArrayOutputStream.java:161)
-  java.base@17.0.7/sun.net.www.http.HttpClient.writeRequests(HttpClient.java:729)
-  java.base@17.0.7/sun.net.www.http.HttpClient.writeRequests(HttpClient.java:737)
-  java.base@17.0.7/sun.net.www.protocol.http.HttpURLConnection.writeRequests(HttpURLConnection.java:747)
-  java.base@17.0.7/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1686)
-  java.base@17.0.7/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
-  java.base@17.0.7/sun.net.www.protocol.http.HttpURLConnection.getHeaderField(HttpURLConnection.java:3240)
-  java.base@17.0.7/sun.net.www.protocol.https.HttpsURLConnectionImpl.getHeaderField(HttpsURLConnectionImpl.java:261)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.util.BytebinClient.postContent(BytebinClient.java:66)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.util.BytebinClient.postContent(BytebinClient.java:78)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.command.modules.SamplerModule.handleUpload(SamplerModule.java:358)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.command.modules.SamplerModule.profilerStop(SamplerModule.java:337)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.command.modules.SamplerModule.profiler(SamplerModule.java:126)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.command.modules.SamplerModule$$Lambda$10952/0x0000000802c764d8.execute(Unknown Source)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.SparkPlatform.executeCommand0(SparkPlatform.java:408)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.SparkPlatform.lambda$executeCommand$2(SparkPlatform.java:317)
-  spark-1.10.17-bukkit (1).jar//me.lucko.spark.common.SparkPlatform$$Lambda$12858/0x0000000803301808.run(Unknown Source)
-  org.bukkit.craftbukkit.v1_19_R2.scheduler.CraftTask.run(CraftTask.java:101)
-  org.bukkit.craftbukkit.v1_19_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
-  com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
-  java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-  java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-  java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
-[21:50:15] [Craft Scheduler Thread - 147 - spark/INFO]: [?] Profiler stopped & upload complete!
-[21:50:15] [Craft Scheduler Thread - 147 - spark/INFO]: https://spark.lucko.me/p72GoZV4MV
-[21:50:15] [Craft Scheduler Thread - 147 - spark/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[21:50:15] [Craft Scheduler Thread - 147 - spark/INFO]: [?] Restarted the background profiler. (If you don't want this to happen, run: /spark profiler cancel)
-[21:50:24] [Server thread/INFO]: [PlayMoreSounds] PMS has a new update available. Please download it on spigotmc.org.
-[21:50:24] [Server thread/INFO]: BankPlus [INFO] All player balances have been saved!
-[22:00:24] [Server thread/INFO]: [PlayMoreSounds] PMS has a new update available. Please download it on spigotmc.org.
-[22:00:24] [Server thread/INFO]: Banco Do Brasil O TOP Investidores atualizou!
-[22:00:24] [Server thread/INFO]: BankPlus [INFO] All player balances have been saved!
-[22:00:24] [Craft Scheduler Thread - 156 - EpicPluginLib/INFO]: [EpicPluginLib] EpicPluginLib v2.5 is available. Please update.
-[22:00:27] [Server thread/WARN]: iTakinn moved too quickly! 0.0,-145.04014114400343,0.0
-[22:04:46] [Server thread/INFO]: iTakinn lost connection: Disconnected
-[22:10:24] [Server thread/INFO]: [PlayMoreSounds] PMS has a new update available. Please download it on spigotmc.org.
-[22:10:24] [Server thread/INFO]: BankPlus [INFO] All player balances have been saved!
-[22:20:24] [Server thread/INFO]: [PlayMoreSounds] PMS has a new update available. Please download it on spigotmc.org.
-[22:20:24] [Server thread/INFO]: BankPlus [INFO] All player balances have been saved!
-[22:30:24] [Server thread/INFO]: [PlayMoreSounds] PMS has a new update available. Please download it on spigotmc.org.
-[22:30:24] [Server thread/INFO]: Banco Do Brasil O TOP Investidores atualizou!
-[22:30:24] [Server thread/INFO]: BankPlus [INFO] All player balances have been saved!
-[22:30:24] [Craft Scheduler Thread - 183 - EpicPluginLib/INFO]: [EpicPluginLib] EpicPluginLib v2.5 is available. Please update.
-[22:40:24] [Server thread/INFO]: [PlayMoreSounds] PMS has a new update available. Please download it on spigotmc.org.
-[22:40:24] [Server thread/INFO]: BankPlus [INFO] All player balances have been saved!
-[22:50:24] [Server thread/INFO]: [PlayMoreSounds] PMS has a new update available. Please download it on spigotmc.org.
-[22:50:24] [Server thread/INFO]: BankPlus [INFO] All player balances have been saved!
-[22:53:09] [Server thread/INFO]: Stopping the server
-[22:53:09] [Server thread/WARN]: java.lang.Throwable: Server stopped
-[22:53:09] [Server thread/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
-[22:53:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.safeShutdown(MinecraftServer.java:1040)
-[22:53:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.halt(MinecraftServer.java:1033)
-[22:53:09] [Server thread/WARN]: 	at net.minecraft.server.commands.StopCommand.lambda$register$1(StopCommand.java:14)
-[22:53:09] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264)
-[22:53:09] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:324)
-[22:53:09] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performPrefixedCommand(Commands.java:303)
-[22:53:09] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R2.command.VanillaCommandWrapper.execute(VanillaCommandWrapper.java:45)
-[22:53:09] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:168)
-[22:53:09] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.dispatchCommand(CraftServer.java:925)
-[22:53:09] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.dispatchServerCommand(CraftServer.java:888)
-[22:53:09] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:542)
-[22:53:09] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:489)
-[22:53:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1424)
-[22:53:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1194)
-[22:53:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
-[22:53:09] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[22:53:09] [Server thread/INFO]: Stopping server
-[22:53:09] [Server thread/INFO]: [libreforge] Disabling libreforge v4.10.0
-[22:53:09] [Server thread/INFO]: [libreforge] Cleaning up...
-[22:53:10] [Server thread/INFO]: [AuctionHouse] Disabling AuctionHouse v3.3.2
-[22:53:10] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion auctionhouse
-[22:53:10] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin AuctionHouse was disabled.
-[22:53:10] [Server thread/INFO]: [AuctionHouse] Saving auctions data
-[22:53:10] [Server thread/INFO]: [BankPlus] Disabling BankPlus v5.7
-[22:53:10] [Server thread/INFO]: 
-[22:53:10] [Server thread/INFO]:     BankPlus Disabling Plugin!
-[22:53:10] [Server thread/INFO]: 
-[22:53:10] [Server thread/INFO]: [BlockParticles] Disabling BlockParticles v1.11.1-RELEASE
-[22:53:10] [Server thread/INFO]: [BungeeGuard] Disabling BungeeGuard v1.4.1
-[22:53:10] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.92
-[22:53:10] [Server thread/INFO]: [CMIEInjector] Disabling CMIEInjector v1.0.2.3
-[22:53:10] [Server thread/INFO]: [CrazyCrates] Disabling CrazyCrates v1.11.6-SNAPSHOT
-[22:53:10] [Server thread/INFO]: [DailyRewards] Disabling DailyRewards v1.1.0
-[22:53:10] [Server thread/INFO]: [Dynmap-GriefPrevention] Disabling Dynmap-GriefPrevention v0.88
-[22:53:10] [Server thread/INFO]: [Dynmap-GriefPrevention] Cancelling tasks...
-[22:53:10] [Server thread/INFO]: [Dynmap-GriefPrevention] Deleting marker set...
-[22:53:10] [Server thread/INFO]: [Dynmap-GriefPrevention] Clearing areas...
-[22:53:10] [Server thread/INFO]: [Dynmap-GriefPrevention] Disabled successfully.
-[22:53:10] [Server thread/INFO]: [EcoJobs] Disabling EcoJobs
-[22:53:10] [Server thread/INFO]: [EcoJobs] Cleaning up...
-[22:53:10] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI
-[22:53:10] [Server thread/INFO]: [EcoPets] Disabling EcoPets
-[22:53:10] [Server thread/INFO]: [EcoPets] Cleaning up...
-[22:53:10] [Server thread/INFO]: [LeafTags] Disabling LeafTags vpre-1.2.4
-[22:53:10] [Server thread/INFO]: [LoneLibs] Disabling LoneLibs v1.0.24
-[22:53:10] [Server thread/INFO]: [MyCommand] Disabling MyCommand v5.7.3
-[22:53:10] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.3*-=-=-=-=-=-=-=-=-=-*
-[22:53:10] [Server thread/INFO]: | Tasks : Stopped all tasks.
-[22:53:10] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*    Bye!   *-=-=-=-=-=-=-=-=-=-=-*
-[22:53:10] [Server thread/INFO]: [PlayMoreSounds] Disabling PlayMoreSounds v4.0.4
-[22:53:10] [Server thread/INFO]: [PluginManager] Disabling PluginManager v2.8.1
-[22:53:10] [Server thread/INFO]: [Quests] Disabling Quests v3.9.1
-[22:53:10] [Server thread/INFO]: [RandomTeleport] Disabling RandomTeleport v2.0-SNAPSHOT (build 71)
-[22:53:10] [Server thread/INFO]: [spark] Disabling spark v1.10.17
-[22:53:10] [Server thread/INFO]: [Stress] Disabling Stress v1.0.3
-[22:53:10] [Server thread/INFO]: [TAB] Disabling TAB v3.2.1
-[22:53:10] [Server thread/INFO]: [TAB] Disabled in 0ms
-[22:53:10] [Server thread/INFO]: [Terra] Disabling Terra v6.2.2-BETA+8fff27fdd
-[22:53:10] [Server thread/INFO]: [UltimateChat] Disabling UltimateChat v1.9.1
-[22:53:10] [Server thread/INFO]: [UltimateChat] UltimateChat v1.9.1 disabled!
-[22:53:10] [Server thread/INFO]: [VoidWorld] Disabling VoidWorld v1.0
-[22:53:10] [Server thread/INFO]: [ServersNPC] Disabling ServersNPC v4.0
-[22:53:10] [Server thread/INFO]: [CMI] Disabling CMI v9.3.0.5
-[22:53:10] [Server thread/INFO]: [CMI] Closed db connections
-[22:53:10] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.18
-[22:53:10] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
-[22:53:10] [Server thread/INFO]: [eco] Disabling eco
-[22:53:10] [Server thread/INFO]: [eco] Saving player data...
-[22:53:10] [Server thread/INFO]: [eco] Saved player data! Took 0ms
-[22:53:10] [Server thread/INFO]: [eco] Cleaning up...
-[22:53:11] [Server thread/INFO]: [LeafPlugins] Disabling LeafPlugins vpre-1.3.0
-[22:53:11] [Server thread/INFO]: [EpicPluginLib] Disabling EpicPluginLib v2.0
-[22:53:11] [Server thread/INFO]: [CMILib] Disabling CMILib v1.2.4.1
-[22:53:11] [Server thread/INFO]: [dynmap] Disabling dynmap v3.5-beta-3-866
-[22:53:11] [Server thread/INFO]: [dynmap] Unloaded 11 components.
-[22:53:11] [Server thread/INFO]: [dynmap] Stopping map renderer...
-[22:53:17] [Server thread/INFO]: [dynmap] Disabled
-[22:53:17] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.218
-[22:53:17] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
-[22:53:17] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
-[22:53:17] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
-[22:53:17] [Server thread/INFO]: [SimpleClans] Disabling SimpleClans v2.18.1-43da5bd
-[22:53:17] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion simpleclans
-[22:53:17] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin SimpleClans was disabled.
-[22:53:17] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.30-SNAPSHOT (build 2809)
-[22:53:17] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
-[22:53:17] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.12
-[22:53:17] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
-[22:53:17] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.7+216b061
-[22:53:17] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[22:53:17] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.5.1
-[22:53:17] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0-SNAPSHOT-b612
-[22:53:17] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.13+46576cc
-[22:53:17] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[22:53:17] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[22:53:17] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.58
-[22:53:17] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[22:53:17] [Server thread/INFO]: [LuckPerms] Closing storage...
-[22:53:18] [Server thread/INFO]: [LuckPerms] Goodbye!
-[22:53:18] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.5.1
-[22:53:18] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[22:53:18] [Server thread/INFO]: Saving players
-[22:53:18] [Server thread/INFO]: Saving worlds
-[22:53:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:53:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[22:53:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[22:53:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[22:53:18] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 38 entity chunks, 0 poi chunks in world 'world' in 0.01s
-[22:53:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:53:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[22:53:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[22:53:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[22:53:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[22:53:18] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 25 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[22:53:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:53:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[22:53:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[22:53:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[22:53:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[22:53:18] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 37 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
-[22:53:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:53:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[spawn]'/minecraft:spawn
-[22:53:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'spawn'
-[22:53:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'spawn'
-[22:53:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'spawn'
-[22:53:18] [Server thread/INFO]: [ChunkHolderManager] Saved 93 block chunks, 24 entity chunks, 0 poi chunks in world 'spawn' in 0.07s
-[22:53:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (spawn): All chunks are saved
-[22:53:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:53:18] [Server thread/INFO]: Flushing Chunk IO
-[22:53:18] [Server thread/INFO]: Closing Thread Pool
-[22:53:18] [Server thread/INFO]: Closing Server
-[22:53:18] [Thread-1/WARN]: java.lang.Throwable: Server stopped
-[22:53:18] [Thread-1/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
-[22:53:18] [Thread-1/WARN]: 	at net.minecraft.server.MinecraftServer.safeShutdown(MinecraftServer.java:1040)
-[22:53:18] [Thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_19_R2.util.ServerShutdownThread.run(ServerShutdownThread.java:16)
+[18:13:09] [Server thread/INFO]: [dough: protection] Loading Protection Modules...
+[18:13:09] [Server thread/INFO]: [dough: protection] This may happen more than once.
+[18:13:09] [Server thread/INFO]: [dough: protection] Loaded Protection Module "WorldGuard v7.0.7+216b061"
+[18:13:09] [Server thread/INFO]: [dough: protection] Loaded Protection Module "GriefPrevention v16.18"
+[18:13:09] [Craft Scheduler Thread - 25 - EcoPets/WARN]: [EcoPets] EcoPets is out of date! (Version 2.10.0)
+[18:13:09] [Craft Scheduler Thread - 25 - EcoPets/WARN]: [EcoPets] The newest version is 2.24.0
+[18:13:09] [Craft Scheduler Thread - 25 - EcoPets/WARN]: [EcoPets] Download the new version!
+[18:13:09] [Craft Scheduler Thread - 4 - eco/WARN]: [eco] eco is out of date! (Version 6.60.0)
+[18:13:09] [Craft Scheduler Thread - 4 - eco/WARN]: [eco] The newest version is 6.65.3
+[18:13:09] [Craft Scheduler Thread - 4 - eco/WARN]: [eco] Download the new version!
+[18:13:09] [Craft Scheduler Thread - 23 - PluginManager/INFO]: PM | You are using the latest version of PluginManager.
+[18:13:09] [Server thread/INFO]: [Slimefun] Now running MetricsModule build #29
+[18:13:09] [Server thread/INFO]: [Slimefun] with a total of 19/19 chart(s)!
+[18:13:09] [Server thread/INFO]: [Slimefun] Metrics build #29 started.
+[18:13:09] [Server thread/INFO]: [SimpleClans] Registered WorldGuardProvider successfully
+[18:13:09] [Server thread/WARN]: [SimpleClans] Error registering provider WorldGuard6Provider
+[18:13:09] [Server thread/INFO]: [SimpleClans] Registered GriefPreventionProvider successfully
+[18:13:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: quests [3.9.1]
+[18:13:09] [Server thread/INFO]: [Quests] 33 task types have been registered.
+[18:13:09] [Server thread/INFO]: [Quests] 0 quest items have been registered.
+[18:13:09] [Server thread/INFO]: [Quests] 7 quests have been registered.
+[18:13:09] [Server thread/INFO]: [AuctionHouse] Registered Service Provider CMIEInjector for Vault's Economy API
+[18:13:09] [Server thread/INFO]: [AuctionHouse] Registered Service Provider LuckPerms for Vault's Chat API
+[18:13:09] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
+[18:13:10] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[18:13:10] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 4.7.0, you're on: 4.5.1
+[18:13:10] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.3) is available at:
+[18:13:10] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[18:13:10] [Server thread/INFO]: [AuctionHouse] Found PlaceholderAPI plugin
+[18:13:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: auctionhouse [3.3.2]
+[18:13:10] [Server thread/INFO]: [AuctionHouse] Registered PlaceholderAPI placeholders
+[18:13:10] [Server thread/INFO]: Done (100.837s)! For help, type "help"
+[18:13:10] [Server thread/INFO]: [eco] Loaded eco
+[18:13:10] [Server thread/INFO]: [EcoPets] Loaded EcoPets
+[18:13:10] [Server thread/INFO]: [EcoJobs] Loaded EcoJobs
+[18:13:10] [Server thread/INFO]: [libreforge] Loaded libreforge
+[18:13:12] [Server thread/WARN]: [io.github.znetworkw.znpcservers.cache.TypeCache$BaseCache] No cache found for: [net.minecraft.server.level.EntityPlayer] : []
+[18:13:12] [Server thread/WARN]: [io.github.znetworkw.znpcservers.cache.TypeCache$BaseCache] Skipping cache for [net.minecraft.server.level.EntityPlayer]
+[18:13:17] [Server thread/INFO]: [MyCommand] found an update for MyCommand. Type /mycommand for more infos.
+[18:13:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: luckperms [5.1-R2]
+[18:13:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.3]
+[18:13:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server [2.6.1]
+[18:13:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic [2.0.1]
+[18:13:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault [1.7.1]
+[18:13:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: simpleclans [2.0.3]
+[18:13:25] [Server thread/INFO]: 6 placeholder hook(s) registered! 4 placeholder hook(s) have an update available.
+[18:13:45] [Craft Scheduler Thread - 13 - Slimefun/ERROR]: [dough: skins] Exception while requesting skin: https://api.mojang.com/users/profiles/minecraft/fuckyhey
+[18:13:45] [Craft Scheduler Thread - 26 - Slimefun/WARN]: [Slimefun] Attempted to refresh skin cache, got this response: ExecutionException: java.io.FileNotFoundException: https://api.mojang.com/users/profiles/minecraft/fuckyhey
+[18:13:45] [Craft Scheduler Thread - 26 - Slimefun/WARN]: [Slimefun] This usually means mojang.com is temporarily down or started to rate-limit this connection, nothing to worry about!
+[18:15:19] [User Authenticator #0/INFO]: UUID of player iTakinn is 18f7bf45-5c65-3741-9541-bde30f073d69
+[18:15:21] [Server thread/INFO]: iTakinn[/127.0.0.1:54574] logged in with entity id 330 at ([spawn]67.5, 61.0, 413.5)
+[18:15:23] [Server thread/WARN]: iTakinn moved too quickly! 0.0,-11.207870780463594,0.0
+[18:15:23] [Craft Scheduler Thread - 23 - mcMMO/INFO]: [mcMMO] Creating new data for player: iTakinn
+[18:15:32] [Server thread/INFO]: iTakinn issued server command: /spawn
+[18:15:32] [Craft Scheduler Thread - 23 - ServersNPC/WARN]: [io.github.znetworkw.znpcservers.cache.TypeCache$BaseCache] No cache found for: [net.minecraft.network.protocol.game.PacketPlayOutEntityMetadata] : []
+[18:15:32] [Craft Scheduler Thread - 23 - ServersNPC/WARN]: [io.github.znetworkw.znpcservers.cache.TypeCache$BaseCache] Skipping cache for [net.minecraft.network.protocol.game.PacketPlayOutEntityMetadata]
+[18:15:36] [Server thread/INFO]: iTakinn issued server command: /spawn
+[18:15:57] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[18:15:58] [Server thread/INFO]: iTakinn lost connection: Disconnected
+[18:15:59] [User Authenticator #0/INFO]: UUID of player iTakinn is 18f7bf45-5c65-3741-9541-bde30f073d69
+[18:15:59] [Server thread/INFO]: iTakinn[/127.0.0.1:54596] logged in with entity id 2156 at ([spawn]-82.2599732283293, 143.0, 14.50762166675139)
+[18:16:02] [Craft Scheduler Thread - 40 - mcMMO/INFO]: [mcMMO] Creating new data for player: iTakinn
+[18:16:19] [Server thread/INFO]: iTakinn lost connection: Disconnected
+[18:16:20] [User Authenticator #0/INFO]: UUID of player iTakinn is 18f7bf45-5c65-3741-9541-bde30f073d69
+[18:16:20] [Server thread/INFO]: iTakinn[/127.0.0.1:54615] logged in with entity id 3430 at ([spawn]-72.95413828467763, 140.5, 16.69999998807907)
+[18:16:23] [Craft Scheduler Thread - 40 - mcMMO/INFO]: [mcMMO] Creating new data for player: iTakinn
+[18:16:46] [Server thread/INFO]: iTakinn lost connection: Disconnected
+[18:16:47] [User Authenticator #0/INFO]: UUID of player iTakinn is 18f7bf45-5c65-3741-9541-bde30f073d69
+[18:16:47] [Server thread/INFO]: iTakinn[/127.0.0.1:54633] logged in with entity id 4953 at ([spawn]-84.5, 143.0, 14.5)
+[18:16:50] [Craft Scheduler Thread - 39 - mcMMO/INFO]: [mcMMO] Creating new data for player: iTakinn
+[18:17:28] [Server thread/INFO]: iTakinn lost connection: Disconnected
+[18:18:06] [Server thread/INFO]: Stopping the server
+[18:18:06] [Server thread/WARN]: java.lang.Throwable: Server stopped
+[18:18:06] [Server thread/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
+[18:18:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.safeShutdown(MinecraftServer.java:1040)
+[18:18:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.halt(MinecraftServer.java:1033)
+[18:18:06] [Server thread/WARN]: 	at net.minecraft.server.commands.StopCommand.lambda$register$1(StopCommand.java:14)
+[18:18:06] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264)
+[18:18:06] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:324)
+[18:18:06] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performPrefixedCommand(Commands.java:303)
+[18:18:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R2.command.VanillaCommandWrapper.execute(VanillaCommandWrapper.java:45)
+[18:18:06] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:168)
+[18:18:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.dispatchCommand(CraftServer.java:925)
+[18:18:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.dispatchServerCommand(CraftServer.java:888)
+[18:18:06] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:542)
+[18:18:06] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:489)
+[18:18:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1424)
+[18:18:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1194)
+[18:18:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[18:18:06] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[18:18:06] [Server thread/INFO]: Stopping server
+[18:18:06] [Server thread/INFO]: [libreforge] Disabling libreforge v4.10.0
+[18:18:06] [Server thread/INFO]: [libreforge] Cleaning up...
+[18:18:07] [Server thread/INFO]: [AuctionHouse] Disabling AuctionHouse v3.3.2
+[18:18:07] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion auctionhouse
+[18:18:07] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin AuctionHouse was disabled.
+[18:18:07] [Server thread/INFO]: [AuctionHouse] Saving auctions data
+[18:18:07] [Server thread/INFO]: [BankPlus] Disabling BankPlus v5.7
+[18:18:07] [Server thread/INFO]: 
+[18:18:07] [Server thread/INFO]:     BankPlus Disabling Plugin!
+[18:18:07] [Server thread/INFO]: 
+[18:18:07] [Server thread/INFO]: [BlockParticles] Disabling BlockParticles v1.11.1-RELEASE
+[18:18:07] [Server thread/INFO]: [BungeeGuard] Disabling BungeeGuard v1.4.1
+[18:18:07] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.92
+[18:18:07] [Server thread/INFO]: [CMIEInjector] Disabling CMIEInjector v1.0.2.3
+[18:18:07] [Server thread/INFO]: [CrazyCrates] Disabling CrazyCrates v1.11.6-SNAPSHOT
+[18:18:07] [Server thread/INFO]: [DailyRewards] Disabling DailyRewards v1.1.0
+[18:18:07] [Server thread/INFO]: [Dynmap-GriefPrevention] Disabling Dynmap-GriefPrevention v0.88
+[18:18:07] [Server thread/INFO]: [Dynmap-GriefPrevention] Cancelling tasks...
+[18:18:07] [Server thread/INFO]: [Dynmap-GriefPrevention] Deleting marker set...
+[18:18:07] [Server thread/INFO]: [Dynmap-GriefPrevention] Clearing areas...
+[18:18:07] [Server thread/INFO]: [Dynmap-GriefPrevention] Disabled successfully.
+[18:18:07] [Server thread/INFO]: [EcoJobs] Disabling EcoJobs
+[18:18:07] [Server thread/INFO]: [EcoJobs] Cleaning up...
+[18:18:07] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI
+[18:18:07] [Server thread/INFO]: [EcoPets] Disabling EcoPets
+[18:18:07] [Server thread/INFO]: [EcoPets] Cleaning up...
+[18:18:07] [Server thread/INFO]: [LeafTags] Disabling LeafTags vpre-1.2.4
+[18:18:07] [Server thread/INFO]: [LoneLibs] Disabling LoneLibs v1.0.24
+[18:18:07] [Server thread/INFO]: [MobCapturer] Disabling MobCapturer vDEV - 31 (git c979dc9a)
+[18:18:07] [Server thread/INFO]: [MyCommand] Disabling MyCommand v5.7.3
+[18:18:07] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.3*-=-=-=-=-=-=-=-=-=-*
+[18:18:07] [Server thread/INFO]: | Tasks : Stopped all tasks.
+[18:18:07] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*    Bye!   *-=-=-=-=-=-=-=-=-=-=-*
+[18:18:07] [Server thread/INFO]: [nLogin] Disabling nLogin v10.1.16
+[18:18:07] [Server thread/INFO]: [nLogin] Successful plugin core shutdown (took 0.00s)
+[18:18:07] [Server thread/INFO]: [nLogin] 
+[18:18:07] [Server thread/INFO]: [nLogin] Encerrando o nLogin V 10.1.16...
+[18:18:07] [Server thread/INFO]: [nLogin] 
+[18:18:07] [Server thread/INFO]: [nLogin] nLogin foi encerrado em 1ms.
+[18:18:07] [Server thread/INFO]: [PlayMoreSounds] Disabling PlayMoreSounds v4.0.4
+[18:18:07] [Server thread/INFO]: [PluginManager] Disabling PluginManager v2.8.1
+[18:18:07] [Server thread/INFO]: [PrivateStorage] Disabling PrivateStorage vDEV - 18 (git 5832db21)
+[18:18:07] [Server thread/INFO]: [Quests] Disabling Quests v3.9.1
+[18:18:07] [Server thread/INFO]: [RandomTeleport] Disabling RandomTeleport v2.0-SNAPSHOT (build 71)
+[18:18:07] [Server thread/INFO]: [SFCalc] Disabling SFCalc vDEV - 37 (git dfc0fc41)
+[18:18:07] [Server thread/INFO]: [SimpleStorage] Disabling SimpleStorage vDEV - 10 (git ea5e5637)
+[18:18:07] [Server thread/INFO]: [SimpleUtils] Disabling SimpleUtils vDEV - 15 (git 4250fd5e)
+[18:18:07] [Server thread/INFO]: [SlimefunOreChunks] Disabling SlimefunOreChunks vDEV - 15 (git 2520cb23)
+[18:18:07] [Server thread/INFO]: [SlimeHUD] Disabling SlimeHUD vDEV - 10 (git 7d1c666b)
+[18:18:07] [Server thread/INFO]: [spark] Disabling spark v1.10.17
+[18:18:08] [Server thread/INFO]: [Stress] Disabling Stress v1.0.3
+[18:18:08] [Server thread/INFO]: [TAB] Disabling TAB v3.2.1
+[18:18:08] [Server thread/INFO]: [TAB] Disabled in 5ms
+[18:18:08] [Server thread/INFO]: [Terra] Disabling Terra v6.2.2-BETA+8fff27fdd
+[18:18:08] [Server thread/INFO]: [UltimateChat] Disabling UltimateChat v1.9.1
+[18:18:08] [Server thread/INFO]: [UltimateChat] UltimateChat v1.9.1 disabled!
+[18:18:08] [Server thread/INFO]: [VillagerUtil] Disabling VillagerUtil vDEV - 1 (git 0a949b19)
+[18:18:08] [Server thread/INFO]: [VoidWorld] Disabling VoidWorld v1.0
+[18:18:08] [Server thread/INFO]: [ServersNPC] Disabling ServersNPC v4.0
+[18:18:08] [Server thread/INFO]: [CMI] Disabling CMI v9.3.0.5
+[18:18:08] [Server thread/INFO]: [CMI] Closed db connections
+[18:18:08] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.18
+[18:18:08] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[18:18:08] [Server thread/INFO]: [eco] Disabling eco
+[18:18:08] [Server thread/INFO]: [eco] Saving player data...
+[18:18:08] [Server thread/INFO]: [eco] Saved player data! Took 1ms
+[18:18:08] [Server thread/INFO]: [eco] Cleaning up...
+[18:18:08] [Server thread/INFO]: [LeafPlugins] Disabling LeafPlugins vpre-1.3.0
+[18:18:08] [Server thread/INFO]: [EpicPluginLib] Disabling EpicPluginLib v2.0
+[18:18:08] [Server thread/INFO]: [CMILib] Disabling CMILib v1.2.4.1
+[18:18:08] [Server thread/INFO]: [dynmap] Disabling dynmap v3.5-beta-3-866
+[18:18:08] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[18:18:08] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[18:18:09] [Server thread/INFO]: [dynmap] Saved 3573 pending tile renders in world 'spawn'
+[18:18:14] [Server thread/INFO]: [dynmap] Disabled
+[18:18:14] [Server thread/INFO]: [SimpleClans] Disabling SimpleClans v2.18.1-43da5bd
+[18:18:14] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion simpleclans
+[18:18:14] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin SimpleClans was disabled.
+[18:18:14] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.30-SNAPSHOT (build 2809)
+[18:18:14] [Server thread/INFO]: [Slimefun] Disabling Slimefun vRC - 35 (git 5e901972)
+[18:18:14] [Server thread/INFO]: [Slimefun] Backed up Slimefun data to: 2023-07-21-18-18.zip
+[18:18:14] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[18:18:14] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.12
+[18:18:14] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.218
+[18:18:14] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
+[18:18:14] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[18:18:14] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[18:18:14] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
+[18:18:14] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.5.1
+[18:18:14] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0-SNAPSHOT-b612
+[18:18:14] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.7+216b061
+[18:18:14] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[18:18:14] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.13+46576cc
+[18:18:14] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:18:14] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[18:18:14] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.58
+[18:18:14] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[18:18:14] [Server thread/INFO]: [LuckPerms] Closing storage...
+[18:18:15] [Server thread/INFO]: [LuckPerms] Goodbye!
+[18:18:15] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.5.1
+[18:18:15] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[18:18:15] [Server thread/INFO]: Saving players
+[18:18:15] [Server thread/INFO]: Saving worlds
+[18:18:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:18:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:18:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:18:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:18:16] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 0.89s
+[18:18:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:18:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:18:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:18:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:18:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:18:17] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.72s
+[18:18:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:18:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:18:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:18:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:18:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:18:17] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.27s
+[18:18:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:18:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[spawn]'/minecraft:spawn
+[18:18:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'spawn'
+[18:18:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'spawn'
+[18:18:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'spawn'
+[18:18:18] [Server thread/INFO]: [ChunkHolderManager] Saved 1016 block chunks, 983 entity chunks, 0 poi chunks in world 'spawn' in 0.88s
+[18:18:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (spawn): All chunks are saved
+[18:18:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:18:18] [Server thread/INFO]: Flushing Chunk IO
+[18:18:18] [Server thread/INFO]: Closing Thread Pool
+[18:18:18] [Server thread/INFO]: Closing Server
+[18:18:18] [Thread-1/WARN]: java.lang.Throwable: Server stopped
+[18:18:18] [Thread-1/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
+[18:18:18] [Thread-1/WARN]: 	at net.minecraft.server.MinecraftServer.safeShutdown(MinecraftServer.java:1040)
+[18:18:18] [Thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_19_R2.util.ServerShutdownThread.run(ServerShutdownThread.java:16)

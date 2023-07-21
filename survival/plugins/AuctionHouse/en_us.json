@@ -3,7 +3,7 @@
   "language.region": "United States",
   "language.code": "en_us",
   "version": "34",
-  "server.name": "GALAXY",
+  "server.name": "ATLANTIDA",
   "command.cancel": "cancel",
   "parameter.price": "preco",
   "command.expired": "expired",
@@ -100,7 +100,7 @@
   "message.listing.purchased.value": "&cComprado em: &e{0} atrás",
   "message.listing.returnable.key": "&ePode receber de volta:",
   "message.listing.returnable.value": "&ePode receber de volta: &e{0}",
-  "message.listing.seller.key": "&eVendedor"
+  "message.listing.seller.key": "&eVendedor",
   "message.listing.seller.value": "&eVendedor &7{0}",
   "message.listing.listings.key": "Itens:",
   "message.listing.listings.value": "&eItens: &7{0}",
