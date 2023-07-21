@@ -1,0 +1,181 @@
+dono:
+  visual:
+    name: "CEO"
+    color: "&#02a7f7&l"
+    prefix: "<GRADIENT:02a7f7>&lCEO</GRADIENT:1accfb> &f"
+    suffix: ""
+    preset: "<GRADIENT:02a7f7>&lCEO</GRADIENT:1accfb>"
+    tablistPrefix: "<GRADIENT:02a7f7>&lCEO</GRADIENT:1accfb> &f"
+    tablistSuffix: ""
+  options:
+    position: 1
+    visible: true
+    customSuffix: true
+    permission: "leaftags.tag.dono"
+    aliases: ["dono", "master", "ceo"]
+dev:
+  visual:
+    name: "DEV"
+    color: "&#99D5C9&l"
+    prefix: "<GRADIENT:99D5C9>&lDEV</GRADIENT:DBFCFF> &f"
+    suffix: ""
+    preset: "<GRADIENT:99D5C9>&lDEV</GRADIENT:DBFCFF>"
+    tablistPrefix: "<GRADIENT:99D5C9>&lDEV</GRADIENT:DBFCFF> &f"
+    tablistSuffix: ""
+  options:
+    position: 1
+    visible: true
+    customSuffix: true
+    permission: "leaftags.tag.dev"
+    aliases: ["developer", "desenvolvedor", "dev"]
+
+admin:
+  visual:
+    name: "ADMIN"
+    color: "&#e32525&l"
+    prefix: "<GRADIENT:ff0000>&lADMIN</GRADIENT:963232> &f"
+    suffix: ""
+    preset: "<GRADIENT:ff0000>&lADMIN</GRADIENT:963232>"
+    tablistPrefix: "<GRADIENT:ff0000>&lADMIN</GRADIENT:963232> &f"
+    tablistSuffix: ""
+  options:
+    position: 2
+    visible: true
+    customSuffix: true
+    permission: "leaftags.tag.admin"
+    aliases: ["adm"]
+
+moderador:
+  visual:
+    name: "MODERADOR"
+    color: "&#005208&l"
+    prefix: "<GRADIENT:005208>&lMOD</GRADIENT:00b012> &f"
+    suffix: ""
+    preset: "<GRADIENT:005208>&lMOD</GRADIENT:00b012>"
+    tablistPrefix: "<GRADIENT:005208>&lMOD</GRADIENT:00b012> &f"
+    tablistSuffix: ""
+  options:
+    position: 3
+    visible: true
+    customSuffix: true
+    permission: "leaftags.tag.mod"
+    aliases: ["mod", "moderator"]
+
+ajudante:
+  visual:
+    name: "AJUDANTE"
+    color: "&#a4b000&l"
+    prefix: "<GRADIENT:a4b000>&lAJUDANTE</GRADIENT:b08100> &f"
+    suffix: ""
+    preset: "<GRADIENT:a4b000>&lAJUDANTE</GRADIENT:b08100>"
+    tablistPrefix: "<GRADIENT:a4b000>&lAJUDANTE</GRADIENT:b08100> &f"
+    tablistSuffix: ""
+  options:
+    position: 4
+    visible: true
+    customSuffix: true
+    permission: "leaftags.tag.ajudante"
+    aliases: ["helper", "ajuda"]
+
+youtuberPlus:
+  visual:
+    name: "YouTuber+"
+    color: "&#38a6ff&l"
+    prefix: "<GRADIENT:38a6ff>&lYoutuber+</GRADIENT:2067ff> &f"
+    suffix: ""
+    preset: "<GRADIENT:38a6ff>&lYoutuber+</GRADIENT:2067ff>"
+    tablistPrefix: "<GRADIENT:38a6ff>&lYoutuber+</GRADIENT:2067ff> &f"
+    tablistSuffix: ""
+  options:
+    position: 5
+    visible: true
+    customSuffix: true
+    permission: "leaftags.tag.ytPlus"
+    aliases: ["yt+", "ytplus"]
+
+youtuber:
+  visual:
+    name: "YouTuber"
+    color: "&#e49191&l"
+    prefix: "<GRADIENT:e49191>&lYoutuber</GRADIENT:e32525> &f"
+    suffix: ""
+    preset: "<GRADIENT:e49191>&lYoutuber</GRADIENT:e32525>"
+    tablistPrefix: "<GRADIENT:e49191>&lYoutuber</GRADIENT:e32525> &f"
+    tablistSuffix: ""
+  options:
+    position: 6
+    visible: true
+    customSuffix: true
+    permission: "leaftags.tag.yt"
+    aliases: ["yt"]
+
+mvpPlus:
+  visual:
+    name: "MVP+"
+    color: "&#09a4d8&l"
+    prefix: "<GRADIENT:09a4d8>&lMVP+</GRADIENT:dd27dd> &f"
+    suffix: ""
+    preset: "<GRADIENT:09a4d8>&lMVP+</GRADIENT:dd27dd>"
+    tablistPrefix: "<GRADIENT:09a4d8>&lMVP+</GRADIENT:dd27dd> &f"
+    tablistSuffix: ""
+  options:
+    position: 7
+    visible: true
+    customSuffix: true
+    permission: "leaftags.tag.mvpPlus"
+    aliases: ["mvp+", "mvpplus", "vip2", "vipplus", "plus"]
+
+vip:
+  visual:
+    name: "VIP"
+    color: "&#a36cfd&l"
+    prefix: "<GRADIENT:a36cfd>&lVIP</GRADIENT:ff94d6> &f"
+    suffix: ""
+    preset: "<GRADIENT:a36cfd>&lVIP</GRADIENT:ff94d6>"
+    tablistPrefix: "<GRADIENT:a36cfd>&lVIP</GRADIENT:ff94d6> &f"
+    tablistSuffix: ""
+  options:
+    position: 8
+    visible: true
+    customSuffix: true
+    permission: "leaftags.tag.vip"
+    aliases: []
+
+membro:
+  visual:
+    # Nome da nametag
+    name: "Membro"
+
+    # Cor da nametag
+    color: "&7"
+
+    # Prefixo da nametag (Antes do nome)
+    prefix: "&7[Membro] &f"
+
+    # Suffix da nametag (Depois do nome) [Recomendado: Placeholders de clans]
+    suffix: ""
+
+    # Prefix da nametag (Geralmente utilizado em menus, mensagens e scoreboards)
+    preset: "&7[Membro]"
+
+    # Prefix da nametag na TabList (Caso deixe vazio irá utilizar o prefix/suffix padrão da tag)
+    tablistPrefix: "&7[Membro] &f"
+    tablistSuffix: ""
+
+  options:
+    # Posição do jogador na TabList
+    position: 26
+
+    # Caso esteja 'false', fará que o nickname
+    # do jogador não apareça em cima do jogador
+    visible: true
+
+    # Permitirá que os jogadores usem outros sufixos
+    # Caso esteja 'false', fará que use o suffix da tag
+    customSuffix: true
+
+    # Permissão da nametag (Deixe vazio para que não seja necessário)
+    permission: ""
+
+    # Variáveis de como utilizar a tag - /tag <variavel>
+    aliases: ["player", "padrão", "default", "padrao", "jogador"]

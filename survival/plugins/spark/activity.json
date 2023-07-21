@@ -5,6 +5,19 @@
       "name": "iTakinn",
       "uniqueId": "18f7bf45-5c65-3741-9541-bde30f073d69"
     },
+    "time": 1689900615470,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/p72GoZV4MV"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "iTakinn",
+      "uniqueId": "18f7bf45-5c65-3741-9541-bde30f073d69"
+    },
     "time": 1688244864535,
     "type": "Heap dump summary",
     "data": {

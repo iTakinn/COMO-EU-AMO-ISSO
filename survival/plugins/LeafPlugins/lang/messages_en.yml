@@ -1,0 +1,21 @@
+user-load-failed: '&cFailed to load your user.'
+command-cooldown: '&cPlease wait %timer% to use again!'
+command-no-permission: '&cYou do not have permission to use this command!'
+command-target-is-you: '&cYou cannot use this command on yourself!'
+command-target-not-found: '&cCould not find player ''%player%''!'
+command-execute-preset: '&cUsage: /%label% %info%'
+command-currently-unavailable: '&cThis functionality is currently unavailable.'
+command-execute-failed: '&cThere was a problem executing this command! Please contact
+  an administrator to have the issue resolved.'
+
+commands:
+  userinfo:
+    usage: <player> %usage%
+    result:
+    - '&7Information about &f%player%&7:'
+    - '&8- &7UUID: &f%uuid%'
+    - '&8- &7IP Address: &f%address%'
+    - '&8- &7First Login: &f%created%'
+    - '&8- &7Last Login: &f%lastLogin%'
+    alts:
+    - '&7Alternate accounts: &f%alts%'

@@ -1,0 +1,47 @@
+# Tag list message
+tag-list: '&aYour tags: &f%tags%'
+
+# Visual of tags in the list
+tag-list-visual: '%tag_preset%'
+
+# Visual of what will separate the tags in the list
+tag-list-separe: '&f, '
+
+# Preview visual when hovering the mouse over the tag
+tag-list-preview:
+- '%tag_preview%'
+- ''
+- '&eClick to select'
+
+tag-set: '&aYour tag has been changed to %tag_name%.'
+tag-give: '&aTag %tag_name% given to %player%.'
+tag-remove: '&aTag %tag_name% removed from %player%.'
+tag-target-set: '&a%player% tag changed to %tag_name%.'
+tag-already-set: '&cYou are already using %tag_name%.'
+tag-no-permission: '&cThis tag was not found or you do not have it.'
+tag-not-found: '&cThis tag was not found or you do not have it.'
+tag-blocked-world: '&cTag switching is not allowed in this world.'
+command-set-usage: <player> <tag> %usage%
+
+suffixes:
+  # Suffix list message
+  suffix-list: '&aYour suffixes: &f%suffixes%'
+  
+  # Visual of suffixes in the list
+  suffix-list-visual: '%suffix_preset%'
+  
+  # Visual of what will separate the suffixes in the list
+  suffix-list-separe: '&f, '
+  
+  # Visual preview when hovering the mouse over the suffix
+  suffix-list-preview:
+  - '%suffix_preview%'
+  - ''
+  - '&eClick to select'
+  
+  suffix-set: '&aYour suffix has been changed to %suffix_name%.'
+  suffix-already-set: '&cYou already have the suffix %suffix_name%.'
+  suffix-no-permission: '&cThis suffix was not found or you do not have permission to
+    use it.'
+  suffix-not-found: '&cThis suffix was not found or you do not have permission to use
+    it.'

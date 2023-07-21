@@ -136,7 +136,7 @@ scoreboard:
       display-condition: "permission:tab.scoreboard.admin"
       title: "&#941dfd&lR&#8627fd&le&#7730fd&ld&#693afd&le &#5a44fd&l- &#4c4efd&lG&#3e57fd&la&#2f61fd&ll&#216bfd&la&#1274fd&lx&#047efd&ly"
       lines:
-        - "&e&l| &fCargo: %luckperms_prefix%"
+        - "&e&l| &fCargo: %leaftags_tag_tablistprefix%"
         - "&a&l| &fDinheiro: &6%cmi_user_balance_formatted%"
         - "%condition:clan-tag%"
         - ""
@@ -145,7 +145,7 @@ scoreboard:
     scoreboard1:
       title: "&#941dfd&lR&#8627fd&le&#7730fd&ld&#693afd&le &#5a44fd&l- &#4c4efd&lG&#3e57fd&la&#2f61fd&ll&#216bfd&la&#1274fd&lx&#047efd&ly"
       lines:
-        - "&e&l| &fCargo: %luckperms_prefix%"
+        - "&e&l| &fCargo: %leaftags_tag_tablistprefix%"
         - "&a&l| &fDinheiro: &6%cmi_user_balance_formatted%"
         - "%condition:clan-tag%"
         - ""

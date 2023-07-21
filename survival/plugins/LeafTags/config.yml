@@ -1,0 +1,113 @@
+# Arquivo que serÃ¡ usado para os prefixos
+tags-file: default.yml
+
+# OpÃ§Ãµes de bloqueio
+block-options:
+  # RemoverÃ¡ a tag da tablist nos mundos bloqueados
+  disable-tablist: true
+  
+  # RemoverÃ¡ a nametag nos mundos bloqueados
+  disable-nametag: false
+  
+  # RemoverÃ¡ a displayName nos mundos bloqueados
+  disable-display-name: false
+  
+  # NÃ£o permitirÃ¡ a mudanÃ§a de tag em mundos bloqueados
+  block-change-tag: true
+  
+  # Caso esteja 'true', farÃ¡ que apenas os mundos da lista "worlds"
+  # tenha nametags/tag (Invertendo de blocked para whitelist)
+  white-list: false
+  
+  # Mundos que terÃ£o a tag bloqueada
+  # Caso o white-list esteja 'true',
+  # farÃ¡ que somente estes mundos tenham nametag/tag
+  worlds:
+  - blockedWorld
+
+# Desative 'nickname, display-name' caso prefira usar outro plugin de NameTag (ex: NametagEdit)
+# Desativando a funÃ§Ã£o de NameTag, vocÃª poderÃ¡ usa-lo como plugins de tags especiais e afins ;)
+nametag:
+  # O prefix e o suffix serÃ£o aplicados em seu nickname (Em cima do jogador)
+  # (Caso nÃ£o tenha um plugin de tab, tambÃ©m aparecerÃ¡ no tab)
+  nickname: true
+  
+  # O prefix serÃ¡ aplicado no displayName
+  # (Serve para placeholders como %player_displayname%)
+  display-name: true
+  
+  # FarÃ¡ que ignore o limite de tamanho do prefix no nickname
+  # (Ativa-lo pode causar bugs em seu servidor caso use como NameTag)
+  ignore-size: false
+
+options:
+  # Sempre que o jogador entrar no servidor, entrarÃ¡ com a Ãºltima tag usada
+  # (Recomendado para servidores BungeeCord)
+  # ObservaÃ§Ã£o: Caso seu servidor seja BungeeCord,
+  # sÃ³ funcionarÃ¡ caso a tag exista em todos os servidores
+  last-tag: true
+  
+  # FarÃ¡ que sempre que o jogador altere sua tag, atualize instantaneamente no banco de dados
+  # Recomendado para desenvolvedores experientes
+  database-update: false
+  
+  # Sempre que o jogador alterar sua tag manualmente,
+  # serÃ¡ enviada uma log ao console
+  log-console: true
+  
+  # Mensagem que serÃ¡ enviada na log (Suporta cores)
+  log-console-message: '&9[Tag] &rO jogador &a%player% &ralterou sua tag para %tag_name%'
+
+updates:
+  # Atualizar a tag do jogador quando mudar de mundo
+  on-world-change: true
+  
+  # Atualizar a tag do jogador quando ter seu cargo alterado
+  on-group-change: true
+  
+  # Qualquer aÃ§Ã£o detectada sobre o clan irÃ¡ atualizar a tag
+  # (Ajuda a manter o suffix atualizado)
+  # Exemplos: Sair, entrar, atualizaÃ§Ã£o do clan
+  on-clan-update: true
+  
+  # Segundos para atualizar a tag automaticamente
+  # (Ajuda a manter o suffix atualizado)
+  # NecessÃ¡rio reiniciar o servidor para mudar
+  seconds-to-update: 8
+  
+  # O jogador sempre terÃ¡ sua tag alterada para a mÃ¡xima
+  # quando houver alguma tag update
+  always-max-tag: false
+
+command:
+  # Tempo em segundos para poder alterar a tag novamente
+  # (Deixe 0 para desativar)
+  cooldown: 3
+  
+  # PermissÃ£o para nÃ£o ter cooldown
+  # (Deixe vazio para desativar)
+  cooldown-permission: leaftags.cooldown
+  
+  # FarÃ¡ que caso o jogador tenha sua tag alterada por outra pessoa
+  # ela receba a mensagem 'tag-set'
+  target-set-message: true
+  
+  # FarÃ¡ que as tags e suffixes sejam selecionadas atravÃ©s do menu
+  select-menu: true
+  
+  # FarÃ¡ que as tags possam ser selecionadas clicando
+  # (FuncionarÃ¡ apenas com 'select-menu' estando 'false')
+  json-click: true
+  
+  # FarÃ¡ que apareÃ§a de forma crescente conforme a configuraÃ§Ã£o
+  reverse-list: true
+  
+  # EnviarÃ¡ um titulo quando a tag for alterada
+  title:
+    enable: true
+    title: '%tag_preset%'
+    subtitle: Tag selecionada
+  
+  # Som que irÃ¡ tocar quando mudar de tag
+  # (Deixe vazio para desativar)
+  sound: CHICKEN_EGG_POP

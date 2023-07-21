@@ -1,0 +1,16 @@
+title: Seus sufixos (%total%)
+slots: 54
+
+# FarÃ¡ que os sufixos fiquem centralizadas
+organize-slots: true
+
+# FecharÃ¡ o menu ao selecionar
+close-inventory: true
+
+# Formato dos itens dos sufixos
+format-suffixes:
+  name: '%suffix_preset%'
+  item: name_tag:0
+  lore:
+  - '&7Preview: &f%suffix_preview%'
+  - '&7Clique para equipar este sufixo.'

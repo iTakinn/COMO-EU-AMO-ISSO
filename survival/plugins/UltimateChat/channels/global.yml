@@ -45,7 +45,7 @@ discord:
   mode: none
   allow-bot: true
   allow-server-cmds: false
-  format-to-mc: '{ch-color}[{ch-alias}]&b{dd-rolecolor}{dd-rolename}&r%luckperms_prefix%
+  format-to-mc: '{ch-color}[{ch-alias}]&b{dd-rolecolor}{dd-rolename}&r%leaftags_tag_prefix%
     { }{sender}&r: '
   format-to-dd: ':regional_indicator_G: {group-prefix} { }**{sender}**: {message}'
 char-alias: ''

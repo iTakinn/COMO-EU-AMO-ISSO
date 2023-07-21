@@ -1,0 +1,40 @@
+# Todos os direitos reservados a Leaf Plugins;
+#
+# Este plugin Ã© responsÃ¡vel pelo funcionamento de outros plugins da Leaf Plugins!
+# Utilize com carinho o nosso trabalho â™¥, lembre-se de dar sugestÃµes em nosso Discord!
+#
+# Nosso site: https://leafplugins.com
+
+# SeÃ§Ã£o de configuraÃ§Ã£o do banco de dados
+# Todos os plugins utilizarÃ£o o mesmo banco de dados
+database:
+  # ConfiguraÃ§Ãµes para o banco de dados MySQL
+  mysql:
+    host: localhost
+    user: root
+    password: ''
+    port: 3306
+    database: leaf
+  
+  # Desative esta opÃ§Ã£o caso esteja usando o banco de dados MySQL
+  sqlite: true
+
+# Insira seu token de cliente aqui. Este token Ã© usado para ativar recursos pagos/premium dos plugins
+token: ''
+
+# OpÃ§Ãµes gerais dos plugins
+options:
+  # Idioma utilizado pelos plugins
+  # Exemplo: Defina o valor para "en" para inglÃªs ou "pt" para portuguÃªs
+  language: ''
+  
+  # Defina qual fuso horÃ¡rio utilizar (GMT-3 = Brasileiro)
+  # Caso deixe vazio irÃ¡ utilizar o da mÃ¡quina do servidor
+  time-zone: GMT-3
+  
+  # FarÃ¡ que seja checado se hÃ¡ atualizaÃ§Ãµes quando o servidor estiver online
+  # Caso desative, farÃ¡ que sÃ³ busque por atualizaÃ§Ãµes ao iniciar
+  always-update: true
+  
+  # AtivarÃ¡ o modo Bungee em plugins com compatibilidade automaticamente
+  bungee-detect: false

@@ -1,0 +1,16 @@
+title: Suas tags (%total%)
+slots: 54
+
+# FarÃ¡ que as tags fiquem centralizadas
+organize-slots: true
+
+# FecharÃ¡ o menu ao selecionar
+close-inventory: true
+
+# Formato dos itens das tags
+format-tags:
+  name: '%tag_color%%tag_name%'
+  item: name_tag:0
+  lore:
+  - '&7Preview: &f%tag_preview%'
+  - '&7Clique para equipar esta tag.'

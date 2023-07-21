@@ -272,7 +272,7 @@ broadcast:
 # or on channel builder on "channels" folder.
 tags:
   group-prefix:
-    format: ' &7{group-prefix}&7 &r'
+    format: ' &7%leaftags_tag_prefix%&r'
     hover-messages:
     - '&bRank: &e{prim-group}'
   playername:

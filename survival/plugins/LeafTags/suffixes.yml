@@ -1,0 +1,40 @@
+leaf:
+  name: 'Leaf'
+  preset: '&5Leaf'
+  suffix: ' &8[&5Leaf&8]'
+  permission: ''
+
+heart:
+  name: 'Coração'
+  preset: '&dCoração'
+  suffix: ' &d&l❤'
+  permission: ''
+
+medal:
+  name: 'Medalha'
+  preset: '&eMedalha'
+  suffix: '%leafmedals_medal_suffix%'
+  permission: ''
+
+clan:
+  name: 'Meu clan'
+
+  preset: '&bMeu clan'
+
+  suffix: '<whennot="">%simpleclans_clan_color_tag%</whennot=" &8[%simpleclans_clan_color_tag%&8]">'
+
+  permission: ''
+
+# Não remova
+none:
+  # Nome do suffix
+  name: 'Nenhum'
+
+  # Preset do suffix
+  preset: '&fNenhum'
+
+  # Como será exibido
+  suffix: ''
+
+  # Permissão do suffix
+  permission: ''

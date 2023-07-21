@@ -1,9 +1,0 @@
-quest-progress:
-  farming1carrot:
-    started: true
-    completed: false
-    completed-before: false
-    completion-date: 0
-    task-progress:
-      harvest:
-        completed: false

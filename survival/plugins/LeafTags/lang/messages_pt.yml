@@ -1,0 +1,46 @@
+# Mensagem da lista de tags
+tag-list: '&aSuas tags: &f%tags%'
+
+# Visual das tags na lista
+tag-list-visual: '%tag_preset%'
+
+# Visual do que separarÃ¡ as tags na lista
+tag-list-separe: '&f, '
+
+# Visual do preview ao passar o mouse em cima da tag
+tag-list-preview:
+- '%tag_preview%'
+- ''
+- '&eClique para selecionar'
+
+tag-set: '&aSua tag foi alterada para %tag_name%.'
+tag-give: '&aTag %tag_name% concedida a %player%.'
+tag-remove: '&aTag %tag_name% removida de %player%.'
+tag-target-set: '&aTag de %player% alterada para %tag_name%.'
+tag-already-set: '&cVocê já está com a tag %tag_name%.'
+tag-no-permission: '&cEsta tag não foi encontrada ou você não a possui.'
+tag-not-found: '&cEsta tag não foi encontrada ou você não a possui.'
+tag-blocked-world: '&cNão é permitido a troca de tag neste mundo.'
+command-set-usage: <jogador> <tag> %usage%
+
+suffixes:
+  # Mensagem da lista de suffix
+  suffix-list: '&aSeus sufixos: &f%suffixes%'
+  
+  # Visual das suffixes na lista
+  suffix-list-visual: '%suffix_preset%'
+  
+  # Visual do que separarÃ¡ as suffixes na lista
+  suffix-list-separe: '&f, '
+  
+  # Visual do preview ao passar o mouse em cima da suffix
+  suffix-list-preview:
+  - '%suffix_preview%'
+  - ''
+  - '&eClique para selecionar'
+  
+  suffix-set: '&aSeu sufixo foi alterado para %suffix_name%.'
+  suffix-already-set: '&cVocê já está com o sufixo %suffix_name%.'
+  suffix-no-permission: '&cEste sufixo não foi encontrado ou você não o possui.'
+  suffix-not-found: '&cEste sufixo não foi encontrado ou você não o possui.'
+  suffix-blocked: '&cNão é permitido o uso de sufixos na sua atual tag.'
