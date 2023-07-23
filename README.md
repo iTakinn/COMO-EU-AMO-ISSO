@@ -2,17 +2,17 @@
 -------------
 ### PERMISSOES
 ### Tirar end do DynMap ✅
-### Configurar NPCs
-### Gradiente em todos os cargos
+### Configurar NPCs 
+### Gradiente em todos os cargos ✅
 ### Comandos do mycommand
 ### Mudar a loja
 ### Mudar recompensas das caixas
 - Mostrar a chance de ganhar
 - Mostrar o tipo dos encantamento
-### Recompensa diária
-### Holograma para os baltop
+### Recompensa diária ✅
+### Holograma para os baltop ✅
 ### Traduzir os Jobs e pets ✅
-### Eventos/Dungeons
+### Eventos/Dungeons 
 ### Mudar os Kits
 ### Colocar todas as mensagens em uma unica paleta de cores
 
