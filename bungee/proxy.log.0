@@ -3876,3 +3876,172 @@ Caused by: xyz.jpenilla.minimotd.lib.com.typesafe.config.ConfigException$Parse: 
 18:17:29 [INFO] [nLogin] 
 18:17:29 [INFO] [nLogin] §cnLogin foi encerrado em 5ms.
 18:17:29 [INFO] Closing IO threads
+13:13:39 [INFO] Using standard Java JCE cipher.
+13:13:39 [INFO] Using standard Java compressor.
+13:13:39 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.20-R0.1-SNAPSHOT:9f5ace9:1718
+13:13:39 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+13:13:39 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+13:13:39 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+13:13:39 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+13:13:39 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+13:13:39 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+13:13:40 [INFO] Loaded plugin MiniMOTD version 2.0.13 by jmp
+13:13:40 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:13:40 [INFO] Loaded plugin nLogin version 10.1.16 by NickUC
+13:13:40 [INFO] Loaded plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:13:40 [INFO] Loaded plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+13:13:40 [INFO] Loaded plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:13:40 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:13:40 [INFO] Loaded plugin BungeeGuard version 1.4.1 by Luck
+13:13:40 [INFO] Loaded plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:13:40 [INFO] Loaded plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:13:41 [WARNING] Forced host server pvp is not defined
+13:13:42 [INFO] Enabled plugin MiniMOTD version 2.0.13 by jmp
+13:13:42 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:13:44 [INFO] [nLogin] Successful plugin core start (took 2.06s)
+13:13:44 [INFO] §9          __             _       
+13:13:44 [INFO] §9  _ __   / /  ___   __ _(_)_ __  
+13:13:44 [INFO] §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+13:13:44 [INFO] §9 | | | / /__| (_) | (_| | | | | |
+13:13:44 [INFO] §9 |_| |_\____/\___/ \__, |_|_| |_|
+13:13:44 [INFO] §9                  |___/            
+13:13:44 [INFO] §9 By: §9www.nickuc.com§9 - V 10.1.16
+13:13:44 [INFO] §9
+13:13:45 [INFO] [nLogin] §enLogin foi carregado em 1746ms.
+13:13:45 [INFO] Enabled plugin nLogin version 10.1.16 by NickUC
+13:13:45 [INFO] Enabled plugin cmd_find version git:cmd_find:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:13:47 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+13:13:47 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+13:13:47 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+13:13:47 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+13:13:47 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+13:13:47 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.12[0;39m
+13:13:47 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+13:13:47 [INFO] §f[33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+13:13:47 [INFO] Enabled plugin SkinsRestorer version 14.2.12 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+13:13:47 [INFO] Enabled plugin cmd_server version git:cmd_server:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:13:47 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:13:47 [INFO] Enabled plugin BungeeGuard version 1.4.1 by Luck
+13:13:47 [INFO] Enabled plugin cmd_send version git:cmd_send:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:13:47 [INFO] Enabled plugin cmd_list version git:cmd_list:1.20-R0.1-SNAPSHOT:9f5ace9:1718 by SpigotMC
+13:13:47 [INFO] Listening on /0.0.0.0:25577
+13:13:53 [INFO] §cCommand not found
+13:13:56 [INFO] §cCommand not found
+13:14:00 [INFO] §cCommand not found
+13:34:02 [INFO] [/127.0.0.1:50482] <-> InitialHandler has pinged
+15:22:48 [INFO] [/127.0.0.1:50688] <-> InitialHandler has pinged
+15:22:50 [INFO] [/127.0.0.1:50703] <-> InitialHandler has connected
+15:22:53 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+15:23:20 [WARNING] [iTakinn] -> UpstreamBridge - read timed out
+15:23:20 [INFO] [iTakinn] disconnected with: §fReadTimeoutException : null
+15:23:20 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+15:23:23 [WARNING] [iTakinn] <-> ServerConnector [lobby] - read timed out
+15:23:23 [INFO] [iTakinn] <-> ServerConnector [lobby] has disconnected
+15:24:30 [INFO] [iTakinn,/127.0.0.1:50792] <-> InitialHandler has connected
+15:24:30 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+15:24:44 [INFO] [nLogin] O usuário iTakinn se autenticou com sucesso.
+15:32:23 [INFO] [iTakinn] disconnected with: §fServidor fechado
+15:32:23 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+15:32:23 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+15:33:35 [INFO] [/127.0.0.1:51170] <-> InitialHandler has pinged
+15:35:00 [INFO] [/127.0.0.1:51242] <-> InitialHandler has pinged
+15:35:01 [INFO] [iTakinn,/127.0.0.1:51244] <-> InitialHandler has connected
+15:35:01 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+15:36:17 [INFO] [iTakinn] disconnected with: §cVocê demorou muito para logar.
+15:36:17 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+15:36:17 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+15:36:20 [INFO] [iTakinn,/127.0.0.1:51334] <-> InitialHandler has connected
+15:36:20 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+15:36:25 [INFO] [nLogin] O usuário iTakinn se autenticou com sucesso.
+15:44:13 [INFO] [iTakinn] disconnected with: §fServidor fechado
+15:44:13 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+15:44:13 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+15:48:19 [INFO] [/127.0.0.1:51732] <-> InitialHandler has pinged
+15:48:20 [INFO] [iTakinn,/127.0.0.1:51734] <-> InitialHandler has connected
+15:48:21 [INFO] [iTakinn] disconnected with: §cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? AnnotatedConnectException : Connection refused: no further information: localhost/127.0.0.1:25565
+15:48:21 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+15:52:53 [INFO] [/127.0.0.1:51966] <-> InitialHandler has pinged
+15:52:58 [INFO] [iTakinn,/127.0.0.1:51969] <-> InitialHandler has connected
+15:52:58 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+15:53:15 [INFO] [nLogin] O usuário iTakinn se autenticou com sucesso.
+16:15:12 [INFO] [iTakinn] disconnected with: §fServer is restarting
+16:15:12 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+16:15:12 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+16:19:21 [INFO] [iTakinn,/127.0.0.1:52693] <-> InitialHandler has connected
+16:19:23 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+16:19:42 [INFO] [nLogin] O usuário iTakinn se autenticou com sucesso.
+16:39:58 [INFO] [iTakinn] disconnected with: §fServidor fechado
+16:39:58 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+16:39:58 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+16:43:20 [INFO] [iTakinn,/127.0.0.1:53244] <-> InitialHandler has connected
+16:43:21 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+16:43:33 [INFO] [nLogin] O usuário iTakinn se autenticou com sucesso.
+17:09:02 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+17:09:02 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+17:09:02 [INFO] [/127.0.0.1:53944] <-> InitialHandler has pinged
+17:09:21 [INFO] [iTakinn,/127.0.0.1:53957] <-> InitialHandler has connected
+17:09:23 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+17:09:29 [INFO] [nLogin] O usuário iTakinn se autenticou com sucesso.
+17:32:17 [INFO] §f[§1M§1i§1n§9i§bM§bO§bT§bD§f]§r §aDone reloading configuration.
+17:32:19 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+17:32:19 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+17:32:19 [INFO] [/127.0.0.1:54745] <-> InitialHandler has pinged
+17:32:21 [INFO] [/127.0.0.1:54749] <-> InitialHandler has pinged
+17:32:37 [INFO] §f[§1M§1i§1n§9i§bM§bO§bT§bD§f]§r §aDone reloading configuration.
+17:32:40 [INFO] [/127.0.0.1:54760] <-> InitialHandler has pinged
+17:33:29 [INFO] [/127.0.0.1:54799] <-> InitialHandler has pinged
+17:33:32 [INFO] §f[§1M§1i§1n§9i§bM§bO§bT§bD§f]§r §aDone reloading configuration.
+17:33:33 [INFO] [/127.0.0.1:54809] <-> InitialHandler has pinged
+17:33:35 [INFO] [/127.0.0.1:54811] <-> InitialHandler has pinged
+17:33:35 [INFO] [/127.0.0.1:54814] <-> InitialHandler has pinged
+17:33:46 [INFO] §f[§1M§1i§1n§9i§bM§bO§bT§bD§f]§r §aDone reloading configuration.
+17:33:48 [INFO] [/127.0.0.1:54824] <-> InitialHandler has pinged
+17:34:41 [INFO] §f[§1M§1i§1n§9i§bM§bO§bT§bD§f]§r §aDone reloading configuration.
+17:34:43 [INFO] [/127.0.0.1:54856] <-> InitialHandler has pinged
+17:35:11 [INFO] §f[§1M§1i§1n§9i§bM§bO§bT§bD§f]§r §aDone reloading configuration.
+17:35:13 [INFO] [/127.0.0.1:54877] <-> InitialHandler has pinged
+17:35:28 [INFO] [/127.0.0.1:54893] <-> InitialHandler has pinged
+17:35:31 [INFO] §f[§1M§1i§1n§9i§bM§bO§bT§bD§f]§r §aDone reloading configuration.
+17:35:33 [INFO] [/127.0.0.1:54901] <-> InitialHandler has pinged
+17:35:43 [INFO] [/127.0.0.1:54905] <-> InitialHandler has pinged
+17:35:45 [INFO] [/127.0.0.1:54907] <-> InitialHandler has pinged
+17:37:37 [INFO] §f[§1M§1i§1n§9i§bM§bO§bT§bD§f]§r §aDone reloading configuration.
+17:37:39 [INFO] [/127.0.0.1:54940] <-> InitialHandler has pinged
+17:38:18 [INFO] §f[§1M§1i§1n§9i§bM§bO§bT§bD§f]§r §aDone reloading configuration.
+17:38:20 [INFO] [/127.0.0.1:54983] <-> InitialHandler has pinged
+17:38:21 [INFO] [/127.0.0.1:54988] <-> InitialHandler has pinged
+17:38:33 [INFO] §f[§1M§1i§1n§9i§bM§bO§bT§bD§f]§r §aDone reloading configuration.
+17:38:35 [INFO] [/127.0.0.1:54999] <-> InitialHandler has pinged
+17:38:51 [INFO] §f[§1M§1i§1n§9i§bM§bO§bT§bD§f]§r §aDone reloading configuration.
+17:38:52 [INFO] [/127.0.0.1:55013] <-> InitialHandler has pinged
+17:39:03 [INFO] §f[§1M§1i§1n§9i§bM§bO§bT§bD§f]§r §aDone reloading configuration.
+17:39:06 [INFO] [/127.0.0.1:55028] <-> InitialHandler has pinged
+17:41:46 [INFO] [iTakinn,/127.0.0.1:55158] <-> InitialHandler has connected
+17:41:48 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+17:41:54 [INFO] [nLogin] O usuário iTakinn se autenticou com sucesso.
+18:16:54 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+18:16:54 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+18:16:54 [INFO] [/127.0.0.1:55791] <-> InitialHandler has pinged
+18:17:10 [INFO] [iTakinn,/127.0.0.1:55801] <-> InitialHandler has connected
+18:17:11 [INFO] [iTakinn] <-> ServerConnector [lobby] has connected
+18:17:17 [INFO] [nLogin] O usuário iTakinn se autenticou com sucesso.
+18:17:18 [INFO] [iTakinn] -> UpstreamBridge has disconnected
+18:17:18 [INFO] [iTakinn] <-> DownstreamBridge <-> [lobby] has disconnected
+18:17:18 [INFO] [/127.0.0.1:55815] <-> InitialHandler has pinged
+19:32:39 [INFO] Closing listener [id: 0xb9ed3fc5, L:/[0:0:0:0:0:0:0:0]:25577]
+19:32:39 [INFO] Closing pending connections
+19:32:39 [INFO] Disconnecting 0 connections
+19:32:39 [INFO] Saving reconnect locations
+19:32:39 [INFO] Disabling plugins
+19:32:39 [INFO] [nLogin] Successful plugin core shutdown (took 0.00s)
+19:32:39 [INFO] [nLogin] 
+19:32:39 [INFO] [nLogin] §cEncerrando o nLogin V 10.1.16...
+19:32:39 [INFO] [nLogin] 
+19:32:39 [INFO] [nLogin] §cnLogin foi encerrado em 5ms.
+19:32:39 [INFO] Closing IO threads

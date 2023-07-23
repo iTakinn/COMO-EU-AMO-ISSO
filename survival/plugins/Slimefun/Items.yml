@@ -237,7 +237,7 @@ SWORD_OF_BEHEADING:
     CREEPER: 40
     PLAYER: 70
     SKELETON: 40
-    WITHER_SKELETON: 25
+    WITHER_SKELETON: 20
     ZOMBIE: 40
 MAGICAL_BOOK_COVER:
   enabled: true
@@ -1739,7 +1739,7 @@ FARMER_SHOES:
   allow-enchanting: true
   allow-disenchanting: true
 EXPLOSIVE_PICKAXE:
-  enabled: true
+  enabled: false
   can-be-used-in-workbenches: false
   hide-in-guide: false
   allow-enchanting: true
@@ -2706,10 +2706,10 @@ AUTO_ENCHANTER:
   enchant-level-limit: 10
   override-existing-enchants-lvl: false
   use-enchant-level-limit: false
-  max-enchants: 10
+  max-enchants: 7
   use-max-enchants: false
 AUTO_ENCHANTER_2:
-  enabled: true
+  enabled: false
   can-be-used-in-workbenches: false
   hide-in-guide: false
   allow-enchanting: true
@@ -2733,10 +2733,10 @@ AUTO_DISENCHANTER:
   - '&7- &cCan''t be used in §5Auto Disenchanter'
   use-ignored-lores: false
   enchant-level-limit: 10
-  max-enchants: 10
+  max-enchants: 7
   use-max-enchants: false
 AUTO_DISENCHANTER_2:
-  enabled: true
+  enabled: false
   can-be-used-in-workbenches: false
   hide-in-guide: false
   allow-enchanting: true
@@ -2755,7 +2755,7 @@ AUTO_ANVIL:
   allow-enchanting: true
   allow-disenchanting: true
 AUTO_ANVIL_2:
-  enabled: true
+  enabled: false
   can-be-used-in-workbenches: false
   hide-in-guide: false
   allow-enchanting: true
@@ -2916,7 +2916,7 @@ PROGRAMMABLE_ANDROID_3_FISHERMAN:
   allow-enchanting: true
   allow-disenchanting: true
 PROGRAMMABLE_ANDROID_3_BUTCHER:
-  enabled: true
+  enabled: false
   can-be-used-in-workbenches: false
   hide-in-guide: false
   allow-enchanting: true
@@ -3649,13 +3649,13 @@ ELECTRIC_SMELTERY_2:
   allow-enchanting: true
   allow-disenchanting: true
 IRON_GOLEM_ASSEMBLER:
-  enabled: true
+  enabled: false
   can-be-used-in-workbenches: false
   hide-in-guide: false
   allow-enchanting: true
   allow-disenchanting: true
 WITHER_ASSEMBLER:
-  enabled: true
+  enabled: false
   can-be-used-in-workbenches: false
   hide-in-guide: false
   allow-enchanting: true

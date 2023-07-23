@@ -90,7 +90,7 @@ site:
   command: /site
   type: TEXT
   text:
-  - '&bSite: &7https://loja.redegalaxy.space'
+  - '&bSite: &7https://loja.lojatlantida.com'
   permission-required: false
   register: true
 tab_completer:

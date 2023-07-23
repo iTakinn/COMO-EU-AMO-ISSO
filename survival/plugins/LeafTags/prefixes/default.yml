@@ -1,11 +1,11 @@
-dono:
+ceo:
   visual:
     name: "CEO"
     color: "&#02a7f7&l"
-    prefix: "<GRADIENT:02a7f7>&lCEO</GRADIENT:1accfb> &f"
+    prefix: "&#02a7f7<GRADIENT:02a7f7>&lCEO</GRADIENT:1accfb> &f"
     suffix: ""
-    preset: "<GRADIENT:02a7f7>&lCEO</GRADIENT:1accfb>"
-    tablistPrefix: "<GRADIENT:02a7f7>&lCEO</GRADIENT:1accfb> &f"
+    preset: "&#02a7f7<GRADIENT:02a7f7>&lCEO</GRADIENT:1accfb>"
+    tablistPrefix: "&#02a7f7<GRADIENT:02a7f7>&lCEO</GRADIENT:1accfb> &f"
     tablistSuffix: ""
   options:
     position: 1
@@ -17,13 +17,13 @@ dev:
   visual:
     name: "DEV"
     color: "&#99D5C9&l"
-    prefix: "<GRADIENT:99D5C9>&lDEV</GRADIENT:DBFCFF> &f"
+    prefix: "&#99D5C9<GRADIENT:99D5C9>&lDEV</GRADIENT:DBFCFF> &f"
     suffix: ""
-    preset: "<GRADIENT:99D5C9>&lDEV</GRADIENT:DBFCFF>"
-    tablistPrefix: "<GRADIENT:99D5C9>&lDEV</GRADIENT:DBFCFF> &f"
+    preset: "&#99D5C9<GRADIENT:99D5C9>&lDEV</GRADIENT:DBFCFF>"
+    tablistPrefix: "&#99D5C9<GRADIENT:99D5C9>&lDEV</GRADIENT:DBFCFF> &f"
     tablistSuffix: ""
   options:
-    position: 1
+    position: 2
     visible: true
     customSuffix: true
     permission: "leaftags.tag.dev"
@@ -32,66 +32,66 @@ dev:
 admin:
   visual:
     name: "ADMIN"
-    color: "&#e32525&l"
-    prefix: "<GRADIENT:ff0000>&lADMIN</GRADIENT:963232> &f"
+    color: "&#ff0000&l"
+    prefix: "&#ff0000<GRADIENT:ff0000>&lADMIN</GRADIENT:963232> &f"
     suffix: ""
-    preset: "<GRADIENT:ff0000>&lADMIN</GRADIENT:963232>"
-    tablistPrefix: "<GRADIENT:ff0000>&lADMIN</GRADIENT:963232> &f"
-    tablistSuffix: ""
-  options:
-    position: 2
-    visible: true
-    customSuffix: true
-    permission: "leaftags.tag.admin"
-    aliases: ["adm"]
-
-moderador:
-  visual:
-    name: "MODERADOR"
-    color: "&#005208&l"
-    prefix: "<GRADIENT:005208>&lMOD</GRADIENT:00b012> &f"
-    suffix: ""
-    preset: "<GRADIENT:005208>&lMOD</GRADIENT:00b012>"
-    tablistPrefix: "<GRADIENT:005208>&lMOD</GRADIENT:00b012> &f"
+    preset: "&#ff0000<GRADIENT:ff0000>&lADMIN</GRADIENT:963232>"
+    tablistPrefix: "&#ff0000<GRADIENT:ff0000>&lADMIN</GRADIENT:963232> &f"
     tablistSuffix: ""
   options:
     position: 3
     visible: true
     customSuffix: true
+    permission: "leaftags.tag.admin"
+    aliases: ["adm"]
+
+mod:
+  visual:
+    name: "MODERADOR"
+    color: "&#005208&l"
+    prefix: "&#005208<GRADIENT:005208>&lMOD</GRADIENT:00b012> &f"
+    suffix: ""
+    preset: "&#005208<GRADIENT:005208>&lMOD</GRADIENT:00b012>"
+    tablistPrefix: "&#005208<GRADIENT:005208>&lMOD</GRADIENT:00b012> &f"
+    tablistSuffix: ""
+  options:
+    position: 4
+    visible: true
+    customSuffix: true
     permission: "leaftags.tag.mod"
     aliases: ["mod", "moderator"]
 
-ajudante:
+helper:
   visual:
     name: "AJUDANTE"
     color: "&#a4b000&l"
     prefix: "<GRADIENT:a4b000>&lAJUDANTE</GRADIENT:b08100> &f"
     suffix: ""
     preset: "<GRADIENT:a4b000>&lAJUDANTE</GRADIENT:b08100>"
-    tablistPrefix: "<GRADIENT:a4b000>&lAJUDANTE</GRADIENT:b08100> &f"
-    tablistSuffix: ""
-  options:
-    position: 4
-    visible: true
-    customSuffix: true
-    permission: "leaftags.tag.ajudante"
-    aliases: ["helper", "ajuda"]
-
-youtuberPlus:
-  visual:
-    name: "YouTuber+"
-    color: "&#38a6ff&l"
-    prefix: "<GRADIENT:38a6ff>&lYoutuber+</GRADIENT:2067ff> &f"
-    suffix: ""
-    preset: "<GRADIENT:38a6ff>&lYoutuber+</GRADIENT:2067ff>"
-    tablistPrefix: "<GRADIENT:38a6ff>&lYoutuber+</GRADIENT:2067ff> &f"
+    tablistPrefix: "&#a4b000<GRADIENT:a4b000>&lAJUDANTE</GRADIENT:b08100> &f"
     tablistSuffix: ""
   options:
     position: 5
     visible: true
     customSuffix: true
-    permission: "leaftags.tag.ytPlus"
-    aliases: ["yt+", "ytplus"]
+    permission: "leaftags.tag.ajudante"
+    aliases: ["helper", "ajuda"]
+
+builder:
+  visual:
+    name: "Builder"
+    color: "&#38a6ff&l"
+    prefix: "<GRADIENT:38a6ff>&lBUILDER</GRADIENT:2067ff> &f"
+    suffix: ""
+    preset: "<GRADIENT:38a6ff>&lBUILDER</GRADIENT:2067ff>"
+    tablistPrefix: "&#38a6ff<GRADIENT:38a6ff>&lBUILDER</GRADIENT:2067ff> &f"
+    tablistSuffix: ""
+  options:
+    position: 6
+    visible: true
+    customSuffix: true
+    permission: "leaftags.tag.builder"
+    aliases: ["builder", "construtor"]
 
 youtuber:
   visual:
@@ -100,29 +100,29 @@ youtuber:
     prefix: "<GRADIENT:e49191>&lYoutuber</GRADIENT:e32525> &f"
     suffix: ""
     preset: "<GRADIENT:e49191>&lYoutuber</GRADIENT:e32525>"
-    tablistPrefix: "<GRADIENT:e49191>&lYoutuber</GRADIENT:e32525> &f"
-    tablistSuffix: ""
-  options:
-    position: 6
-    visible: true
-    customSuffix: true
-    permission: "leaftags.tag.yt"
-    aliases: ["yt"]
-
-mvpPlus:
-  visual:
-    name: "MVP+"
-    color: "&#09a4d8&l"
-    prefix: "<GRADIENT:09a4d8>&lMVP+</GRADIENT:dd27dd> &f"
-    suffix: ""
-    preset: "<GRADIENT:09a4d8>&lMVP+</GRADIENT:dd27dd>"
-    tablistPrefix: "<GRADIENT:09a4d8>&lMVP+</GRADIENT:dd27dd> &f"
+    tablistPrefix: "&#e49191<GRADIENT:e49191>&lYoutuber</GRADIENT:e32525> &f"
     tablistSuffix: ""
   options:
     position: 7
     visible: true
     customSuffix: true
-    permission: "leaftags.tag.mvpPlus"
+    permission: "leaftags.tag.yt"
+    aliases: ["yt"]
+
+master:
+  visual:
+    name: "MASTER"
+    color: "&#09a4d8&l"
+    prefix: "<GRADIENT:09a4d8>&lMASTER</GRADIENT:dd27dd> &f"
+    suffix: ""
+    preset: "<GRADIENT:09a4d8>&lMASTER</GRADIENT:dd27dd>"
+    tablistPrefix: "&#09a4d8<GRADIENT:09a4d8>&lMASTER</GRADIENT:dd27dd> &f"
+    tablistSuffix: ""
+  options:
+    position: 8
+    visible: true
+    customSuffix: true
+    permission: "leaftags.tag.master"
     aliases: ["mvp+", "mvpplus", "vip2", "vipplus", "plus"]
 
 vip:
@@ -132,16 +132,16 @@ vip:
     prefix: "<GRADIENT:a36cfd>&lVIP</GRADIENT:ff94d6> &f"
     suffix: ""
     preset: "<GRADIENT:a36cfd>&lVIP</GRADIENT:ff94d6>"
-    tablistPrefix: "<GRADIENT:a36cfd>&lVIP</GRADIENT:ff94d6> &f"
+    tablistPrefix: "&#a36cfd<GRADIENT:a36cfd>&lVIP</GRADIENT:ff94d6> &f"
     tablistSuffix: ""
   options:
-    position: 8
+    position: 9
     visible: true
     customSuffix: true
     permission: "leaftags.tag.vip"
     aliases: []
 
-membro:
+default:
   visual:
     # Nome da nametag
     name: "Membro"

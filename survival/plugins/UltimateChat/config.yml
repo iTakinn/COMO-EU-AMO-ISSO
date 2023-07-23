@@ -272,9 +272,9 @@ broadcast:
 # or on channel builder on "channels" folder.
 tags:
   group-prefix:
-    format: ' &7%leaftags_tag_prefix%&r'
+    format: ' %leaftags_tag_prefix%&r'
     hover-messages:
-    - '&bRank: &e{prim-group}'
+    - ''
   playername:
     format: '{playername}'
     click-cmd: 'tpa {playername}'
@@ -293,10 +293,9 @@ tags:
     format: '{message}'
   ch-tags:
     format: '{ch-color}[{ch-alias}]&r'
-    click-cmd: 'ch {ch-alias}'
+    click-cmd: ''
     hover-messages:
-    - '&3Channel name: {ch-color}{ch-name}'
-    - '&bClick to go to this channel!'
+    - '&3Canal: {ch-color}{ch-name}'
   clan-tag:
     format: '{clan-tag}'
     click-cmd: ''

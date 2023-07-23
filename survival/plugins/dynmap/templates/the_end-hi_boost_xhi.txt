@@ -13,21 +13,5 @@ templates:
     # Number of extra zoom-out levels for world (each level is twice as big as the previous one)
     extrazoomout: 2
     maps:
-      - class: org.dynmap.hdmap.HDMap
-        name: flat
-        title: "Flat"
-        prefix: flat
-        perspective: iso_S_90_lowres
-        shader: stdtexture
-        lighting: brightnight
-        mapzoomin: 5
-      - class: org.dynmap.hdmap.HDMap
-        name: the_end
-        title: "Surface"
-        prefix: st
-        perspective: iso_SE_30_hires
-        shader: stdtexture
-        lighting: brightnight
-        mapzoomin: 3
-        boostzoom: 2
+      
         

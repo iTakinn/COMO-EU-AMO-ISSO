@@ -1,0 +1,24 @@
+darvip:
+ command: /darvip
+ type: RUN_COMMAND
+ runcmd:
+ - /lp user $arg1 parent addtemp vip $arg2
+ error-message: '&cUse /darvip <player> <tempo, ex: 45m, 8h, 1d, 3mo...>'
+ permission-node: atlantida.darvip
+ required_args: 2
+darmvp:
+ command: /darmvp
+ type: RUN_COMMAND
+ runcmd:
+ - /lp user $arg1 parent addtemp mvp $arg2
+ error-message: '&cUse /darmvp <player> <tempo, ex: 45m, 8h, 1d, 3mo...>'
+ permission-node: atlantida.darvip
+ required_args: 2
+darmaster:
+ command: /darmaster
+ type: RUN_COMMAND
+ runcmd:
+ - /lp user $arg1 parent addtemp master $arg2
+ error-message: '&cUse /darmaster <player> <tempo, ex: 45m, 8h, 1d, 3mo...>'
+ permission-node: atlantida.darvip
+ required_args: 2

@@ -1,6 +1,6 @@
 enabled: true
 slimefun:
-  enabled: true
+  enabled: false
   GRANDMAS_WALKING_STICK: true
   GRANDPAS_WALKING_STICK: true
   PORTABLE_CRAFTER: true

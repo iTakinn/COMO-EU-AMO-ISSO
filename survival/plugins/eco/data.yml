@@ -3,15 +3,15 @@
 previous-handler: YAML
 player:
   18f7bf45-5c65-3741-9541-bde30f073d69:
-    ecopets:sea_serpent_level: 0
-    ecopets:skeleton_level: 0
-    ecopets:blaze_level: 0
-    ecopets:ravager_level: 0
+    ecopets:sea_serpent_level: 1
+    ecopets:skeleton_level: 1
+    ecopets:blaze_level: 1
+    ecopets:ravager_level: 1
     ecojobs:active_job: ''
-    eco:player_name: §b§lITAKINN§b§l
-    ecopets:mancubus_level: 0
+    eco:player_name: §bITAKINN§b
+    ecopets:mancubus_level: 1
     ecopets:vampire_xp: 0.0
-    ecopets:tiger_level: 0
+    ecopets:tiger_level: 1
     ecopets:active_pet: vampire
     ecopets:vampire_level: 1
     ecojobs:active_jobs: []
