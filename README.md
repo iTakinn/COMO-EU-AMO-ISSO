@@ -2,10 +2,10 @@
 -------------
 ### PERMISSOES
 ### Tirar end do DynMap ✅
-### Configurar NPCs 
+### Configurar NPCs ✅
 ### Gradiente em todos os cargos ✅
-### Comandos do mycommand
-### Mudar a loja
+### Comandos do mycommand ✅
+### Mudar a loja 
 ### Mudar recompensas das caixas
 - Mostrar a chance de ganhar
 - Mostrar o tipo dos encantamento
